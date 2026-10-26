@@ -5,8 +5,10 @@
     "path": "rainlight_films/01_anime/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 87998700
+    "status": "saved_unlisted",
+    "bytes": 87998700,
+    "youtube_url": "https://www.youtube.com/watch?v=Zqtl6sJdNg0",
+    "last_checked_at": "2026-10-26T12:54:31.122Z"
   },
   {
     "id": "02_inkwash",
@@ -14,8 +16,10 @@
     "path": "rainlight_films/02_inkwash/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 114299379
+    "status": "saved_unlisted",
+    "bytes": 114299379,
+    "youtube_url": "https://www.youtube.com/watch?v=Qj7a15bpSaY",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "03_papercut",
@@ -23,8 +27,10 @@
     "path": "rainlight_films/03_papercut/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 59382190
+    "status": "saved_unlisted",
+    "bytes": 59382190,
+    "youtube_url": "https://www.youtube.com/watch?v=Si_TH7bLJQI",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "04_clay",
@@ -32,8 +38,10 @@
     "path": "rainlight_films/04_clay/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 45767392
+    "status": "saved_unlisted",
+    "bytes": 45767392,
+    "youtube_url": "https://www.youtube.com/watch?v=cfQ6eAJLk4w",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "05_pixel",
@@ -41,8 +49,10 @@
     "path": "rainlight_films/05_pixel/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 70720581
+    "status": "saved_unlisted",
+    "bytes": 70720581,
+    "youtube_url": "https://www.youtube.com/watch?v=GHg9faU5AGY",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "06_oil",
@@ -50,8 +60,10 @@
     "path": "rainlight_films/06_oil/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 140196814
+    "status": "saved_unlisted",
+    "bytes": 140196814,
+    "youtube_url": "https://www.youtube.com/watch?v=hQNlU5qMT-w",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "07_glass",
@@ -59,8 +71,10 @@
     "path": "rainlight_films/07_glass/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 98707502
+    "status": "saved_unlisted",
+    "bytes": 98707502,
+    "youtube_url": "https://www.youtube.com/watch?v=d11uZgQ8rCw",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "08_comic",
@@ -68,8 +82,10 @@
     "path": "rainlight_films/08_comic/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 84937623
+    "status": "saved_unlisted",
+    "bytes": 84937623,
+    "youtube_url": "https://www.youtube.com/watch?v=W2r8u1fxCLA",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "09_charcoal",
@@ -77,8 +93,10 @@
     "path": "rainlight_films/09_charcoal/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 195547879
+    "status": "saved_unlisted",
+    "bytes": 195547879,
+    "youtube_url": "https://www.youtube.com/watch?v=qFxZ3KB94Hg",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "10_3d",
@@ -86,8 +104,10 @@
     "path": "rainlight_films/10_3d/film.mp4",
     "kind": "full_film",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 59085870
+    "status": "saved_unlisted",
+    "bytes": 59085870,
+    "youtube_url": "https://www.youtube.com/watch?v=TatCaTl1nCQ",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "11_seedance_thread",
@@ -95,8 +115,10 @@
     "path": "rainlight_higgsfield/pilot/11_seedance_thread/preview.mp4",
     "kind": "pilot",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 17742259
+    "status": "waiting_daily_upload_limit",
+    "bytes": 17742259,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "12_kling_shadow",
@@ -104,8 +126,10 @@
     "path": "rainlight_higgsfield/pilot/12_kling_shadow/preview.mp4",
     "kind": "pilot",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 10002613
+    "status": "waiting_daily_upload_limit",
+    "bytes": 10002613,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "13_flux_cyanotype",
@@ -113,8 +137,10 @@
     "path": "rainlight_higgsfield/pilot/13_flux_cyanotype/preview.mp4",
     "kind": "pilot",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 29801708
+    "status": "waiting_daily_upload_limit",
+    "bytes": 29801708,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "14_veo_liveaction",
@@ -122,8 +148,10 @@
     "path": "rainlight_higgsfield/pilot/14_veo_liveaction/preview.mp4",
     "kind": "pilot",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 20521981
+    "status": "waiting_daily_upload_limit",
+    "bytes": 20521981,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "15_wan_marquetry",
@@ -131,8 +159,10 @@
     "path": "rainlight_higgsfield/pilot/15_wan_marquetry/preview.mp4",
     "kind": "pilot",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 30882765
+    "status": "waiting_daily_upload_limit",
+    "bytes": 30882765,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "01_photo_to_video",
@@ -140,8 +170,10 @@
     "path": "01_photo_to_video/01_photo_to_video_00001_.mp4",
     "kind": "demo",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 1685293
+    "status": "waiting_daily_upload_limit",
+    "bytes": 1685293,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   },
   {
     "id": "02_text_to_movie",
@@ -149,7 +181,9 @@
     "path": "02_text_to_movie/02_text_to_movie_00001_.mp4",
     "kind": "demo",
     "visibility": "unlisted",
-    "status": "pending",
-    "bytes": 1485704
+    "status": "waiting_daily_upload_limit",
+    "bytes": 1485704,
+    "blocker": "YouTube Daily upload limit reached",
+    "last_checked_at": "2026-10-26T12:54:31.123Z"
   }
 ]

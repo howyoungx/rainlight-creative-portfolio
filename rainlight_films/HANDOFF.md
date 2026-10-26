@@ -5,7 +5,7 @@
 已完成 10 张宣传海报与 10 部五分钟影片，共 50 分钟。十种视觉风格共用同一原创故事、30 段旁白和剪辑时间线。
 2026-10-25 01:55 用户再次明确继续完成第 10 部和总包。此前暂停记录保留在 [10 月 20 日停机快照](provenance/handoffs/HANDOFF_2026-10-20.md) 与 [10 月 22 日 12:01 暂停快照](provenance/handoffs/HANDOFF_2026-10-22_120118.md)；两份快照描述历史状态。
 
-入口：[作品展映页](index.html) · [十张海报](10_Posters.zip) · [剧本](script.txt) · [中文字幕](subtitles.srt) · [计时明细](timing.csv) · [最终验收](delivery_verification.json)。
+入口：[作品展映页](index.html) · [非视频资料合集](https://github.com/howyoungx/rainlight-creative-portfolio/releases/download/nonvideo-v1/NonVideo_Materials.zip) · [剧本](script.txt) · [中文字幕](subtitles.srt) · [计时明细](timing.csv) · [最终验收](delivery_verification.json)。
 
 ## 作品与计时
 
@@ -13,16 +13,16 @@
 
 | 影片 | 宣传海报 | 影片制作活动历时 | 海报制作历时 | 最后一次影片导出 | 影片完成时间（当地时区） |
 |---|---|---:|---:|---:|---|
-| [手绘赛璐璐动画](01_anime/film.mp4) | [海报](01_anime/poster.jpg) | 45 分 43 秒 | 05 分 31 秒 | 02 分 22 秒 | 2026-10-20T08:39:28.961-05:00 |
-| [东方水墨](02_inkwash/film.mp4) | [海报](02_inkwash/poster.jpg) | 39 分 42 秒 | 05 分 23 秒 | 02 分 44 秒 | 2026-10-20T09:06:54.440-05:00 |
-| [立体剪纸剧场](03_papercut/film.mp4) | [海报](03_papercut/poster.jpg) | 28 分 08 秒 | 09 分 13 秒 | 02 分 30 秒 | 2026-10-20T09:32:09.965-05:00 |
-| [黏土定格动画](04_clay/film.mp4) | [海报](04_clay/poster.jpg) | 33 分 51 秒 | 08 分 49 秒 | 03 分 31 秒 | 2026-10-20T10:03:24.587-05:00 |
-| [像素冒险电影](05_pixel/film.mp4) | [海报](05_pixel/poster.jpg) | 1 小时 03 分 33 秒 | 27 分 16 秒 | 02 分 09 秒 | 2026-10-20T10:41:14.902-05:00 |
-| [流动油画](06_oil/film.mp4) | [海报](06_oil/poster.jpg) | 1 小时 13 分 30 秒 | 11 分 49 秒 | 04 分 19 秒 | 2026-10-20T11:14:18.754-05:00 |
-| [彩色玻璃幻想](07_glass/film.mp4) | [海报](07_glass/poster.jpg) | 1 小时 24 分 45 秒 | 11 分 43 秒 | 04 分 13 秒 | 2026-10-22T10:47:57.141-05:00 |
-| [欧式清线漫画](08_comic/film.mp4) | [海报](08_comic/poster.jpg) | 1 小时 14 分 03 秒 | 11 分 35 秒 | 03 分 42 秒 | 2026-10-22T11:15:46.787-05:00 |
-| [炭笔黑白电影](09_charcoal/film.mp4) | [海报](09_charcoal/poster.jpg) | 1 小时 11 分 47 秒 | 11 分 29 秒 | 04 分 13 秒 | 2026-10-22T11:47:35.865-05:00 |
-| [童话三维动画](10_3d/film.mp4) | [海报](10_3d/poster.jpg) | 1 小时 09 分 39 秒 | 11 分 20 秒 | 02 分 25 秒 | 2026-10-25T02:15:34.271-05:00 |
+| [手绘赛璐璐动画](https://www.youtube.com/watch?v=Zqtl6sJdNg0) | [海报](01_anime/poster.jpg) | 45 分 43 秒 | 05 分 31 秒 | 02 分 22 秒 | 2026-10-20T08:39:28.961-05:00 |
+| [东方水墨](https://www.youtube.com/watch?v=Qj7a15bpSaY) | [海报](02_inkwash/poster.jpg) | 39 分 42 秒 | 05 分 23 秒 | 02 分 44 秒 | 2026-10-20T09:06:54.440-05:00 |
+| [立体剪纸剧场](https://www.youtube.com/watch?v=Si_TH7bLJQI) | [海报](03_papercut/poster.jpg) | 28 分 08 秒 | 09 分 13 秒 | 02 分 30 秒 | 2026-10-20T09:32:09.965-05:00 |
+| [黏土定格动画](https://www.youtube.com/watch?v=cfQ6eAJLk4w) | [海报](04_clay/poster.jpg) | 33 分 51 秒 | 08 分 49 秒 | 03 分 31 秒 | 2026-10-20T10:03:24.587-05:00 |
+| [像素冒险电影](https://www.youtube.com/watch?v=GHg9faU5AGY) | [海报](05_pixel/poster.jpg) | 1 小时 03 分 33 秒 | 27 分 16 秒 | 02 分 09 秒 | 2026-10-20T10:41:14.902-05:00 |
+| [流动油画](https://www.youtube.com/watch?v=hQNlU5qMT-w) | [海报](06_oil/poster.jpg) | 1 小时 13 分 30 秒 | 11 分 49 秒 | 04 分 19 秒 | 2026-10-20T11:14:18.754-05:00 |
+| [彩色玻璃幻想](https://www.youtube.com/watch?v=d11uZgQ8rCw) | [海报](07_glass/poster.jpg) | 1 小时 24 分 45 秒 | 11 分 43 秒 | 04 分 13 秒 | 2026-10-22T10:47:57.141-05:00 |
+| [欧式清线漫画](https://www.youtube.com/watch?v=W2r8u1fxCLA) | [海报](08_comic/poster.jpg) | 1 小时 14 分 03 秒 | 11 分 35 秒 | 03 分 42 秒 | 2026-10-22T11:15:46.787-05:00 |
+| [炭笔黑白电影](https://www.youtube.com/watch?v=qFxZ3KB94Hg) | [海报](09_charcoal/poster.jpg) | 1 小时 11 分 47 秒 | 11 分 29 秒 | 04 分 13 秒 | 2026-10-22T11:47:35.865-05:00 |
+| [童话三维动画](https://www.youtube.com/watch?v=TatCaTl1nCQ) | [海报](10_3d/poster.jpg) | 1 小时 09 分 39 秒 | 11 分 20 秒 | 02 分 25 秒 | 2026-10-25T02:15:34.271-05:00 |
 
 项目活动历时：5 小时 52 分 59 秒。暂停与未记录活动的间隔共：115 小时 53 分 05 秒。交付打包耗时另见 package_report.json。
 
