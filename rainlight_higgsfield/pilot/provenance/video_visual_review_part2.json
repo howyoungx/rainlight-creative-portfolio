@@ -1,0 +1,35 @@
+{
+  "scope": "仅一条已付费S14短样片的视觉验收；不授权或提交任何额外生成。",
+  "reviewer": "audio_local",
+  "records": [
+    {
+      "id": "13_flux_cyanotype",
+      "raw_sha256": "a1c016c31dcbc02bd1cedd963495334ad1bb3f0db62af1f21b7bbfe7b3813026",
+      "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\13_flux_cyanotype\\raw.mp4",
+      "approved_for_pilot": true,
+      "approved_for_full_film": false,
+      "resolution": [
+        1920,
+        1088
+      ],
+      "fps": 24.0,
+      "container_duration_seconds": 10.041667,
+      "native_video_duration_seconds": 10.041666666666666,
+      "reviewer": "audio_local",
+      "reviewed_at_utc": "2026-10-25T07:45:49.163120+00:00",
+      "method_zh": "亲看参考图和首帧、25%、50%、75%、末帧全画面，以及0、0.5、1、1.5、2、2.5、3、3.5、4、4.5、5、6、7、8、9、10秒的包扎手、布带与机器人手臂局部时序抽帧。为展示样片审核，未逐帧作无瑕疵保证。",
+      "evidence": [
+        "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\13_flux_cyanotype\\reference.png",
+        "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\13_flux_cyanotype\\contact.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\13_flux_cyanotype_hands.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\13_flux_cyanotype_hands.json"
+      ],
+      "notes_zh": {
+        "样片结论": "通过展示样片验收：绕布、拉紧、收拢尾端并轻压包扎处的动作可读，机器人手臂保持与躯干连接，角色数量、地上的提灯和纸纹绘画质感稳定。",
+        "参考图原有偏差": "机器人为较高的卵形，具有较长的机械前臂；人物脸型、蓝白纸纹线描与黄衣红包的局部着色均来自该参考图。画面并非严格单色蓝晒，这一风格取舍不是运动生成新增。原图远塔塔室本来较浅，未将其记为动态新增亮灯。",
+        "动态新增观察": "0至5秒两手交替托臂、牵引和环绕布带；约5至6秒长布尾被收拢，后段仍以多道布层保留在同一前臂上，没有整条布带或被包扎手臂凭空消失。个别折层及手指轮廓发生轻微生成式简化，但抽检未见明确第三只手、断肢或肢体分叉。约8至10秒机器人轻抬头、身体转动，肩部连接仍连贯。地灯保持完整、落地和发光，远塔未新增明显光束；材质没有转成写实皮肤或金属。",
+        "整片限制": "仅批准这一S14短样片用于展示比较，尚未验证全片身份、镜头衔接和包扎前后状态的一致性。实际原生尺寸1920×1088、24fps、10.0416667秒，已原样保留，不能称为1920×1080或已完成正式10秒整片镜头。"
+      }
+    }
+  ]
+}

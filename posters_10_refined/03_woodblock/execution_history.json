@@ -1,0 +1,251 @@
+{
+  "prompt": [
+    56,
+    "d94dc322-021f-410a-a36d-f44e1f997fa7",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Create a new professionally art-directed vertical poster from the supplied character reference, not a simple recoloring of the source. Keep the woman / black hair / red coat / umbrella motif, adapting the rendering to the medium. The only writing allowed is the exact title AFTER THE RAIN. No credits, taglines, logos, watermarks or invented writing. Design an authentic-looking hand-printed ukiyo-e art poster with disciplined woodblock craft: flat pigment areas, dark indigo key-block outlines, soft bokashi gradients only in the distant sky, fibrous uncoated washi paper, slight pigment irregularity. A small red-coated woman under a round umbrella crosses a gently arcing bridge from left to right, looking back in three-quarter profile. The umbrella circle echoes a pale moon in the upper left. Three indigo mountain planes, a branching foreground plum tree and delicate diagonal rain establish depth without photography. Vermilion appears only in her coat and a few blossoms. Reserve an uncluttered cream foot margin for a beautifully spaced black uppercase serif title. No invented Japanese text, no seal, no photographic city.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 20262002
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 1152
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "22",
+            0
+          ],
+          "negative": [
+            "23",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/posters_10_refined/03_woodblock"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "ref_01.png"
+        }
+      },
+      "21": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "20",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      },
+      "23": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "5",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1792473025968
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "03_woodblock_00001_.png",
+          "subfolder": "spark_demos\\posters_10_refined",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 1152
+          },
+          "id": "486dbf20-3fac-4dcb-b42d-9801e9bfd134"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d94dc322-021f-410a-a36d-f44e1f997fa7",
+          "timestamp": 1792473029387
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8"
+          ],
+          "prompt_id": "d94dc322-021f-410a-a36d-f44e1f997fa7",
+          "timestamp": 1792473029405
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d94dc322-021f-410a-a36d-f44e1f997fa7",
+          "timestamp": 1792473037291
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

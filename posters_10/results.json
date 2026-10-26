@@ -1,0 +1,132 @@
+[
+  {
+    "name": "posters_10/01_cyberpunk",
+    "start": "2026-10-20T00:06:34.439834",
+    "wall_seconds": 8.07,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\01_cyberpunk\\01_cyberpunk_00001_.png"
+    ],
+    "execution_seconds": 7.439,
+    "style": "霓虹赛博朋克",
+    "slug": "01_cyberpunk",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Photorealistic cyberpunk thriller key art. Extreme low-angle close-up of her under the transparent umbrella, colossal futuristic city towers and holographic neon light, electric magenta and cyan, deep black shadows, rain streaks, powerful high contrast, cinematic advertising polish. Huge bold condensed white title integrated at bottom."
+  },
+  {
+    "name": "posters_10/02_film_noir",
+    "start": "2026-10-20T00:06:42.520183",
+    "wall_seconds": 8.02,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\02_film_noir\\02_film_noir_00001_.png"
+    ],
+    "execution_seconds": 6.912,
+    "style": "黑白黑色电影",
+    "slug": "02_film_noir",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. 1940s black-and-white film noir lithographic movie poster. Dramatic side profile portrait, a very small silhouetted umbrella figure below beneath a single street lamp, diagonal hard shadows, smoke and torrential rain. Pure black, ivory and gray, ONE tiny red accent on the coat. Vintage letterpress typography and subtle paper grain. Strong diagonals and negative space, no neon."
+  },
+  {
+    "name": "posters_10/03_woodblock",
+    "start": "2026-10-20T00:06:50.552412",
+    "wall_seconds": 8.05,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\03_woodblock\\03_woodblock_00001_.png"
+    ],
+    "execution_seconds": 7.51,
+    "style": "日式浮世绘",
+    "slug": "03_woodblock",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Authentic Japanese ukiyo-e woodblock-print exhibition poster. Full-length woman in a red coat with a round umbrella seen from behind crossing a curved wooden bridge, layered indigo hills, windblown blossom petals, long fine diagonal rain lines. Flat muted indigo, vermilion, warm washi paper, carved key-block outlines, visible woodgrain texture. Elegant restrained uppercase serif title in a quiet cream band at the bottom. Entire image is a flat handmade print, not a photograph."
+  },
+  {
+    "name": "posters_10/04_watercolor",
+    "start": "2026-10-20T00:06:58.610696",
+    "wall_seconds": 16.08,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\04_watercolor\\04_watercolor_00001_.png"
+    ],
+    "execution_seconds": 7.803,
+    "style": "水彩爱情片",
+    "slug": "04_watercolor",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Tender romantic watercolor film poster. A small woman with a bright red coat under a transparent umbrella in the lower third, a spacious dreamy Paris-like rainy street dissolving into soft pale peach, lavender and blue watercolor blooms. Loose expressive washes, delicate pencil edges, beautiful visible cold-pressed paper texture, generous white sky and lyrical negative space. Fine elegant serif title at top, gentle luminous mood. Entire image is a watercolor illustration, not a photograph."
+  },
+  {
+    "name": "posters_10/05_bauhaus",
+    "start": "2026-10-20T00:07:14.697852",
+    "wall_seconds": 16.09,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\05_bauhaus\\05_bauhaus_00001_.png"
+    ],
+    "execution_seconds": 7.812,
+    "style": "包豪斯极简",
+    "slug": "05_bauhaus",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Radical minimalist Bauhaus graphic design poster. Reduce the woman and umbrella to an abstract red vertical rectangle, a black semicircle and a small cream circular face. Only geometric shapes, diagonal black rain rules, one large cobalt blue circle, asymmetric layout with massive warm ivory negative space. Crisp flat vector-like screen print, strictly black red blue ivory, no photographic texture or realistic buildings. Bold black modernist sans serif title arranged cleanly in the bottom third."
+  },
+  {
+    "name": "posters_10/06_retro_painted",
+    "start": "2026-10-20T00:07:30.801270",
+    "wall_seconds": 12.05,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\06_retro_painted\\06_retro_painted_00001_.png"
+    ],
+    "execution_seconds": 7.698,
+    "style": "复古手绘科幻",
+    "slug": "06_retro_painted",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. 1980s hand-painted science fiction adventure movie poster, airbrushed acrylic painting, NOT a photograph. Huge luminous painted portrait of the woman in the upper half, tiny red-coated heroine with umbrella walking toward a gigantic glowing portal in the lower half, swirling stars, distant futuristic skyline, rich violet and amber, dramatic painted light, aged theatrical poster paper. Large silver dimensional retro sci-fi title at bottom, nostalgic epic wonder."
+  },
+  {
+    "name": "posters_10/07_art_nouveau",
+    "start": "2026-10-20T00:07:42.860716",
+    "wall_seconds": 16.09,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\07_art_nouveau\\07_art_nouveau_00001_.png"
+    ],
+    "execution_seconds": 8.048,
+    "style": "新艺术装饰",
+    "slug": "07_art_nouveau",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Art Nouveau fine-art poster, exquisite decorative illustration. The red-coated woman in elegant side profile, her umbrella becoming a large circular ornamental halo. Sinuous dark ink outlines, stylized iris flowers and flowing botanical vines form an intricate frame, gold olive teal vermilion palette, flat muted color, gilded printing on aged cream paper. Luxurious symmetrical border with beautiful ornamental serif title in an integrated bottom cartouche. No photography, no futuristic city."
+  },
+  {
+    "name": "posters_10/08_risograph",
+    "start": "2026-10-20T00:07:58.963900",
+    "wall_seconds": 16.09,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\08_risograph\\08_risograph_00001_.png"
+    ],
+    "execution_seconds": 7.786,
+    "style": "双色孔版印刷",
+    "slug": "08_risograph",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Experimental independent film festival risograph poster. Rough editorial cut-paper collage of the woman and umbrella, oversized fragmented portrait cropped at the edge, torn rectangular urban photographic fragments, thick graphic rain marks. ONLY fluorescent red and deep royal blue ink on cream recycled paper, visible large halftone dots, grainy ink registration offsets, deliberately tactile handmade printing. Massive condensed blue title stacked in the lower left. Bold rebellious graphic composition."
+  },
+  {
+    "name": "posters_10/09_papercut",
+    "start": "2026-10-20T00:08:15.066753",
+    "wall_seconds": 12.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\09_papercut\\09_papercut_00001_.png"
+    ],
+    "execution_seconds": 7.789,
+    "style": "立体剪纸",
+    "slug": "09_papercut",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Handcrafted layered paper-cut theater poster, a physical miniature diorama photographed straight on. Tiny paper woman in a red raincoat holding a cream umbrella centered at the end of a winding wet street. Many nested cut-paper arches and layered teal city silhouettes create deep theatrical perspective, warm glowing windows, sculpted paper rain drops suspended on fine threads. Clearly visible thick paper edges, soft realistic cast shadows, teal cream coral palette. Beautiful cream cut-paper title on the bottom layer."
+  },
+  {
+    "name": "posters_10/10_fashion",
+    "start": "2026-10-20T00:08:27.141742",
+    "wall_seconds": 16.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\posters_10\\10_fashion\\10_fashion_00001_.png"
+    ],
+    "execution_seconds": 7.934,
+    "style": "极简时尚杂志",
+    "slug": "10_fashion",
+    "prompt": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. High-end luxury fashion editorial cover poster, sophisticated studio photography. Half-body portrait of the same woman wearing a beautifully tailored red sculptural coat and holding a transparent umbrella. Warm ivory seamless studio background, one clean diagonal shadow, tiny beads of water on the umbrella, restrained ruby cream and black palette, impeccably lit face, calm poised expression. Large elegant thin black serif title at the top with generous margins, clean refined composition. No city, no neon, no decorative credits."
+  }
+]

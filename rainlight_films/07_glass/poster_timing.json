@@ -1,0 +1,49 @@
+{
+  "style_id": "07_glass",
+  "name": "彩色玻璃幻想",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:30-05:00",
+  "completed_at": "2026-10-20T00:46:13.116-05:00",
+  "generation_seconds": 4.494,
+  "queue_seconds": 37.372,
+  "layout_seconds": 0.121,
+  "rework_seconds": 6.585,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 703.117,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "generation_revisions": [
+    {
+      "job_key": "07_glass_poster_v3",
+      "prompt_id": "1e4cfde1-fbef-45e8-9d48-c6193bbc4fb9",
+      "execution_seconds": 4.428,
+      "queue_seconds": 0.979,
+      "submitted_at": "2026-10-20T00:44:42.504-05:00",
+      "completed_at": "2026-10-20T00:44:48.307-05:00",
+      "selected": false,
+      "reason": "Make woman, spherical robot and scenery from glass mosaic, including faceted face, hair and clothing."
+    },
+    {
+      "job_key": "07_glass_poster_v4",
+      "prompt_id": "45d9f514-dd47-409f-b7e7-47715cbfa11f",
+      "execution_seconds": 5.373,
+      "queue_seconds": 0.039,
+      "submitted_at": "2026-10-20T00:45:13.554-05:00",
+      "completed_at": "2026-10-20T00:45:19.353-05:00",
+      "selected": true,
+      "reason": "Make woman, spherical robot and scenery from glass mosaic, including faceted face, hair and clothing."
+    }
+  ],
+  "generation_revision_seconds": 9.801,
+  "queue_revision_seconds": 1.018,
+  "layout_revision_seconds": 0.0856,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:46:13.030-05:00",
+      "completed_at": "2026-10-20T00:46:13.116-05:00",
+      "seconds": 0.0856,
+      "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+    }
+  ]
+}

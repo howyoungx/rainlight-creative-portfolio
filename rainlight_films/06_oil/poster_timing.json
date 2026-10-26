@@ -1,0 +1,25 @@
+{
+  "style_id": "06_oil",
+  "name": "流动油画",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:24-05:00",
+  "completed_at": "2026-10-20T00:46:13.007-05:00",
+  "generation_seconds": 7.762,
+  "queue_seconds": 299.50100000000003,
+  "layout_seconds": 0.142,
+  "rework_seconds": 6.21,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 709.007,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.0975,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:46:12.909-05:00",
+      "completed_at": "2026-10-20T00:46:13.007-05:00",
+      "seconds": 0.0975,
+      "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+    }
+  ]
+}

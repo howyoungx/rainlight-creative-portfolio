@@ -1,0 +1,109 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "minimax_music3_dit_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+        "type": "minimax",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "minimax_music3_dav.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "MiniMaxMusic3TextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "caption": "Global Metadata:\nOriginal instrumental animated short-film score for THE LAST LIGHT OF RAIN CITY. A tender, cinematic, rain-soaked fairy-tale journey lasting five minutes. Gentle chamber orchestra, intimate felt piano, warm expressive chamber strings, delicate glass bell and celesta motifs, restrained low strings, soft mallets. A memorable simple four-note lantern theme returns transformed from fragile melancholy to shared hope. Spacious, organic acoustic timbres, transparent orchestration, warm natural room sound, emotional but restrained, suitable beneath quiet storytelling. Moderate slow walking pulse, natural evolving tempo, coherent beginning, middle and ending.\n\nVocal Details:\nStrictly instrumental music only. No human voice, no singing, no humming, no choir, no spoken words, no dialogue, no narration, no vocal samples, and no lyrics. The melody is played only by piano, strings and glass bells.\n\nArrangement:\nBegin with soft solitary piano drops and a tiny glass-bell lantern motif in a misty minor-key atmosphere. Gradually introduce delicate pizzicato and lyrical strings for curiosity and a courageous journey through the rainy city. Develop a restrained pulse and darker low-string tension as the pair cross dangerous flooded streets and climb toward a distant tower. Around the late middle, withdraw into a very quiet suspended piano-and-cello passage, a heartfelt pause for a difficult choice, leaving generous space and near silence. Then let the same lantern theme return with luminous warm major-key harmonies, gentle rising chamber strings and scattered glass bells as neighbors answer one another with light. Build a hopeful, tender final culmination without bombastic drums, then resolve softly and naturally into a peaceful dawn, ending with a single sustained warm piano-and-string chord and a fading bell resonance. No sound effects, no rain recording, no thunder, no abrupt stingers. Preserve the instrumental storytelling arc from lonely sorrow and exploration through danger and quiet reflection to warmth and hope.\n",
+        "lyrics": "[Intro]\n[Instrumental]\n[Verse]\n[Instrumental]\n[Verse]\n[Instrumental]\n[Bridge]\n[Instrumental]\n[Chorus]\n[Instrumental]\n[Outro]\n[Instrumental]",
+        "seed": 2026102020,
+        "max_duration": 300,
+        "cfg_scale": 1.7,
+        "top_k": 50
+      }
+    },
+    "5": {
+      "class_type": "ConditioningZeroOut",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptyMiniMaxMusic3LatentAudio",
+      "inputs": {
+        "seconds": [
+          "4",
+          1
+        ],
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "4",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ],
+        "seed": 2026102020,
+        "steps": 30,
+        "cfg": 1.7,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0
+      }
+    },
+    "8": {
+      "class_type": "VAEDecodeAudio",
+      "inputs": {
+        "samples": [
+          "7",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveAudio",
+      "inputs": {
+        "audio": [
+          "8",
+          0
+        ],
+        "filename_prefix": "rainlight/shared_music"
+      }
+    }
+  }
+}

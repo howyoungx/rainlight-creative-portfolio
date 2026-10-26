@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "15_wan_marquetry",
+  "label": "木作微光 · 木雕嵌木木偶",
+  "model_id": "wan3_0_prime",
+  "prepared_at": "2026-10-25T02:41:14.056992-05:00",
+  "expected_seconds": 10.0,
+  "raw": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\raw.mp4",
+    "bytes": 30635419,
+    "sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+    "video": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "fps_fraction": "30/1",
+      "frame_count": 300,
+      "duration_seconds": 10.0,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 9.966666666666667,
+      "time_base": "1/15360",
+      "native_audio_streams": 0,
+      "frame_interval_min_seconds": 0.033333333333333215,
+      "frame_interval_max_seconds": 0.03333333333333499
+    },
+    "video_packets": {
+      "sha256": "fa4e2451230302a35cec63d6faa852a89f9fca383fc831627048e1f80b856ea2",
+      "packets": 300,
+      "bytes": 30629448
+    },
+    "preserved_in_place": true
+  },
+  "preview": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\preview.mp4",
+    "bytes": 30882765,
+    "sha256": "f0e93843a59ea99c1189b377b0dd1f12b77e59d9cf5377311adfab1c20e8175d",
+    "video": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "fps_fraction": "30/1",
+      "frame_count": 300,
+      "duration_seconds": 10.0,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 9.966666666666667,
+      "time_base": "1/15360",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.033333333333333215,
+      "frame_interval_max_seconds": 0.03333333333333499
+    },
+    "video_packets": {
+      "sha256": "fa4e2451230302a35cec63d6faa852a89f9fca383fc831627048e1f80b856ea2",
+      "packets": 300,
+      "bytes": 30629448
+    }
+  },
+  "audio": {
+    "source_start_seconds": 130.0,
+    "source_end_seconds": 140.0,
+    "speaker": "Serena",
+    "shot_id": "S14",
+    "text": "她可以先送灯。她却停下来，为圆点包好手臂。",
+    "speech_local_start_seconds": 1.0,
+    "speech_local_end_seconds": 5.800000000000011,
+    "tail_fade_seconds": 0.05,
+    "sample_rate": 48000,
+    "channels": 2,
+    "native_generated_audio_in_preview": false,
+    "master_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "verification": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 10.0,
+      "same_segment_correlation": 0.999898451415379,
+      "coverage": 1.0,
+      "decoded_peak": 0.7963339686393738,
+      "passed": true
+    }
+  },
+  "contact": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\contact.jpg",
+    "sha256": "cc107c979ad4451930cf0a5b798d8e7899e88add853958149514aed4cfa1e9e9",
+    "frames": [
+      {
+        "position": 0,
+        "frame_index": 0,
+        "requested_seconds": 0.0,
+        "actual_seconds": 0.0
+      },
+      {
+        "position": 0.25,
+        "frame_index": 75,
+        "requested_seconds": 2.5,
+        "actual_seconds": 2.5
+      },
+      {
+        "position": 0.5,
+        "frame_index": 150,
+        "requested_seconds": 5.0,
+        "actual_seconds": 5.0
+      },
+      {
+        "position": 0.75,
+        "frame_index": 225,
+        "requested_seconds": 7.5,
+        "actual_seconds": 7.5
+      },
+      {
+        "position": 1,
+        "frame_index": 299,
+        "requested_seconds": 9.966666666666667,
+        "actual_seconds": 9.966666666666667
+      }
+    ]
+  },
+  "video_reencoded": false,
+  "video_speed_changed": false,
+  "frames_repeated_or_padded": false,
+  "subtitles_burned_in": false,
+  "technical_passed": true,
+  "human_visual_review": {
+    "id": "15_wan_marquetry",
+    "raw_sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+    "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\raw.mp4",
+    "approved_for_pilot": true,
+    "approved_for_full_film": false,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30.0,
+    "container_duration_seconds": 10.0,
+    "reviewer": "storyboard",
+    "reviewed_at_utc": "2026-10-25T07:42:34.775616+00:00",
+    "method_zh": "亲看首帧、25%、50%、75%、末帧全画面，以及0.5、1、1.5、2、2.5、3、3.5、4、5、6、7、9秒的手臂与布带局部时序抽帧；为展示样片审核，非逐帧无瑕疵保证。",
+    "evidence": [
+      "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\contact.jpg",
+      "PROJECT_ROOT\\work\\higgsfield_five\\qa\\15_wan_marquetry_hands.jpg"
+    ],
+    "notes_zh": {
+      "样片结论": "通过展示样片验收：收拢布带、轻压包扎处和对视动作明确，木纹、人物数、胸盖及提灯稳定。",
+      "参考图原有偏差": "机器人有独立头部和躯干且缺小嘴，女孩木雕发型有变化；背景灯塔已亮，S14应尚未点亮。均是参考图起始状态。",
+      "动态新增观察": "约1至2秒上方布带被折下，约3至5秒再次轻压，另一只手持续托住手臂。布带覆盖较宽，包扎末端形状略有软化，但未见手臂被拔除或额外肢体；木偶关节与木纹可读，后段微笑与机器人回应克制。",
+      "整片限制": "先统一最终木偶身份设定并纠正提前亮塔，再决定是否可并入全片；这次通过仅表示可展示和比较该10秒动作试样。"
+    },
+    "review_record": "video_visual_review_part1.json"
+  },
+  "scope": "Short S14 pilot only; no full film and no subjective visual approval implied.",
+  "packaging_wall_seconds": 9.396537399967201
+}

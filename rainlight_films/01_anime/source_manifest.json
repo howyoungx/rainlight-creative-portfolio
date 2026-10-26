@@ -1,0 +1,549 @@
+{
+  "style_id": "01_anime",
+  "film_completed_at": "2026-10-20T08:39:28.961-05:00",
+  "published_at": "2026-10-20T09:31:29.572-05:00",
+  "publication_started_at": "2026-10-20T09:31:28.858-05:00",
+  "note": "These are the accepted original frames and clips used in this film. The edit uses the first 240 frames of each source clip and replaces any source sound with the shared Serena narration and music.",
+  "shots": [
+    {
+      "shot": "S01",
+      "frame": "source_frames/S01.png",
+      "frame_sha256": "965ec1abf9c4c708a926621e219db8161e330d75291c0f227fb0d9b503a241df",
+      "frame_job": "01_anime_S01_frame_v2",
+      "clip": "source_clips/S01.mp4",
+      "clip_sha256": "12ddfb02a0fa846dab161fa32bb22b5dfefa7c92cf91abf2e261a60c7f30f7be",
+      "clip_job": "motion_test_ltx_S01_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        0,
+        10
+      ]
+    },
+    {
+      "shot": "S02",
+      "frame": "source_frames/S02.png",
+      "frame_sha256": "897fcec49eabed7f2a283de1abc4c5149c4434ab6438c29af8e1303061f5850e",
+      "frame_job": "01_anime_S02_frame_v3",
+      "clip": "source_clips/S02.mp4",
+      "clip_sha256": "8cd82d29511c506df906c8dc056b265af4dfceafdd122369724bb2c03f246576",
+      "clip_job": "motion_test_ltx_S02_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        10,
+        20
+      ]
+    },
+    {
+      "shot": "S03",
+      "frame": "source_frames/S03.png",
+      "frame_sha256": "0c6b41cbcfde525c946b304bc95f45bf36c154d3ca86101c23b9d72a403a2cd4",
+      "frame_job": "01_anime_S03_frame_v2",
+      "clip": "source_clips/S03.mp4",
+      "clip_sha256": "fef70c74bf9e37f54017f317f439ed9469777e5981532b4d51206dba08ec8d83",
+      "clip_job": "motion_test_ltx_S03_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        20,
+        30
+      ]
+    },
+    {
+      "shot": "S04",
+      "frame": "source_frames/S04.png",
+      "frame_sha256": "659d951565a592d15ef5b815ed972ed99ad3bf8b6e5c4268b3d199fa41530503",
+      "frame_job": "01_anime_S04_frame_v2",
+      "clip": "source_clips/S04.mp4",
+      "clip_sha256": "d31929f78e5cf20ac9dad82671b61ca7cf205db33616b7461569b8ad4c2d8496",
+      "clip_job": "motion_test_ltx_S04_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        30,
+        40
+      ]
+    },
+    {
+      "shot": "S05",
+      "frame": "source_frames/S05.png",
+      "frame_sha256": "9fab3d8c04c87f19d97ebb36cf12412364b989eba5fe1cb106a84c52e823e348",
+      "frame_job": "01_anime_S05_frame_v2",
+      "clip": "source_clips/S05.mp4",
+      "clip_sha256": "009416231269e5f88e42a8c828f10e70db6adbd1d412635bbec83c0055d00dcc",
+      "clip_job": "01_anime_S05_ltx",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        40,
+        50
+      ]
+    },
+    {
+      "shot": "S06",
+      "frame": "source_frames/S06.png",
+      "frame_sha256": "6851b801b82e0de57466dd87155429093244ef91b2b10fc30b66c2583e642a39",
+      "frame_job": "01_anime_S06_frame_v2",
+      "clip": "source_clips/S06.mp4",
+      "clip_sha256": "71d3be20ddee75934a5524e85eb15ad7fd26ae95f00a929a3c1164b113b45937",
+      "clip_job": "01_anime_S06_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        50,
+        60
+      ]
+    },
+    {
+      "shot": "S07",
+      "frame": "source_frames/S07.png",
+      "frame_sha256": "7dab6d799eb944053a2872a66c984c7f6078b516078079274c435b1ddabbf769",
+      "frame_job": "01_anime_S07_frame_v3",
+      "clip": "source_clips/S07.mp4",
+      "clip_sha256": "599c7f8b15006d96911afa6386841a8aa3cfb101e90d3ec8b1641acaa1434411",
+      "clip_job": "01_anime_S07_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        60,
+        70
+      ]
+    },
+    {
+      "shot": "S08",
+      "frame": "source_frames/S08.png",
+      "frame_sha256": "a7491a0e836903b39939acefba406a93d33ca45be62ada6bb8d3dd07963518da",
+      "frame_job": "01_anime_S08_frame_v2",
+      "clip": "source_clips/S08.mp4",
+      "clip_sha256": "4b6ad31739d71d226b4da9e06378fa634a8dc8cabec6d8ca050b894a78c2de6c",
+      "clip_job": "01_anime_S08_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        70,
+        80
+      ]
+    },
+    {
+      "shot": "S09",
+      "frame": "source_frames/S09.png",
+      "frame_sha256": "16e300c80b2fb273b1ae565786ecbd6228f225a9352bd92c23322bbc8ef6dd78",
+      "frame_job": "01_anime_S09_frame_v4",
+      "clip": "source_clips/S09.mp4",
+      "clip_sha256": "95a707a1bc638cc1c9760689748880010fc804003136cb0a4d69140769453e75",
+      "clip_job": "01_anime_S09_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        80,
+        90
+      ]
+    },
+    {
+      "shot": "S10",
+      "frame": "source_frames/S10.png",
+      "frame_sha256": "79997e29d8150d1c2f6b575aa0355af7fffd6c170b7cbb3e63aee61ca6935be8",
+      "frame_job": "01_anime_S10_frame_v2",
+      "clip": "source_clips/S10.mp4",
+      "clip_sha256": "8f76d9c721bfecd186dfbce408885d8dc418d9671a82cf39329935018cc679ed",
+      "clip_job": "01_anime_S10_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        90,
+        100
+      ]
+    },
+    {
+      "shot": "S11",
+      "frame": "source_frames/S11.png",
+      "frame_sha256": "2530cb312f4c3b60c82abbaeb76caa673d6f73ebdc01e04a88370d4b37f2131f",
+      "frame_job": "01_anime_S11_frame_v2",
+      "clip": "source_clips/S11.mp4",
+      "clip_sha256": "2badb961509e8ded68f41bf4a0dc7616da145da33a503bb5982620410f3b0ce4",
+      "clip_job": "01_anime_S11_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        100,
+        110
+      ]
+    },
+    {
+      "shot": "S12",
+      "frame": "source_frames/S12.png",
+      "frame_sha256": "587012116f70e49fa1c6300236d01ed1ce8e8e3b3e36ea3bb762d55c0619b234",
+      "frame_job": "01_anime_S12_frame_v2",
+      "clip": "source_clips/S12.mp4",
+      "clip_sha256": "bbca9f369f18b09484d83122a715b92d1caefd775bc0d20125c21b740b7db098",
+      "clip_job": "01_anime_S12_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        110,
+        120
+      ]
+    },
+    {
+      "shot": "S13",
+      "frame": "source_frames/S13.png",
+      "frame_sha256": "2828e645079bdcfab3d6f0bda4cd744ff326395fbfbe15274c5f5821845bad49",
+      "frame_job": "01_anime_S13_frame_v2",
+      "clip": "source_clips/S13.mp4",
+      "clip_sha256": "0c47e9ebe1c09e38e1f4674e9fccd0163a6087e4a3a61105ca61f79c687a8896",
+      "clip_job": "01_anime_S13_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        120,
+        130
+      ]
+    },
+    {
+      "shot": "S14",
+      "frame": "source_frames/S14.png",
+      "frame_sha256": "40d6219a447072f6bb1283772210387290d6621d88596dff5b6c9c8046ad4c1a",
+      "frame_job": "01_anime_S14_frame_v2",
+      "clip": "source_clips/S14.mp4",
+      "clip_sha256": "a1ec04828120cfd7ad6fef42121fa8ae4f9be6565fdf4f815c78b28281c9f778",
+      "clip_job": "01_anime_S14_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        130,
+        140
+      ]
+    },
+    {
+      "shot": "S15",
+      "frame": "source_frames/S15.png",
+      "frame_sha256": "1736276e4bd52774333bece83f258fa5ad83cc17e84ca5346e169979aebbfc29",
+      "frame_job": "01_anime_S15_frame_v3",
+      "clip": "source_clips/S15.mp4",
+      "clip_sha256": "36bf65c7c125792fefcc7af6308830e63420c758b75aea010b2697ba8d9e336f",
+      "clip_job": "01_anime_S15_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        140,
+        150
+      ]
+    },
+    {
+      "shot": "S16",
+      "frame": "source_frames/S16.png",
+      "frame_sha256": "84370134199ffa0e21eb26d1a8366ba63248bbaef946b9266a90e5c3df47a5eb",
+      "frame_job": "01_anime_S16_frame_v4",
+      "clip": "source_clips/S16.mp4",
+      "clip_sha256": "5133b3304721c339badfaa09dd4d3bac67d0cd912035db0b746599fbd889beed",
+      "clip_job": "01_anime_S16_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        150,
+        160
+      ]
+    },
+    {
+      "shot": "S17",
+      "frame": "source_frames/S17.png",
+      "frame_sha256": "6985c08b0cb86555e7f87eea0bc8035a0493b7de9938c84fd0b856a8b72e0f5a",
+      "frame_job": "01_anime_S17_frame_v2",
+      "clip": "source_clips/S17.mp4",
+      "clip_sha256": "e046e632aa00feeb182caae90ec6896f5e235bca9ae081fc87e87d3817ffa76d",
+      "clip_job": "01_anime_S17_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        160,
+        170
+      ]
+    },
+    {
+      "shot": "S18",
+      "frame": "source_frames/S18.png",
+      "frame_sha256": "bec4bd0960b6de12c75e87945df173de6084871bc8680a8d1019db1b9bc8cc04",
+      "frame_job": "01_anime_S18_frame_v3",
+      "clip": "source_clips/S18.mp4",
+      "clip_sha256": "f01bcac06c4a133dee7e6ff5435eb911ab5b95134d42e757b1e4f510c63e3293",
+      "clip_job": "01_anime_S18_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        170,
+        180
+      ]
+    },
+    {
+      "shot": "S19",
+      "frame": "source_frames/S19.png",
+      "frame_sha256": "37dce9b56b53dffdf417effbc74863aed8182d7d763a3a4f019de13b9ccd855c",
+      "frame_job": "01_anime_S19_frame_v3",
+      "clip": "source_clips/S19.mp4",
+      "clip_sha256": "c983dbbc260f0bb5f5c4067e79ea937472245912b6bc4f710a2f1fcc0da47eae",
+      "clip_job": "01_anime_S19_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        180,
+        190
+      ]
+    },
+    {
+      "shot": "S20",
+      "frame": "source_frames/S20.png",
+      "frame_sha256": "d453440e81fec2579ee6b0c61c3d09dd4d57735440761469f22723bc08045454",
+      "frame_job": "01_anime_S20_frame_v3",
+      "clip": "source_clips/S20.mp4",
+      "clip_sha256": "cedb7224f3a27e0bf648f8ba94d57f7c5bed07a78d76f0f98e66f64539c75cd0",
+      "clip_job": "01_anime_S20_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        190,
+        200
+      ]
+    },
+    {
+      "shot": "S21",
+      "frame": "source_frames/S21.png",
+      "frame_sha256": "2cbbd933bc5869f226087717a9d7eb7d03fd9c41071d67cdf27894590f79e4ff",
+      "frame_job": "01_anime_S21_frame_v2",
+      "clip": "source_clips/S21.mp4",
+      "clip_sha256": "80e0037950da8094116fb4949c7ac431ac1123b3305d9b58f7bad08c942bc503",
+      "clip_job": "01_anime_S21_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        200,
+        210
+      ]
+    },
+    {
+      "shot": "S22",
+      "frame": "source_frames/S22.png",
+      "frame_sha256": "8e79365922d546e322be4ae2b63dcbe7e823a80d1aefc2a8de11a88445000708",
+      "frame_job": "01_anime_S22_frame_v3",
+      "clip": "source_clips/S22.mp4",
+      "clip_sha256": "5431c3d886cb515a2b256811d07dd4252e4260ca132b7769d8a3571432e32cfd",
+      "clip_job": "01_anime_S22_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        210,
+        220
+      ]
+    },
+    {
+      "shot": "S23",
+      "frame": "source_frames/S23.png",
+      "frame_sha256": "ce944e42ea30aa9bd60dc35f41bf88cc3bb13e0cb088b37fa885e1cb0e9d034c",
+      "frame_job": "01_anime_S23_frame_v3",
+      "clip": "source_clips/S23.mp4",
+      "clip_sha256": "bff7618576a7c3cbb7c0e7c5e826bda2b40f5cc367c61884af841915c501c71f",
+      "clip_job": "01_anime_S23_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        220,
+        230
+      ]
+    },
+    {
+      "shot": "S24",
+      "frame": "source_frames/S24.png",
+      "frame_sha256": "7bdd1149a5bceb5968e9639df08e2e6a1ee00f1522a30481d7e359d414b5014b",
+      "frame_job": "01_anime_S24_frame_v4",
+      "clip": "source_clips/S24.mp4",
+      "clip_sha256": "98502528be36711753febb89ef7f144cdbd5db8f25c5a1fadcee537f6c84f6f7",
+      "clip_job": "01_anime_S24_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        230,
+        240
+      ]
+    },
+    {
+      "shot": "S25",
+      "frame": "source_frames/S25.png",
+      "frame_sha256": "91f5a670c0cdb2ebd76f70e61e2be3e6371c26d7443f0acad3f49b026bcf01ca",
+      "frame_job": "01_anime_S25_frame_v2",
+      "clip": "source_clips/S25.mp4",
+      "clip_sha256": "7717b11ecd9690087825c959e622e2595f5b24c8818f0e5ce2715856c11dfadb",
+      "clip_job": "01_anime_S25_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        240,
+        250
+      ]
+    },
+    {
+      "shot": "S26",
+      "frame": "source_frames/S26.png",
+      "frame_sha256": "76f390f2544c91a6b2b9ecc0dc00b454eecae4898b24f72f3e07a4740090e44b",
+      "frame_job": "01_anime_S26_frame_v2",
+      "clip": "source_clips/S26.mp4",
+      "clip_sha256": "abc39d2318f55468f2289de361a401a889a0970c957971b67c256e3287380c84",
+      "clip_job": "01_anime_S26_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        250,
+        260
+      ]
+    },
+    {
+      "shot": "S27",
+      "frame": "source_frames/S27.png",
+      "frame_sha256": "6e5fa8993557e6cad43509d85298d315ca33708a44b54bfe9affb15960b821e1",
+      "frame_job": "01_anime_S27_frame_v2",
+      "clip": "source_clips/S27.mp4",
+      "clip_sha256": "0a7202a69f11fa8d9caa4d556b069eea397e19d1e0dea55952da41ab87efc073",
+      "clip_job": "01_anime_S27_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        260,
+        270
+      ]
+    },
+    {
+      "shot": "S28",
+      "frame": "source_frames/S28.png",
+      "frame_sha256": "9a6626d7f676bcf3622f4d98e91bda8a30b0000571e26018b5503d635a0b2d74",
+      "frame_job": "01_anime_S28_frame_v2",
+      "clip": "source_clips/S28.mp4",
+      "clip_sha256": "4aa46ef375c237ffd5d8ad6c0860adb351f3dcc3756de8fbd845a548125b8049",
+      "clip_job": "01_anime_S28_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        270,
+        280
+      ]
+    },
+    {
+      "shot": "S29",
+      "frame": "source_frames/S29.png",
+      "frame_sha256": "d8e644744fcfa32792ffd1a6f21403a4a8cf8ab66d9c0d367a39e8e00f31a002",
+      "frame_job": "01_anime_S29_frame_v2",
+      "clip": "source_clips/S29.mp4",
+      "clip_sha256": "82c769f46c5870b695c565ab2870063e485172eeaa91510c90654f56ba61cb5f",
+      "clip_job": "01_anime_S29_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        280,
+        290
+      ]
+    },
+    {
+      "shot": "S30",
+      "frame": "source_frames/S30.png",
+      "frame_sha256": "04fe59ff920d0f8158fbfc688ecc90ec2f6b66000c59035ce06fad409a32209a",
+      "frame_job": "01_anime_S30_frame_v2",
+      "clip": "source_clips/S30.mp4",
+      "clip_sha256": "dc98e29f20636a100cf532d73bf39c0633b289e31d46715c80fbb013784a006d",
+      "clip_job": "01_anime_S30_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        290,
+        300
+      ]
+    }
+  ]
+}

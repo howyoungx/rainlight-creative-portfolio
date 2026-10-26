@@ -1,0 +1,207 @@
+{
+  "method": "Two prompt-design batches made before/after the user reported switching reasoning effort. This is not an isolated causal test of reasoning effort. Actual Codex reasoning settings were not read or independently verified. Local image parameters were held constant per matched style; prompts changed.",
+  "reasoning_docs": "https://developers.openai.com/api/docs/guides/reasoning",
+  "reference_sha256": "b65863dc7fefd970c4d26594644dc3478f42cf148bd3da86ccab4e7fff3ab1e0",
+  "matched_pairs": [
+    {
+      "category": "posters_10",
+      "style": "霓虹赛博朋克",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262000,
+      "A_prompt_characters": 769,
+      "B_prompt_characters": 1105,
+      "A_execution_seconds": 7.439,
+      "B_execution_seconds": 8.013
+    },
+    {
+      "category": "posters_10",
+      "style": "黑白黑色电影",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262001,
+      "A_prompt_characters": 811,
+      "B_prompt_characters": 1042,
+      "A_execution_seconds": 6.912,
+      "B_execution_seconds": 8.03
+    },
+    {
+      "category": "posters_10",
+      "style": "日式浮世绘",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262002,
+      "A_prompt_characters": 913,
+      "B_prompt_characters": 1134,
+      "A_execution_seconds": 7.51,
+      "B_execution_seconds": 7.904
+    },
+    {
+      "category": "posters_10",
+      "style": "水彩爱情片",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262003,
+      "A_prompt_characters": 926,
+      "B_prompt_characters": 1112,
+      "A_execution_seconds": 7.803,
+      "B_execution_seconds": 8.168
+    },
+    {
+      "category": "posters_10",
+      "style": "包豪斯极简",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262004,
+      "A_prompt_characters": 932,
+      "B_prompt_characters": 1127,
+      "A_execution_seconds": 7.812,
+      "B_execution_seconds": 7.913
+    },
+    {
+      "category": "posters_10",
+      "style": "复古手绘科幻",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262005,
+      "A_prompt_characters": 897,
+      "B_prompt_characters": 1193,
+      "A_execution_seconds": 7.698,
+      "B_execution_seconds": 8.005
+    },
+    {
+      "category": "posters_10",
+      "style": "新艺术装饰",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262006,
+      "A_prompt_characters": 927,
+      "B_prompt_characters": 1182,
+      "A_execution_seconds": 8.048,
+      "B_execution_seconds": 8.046
+    },
+    {
+      "category": "posters_10",
+      "style": "双色孔版印刷",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262007,
+      "A_prompt_characters": 938,
+      "B_prompt_characters": 1141,
+      "A_execution_seconds": 7.786,
+      "B_execution_seconds": 7.99
+    },
+    {
+      "category": "posters_10",
+      "style": "立体剪纸",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262008,
+      "A_prompt_characters": 954,
+      "B_prompt_characters": 1199,
+      "A_execution_seconds": 7.789,
+      "B_execution_seconds": 8.19
+    },
+    {
+      "category": "posters_10",
+      "style": "极简时尚杂志",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20262009,
+      "A_prompt_characters": 965,
+      "B_prompt_characters": 1228,
+      "A_execution_seconds": 7.934,
+      "B_execution_seconds": 8.073
+    },
+    {
+      "category": "outfits_10",
+      "style": "都市通勤",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263000,
+      "A_prompt_characters": 720,
+      "B_prompt_characters": 1182,
+      "A_execution_seconds": 6.627,
+      "B_execution_seconds": 7.07
+    },
+    {
+      "category": "outfits_10",
+      "style": "法式复古",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263001,
+      "A_prompt_characters": 728,
+      "B_prompt_characters": 1162,
+      "A_execution_seconds": 6.453,
+      "B_execution_seconds": 7.038
+    },
+    {
+      "category": "outfits_10",
+      "style": "运动街头",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263002,
+      "A_prompt_characters": 739,
+      "B_prompt_characters": 1140,
+      "A_execution_seconds": 6.822,
+      "B_execution_seconds": 6.922
+    },
+    {
+      "category": "outfits_10",
+      "style": "暗黑哥特",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263003,
+      "A_prompt_characters": 782,
+      "B_prompt_characters": 1183,
+      "A_execution_seconds": 6.376,
+      "B_execution_seconds": 6.895
+    },
+    {
+      "category": "outfits_10",
+      "style": "现代汉服",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263004,
+      "A_prompt_characters": 805,
+      "B_prompt_characters": 1215,
+      "A_execution_seconds": 6.376,
+      "B_execution_seconds": 7.321
+    },
+    {
+      "category": "outfits_10",
+      "style": "和风浴衣",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263005,
+      "A_prompt_characters": 759,
+      "B_prompt_characters": 1213,
+      "A_execution_seconds": 6.334,
+      "B_execution_seconds": 7.452
+    },
+    {
+      "category": "outfits_10",
+      "style": "美式牛仔",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263006,
+      "A_prompt_characters": 747,
+      "B_prompt_characters": 1178,
+      "A_execution_seconds": 6.555,
+      "B_execution_seconds": 7.662
+    },
+    {
+      "category": "outfits_10",
+      "style": "皮革摇滚",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263007,
+      "A_prompt_characters": 765,
+      "B_prompt_characters": 1179,
+      "A_execution_seconds": 7.044,
+      "B_execution_seconds": 7.977
+    },
+    {
+      "category": "outfits_10",
+      "style": "丝绒晚礼服",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263008,
+      "A_prompt_characters": 796,
+      "B_prompt_characters": 1190,
+      "A_execution_seconds": 6.972,
+      "B_execution_seconds": 7.931
+    },
+    {
+      "category": "outfits_10",
+      "style": "户外机能",
+      "same_model_encoder_vae_resolution_seed_sampler_steps_source": true,
+      "seed": 20263009,
+      "A_prompt_characters": 826,
+      "B_prompt_characters": 1234,
+      "A_execution_seconds": 7.089,
+      "B_execution_seconds": 8.225
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "key": "02_inkwash_S01_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:13:46.844-05:00",
+    "completed_at": "2026-10-20T01:13:53.105-05:00",
+    "prompt_id": "200f02bf-2d3b-4dac-979f-721208bc02ac",
+    "prompt_sha256": "c3195255d8b168d9cfbc59b30b2bf139494329362c96b71556a66a472aa03dc5",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S01_frame_v2\\02_inkwash_S01_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 6.261,
+    "queue_seconds": 0.032,
+    "execution_seconds": 5.996,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:13:52.872+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.233
+  },
+  {
+    "key": "02_inkwash_S02_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:13:53.108-05:00",
+    "completed_at": "2026-10-20T01:13:55.203-05:00",
+    "prompt_id": "fe9ba03a-fe0f-4155-bd2a-8268669ea37a",
+    "prompt_sha256": "0b7b911039a41de74b67c80d43d87de194d99e1b7321300a389cd0a1d96933a2",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S02_frame_v2\\02_inkwash_S02_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.095,
+    "queue_seconds": 0.011,
+    "execution_seconds": 2.05,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:13:55.169+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.034
+  },
+  {
+    "key": "02_inkwash_S03_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:13:55.209-05:00",
+    "completed_at": "2026-10-20T01:13:57.335-05:00",
+    "prompt_id": "49e1d963-1bba-4deb-b1a3-91c4426062c3",
+    "prompt_sha256": "89dcab96d9666d8ec5caab3e5477bd11f636c01e5528b12495177d94ffd9d9da",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S03_frame_v2\\02_inkwash_S03_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.126,
+    "queue_seconds": 0.01,
+    "execution_seconds": 1.941,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:13:57.160+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.175
+  },
+  {
+    "key": "02_inkwash_S04_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:13:57.342-05:00",
+    "completed_at": "2026-10-20T01:13:59.968-05:00",
+    "prompt_id": "f0159cc4-2c3f-42ef-a490-ba139fd402c5",
+    "prompt_sha256": "cacca673e1fe7d23ca33d4e0f506a9bfa5a562a723199901d19985f46c3e9cd0",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S04_frame_v2\\02_inkwash_S04_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.626,
+    "queue_seconds": 0.013,
+    "execution_seconds": 2.201,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:13:59.556+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.412
+  },
+  {
+    "key": "02_inkwash_S05_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:13:59.975-05:00",
+    "completed_at": "2026-10-20T01:14:02.629-05:00",
+    "prompt_id": "1c6c0e51-c196-4149-823c-c4d9c77d8e76",
+    "prompt_sha256": "20593ac66f5274127e0af363baab6ff1129f465ccf46d22bb38191fadacec5ce",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S05_frame_v2\\02_inkwash_S05_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.654,
+    "queue_seconds": 0.033,
+    "execution_seconds": 2.442,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:02.450+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.179
+  },
+  {
+    "key": "02_inkwash_S06_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:02.651-05:00",
+    "completed_at": "2026-10-20T01:14:05.784-05:00",
+    "prompt_id": "cc5e99da-192a-4db8-9762-416692f569d4",
+    "prompt_sha256": "fa3d5ecd39ed79543f621187274e3f0310f08c2a0c045ffda6a1d0f2fd3d1336",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S06_frame_v2\\02_inkwash_S06_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 3.133,
+    "queue_seconds": 0.011,
+    "execution_seconds": 2.65,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:05.312+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.472
+  },
+  {
+    "key": "02_inkwash_S07_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:05.790-05:00",
+    "completed_at": "2026-10-20T01:14:08.390-05:00",
+    "prompt_id": "24dc2a3e-7ac1-4ed5-8854-a02e3455b4c7",
+    "prompt_sha256": "321c66d47e862adfae6262af6029a2583dba8a1baa4cf88b515e4388b08b34a0",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S07_frame_v2\\02_inkwash_S07_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.6,
+    "queue_seconds": 0.024,
+    "execution_seconds": 2.214,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:08.028+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.362
+  },
+  {
+    "key": "02_inkwash_S08_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:08.396-05:00",
+    "completed_at": "2026-10-20T01:14:11.011-05:00",
+    "prompt_id": "a93e0882-6060-4c7b-a0f0-587a1fb65a4f",
+    "prompt_sha256": "e1d3625ab3d78cabc076df7faec643698c971068655aa200b23521bf8e8ad476",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S08_frame_v2\\02_inkwash_S08_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.615,
+    "queue_seconds": 0.035,
+    "execution_seconds": 2.301,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:10.732+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.279
+  },
+  {
+    "key": "02_inkwash_S09_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:11.018-05:00",
+    "completed_at": "2026-10-20T01:14:13.667-05:00",
+    "prompt_id": "8b2d31e5-4522-478a-92aa-4c772f6e8980",
+    "prompt_sha256": "963dfe788e547dc8d24777f94c3bc45ae355f0725a3eff59ef85c007171c3499",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S09_frame_v2\\02_inkwash_S09_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.649,
+    "queue_seconds": 0.031,
+    "execution_seconds": 2.421,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:13.470+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.197
+  },
+  {
+    "key": "02_inkwash_S10_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:13.674-05:00",
+    "completed_at": "2026-10-20T01:14:16.651-05:00",
+    "prompt_id": "d269435c-44bb-4981-9244-95aae300b1e6",
+    "prompt_sha256": "e2e318f9c067430576707c499a0a8cce2ec2968a4f51460515c9638d0a7f78d7",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S10_frame_v2\\02_inkwash_S10_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.977,
+    "queue_seconds": 0.013,
+    "execution_seconds": 2.504,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:16.191+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.46
+  },
+  {
+    "key": "02_inkwash_S11_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:16.680-05:00",
+    "completed_at": "2026-10-20T01:14:19.325-05:00",
+    "prompt_id": "2e1b3545-96fe-4de6-b80f-f76046e57cc0",
+    "prompt_sha256": "913744d59501f5c19c70332eebbdf7ba25f24d99890590feff44001898150439",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S11_frame_v2\\02_inkwash_S11_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.645,
+    "queue_seconds": 0.025,
+    "execution_seconds": 2.341,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:19.046+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.279
+  },
+  {
+    "key": "02_inkwash_S12_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:19.331-05:00",
+    "completed_at": "2026-10-20T01:14:21.905-05:00",
+    "prompt_id": "ae322325-0104-403a-87e7-5db7d4533e97",
+    "prompt_sha256": "316a00819624a7ce57ed119d3ceffdd966dbcd134cd9f03a6d0457aab1138458",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S12_frame_v2\\02_inkwash_S12_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 2.574,
+    "queue_seconds": 0.011,
+    "execution_seconds": 2.542,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:21.884+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.021
+  },
+  {
+    "key": "02_inkwash_S13_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:21.912-05:00",
+    "completed_at": "2026-10-20T01:14:24.992-05:00",
+    "prompt_id": "cf7df1a6-a58e-4e3b-b275-fd512339e3f6",
+    "prompt_sha256": "3cd5f7ba1f9bba9a5a8eb17fbe958abde249d6bec4076a641e68e9a4ce509e32",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S13_frame_v2\\02_inkwash_S13_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 3.08,
+    "queue_seconds": 0.019,
+    "execution_seconds": 2.54,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:24.471+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 0.521
+  },
+  {
+    "key": "02_inkwash_S14_frame_v2",
+    "status": "success",
+    "submitted_at": "2026-10-20T01:14:24.998-05:00",
+    "completed_at": "2026-10-20T01:15:35.818-05:00",
+    "prompt_id": "593af709-601e-4806-a0a6-55c529346b33",
+    "prompt_sha256": "fe82181735152941fe6f880820f9253472533c2d3cdaa997b298379b5ec8caca",
+    "files": [
+      "PROJECT_ROOT\\work\\rainlight_production\\jobs\\02_inkwash_S14_frame_v2\\02_inkwash_S14_frame_v2_00001_.png"
+    ],
+    "stage": "complete",
+    "wall_seconds": 70.82,
+    "queue_seconds": 0.01,
+    "execution_seconds": 2.172,
+    "queue_seconds_known": true,
+    "execution_seconds_known": true,
+    "server_completed_at": "2026-10-20T06:14:27.180+00:00",
+    "timing_incomplete": false,
+    "unattributed_wall_seconds": 68.638
+  }
+]

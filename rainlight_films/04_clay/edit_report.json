@@ -1,0 +1,331 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-20T09:59:41-05:00",
+  "completed_at": "2026-10-20T10:03:24-05:00",
+  "path": "PROJECT_ROOT\\outputs\\rainlight_films\\04_clay\\film.mp4",
+  "bytes": 45767392,
+  "elapsed_seconds": 223.436,
+  "encode_seconds": 210.895,
+  "audio_master": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+  "cue_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\cues.json",
+  "shot_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30"
+  ],
+  "crop_policy": "Center crop to 16:9; 768x448 source loses 8 pixels at top and bottom; upscale to 1280x720.",
+  "frame_policy": "First 240 decoded frames per generated clip; no video looping or padding.",
+  "source_audio_policy": "Generated clip sound is replaced by the shared narration/music master.",
+  "visual_postprocessing": "Center crop and Lanczos resize only; no pixelation treatment.",
+  "video_frames_written": 7200,
+  "audio_samples_written": 14400000,
+  "source_clips": [
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S01_ltx_v2\\04_clay_S01_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 0,
+      "timeline_end_seconds": 10,
+      "encode_seconds": 4.719
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S02_ltx_v2\\04_clay_S02_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 10,
+      "timeline_end_seconds": 20,
+      "encode_seconds": 5.763
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S03_ltx_v2\\04_clay_S03_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 20,
+      "timeline_end_seconds": 30,
+      "encode_seconds": 4.371
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S04_ltx_v2\\04_clay_S04_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 30,
+      "timeline_end_seconds": 40,
+      "encode_seconds": 6.515
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S05_ltx_v2\\04_clay_S05_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 40,
+      "timeline_end_seconds": 50,
+      "encode_seconds": 7.222
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S06_ltx_v3\\04_clay_S06_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 50,
+      "timeline_end_seconds": 60,
+      "encode_seconds": 6.253
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S07_ltx_v2\\04_clay_S07_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 60,
+      "timeline_end_seconds": 70,
+      "encode_seconds": 8.331
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S08_ltx_v3\\04_clay_S08_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 70,
+      "timeline_end_seconds": 80,
+      "encode_seconds": 10.3
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S09_ltx_qc1\\04_clay_S09_ltx_qc1_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 80,
+      "timeline_end_seconds": 90,
+      "encode_seconds": 6.583
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S10_ltx_v4_safe\\04_clay_S10_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 90,
+      "timeline_end_seconds": 100,
+      "encode_seconds": 9.248
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S11_ltx_v2\\04_clay_S11_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 100,
+      "timeline_end_seconds": 110,
+      "encode_seconds": 8.28
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S12_ltx_v2\\04_clay_S12_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 110,
+      "timeline_end_seconds": 120,
+      "encode_seconds": 4.939
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S13_ltx_v2\\04_clay_S13_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 120,
+      "timeline_end_seconds": 130,
+      "encode_seconds": 5.81
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S14_ltx_v4_safe\\04_clay_S14_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 130,
+      "timeline_end_seconds": 140,
+      "encode_seconds": 6.705
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S15_ltx_v2\\04_clay_S15_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 140,
+      "timeline_end_seconds": 150,
+      "encode_seconds": 6.579
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S16_ltx_v2\\04_clay_S16_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 150,
+      "timeline_end_seconds": 160,
+      "encode_seconds": 7.186
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S17_ltx_v2\\04_clay_S17_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 160,
+      "timeline_end_seconds": 170,
+      "encode_seconds": 7.315
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S18_ltx_v2\\04_clay_S18_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 170,
+      "timeline_end_seconds": 180,
+      "encode_seconds": 7.214
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S19_ltx_v4_safe\\04_clay_S19_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 180,
+      "timeline_end_seconds": 190,
+      "encode_seconds": 6.936
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S20_ltx_qc1\\04_clay_S20_ltx_qc1_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 190,
+      "timeline_end_seconds": 200,
+      "encode_seconds": 6.229
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S21_ltx_v4_safe\\04_clay_S21_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 200,
+      "timeline_end_seconds": 210,
+      "encode_seconds": 6.383
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S22_ltx_v2\\04_clay_S22_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 210,
+      "timeline_end_seconds": 220,
+      "encode_seconds": 6.713
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S23_ltx_v2\\04_clay_S23_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 220,
+      "timeline_end_seconds": 230,
+      "encode_seconds": 7.273
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S24_ltx_v2\\04_clay_S24_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 230,
+      "timeline_end_seconds": 240,
+      "encode_seconds": 6.376
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S25_h3_qc2\\04_clay_S25_h3_qc2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 240,
+      "timeline_end_seconds": 250,
+      "encode_seconds": 7.435
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S26_ltx_v4_safe\\04_clay_S26_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 250,
+      "timeline_end_seconds": 260,
+      "encode_seconds": 7.186
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S27_ltx_v3\\04_clay_S27_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 260,
+      "timeline_end_seconds": 270,
+      "encode_seconds": 7.77
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S28_ltx_v2\\04_clay_S28_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 270,
+      "timeline_end_seconds": 280,
+      "encode_seconds": 9.073
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S29_ltx_v2\\04_clay_S29_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 280,
+      "timeline_end_seconds": 290,
+      "encode_seconds": 6.777
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\04_clay_S30_ltx_v2\\04_clay_S30_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 290,
+      "timeline_end_seconds": 300,
+      "encode_seconds": 8.983
+    }
+  ],
+  "verified": true,
+  "decoded_frames": 7200,
+  "duration_seconds": 300.0,
+  "audio_duration_seconds": 300.0,
+  "fps": 24.0,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "validation_seconds": 12.296
+}

@@ -1,0 +1,10 @@
+{
+  "name": "posters_10_refined/10_fashion",
+  "start": "2026-10-20T00:11:48.140554",
+  "wall_seconds": 11.41,
+  "status": "success",
+  "files": [
+    "PROJECT_ROOT\\outputs\\posters_10_refined\\10_fashion\\10_fashion_00001_.png"
+  ],
+  "execution_seconds": 8.073
+}

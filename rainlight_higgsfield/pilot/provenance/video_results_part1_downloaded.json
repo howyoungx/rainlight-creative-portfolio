@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "11_seedance_thread",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\raw.mp4",
+      "bytes": 17517659,
+      "sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+      "download_seconds": 17.868
+    },
+    {
+      "id": "15_wan_marquetry",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\raw.mp4",
+      "bytes": 30635419,
+      "sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+      "download_seconds": 23.325
+    }
+  ]
+}

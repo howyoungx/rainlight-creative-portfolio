@@ -1,0 +1,45 @@
+《雨城最后一束光》· 童话三维动画版画面来源
+
+所有图像和动态源镜头均在本机 ComfyUI 生成；列明的局部合成也在本机完成。
+图像：FLUX.2 Klein 4B FP8；动态镜头按下列实际接受的源清单统计。
+LTX-Video 2B 0.9.8 distilled BF16：27 镜 / MiniMax H3 + 本地 ComfyUI 局部合成：2 镜 / MiniMax H3：1 镜
+每镜使用前 240 个源视频帧，24 fps，10 秒；30 镜共 300 秒，无循环、无变速。
+源片帧数（容器记录）：LTX-Video 2B 0.9.8 distilled BF16：241 帧；MiniMax H3 + 本地 ComfyUI 局部合成：243 帧；MiniMax H3：243 帧。
+源画面 768×448，中心裁切后放大为 1280×720。
+源片已通过逐镜动态抽帧检查；整片导出状态以 timing.json、edit_report.json 为准。
+视频源音轨未用于成片。中文旁白、原创音乐及后期见上一级 sources.txt。
+
+S01  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S01_ltx_v7_storysafe
+S02  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S02_ltx_v7_storysafe
+S03  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S03_ltx_v7_storysafe
+S04  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S04_ltx_v2
+S05  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S05_ltx_v7_storysafe
+S06  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S06_ltx_qc1
+S07  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S07_ltx_v7_storysafe
+S08  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S08_ltx_v7_storysafe
+S09  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S09_ltx_qc1
+S10  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S10_ltx_v4_safe
+S11  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S11_ltx_v2
+S12  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S12_ltx_v2
+S13  MiniMax H3 + 本地 ComfyUI 局部合成  10_3d_S13_h3_qc4_face_composite
+  原始动态生成依赖：10_3d_S13_h3_qc3_facefixed_resume1025
+  本地ComfyUI以原关键帧局部稳定机器人面部，恢复两只独立不发光的黑圆眼及原小嘴，去除生成的黑面罩/青色眼光；女孩、完整手持灯、机器人肢体与罩外雨景继续使用H3真实运动。全部源帧数及24fps保持，无循环或变速。
+S14  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S14_ltx_v4_safe
+S15  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S15_ltx_v2
+S16  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S16_ltx_qc1
+S17  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S17_ltx_v7_storysafe
+S18  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S18_ltx_v7_storysafe
+S19  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S19_ltx_v7_storysafe
+S20  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S20_ltx_v7_storysafe
+S21  MiniMax H3 + 本地 ComfyUI 局部合成  10_3d_S21_h3_qc6_tail_composite
+  原始动态生成依赖：10_3d_S21_h3_qc5_resume1025
+  本地ComfyUI保留原H3视频帧0–144；从帧145起仅把机器人区域保持为同片仍有亮心核的帧144，女孩与其余雨景继续使用原生成运动。保持全部源帧数与24fps，无循环或变速；遮罩向内羽化，避免贴回原画中的垂手。
+S22  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S22_ltx_v7_storysafe
+S23  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S23_ltx_v7_storysafe
+S24  MiniMax H3  10_3d_S24_h3_qc2_resume1025
+S25  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S25_ltx_v2
+S26  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S26_ltx_v4_safe
+S27  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S27_ltx_v3
+S28  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S28_ltx_qc1
+S29  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S29_ltx_v2
+S30  LTX-Video 2B 0.9.8 distilled BF16  10_3d_S30_ltx_v2

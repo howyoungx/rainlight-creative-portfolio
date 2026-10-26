@@ -1,0 +1,293 @@
+{
+  "status": "technical_pass",
+  "checked_at": "2026-10-20T08:34:05.911036-05:00",
+  "narration": {
+    "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration.wav",
+    "rate": 48000,
+    "channels": 2,
+    "frames": 14400000,
+    "seconds": 300.0,
+    "clipped_samples": 0,
+    "peak": 0.799957275390625
+  },
+  "narration_sha256": "6569dedf10186132d1a811052e8900a0ee1cbbc73f581c2ac1ec5ae7cb33ee31",
+  "cue_count": 30,
+  "all_subtitles_match_locked_script": true,
+  "every_voice_starts_one_second_into_its_shot": true,
+  "all_cues_at_most_eight_seconds": true,
+  "all_audio_samples_finite": true,
+  "time_stretch_or_truncation_used": false,
+  "human_listening_review": false,
+  "samples": [
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S01_Serena_reused_sample.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 86400,
+      "seconds": 3.6,
+      "clipped_samples": 0,
+      "peak": 0.25
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S02_Serena_reused_sample.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 74880,
+      "seconds": 3.12,
+      "clipped_samples": 0,
+      "peak": 0.267578125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S03_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 74880,
+      "seconds": 3.12,
+      "clipped_samples": 0,
+      "peak": 0.328125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S04_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 72960,
+      "seconds": 3.04,
+      "clipped_samples": 0,
+      "peak": 0.3828125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S05_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 90240,
+      "seconds": 3.76,
+      "clipped_samples": 0,
+      "peak": 0.3828125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S06_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 96000,
+      "seconds": 4.0,
+      "clipped_samples": 0,
+      "peak": 0.283203125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S07_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 80640,
+      "seconds": 3.36,
+      "clipped_samples": 0,
+      "peak": 0.5078125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S08_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 82560,
+      "seconds": 3.44,
+      "clipped_samples": 0,
+      "peak": 0.4296875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S09_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 120960,
+      "seconds": 5.04,
+      "clipped_samples": 0,
+      "peak": 0.30078125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S10_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 67200,
+      "seconds": 2.8,
+      "clipped_samples": 0,
+      "peak": 0.423828125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S11_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 94080,
+      "seconds": 3.92,
+      "clipped_samples": 0,
+      "peak": 0.341796875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S12_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 78720,
+      "seconds": 3.28,
+      "clipped_samples": 0,
+      "peak": 0.296875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S13_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 159360,
+      "seconds": 6.64,
+      "clipped_samples": 0,
+      "peak": 0.474609375
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S14_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 115200,
+      "seconds": 4.8,
+      "clipped_samples": 0,
+      "peak": 0.451171875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S15_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 76800,
+      "seconds": 3.2,
+      "clipped_samples": 0,
+      "peak": 0.341796875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S16_Serena_a2.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 80640,
+      "seconds": 3.36,
+      "clipped_samples": 0,
+      "peak": 0.224609375
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S17_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 65280,
+      "seconds": 2.72,
+      "clipped_samples": 0,
+      "peak": 0.244140625
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S18_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 80640,
+      "seconds": 3.36,
+      "clipped_samples": 0,
+      "peak": 0.263671875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S19_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 74880,
+      "seconds": 3.12,
+      "clipped_samples": 0,
+      "peak": 0.3515625
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S20_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 78720,
+      "seconds": 3.28,
+      "clipped_samples": 0,
+      "peak": 0.279296875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S21_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 57600,
+      "seconds": 2.4,
+      "clipped_samples": 0,
+      "peak": 0.1376953125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S22_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 88320,
+      "seconds": 3.68,
+      "clipped_samples": 0,
+      "peak": 0.5625
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S23_Serena_reused_sample.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 101760,
+      "seconds": 4.24,
+      "clipped_samples": 0,
+      "peak": 0.1943359375
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S24_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 96000,
+      "seconds": 4.0,
+      "clipped_samples": 0,
+      "peak": 0.283203125
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S25_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 99840,
+      "seconds": 4.16,
+      "clipped_samples": 0,
+      "peak": 0.1796875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S26_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 80640,
+      "seconds": 3.36,
+      "clipped_samples": 0,
+      "peak": 0.310546875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S27_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 157440,
+      "seconds": 6.56,
+      "clipped_samples": 0,
+      "peak": 0.365234375
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S28_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 67200,
+      "seconds": 2.8,
+      "clipped_samples": 0,
+      "peak": 0.2734375
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S29_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 65280,
+      "seconds": 2.72,
+      "clipped_samples": 0,
+      "peak": 0.32421875
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S30_Serena_a1.wav",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 140160,
+      "seconds": 5.84,
+      "clipped_samples": 0,
+      "peak": 0.23828125
+    }
+  ]
+}

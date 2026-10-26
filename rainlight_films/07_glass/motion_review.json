@@ -1,0 +1,192 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-22T10:43:30.475084-05:00",
+  "clip_sha256": [
+    "0378a1bc63d31305744e71ef50148150821de46b64abb848bb1840189b74eebb",
+    "dd371bcdb93afa282667ae7d653480246aab7e1daa53cc51f1692ba4e98c7c05",
+    "1d09908000add7562583d6ccaace423e4a243893091d716995ae1ec4663289a2",
+    "d56571a71bf6cb4bc8c6ea7850dfc8f040c4acb632302350f4da4fef9745e521",
+    "516b43572a6f7b7c68c9c924b20f75f43c6814744a69d9ee873204881d7988c8",
+    "d73531616595ab513f0be83cb839768a6ad8f439c45a5145aa123a1d5443683b",
+    "327ce0acadd65bb8a92a80b84f8552c9c7be14b64f554e1483a77259ebf3c1a6",
+    "ab5b237e061e4c50143f7fa27e2e1933ed3565ac97c419a62ff8b51e0e81c262",
+    "d175c59221648894b1e84e8e9b0c2ca813ee88afe41a11af6a9c1012a568428b",
+    "187ee0c015a93e62a25e6f4c225c6e52f84d8d537397c332e065bb586a15dcd5",
+    "7187703dbe6d1dd43d2be297ed58c52526f830e2b41a92f5718a1ef1d45e9ca3",
+    "74d935492cf482a60704a6f7c88e2ee50f4c78874c5de00e5cff897468f704da",
+    "1fe048a5e7e1336f0cc0cfaa19be1ee112c25bd5638373c7abae16ba5fc67fd2",
+    "344d55e44b37776a7b54ce6a69104d7d25f8f5d00d98521dcb52beec97c46118",
+    "d45bb83b0695fc78d647a3e4d99293b3691355a784c73a4a89a261eea2b75e86",
+    "cca27efa9e9134d5c697eb22df40277c185a40635c3a1d8d2c3c5c164b2ff304",
+    "ad32690180db45c7db57f812aa9cecc26c9dba9a5be25a3bcd35077a8a7923f1",
+    "827b45226b67592d107af6e8dc347b072a6ff3bfa3c3c727a4795cdb5a08d1f6",
+    "e56f7c16c5d2fd56862b9e14925cff04266942cee3725a714b5aab8ec52635c6",
+    "74b4bae7e18c83ae621573102b06f882596a0366e30adaa0a220752a31086ed1",
+    "d1445f109c335cb3e0e84f66c3dfd123c07a35e5e2d2e9f69716ee39c03fdbf2",
+    "5a7a803685eb83735c82fb3f6f7f79a353f5d310694388bdefce6246aacd66d9",
+    "d319947524689cae80d26416e31bfb86bd23b5becc26d3c9ae609616c8171e03",
+    "6a8a6043dd5585ce3cee7957e923cd041a0cf3a93b46e29d97e170bde73c30b4",
+    "eaaf2211fb8b9fa5c0a6401247a93acaffbd8d034cb14de589d074b0bffa8706",
+    "a286717d33acbe75e6bbca9ca577c4f45d443afe0b02356ddc53890683460263",
+    "4f2f2f190335efed0a638ac820067a9691a8df97e71aeb4496dc615f033ee727",
+    "03ef5860f070b685a6a59bf0341e394f498cc1beadc29561f3e6ab3e8c8e223d",
+    "55b46913d84fb82217a791275651b13f142b98fe03e124ee79b4158774542665",
+    "62127f52d011ef1e5bf526f16c962cbb607df1c2fa0e1805f2b5d56b978c4c32"
+  ],
+  "notes": {
+    "method": "Each current source visually compared at frames 0, 60, 120, 180 and 239 against its keyframe. Minor hand and medium drift may be accepted; narrative state, unique characters, intact lantern and obvious hallucinated text were checked.",
+    "review_history": "PROJECT_ROOT\\work\\film_motion_qc\\review_history.json",
+    "shots": [
+      {
+        "shot_id": "S01",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_01_05_baa5d862.json：城窗和唯一灯塔均保持暗，雨云运动和轻微机位移动自然，没有复制山城。后段天空玻璃细分线变弱，但建筑仍保留拼片轮廓与冷色材质，可用。"
+      },
+      {
+        "shot_id": "S02",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_01_05_baa5d862.json：单盏提灯与人物持续存在，背景窗塔未提前亮。人物面部的分片线减少、五官略趋写实，但服装和大幅玻璃背景仍连续，没有严重道具数量变化。"
+      },
+      {
+        "shot_id": "S03",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 storyboard_read_only，证据 07_glass_S03_qc1_advisory.json：全尺寸对比0/60/120/180/239帧：提灯完整且全程接触原握持手，环柄不再长变形或悬浮。玻璃球壳、衣服铅线、街道和暗窗保持。机位轻移和面部细线减少属可接受轻微差异。"
+      },
+      {
+        "shot_id": "S04",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_01_05_baa5d862.json：女主背影、单灯、暗塔及玻璃拼片连续；向目标推近后机器人部分移出下沿，属于机位变化，没有新增角色或多塔。"
+      },
+      {
+        "shot_id": "S05",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 storyboard_read_only，证据 07_glass_S05_h3_qc2_advisory.json：H3保持原参考全身构图、原少女面孔、球形伙伴和全画面玻璃铅线，未再次大幅推近变成另一张成熟脸。完整提灯仍由手握住，机器人小臂和脚有轻微变化；暗窗保持。右下墙面新增暖纹可读作原手灯反射，没有新增窗灯或灯塔，接受。"
+      },
+      {
+        "shot_id": "S06",
+        "verdict": "usable_with_minor_notes",
+        "notes": "玻璃铅条与人物/球壳分片保持，镜头推近使圆点靠近下缘；手边唯一暖灯与暗窗居民清楚。"
+      },
+      {
+        "shot_id": "S07",
+        "verdict": "usable_with_minor_notes",
+        "notes": "唯一完整灯由女主提到窗边，居民手和圆点保持；后半机位推近，脸部较大玻璃片按已锁定造型接受。"
+      },
+      {
+        "shot_id": "S08",
+        "verdict": "usable_with_minor_notes",
+        "notes": "黑灯塔和连续台阶保持，完整提灯未融合；圆点小口有表情变化、短肢移动，球壳分片与玻璃材质仍明确。"
+      },
+      {
+        "shot_id": "S09",
+        "verdict": "usable_with_minor_notes",
+        "notes": "双主角背面上阶，脚下台阶不断裂；女主与圆点都有清楚玻璃分片，唯一提灯始终完整。"
+      },
+      {
+        "shot_id": "S10",
+        "verdict": "usable_with_minor_notes",
+        "notes": "手握完整提手，圆点小步前进并略侧转；玻璃城景、球体铅线和衣服分片保持，眼/脸略有形变可接受。"
+      },
+      {
+        "shot_id": "S11",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_11_15_d28d430f.json：人物和单盏灯持续成立，玻璃建筑、衣物分片保持；面部细分线减弱但仍是同款短发绘画角色，没有复制灯具或亮窗。"
+      },
+      {
+        "shot_id": "S12",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_11_15_d28d430f.json：球形伙伴、女主和提灯均保持原数量与位置关系，玻璃球壳、服装和建筑铅线连续，轻微推近自然。"
+      },
+      {
+        "shot_id": "S13",
+        "verdict": "usable_with_minor_notes",
+        "notes": "H3版本经原尺寸六帧复核，少女原短直发、低头面孔与面部玻璃铅线完整保留；提灯保持手握，机器人球壳及雨滴有自然细小运动，暗窗状态不变。"
+      },
+      {
+        "shot_id": "S14",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_11_15_d28d430f.json：女孩、伙伴、红包及单灯稳定，玻璃材质仍清楚；救助动作较轻，以提灯查看伙伴为主，无道具复制或突然变形。"
+      },
+      {
+        "shot_id": "S15",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 07_glass_11_15_d28d430f.json：女主怀抱伙伴、另一侧提灯的构图连续，石门玻璃分片与雨夜环境保持，没有额外人物或道具。"
+      },
+      {
+        "shot_id": "S16",
+        "verdict": "usable_with_minor_notes",
+        "notes": "单灯重复问题已消失，完整灯具仍接触原手把手，轻微摆动；推近与手部皮肤变平滑为局部材质漂移，裤腿、地面和背景玻璃分片仍清楚。"
+      },
+      {
+        "shot_id": "S17",
+        "verdict": "usable_with_minor_notes",
+        "notes": "镜头上摇推近拱门，机器人部分出下缘；唯一提灯、少女玻璃分片和拱门材质保持。"
+      },
+      {
+        "shot_id": "S18",
+        "verdict": "usable_with_minor_notes",
+        "notes": "单灯置于圆台，小禾和球形圆点保持唯一；推近后面部细分线减少但短发轮廓一致，衣物与球壳玻璃分片稳定。"
+      },
+      {
+        "shot_id": "S19",
+        "verdict": "usable_with_minor_notes",
+        "notes": "暗灯完整无脸，灯与窗口均未重新发光，少量构图/背景拱形漂移不改变熄灭状态。"
+      },
+      {
+        "shot_id": "S20",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主抬头幅度轻，机器人唯一，背景无暖光，台上提灯保持熄灭，镶嵌玻璃材质连续。"
+      },
+      {
+        "shot_id": "S21",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_21_25_48970ef5.json：主角和圆点唯一，胸口心核明亮且可读；面部玻璃分片有所平滑，衣服与机器人仍保持玻璃线条。"
+      },
+      {
+        "shot_id": "S22",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_21_25_48970ef5.json：单个完整暖色心核维持在手与圆点之间，玻璃分片和角色身份保持。"
+      },
+      {
+        "shot_id": "S23",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_21_25_48970ef5.json：双掌各一份暖光持续可见，部分外掌纹理变平滑但分光动作与玻璃轮廓线保持。"
+      },
+      {
+        "shot_id": "S24",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_21_25_48970ef5.json：完整提灯与圆点胸口两处暖光稳定，机器人球形与玻璃分片明显。"
+      },
+      {
+        "shot_id": "S25",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_21_25_48970ef5.json：单一山顶灯塔发光且无复制，城市保持玻璃纹理；天空从分片玻璃转成写实雨云，作为局部材质漂移记录。"
+      },
+      {
+        "shot_id": "S26",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_26_30_e1f319bf.json：居民手持完整暖灯响应，窗口与灯具保持，玻璃分片风格可辨。"
+      },
+      {
+        "shot_id": "S27",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_26_30_e1f319bf.json：单一山顶灯塔与城市窗灯保持，天空转成柔软雨云；无悬浮山城或复制地标，接受局部材质变化。"
+      },
+      {
+        "shot_id": "S28",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_26_30_e1f319bf.json：单塔和清晨城市稳定；天空分片消退为写实晨云，城市彩色分片仍可辨，作为局部风格漂移记录。"
+      },
+      {
+        "shot_id": "S29",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_26_30_e1f319bf.json：小禾与球形圆点并坐，完整暖灯位于两者之间；玻璃分片保留，情节状态稳定。"
+      },
+      {
+        "shot_id": "S30",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 07_glass_26_30_e1f319bf.json：两位伙伴并肩行走，手中暖灯完整；后段新增门柱框景但主体身份/玻璃纹理保持，接受场景扩展。"
+      }
+    ]
+  }
+}

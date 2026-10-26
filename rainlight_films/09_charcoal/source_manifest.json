@@ -1,0 +1,549 @@
+{
+  "style_id": "09_charcoal",
+  "film_completed_at": "2026-10-22T11:47:35.865-05:00",
+  "published_at": "2026-10-22T11:47:48.247-05:00",
+  "publication_started_at": "2026-10-22T11:47:45.743-05:00",
+  "note": "These are the accepted original frames and clips used in this film. The edit uses the first 240 frames of each source clip and replaces any source sound with the shared Serena narration and music.",
+  "shots": [
+    {
+      "shot": "S01",
+      "frame": "source_frames/S01.png",
+      "frame_sha256": "e9aa550df54615623387d976f6018008b44a2210375e4732719296a1ced30f46",
+      "frame_job": "09_charcoal_S01_frame_v6",
+      "clip": "source_clips/S01.mp4",
+      "clip_sha256": "188e00fbeeec086a83fe9af07168493b2ed0f5b5777f2190a0af403b2d7ffa84",
+      "clip_job": "09_charcoal_S01_h3_qc2",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        0,
+        10
+      ]
+    },
+    {
+      "shot": "S02",
+      "frame": "source_frames/S02.png",
+      "frame_sha256": "ac0cdcf961a8bf182c9281929867980eabd9e31ab163a471a26cb3d31a5391e4",
+      "frame_job": "09_charcoal_S02_frame_v4_light",
+      "clip": "source_clips/S02.mp4",
+      "clip_sha256": "490d674f9352bcdb1db58bb324bbb2528ffdf71d373291f77529e0566dbec8aa",
+      "clip_job": "09_charcoal_S02_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        10,
+        20
+      ]
+    },
+    {
+      "shot": "S03",
+      "frame": "source_frames/S03.png",
+      "frame_sha256": "8df76c969dc7946c6d059c1c787067cb079b985593edd5675b648f001d669a75",
+      "frame_job": "09_charcoal_S03_frame_v4_light",
+      "clip": "source_clips/S03.mp4",
+      "clip_sha256": "a5cc850a17735f78baa8a651ea412e9810305c8958de14fdf0306f46dd46a3fd",
+      "clip_job": "09_charcoal_S03_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        20,
+        30
+      ]
+    },
+    {
+      "shot": "S04",
+      "frame": "source_frames/S04.png",
+      "frame_sha256": "dd4cf4a2ee20382c4381989702047141be7743ef316658f5ccdc4cc48ac8fd8b",
+      "frame_job": "09_charcoal_S04_frame_v5",
+      "clip": "source_clips/S04.mp4",
+      "clip_sha256": "76b410b60fbacf71a73e56cbd57d83bda74ecd532d40fe44d0688736e6da91ae",
+      "clip_job": "09_charcoal_S04_ltx_v6_storysafe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        30,
+        40
+      ]
+    },
+    {
+      "shot": "S05",
+      "frame": "source_frames/S05.png",
+      "frame_sha256": "f8bba09687da10dfb468604260f487bebd3ee9a256e902f59f0d869063294f28",
+      "frame_job": "09_charcoal_S05_frame_v4_light",
+      "clip": "source_clips/S05.mp4",
+      "clip_sha256": "cd4b3e268cc24c69e59f6bf150c8fa64fcea87bf768a14bd918ed56e71a86514",
+      "clip_job": "09_charcoal_S05_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        40,
+        50
+      ]
+    },
+    {
+      "shot": "S06",
+      "frame": "source_frames/S06.png",
+      "frame_sha256": "86a37b883f5771774fab22dc5ce0640083a3f9d440c90fe48dca7161205e006a",
+      "frame_job": "09_charcoal_S06_frame_v4_light",
+      "clip": "source_clips/S06.mp4",
+      "clip_sha256": "c007bf3cbf6cb071dd338e450f3e4924559b235217b323796770f59e04bb34de",
+      "clip_job": "09_charcoal_S06_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        50,
+        60
+      ]
+    },
+    {
+      "shot": "S07",
+      "frame": "source_frames/S07.png",
+      "frame_sha256": "5223754c7f84fcf7af9a9d52727f53093d08d2dbe1c9aad2cc3bccffec80e863",
+      "frame_job": "09_charcoal_S07_frame_v4_light",
+      "clip": "source_clips/S07.mp4",
+      "clip_sha256": "10b14bc0dd1695ccd41fe04fb9dc15d218066d6187ad702c43b29f4a30180c0b",
+      "clip_job": "09_charcoal_S07_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        60,
+        70
+      ]
+    },
+    {
+      "shot": "S08",
+      "frame": "source_frames/S08.png",
+      "frame_sha256": "77e54e537cf6f25b643b70b5f008e2b8a6cbf9ef8ee6bf2558bc54827e6d6fa0",
+      "frame_job": "09_charcoal_S08_frame_v4_light",
+      "clip": "source_clips/S08.mp4",
+      "clip_sha256": "f18b5316cef91d8e7bc59e937406b9f5c7606f82ca561838ef128cb5faedab71",
+      "clip_job": "09_charcoal_S08_h3_qc2",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        70,
+        80
+      ]
+    },
+    {
+      "shot": "S09",
+      "frame": "source_frames/S09.png",
+      "frame_sha256": "cf9b490b2c16f456f70ac9d1e6f8a6cc11d2572ab6055ccf36e962eacf4c9c89",
+      "frame_job": "09_charcoal_S09_frame_v4_light",
+      "clip": "source_clips/S09.mp4",
+      "clip_sha256": "513661d9c66a2f1158172f20a984f84df0f3c7ba95c4c5fb2d0a566a83380594",
+      "clip_job": "09_charcoal_S09_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        80,
+        90
+      ]
+    },
+    {
+      "shot": "S10",
+      "frame": "source_frames/S10.png",
+      "frame_sha256": "087a92b1c579c02a05cb648995eee795d7aeb6a8cd7a2558a41908c744b93e4d",
+      "frame_job": "09_charcoal_S10_frame_v4_light",
+      "clip": "source_clips/S10.mp4",
+      "clip_sha256": "9f3dbcc3c308f71df50a030e3df65c1c0c973c35cdaa71fb06bd81582f776537",
+      "clip_job": "09_charcoal_S10_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        90,
+        100
+      ]
+    },
+    {
+      "shot": "S11",
+      "frame": "source_frames/S11.png",
+      "frame_sha256": "528b529911dcd2d5573bb00925698f622a1adbf18939dcf2dd62024b56a306ae",
+      "frame_job": "09_charcoal_S11_frame_v4_light",
+      "clip": "source_clips/S11.mp4",
+      "clip_sha256": "e4d4e0a89055ac16734aa926136b743c4e4a66b46a2c973bdcb537086f846263",
+      "clip_job": "09_charcoal_S11_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        100,
+        110
+      ]
+    },
+    {
+      "shot": "S12",
+      "frame": "source_frames/S12.png",
+      "frame_sha256": "e7d3479e562b67c2226d2fa693bf4320adfbc45c40cd9634c61cc4f5d253bb06",
+      "frame_job": "09_charcoal_S12_frame_v4_light",
+      "clip": "source_clips/S12.mp4",
+      "clip_sha256": "f44943619453ac13b23c8473fc63cba3612af1e7e5b7db9d2cab4a79cc55d3af",
+      "clip_job": "09_charcoal_S12_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        110,
+        120
+      ]
+    },
+    {
+      "shot": "S13",
+      "frame": "source_frames/S13.png",
+      "frame_sha256": "a9e6242e256ec0ca7d652fcd5d1f69e89bb86a3016b851575f05b781556e746d",
+      "frame_job": "09_charcoal_S13_frame_v4_light",
+      "clip": "source_clips/S13.mp4",
+      "clip_sha256": "dd6ce083d7c7fbcf5047053bde87b8c9ddc4a552f9be71ad5912db099e44bda1",
+      "clip_job": "09_charcoal_S13_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        120,
+        130
+      ]
+    },
+    {
+      "shot": "S14",
+      "frame": "source_frames/S14.png",
+      "frame_sha256": "260ece48d2be317b914b777d58e05b840c44b7d12d5bf7b6827d0cd645964148",
+      "frame_job": "09_charcoal_S14_frame_v4_light",
+      "clip": "source_clips/S14.mp4",
+      "clip_sha256": "1f8e9340bb79bb644976d9b03a5b3f4496a818a81611bf86cfac2ad78d6cc455",
+      "clip_job": "09_charcoal_S14_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        130,
+        140
+      ]
+    },
+    {
+      "shot": "S15",
+      "frame": "source_frames/S15.png",
+      "frame_sha256": "034e5900fa5f1c0809baf335bea5570061c0d13901667f141216788ae8cf3e8b",
+      "frame_job": "09_charcoal_S15_frame_v5",
+      "clip": "source_clips/S15.mp4",
+      "clip_sha256": "31ee21f22d0767ef55baa3a5a878dc8b05b3a4594bde8f8f99dc0e0d670d7698",
+      "clip_job": "09_charcoal_S15_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        140,
+        150
+      ]
+    },
+    {
+      "shot": "S16",
+      "frame": "source_frames/S16.png",
+      "frame_sha256": "2f4716f13feb0efbd3d0cf3b34362ccb814eca10c58226168ea25f360e2cd8a9",
+      "frame_job": "09_charcoal_S16_frame_v4_light",
+      "clip": "source_clips/S16.mp4",
+      "clip_sha256": "fd629b2dfa0bc69dc3ce5fbf578da72fc3fa968b50ef4d9164ffdebf5a31d413",
+      "clip_job": "09_charcoal_S16_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        150,
+        160
+      ]
+    },
+    {
+      "shot": "S17",
+      "frame": "source_frames/S17.png",
+      "frame_sha256": "e14b846baa2f7ec4135cf7954d45cfeb638cccb5cf94b51ec26163935855c68f",
+      "frame_job": "09_charcoal_S17_frame_v4_light",
+      "clip": "source_clips/S17.mp4",
+      "clip_sha256": "b608170f08d7685c9ae522c67fce11be41d2aec21a0539f289e468e2bbf0c4ac",
+      "clip_job": "09_charcoal_S17_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        160,
+        170
+      ]
+    },
+    {
+      "shot": "S18",
+      "frame": "source_frames/S18.png",
+      "frame_sha256": "92028124f1750a8384cbbcda24d6afb7eba08ef7746a498420a6dd567f419cac",
+      "frame_job": "09_charcoal_S18_frame_v4_light",
+      "clip": "source_clips/S18.mp4",
+      "clip_sha256": "643eca1184a876840e1c0dfbc04d61670c18d55771f15e39cf57ab0d0b462e1a",
+      "clip_job": "09_charcoal_S18_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        170,
+        180
+      ]
+    },
+    {
+      "shot": "S19",
+      "frame": "source_frames/S19.png",
+      "frame_sha256": "bfbf7a85027db2733fc2345a7c4292a9ab46f98377d664ffaab2264b48c3bc69",
+      "frame_job": "09_charcoal_S19_frame_v5",
+      "clip": "source_clips/S19.mp4",
+      "clip_sha256": "2f610ac73b69d28064a84b8d3592139a63b49ac758722bb0fcea9e7499c9374d",
+      "clip_job": "09_charcoal_S19_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        180,
+        190
+      ]
+    },
+    {
+      "shot": "S20",
+      "frame": "source_frames/S20.png",
+      "frame_sha256": "5bb9f8480d3a1dbaf18442f7265ac0d6f6c13bf8cd7bac0ade347d128231ef21",
+      "frame_job": "09_charcoal_S20_frame_v5",
+      "clip": "source_clips/S20.mp4",
+      "clip_sha256": "b73aeb8e7679f54e1f6396e96c3dbc2954a4f06ecbe40e9353df5272fd976123",
+      "clip_job": "09_charcoal_S20_h3_qc2",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        190,
+        200
+      ]
+    },
+    {
+      "shot": "S21",
+      "frame": "source_frames/S21.png",
+      "frame_sha256": "e34c56c8dd0e730bd7b421f20150094632e9f1eba703828b28ea77a755358bad",
+      "frame_job": "09_charcoal_S21_frame_v4_light",
+      "clip": "source_clips/S21.mp4",
+      "clip_sha256": "4aff8d4007f95f1b30cfc20fa2ac57d895cb680f589e9c2adca71fe805296385",
+      "clip_job": "09_charcoal_S21_ltx_v6_storysafe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        200,
+        210
+      ]
+    },
+    {
+      "shot": "S22",
+      "frame": "source_frames/S22.png",
+      "frame_sha256": "4fca8365598d75e952978a43e2653673d2ef52d695ee45355133d44824f68cbf",
+      "frame_job": "09_charcoal_S22_frame_v5",
+      "clip": "source_clips/S22.mp4",
+      "clip_sha256": "9422d5939ed0d81afd9f8462eec8c9acdb6883a244df43e3d10e42552919c9c1",
+      "clip_job": "09_charcoal_S22_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        210,
+        220
+      ]
+    },
+    {
+      "shot": "S23",
+      "frame": "source_frames/S23.png",
+      "frame_sha256": "a6befa5618f98c7f13cbbc474ec43c073cee9c8625c7a888834dc1bf996539cb",
+      "frame_job": "09_charcoal_S23_frame_v5",
+      "clip": "source_clips/S23.mp4",
+      "clip_sha256": "5f3c7514d5c29cabc7b250d42791a4193ba15e5812b8fae92caedf14036eb01e",
+      "clip_job": "09_charcoal_S23_ltx_v6_storysafe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        220,
+        230
+      ]
+    },
+    {
+      "shot": "S24",
+      "frame": "source_frames/S24.png",
+      "frame_sha256": "f9b7a905044d1a215f5be06e68f8a55d73ce02fec644e0f501d481c4f9a48065",
+      "frame_job": "09_charcoal_S24_frame_v6",
+      "clip": "source_clips/S24.mp4",
+      "clip_sha256": "eec5aa48be0dae570d0afb029d496ab5e07017a7829324663c44c916c123277f",
+      "clip_job": "09_charcoal_S24_h3_qc1_h3",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        230,
+        240
+      ]
+    },
+    {
+      "shot": "S25",
+      "frame": "source_frames/S25.png",
+      "frame_sha256": "53c729a243e478f2eef86d4e1ea153060fb94a96794d5abd64623569acbbd43e",
+      "frame_job": "09_charcoal_S25_frame_v4_light",
+      "clip": "source_clips/S25.mp4",
+      "clip_sha256": "df10496485d78e2e8e1c8f511e48ef1e25ebd63e85ddefdc643e88371ed7cbb8",
+      "clip_job": "09_charcoal_S25_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        240,
+        250
+      ]
+    },
+    {
+      "shot": "S26",
+      "frame": "source_frames/S26.png",
+      "frame_sha256": "2023d88f6771cb0d5b072718f375147e5aaeb96d249fdb8f66cb1cb740f5e9a1",
+      "frame_job": "09_charcoal_S26_frame_v4_light",
+      "clip": "source_clips/S26.mp4",
+      "clip_sha256": "f452fd826510bdce0309063ff8bea1e454c5a020e57b1d1a4e10050e51ac974f",
+      "clip_job": "09_charcoal_S26_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        250,
+        260
+      ]
+    },
+    {
+      "shot": "S27",
+      "frame": "source_frames/S27.png",
+      "frame_sha256": "0106fb83aa78b466efaff1d87c75fe2bab7d5334a5a75146f23c10ad46783a32",
+      "frame_job": "09_charcoal_S27_frame_v4_light",
+      "clip": "source_clips/S27.mp4",
+      "clip_sha256": "2b0576e564a82f8477f507f3083bbc66b2705b034ad9a98be530d3ed791e5148",
+      "clip_job": "09_charcoal_S27_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        260,
+        270
+      ]
+    },
+    {
+      "shot": "S28",
+      "frame": "source_frames/S28.png",
+      "frame_sha256": "141a7752e4846e5821fc2b4261c6f36c96cab44606c8b885c8a4648e1e093e74",
+      "frame_job": "09_charcoal_S28_frame_v4_light",
+      "clip": "source_clips/S28.mp4",
+      "clip_sha256": "b50c3f14dbe1bcc7cd4c50cf3c715eb18d79ff19ee67e8cccc7913c5fcecfd54",
+      "clip_job": "09_charcoal_S28_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        270,
+        280
+      ]
+    },
+    {
+      "shot": "S29",
+      "frame": "source_frames/S29.png",
+      "frame_sha256": "73f653e6b23b36c4a14563a9d409696f0f9568b12ce4c391701d409e07d5dc1b",
+      "frame_job": "09_charcoal_S29_frame_v4_light",
+      "clip": "source_clips/S29.mp4",
+      "clip_sha256": "87eef0b4930239792e154b858def368944a2adb80795054473020d34371c8d83",
+      "clip_job": "09_charcoal_S29_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        280,
+        290
+      ]
+    },
+    {
+      "shot": "S30",
+      "frame": "source_frames/S30.png",
+      "frame_sha256": "9e2b4c4728fb6f9c8bf2d06661d896c80c326f3cbb4c4e5b7b97f78bcdcf3820",
+      "frame_job": "09_charcoal_S30_frame_v4_light",
+      "clip": "source_clips/S30.mp4",
+      "clip_sha256": "d4c2d63fa0a56f8ad347c4f9e0f5022747a5c5dc859658ca65910754639ef3fc",
+      "clip_job": "09_charcoal_S30_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        290,
+        300
+      ]
+    }
+  ]
+}

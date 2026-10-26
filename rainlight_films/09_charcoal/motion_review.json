@@ -1,0 +1,192 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-22T11:43:02.121544-05:00",
+  "clip_sha256": [
+    "188e00fbeeec086a83fe9af07168493b2ed0f5b5777f2190a0af403b2d7ffa84",
+    "490d674f9352bcdb1db58bb324bbb2528ffdf71d373291f77529e0566dbec8aa",
+    "a5cc850a17735f78baa8a651ea412e9810305c8958de14fdf0306f46dd46a3fd",
+    "76b410b60fbacf71a73e56cbd57d83bda74ecd532d40fe44d0688736e6da91ae",
+    "cd4b3e268cc24c69e59f6bf150c8fa64fcea87bf768a14bd918ed56e71a86514",
+    "c007bf3cbf6cb071dd338e450f3e4924559b235217b323796770f59e04bb34de",
+    "10b14bc0dd1695ccd41fe04fb9dc15d218066d6187ad702c43b29f4a30180c0b",
+    "f18b5316cef91d8e7bc59e937406b9f5c7606f82ca561838ef128cb5faedab71",
+    "513661d9c66a2f1158172f20a984f84df0f3c7ba95c4c5fb2d0a566a83380594",
+    "9f3dbcc3c308f71df50a030e3df65c1c0c973c35cdaa71fb06bd81582f776537",
+    "e4d4e0a89055ac16734aa926136b743c4e4a66b46a2c973bdcb537086f846263",
+    "f44943619453ac13b23c8473fc63cba3612af1e7e5b7db9d2cab4a79cc55d3af",
+    "dd6ce083d7c7fbcf5047053bde87b8c9ddc4a552f9be71ad5912db099e44bda1",
+    "1f8e9340bb79bb644976d9b03a5b3f4496a818a81611bf86cfac2ad78d6cc455",
+    "31ee21f22d0767ef55baa3a5a878dc8b05b3a4594bde8f8f99dc0e0d670d7698",
+    "fd629b2dfa0bc69dc3ce5fbf578da72fc3fa968b50ef4d9164ffdebf5a31d413",
+    "b608170f08d7685c9ae522c67fce11be41d2aec21a0539f289e468e2bbf0c4ac",
+    "643eca1184a876840e1c0dfbc04d61670c18d55771f15e39cf57ab0d0b462e1a",
+    "2f610ac73b69d28064a84b8d3592139a63b49ac758722bb0fcea9e7499c9374d",
+    "b73aeb8e7679f54e1f6396e96c3dbc2954a4f06ecbe40e9353df5272fd976123",
+    "4aff8d4007f95f1b30cfc20fa2ac57d895cb680f589e9c2adca71fe805296385",
+    "9422d5939ed0d81afd9f8462eec8c9acdb6883a244df43e3d10e42552919c9c1",
+    "5f3c7514d5c29cabc7b250d42791a4193ba15e5812b8fae92caedf14036eb01e",
+    "eec5aa48be0dae570d0afb029d496ab5e07017a7829324663c44c916c123277f",
+    "df10496485d78e2e8e1c8f511e48ef1e25ebd63e85ddefdc643e88371ed7cbb8",
+    "f452fd826510bdce0309063ff8bea1e454c5a020e57b1d1a4e10050e51ac974f",
+    "2b0576e564a82f8477f507f3083bbc66b2705b034ad9a98be530d3ed791e5148",
+    "b50c3f14dbe1bcc7cd4c50cf3c715eb18d79ff19ee67e8cccc7913c5fcecfd54",
+    "87eef0b4930239792e154b858def368944a2adb80795054473020d34371c8d83",
+    "d4c2d63fa0a56f8ad347c4f9e0f5022747a5c5dc859658ca65910754639ef3fc"
+  ],
+  "notes": {
+    "method": "Each current source visually compared at frames 0, 60, 120, 180 and 239 against its keyframe. Minor hand and medium drift may be accepted; narrative state, unique characters, intact lantern and obvious hallucinated text were checked.",
+    "review_history": "PROJECT_ROOT\\work\\film_motion_qc\\review_history.json",
+    "shots": [
+      {
+        "shot_id": "S01",
+        "verdict": "usable_with_minor_notes",
+        "notes": "H3修复保住原炭笔城市、单一山顶灯塔及灰纸色调，窗格无暖光，雨丝持续运动；轻微横向机位移动可接受，巨山/复制塔/色闪均已清除。"
+      },
+      {
+        "shot_id": "S02",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_01_05_1a0b6354.json：唯一暖色灯在灰黑灯铺中保持刚性完整，手与短柄相连，镜头轻移；提灯幅度小，面部略润色但仍为同一黑白炭笔少女。"
+      },
+      {
+        "shot_id": "S03",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_01_05_1a0b6354.json：小禾提灯与圆点苏醒动作连贯，灰黑材质及单处暖色照明保留；局部面部稍平滑，仍可辨炭笔画风，没有漂浮灯或复制角色。"
+      },
+      {
+        "shot_id": "S04",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_01_05_1a0b6354.json：与先前已通过缓存相同，双伙伴望向远山灯塔，灯塔未被提前点亮，局部黑白纹理与原画保持。"
+      },
+      {
+        "shot_id": "S05",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 storyboard_read_only，证据 09_charcoal_S05_qc1_advisory.json：原构图占满画幅，不再出现原先变宽白纸框；原少女面孔和侧身姿态保持，人物、球形伙伴及雨巷仍为粗炭笔黑白，只有同一小手灯琥珀色。小步/镜头轻移与雨丝运动可接受，未新增角色或灯具。"
+      },
+      {
+        "shot_id": "S06",
+        "verdict": "usable_with_minor_notes",
+        "notes": "街窗居民和双主角保持，镜头推近导致机器人下缘裁切，原手提灯仍完整，炭笔黑白与局部琥珀光清楚。"
+      },
+      {
+        "shot_id": "S07",
+        "verdict": "usable_with_minor_notes",
+        "notes": "原居民手、少女和单一伙伴保留，完整小灯贴近窗边；机位推近但没有新光源或道具。"
+      },
+      {
+        "shot_id": "S08",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 storyboard_read_only，证据 09_charcoal_S08_h3_qc2_advisory.json：台阶幻水印和伪文字消失，原炭笔纸边始终保持固定，没有新增顶部画框。少女、球形伙伴及暗塔与原画一致；唯一手灯保持小而完整、在原手部接触处，机器人眨眼与小臂运动成立。球壳小幅伸缩及表情变化接受，不扩大纹理返工。"
+      },
+      {
+        "shot_id": "S09",
+        "verdict": "usable_with_minor_notes",
+        "notes": "原背影双主角与石阶构图稳定，微雨运动可见，单灯保持原握持且背景无新增暖光。"
+      },
+      {
+        "shot_id": "S10",
+        "verdict": "usable_with_minor_notes",
+        "notes": "少女略转正，唯一灯具握持与球形伙伴保持，炭笔街道结构稳定，局部阴影平滑可接受。"
+      },
+      {
+        "shot_id": "S11",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 root_09_charcoal_S11_qc1.json：已原尺寸核对0/2.5/5/7.5/9.96秒。原黑白平面炭笔少女的短发、大眼、低头护灯表情保持，面部颗粒阴影和衣服炭笔纹理仍在，原先红唇立体娃娃脸及扩张大白边已消失。镜头有明显缓推近并裁到灯底，灯始终与手相连，属于可接受构图变化。"
+      },
+      {
+        "shot_id": "S12",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_11_15_f45c2e57.json：球形机器人在灯前挡风，小禾蹲姿持灯连续；局部灰色表面略平滑但仍有炭笔粗线与背景纹理，单灯完整且未脱手。"
+      },
+      {
+        "shot_id": "S13",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_11_15_f45c2e57.json：同伴受伤、少女蹲下照看保持；提灯与抬头幅度较大但手仍接灯，受伤机器人没有变形为其他道具。暖光范围稍扩大，整体灰黑为主。"
+      },
+      {
+        "shot_id": "S14",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_11_15_f45c2e57.json：已看原尺寸：脸部略平滑、灯光在衣服上形成暖色反射，但大眼短发设计和炭笔背景仍保留，灯持续在手中且无复制。包扎的具体手部动作较弱，救助状态可由旁白衔接。"
+      },
+      {
+        "shot_id": "S15",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_11_15_f45c2e57.json：小禾抱圆点并提灯过石门的构图稳定，细微动作没有分离人物与所持机器人；黑白铅炭线和灯的局部暖色保持，未产生额外主体。"
+      },
+      {
+        "shot_id": "S16",
+        "verdict": "usable_with_minor_notes",
+        "notes": "裤腿、鞋与原手提灯保持完整，风雨和地面反光微动，没有复制道具或提前背景光。"
+      },
+      {
+        "shot_id": "S17",
+        "verdict": "usable_with_minor_notes",
+        "notes": "机位上移露出拱门外纸白天空，并裁到伙伴下缘；拱门整体、单一少女/球形伙伴及完整灯保持，作为画面边缘与机位差异接受。"
+      },
+      {
+        "shot_id": "S18",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主将唯一亮灯置于圆台，手与灯相连，圆点保持单一球体；推近后局部皮肤平滑但整体炭笔纹理与剧情保持。"
+      },
+      {
+        "shot_id": "S19",
+        "verdict": "usable_with_minor_notes",
+        "notes": "标准单室铜灯造型已恢复并全程保持熄灭，灯罩、把手和灯座完整；背景有轻微构图漂移但无新光源。"
+      },
+      {
+        "shot_id": "S20",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 storyboard_read_only，证据 09_charcoal_S20_h3_qc2_advisory.json：暗灯全程没有暖光、火焰或发光微缩建筑；少女低头收手、球形伙伴微动，仍只有原两位角色。炭笔黑白和原房间、石台保持；球壳略纵向拉伸与手指变化轻微可接受，不再长出机械或额外布景。"
+      },
+      {
+        "shot_id": "S21",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_21_25_3994eb46.json：当前正式复用片与预审一致，角色和暖光心核可读；后段推进有裁切和纸边，接受。"
+      },
+      {
+        "shot_id": "S22",
+        "verdict": "usable_with_minor_notes",
+        "notes": "无关成人肖像已消失，原手与单一球形伙伴保持，只有一枚小琥珀心核；晶体边缘稍柔化、机位推近为minor。"
+      },
+      {
+        "shot_id": "S23",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_21_25_3994eb46.json：当前正式复用片双掌各一份暖光，黑白炭笔与选择性色彩保持，通过。"
+      },
+      {
+        "shot_id": "S24",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 root，证据 09_charcoal_S24_repair_h3_qc1.json：已原尺寸核对参考与0/2.5/5/7.5/9.96秒。机器人上方的小嘴仍独立且清晰，胸前扩大为带弧形边框的心核舱，内部菱形暖光与旁边灯笼中的光对应，因此可读作胸腔而非第二张嘴。该胸舱比参考图明显扩大，记为轻微设计漂移；机器人眨眼、微笑与两个光源符合剧情，灯笼完整，炭笔纹理保持，未见文字水印或多余肢体。"
+      },
+      {
+        "shot_id": "S25",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_21_25_3994eb46.json：单一山顶灯塔与阴雨黑白城保持，暖光清楚，未见悬浮山城、文字或复制地标。"
+      },
+      {
+        "shot_id": "S26",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_26_30_805d8294.json：窗内暖灯移近镜头，手部趋写实但灯具完整，第一位居民响应清楚。"
+      },
+      {
+        "shot_id": "S27",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_26_30_805d8294.json：城市窗灯与单一山顶灯塔保持，正常雨云，未见新增浮空主体。"
+      },
+      {
+        "shot_id": "S28",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_28_28_cc88e21a.json：qc1已移除天空中的重复巨塔；单一完整灯塔和城市保持，天空由炭笔转成写实晨云且带淡蓝/暖金色，符合清晨恢复颜色的情节，作为局部材质变化接受。"
+      },
+      {
+        "shot_id": "S29",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_26_30_805d8294.json：小禾面孔由卡通趋写实，但短黑发/衣服/红包轮廓身份尚可辨，圆点与完整暖灯稳定，记录风格漂移。"
+      },
+      {
+        "shot_id": "S30",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 09_charcoal_26_30_805d8294.json：两个伙伴并肩下山，手中暖灯完整；后段裁切圆点下部但身份清楚，黑白炭笔和暖光保持。"
+      }
+    ]
+  }
+}

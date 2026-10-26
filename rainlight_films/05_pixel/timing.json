@@ -1,0 +1,91 @@
+{
+  "status": "complete",
+  "poster_seconds": 18.9115,
+  "poster_elapsed_seconds": 1636.493,
+  "poster_started_at": "2026-10-20T00:34:16-05:00",
+  "poster_completed_at": "2026-10-20T01:01:32.493-05:00",
+  "poster_queue_seconds": 17.61,
+  "stage": "五分钟成片已验收",
+  "poster_status": "complete",
+  "previous_queue_states": [
+    {
+      "status": "stopped",
+      "stage": "已按要求停止，保留现有素材",
+      "stopped_at": "2026-10-20T01:14:27.480-05:00"
+    }
+  ],
+  "updated_at": "2026-10-20T09:27:36.075-05:00",
+  "timing_before_sessions": {
+    "status": "pending",
+    "updated_at": "2026-10-20T09:27:36.075-05:00"
+  },
+  "activity_sessions": [
+    {
+      "id": "a1ee6150039e4b5288888d14ffbf9cc6",
+      "started_at": "2026-10-20T09:37:41.587-05:00",
+      "reason": "提前准备下一种风格的分镜",
+      "event": "started",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-20T10:41:14.902-05:00",
+      "end_reason": "complete"
+    }
+  ],
+  "started_at": "2026-10-20T09:37:41.587-05:00",
+  "style_id": "05_pixel",
+  "name": "像素冒险电影",
+  "shots_total": 30,
+  "elapsed_seconds": 3813.315,
+  "active_elapsed_seconds": 3813.315,
+  "inactive_seconds": 0.0,
+  "keyframes_done": 30,
+  "keyframes_seconds": 107.871,
+  "queue_seconds": 5636.365,
+  "engine": "ltx",
+  "video_done": 30,
+  "video_seconds": 1126.904,
+  "video_rework_seconds": 0,
+  "completed_at": "2026-10-20T10:41:14.902-05:00",
+  "duration_seconds": 300,
+  "edit_seconds": 128.898,
+  "validation_seconds": 9.991,
+  "latest_edit_seconds": 128.898,
+  "latest_validation_seconds": 9.991,
+  "source_frames": 240,
+  "source_clip_seconds": 10,
+  "frame_policy": "30 unique generated continuous shots, 240 original frames each, no looping, no retiming",
+  "shared_audio": "Shared audio preparation counted separately at project level",
+  "file_bytes": 70720581,
+  "rework_seconds": 660.966,
+  "shared_input_hashes": {
+    "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+    "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+  },
+  "delivery_revisions": [
+    {
+      "revision": 1,
+      "completed_at": "2026-10-20T10:41:14.902-05:00",
+      "elapsed_seconds": 3813.315,
+      "active_elapsed_seconds": 3813.315,
+      "inactive_seconds": 0.0,
+      "shared_input_hashes": {
+        "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+        "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+        "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+        "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+      },
+      "file_bytes": 70720581,
+      "duration_seconds": 300,
+      "edit_seconds": 128.898,
+      "validation_seconds": 9.991,
+      "cumulative_edit_seconds": 128.898,
+      "cumulative_validation_seconds": 9.991
+    }
+  ],
+  "accepted_video_dependency_keys": [
+    "05_pixel_S01_h3_qc3"
+  ],
+  "dependency_accounting_note": "Accepted video time includes the generated source and local Comfy compositing once each. The generated input to an accepted composite is not discarded rework.",
+  "dependency_accounting_corrected_at": "2026-10-20T10:42:11.672-05:00"
+}

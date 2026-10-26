@@ -1,0 +1,648 @@
+{
+  "updated_at": "2026-10-25T02:16:21.817132-05:00",
+  "purpose": "Local Qwen Serena narration, original Comfy Music3, timing, licensing and bounded final-film checks.",
+  "files": [
+    {
+      "path": "provenance/audio/audio_sources.json",
+      "bytes": 4581,
+      "sha256": "e7ca97068473900c91e01095b42deb4c3a2262df29db9ac09e37c36d3653bea9",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\audio_sources.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/auditions/S01_Vivian.wav",
+      "bytes": 268844,
+      "sha256": "7b993bee0d1a9b159f792443c8fba32420f75469d1b1fa3aea6926e3108452ff",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S01_Vivian.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/auditions/S02_Vivian.wav",
+      "bytes": 180524,
+      "sha256": "ba448c5d92a40151845071cabfa68e0a6721506d0b23e56ec274f057beadf7b0",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S02_Vivian.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/auditions/S23_Vivian.wav",
+      "bytes": 192044,
+      "sha256": "963ab8f4aa1b53f8e77d7ef00929fb06acb78dd143da9e148f09bfdb33511a15",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S23_Vivian.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/cues.json",
+      "bytes": 64019,
+      "sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\cues.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/01_anime_audio_review.json",
+      "bytes": 5676,
+      "sha256": "8430459af5791279b2b865bb5ed1c1c246c30a1025b5770dee1befd503e999c3",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\01_anime_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/01_anime_subtitle_contact.jpg",
+      "bytes": 477313,
+      "sha256": "dbc969118feb3967119d0b549a11bdb9a3a732c9e510456afdffc5e48630440f",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\01_anime_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/02_inkwash_audio_review.json",
+      "bytes": 5228,
+      "sha256": "803b3cce66207f2aed31de785f2f074cf0d3e068246cea31bff0a3f18d0aa572",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\02_inkwash_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/02_inkwash_subtitle_contact.jpg",
+      "bytes": 612428,
+      "sha256": "245379ac4d40d7ed54492eca958a80a94423de59fb10eeee73338b93a26bcb0d",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\02_inkwash_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/03_papercut_audio_review.json",
+      "bytes": 5257,
+      "sha256": "bb18fabd437c791ef1c4c20cc2bc185a13026f55bdb75f85a2539b4f70002697",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\03_papercut_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/03_papercut_subtitle_contact.jpg",
+      "bytes": 475322,
+      "sha256": "d322d031b2fb4f044a851989089180068d299c4275768c553a5a3c5fcde1cc02",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\03_papercut_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/04_clay_audio_review.json",
+      "bytes": 5248,
+      "sha256": "d74e5f912b9fe32a959db8d81477f77fb0cca18e31f64915bb56a2f4e03fb94a",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\04_clay_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/04_clay_subtitle_contact.jpg",
+      "bytes": 436198,
+      "sha256": "00bd0ba485e068721f8e3b99faac11e1b32b40caa58ca10aedea367abcc91b37",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\04_clay_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/05_pixel_audio_review.json",
+      "bytes": 5505,
+      "sha256": "01463854dba408a7682fe8864484941ba7d969bbeaf55cfc829945dff4c81fd4",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\05_pixel_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/05_pixel_subtitle_contact.jpg",
+      "bytes": 448055,
+      "sha256": "1d191ab134af158fe0625ce3f9ff5a08ad2086b6bcbca0bc7079cfa9bfc8d956",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\05_pixel_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/06_oil_audio_review.json",
+      "bytes": 5273,
+      "sha256": "9fa83a227b7d16d4e9d594879f5e5c5dcad9a1e953b854afd54558ee3cf57534",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\06_oil_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/06_oil_subtitle_contact.jpg",
+      "bytes": 689396,
+      "sha256": "deb7181884df18e69c28d28c5be372974c2381195cc57d79f3f71a003f7563f1",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\06_oil_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/07_glass_audio_review.json",
+      "bytes": 5314,
+      "sha256": "7dca1ea099bb6c0d69f2b252a8acd960a0c5ecadabd6ad9c7bdb6cff89573dd7",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\07_glass_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/07_glass_subtitle_contact.jpg",
+      "bytes": 648163,
+      "sha256": "088c910be206de3034e136bc72cd8cbc48825a4ddbce7b8166b00d75d0e642b9",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\07_glass_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/08_comic_audio_review.json",
+      "bytes": 5263,
+      "sha256": "1ad93d6e94bf9fa78bb9c996b0a876b995f6df7cbfb0c9dbe0aa9efd429fcdf9",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\08_comic_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/08_comic_subtitle_contact.jpg",
+      "bytes": 559771,
+      "sha256": "a924580f76378c40b38c745606c57536d7695b16b0df74469989493a22746d19",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\08_comic_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/09_charcoal_audio_review.json",
+      "bytes": 5291,
+      "sha256": "8283f5f7d1e06654b2525e51fecfe712b9e9ff3414c454410b46371159bc6106",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\09_charcoal_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/09_charcoal_subtitle_contact.jpg",
+      "bytes": 689209,
+      "sha256": "f3b66829f61b28f52d62c41e5e1bafc66890659730ece3d8387d8b585a0e51bf",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\09_charcoal_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/10_3d_audio_review.json",
+      "bytes": 5377,
+      "sha256": "6b09e477d14bec3226567f0d226fef2b4287c26ebf3accf5fe12f6e384741686",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\10_3d_audio_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/film_reviews/10_3d_subtitle_contact.jpg",
+      "bytes": 437531,
+      "sha256": "191a12f143d7b8d56282f368a2b7f5bdbdf5016459c5deb1ed42c24283dc8e63",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\film_audio_qc\\10_3d_subtitle_contact.jpg"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/HUAYAN_MODEL_CARD.txt",
+      "bytes": 276,
+      "sha256": "25d7d8f7a03e9382e629c5c4f074176e7ca84e08be12a873022e91fcac98c2c7",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\HUAYAN_MODEL_CARD.txt"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/PIPER_LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "4cd71dece7037f1d6d93cce7570c57ab75ea9ac566fd4990be2f3ab08d15b47f",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\PIPER_LICENSE.txt"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/PIPER_README.txt",
+      "bytes": 6724,
+      "sha256": "f21c5a91b37cfbf5ade95b431880554a6d746c1dec78d9bef676738fc6016b84",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\PIPER_README.txt"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/qwen_download_timing.json",
+      "bytes": 6816,
+      "sha256": "89dec71459b167f9f5bba72eda281bac1061624e4ae84a8571fbc0d0dea27bf0",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\qwen_download_timing.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/QWEN_MODEL_CARD.txt",
+      "bytes": 57846,
+      "sha256": "64f65e809b51cc0c35f393fbbfcc2d735c0cb3fdbbc6f3fdc4a5e6ce55e9d088",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\QWEN_MODEL_CARD.txt"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/qwen_runtime.json",
+      "bytes": 2705,
+      "sha256": "61c40d9700e5c70ba4ce903b7a9c9a43074caa72bb889bef0e86ca4fe55248b7",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\qwen_runtime.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/QWEN_TTS_LICENSE.txt",
+      "bytes": 11544,
+      "sha256": "7137274bab133744763a3906ace2a13844c2b34635136fc6d4454c25bfd76eda",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\QWEN_TTS_LICENSE.txt"
+      ]
+    },
+    {
+      "path": "provenance/audio/licenses_and_runtime/setup_timing.json",
+      "bytes": 2327,
+      "sha256": "734cb64522f84feffde6b515511a488b6239d599a8b4a3ffec295529980962f8",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance\\setup_timing.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/master.mix.json",
+      "bytes": 3686,
+      "sha256": "c1a25a87e85eadccc1863567ff3a22b54942f1fcfb0808a1ab4b2914e6b72475",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.mix.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/music/shared_music_00001.flac",
+      "bytes": 5888739,
+      "sha256": "69f6dd9386a3845f05defd9296340d68d85a7b5e444391cd4bf58da42e2d9c78",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\shared_music_00001.flac"
+      ]
+    },
+    {
+      "path": "provenance/audio/music/timing.json",
+      "bytes": 451,
+      "sha256": "7751047e3e622b6eec41f1c57afe7a640c505a92a353da025933071750065c29",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\timing.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/music/workflow_api.json",
+      "bytes": 4345,
+      "sha256": "edd56f96ceb67d7ea9a3c1f9c15a9b925806bb276418bd3a13220c0e1caeaa34",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\workflow_api.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/path_map.json",
+      "bytes": 14076,
+      "sha256": "206dd1016773d1e40879c2c5ddb193b55a073fc365f113bd8d17398a33f5118c",
+      "original_sources": []
+    },
+    {
+      "path": "provenance/audio/replaced_attempts/20261020T083050_S16_Serena_a1.wav",
+      "bytes": 399404,
+      "sha256": "a320b622c4b1808b4b5e9748f9eac81cd5d9b7a73ed0cca0324e6f7cf1e9fe07",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S16_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/shared_audio_timing.json",
+      "bytes": 3099,
+      "sha256": "8b36d5139a33969d04167a26527f2611778fcb4112b95681b6879d28606671dc",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\rainlight_production\\audio\\shared_audio_timing.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S01_Serena.wav",
+      "bytes": 172844,
+      "sha256": "02491d00500afa735493a8de5cd3d091815308790bdc9cbbe40b7697a399e09d",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S01_Serena_reused_sample.wav",
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S01_Serena.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S02_Serena.wav",
+      "bytes": 149804,
+      "sha256": "e1fe8a6a765481583a1ccd8a8b9832c55fce1a611907b10957c7b386a47d3c99",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S02_Serena_reused_sample.wav",
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S02_Serena.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S03_Serena.wav",
+      "bytes": 149804,
+      "sha256": "bf9b27aea0964f7b399b0d4fd5d9d776b4c0a4352ac1d2de4843b0038c563344",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S03_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S04_Serena.wav",
+      "bytes": 145964,
+      "sha256": "e3f571899ea294400710378ab227144a2eaad4336b19d31f12434925ab7de41b",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S04_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S05_Serena.wav",
+      "bytes": 180524,
+      "sha256": "3877892a1b43e4569b8d8868b8344c55642106e670e72f742392d3e4703a28a3",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S05_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S06_Serena.wav",
+      "bytes": 192044,
+      "sha256": "7cc9bba02d2b17d0b79306288475677215e45bbdd1dfe7362cb00b45e586e092",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S06_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S07_Serena.wav",
+      "bytes": 161324,
+      "sha256": "8ca24ffa9952764f1a9ae73e15b5bcdac3044dd0f7be7035ee1f108dfe02c92f",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S07_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S08_Serena.wav",
+      "bytes": 165164,
+      "sha256": "2f2ad3269c2c4c724e9f2ce5b245c49777464b33d1719f59da8746f697ef2c63",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S08_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S09_Serena.wav",
+      "bytes": 241964,
+      "sha256": "90989377a3fd6329c3658051b947fafb5d8ca51a7607cd0bbb6b8e6fd976361e",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S09_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S10_Serena.wav",
+      "bytes": 134444,
+      "sha256": "8e8b4c7c3096d419518df64ce375b50e9860ab9ee62f41c414617694a2ccffeb",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S10_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S11_Serena.wav",
+      "bytes": 188204,
+      "sha256": "3c4d320c5fc07c928c15b36ee209f3ed4c1bcfce54e60dc6f3a6ba01a2599b4a",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S11_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S12_Serena.wav",
+      "bytes": 157484,
+      "sha256": "9df7d08e2de585f9864e7c21a765b1e1cd68e55ebb2285850e792827d291f4a8",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S12_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S13_Serena.wav",
+      "bytes": 318764,
+      "sha256": "106363f5d1728c0035255df23f7778539bc3e0344f84548701dceb49b6d67c11",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S13_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S14_Serena.wav",
+      "bytes": 230444,
+      "sha256": "ed7f732a80c778f90ccea790e775881294cd3e6fcb4f4c097fd6eaa118448db4",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S14_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S15_Serena.wav",
+      "bytes": 153644,
+      "sha256": "497e2eee6359fdb11d917bf0ad820a37ae5177eb5767b82f477a22f675f2954c",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S15_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S16_Serena.wav",
+      "bytes": 161324,
+      "sha256": "234034e3e45b843a3b7b7bef93fe554126513c69daf74303cf924126f8700cd5",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S16_Serena_a2.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S17_Serena.wav",
+      "bytes": 130604,
+      "sha256": "51eb3a5e10a28728ec6472aff48530e5f1653e86aa5e8ed605942d3a366dca39",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S17_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S18_Serena.wav",
+      "bytes": 161324,
+      "sha256": "b83048675cab84740c903f2f6cb104a51859fa1c3b984ab28420bb37a66ac52e",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S18_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S19_Serena.wav",
+      "bytes": 149804,
+      "sha256": "ea51e3366fca7c55a0e3a89abc0413a41d359f183106db194298683a060d305b",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S19_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S20_Serena.wav",
+      "bytes": 157484,
+      "sha256": "a7ba9822304dd6498631bfabb80dc7b85155a9f473cb256d0b5bc36111099811",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S20_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S21_Serena.wav",
+      "bytes": 115244,
+      "sha256": "dc336ebc8e56f3179e16a77afc15d249c9cab268f285b8f80d2a1872519d99e0",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S21_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S22_Serena.wav",
+      "bytes": 176684,
+      "sha256": "8498e675b764784de43ca8ef5914cced2e24750c38ea31b7fbfaecb82c845aca",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S22_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S23_Serena.wav",
+      "bytes": 203564,
+      "sha256": "fdf473e8b4691701677df81d55aa5406fe4cad8869a090178173097276585446",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S23_Serena_reused_sample.wav",
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\S23_Serena.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S24_Serena.wav",
+      "bytes": 192044,
+      "sha256": "a5f13226172072124c28e48aec7543358eb3f5fb3d9b28403cd9c32fc5dee7db",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S24_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S25_Serena.wav",
+      "bytes": 199724,
+      "sha256": "6b05bf9fbfbbd4fb402f5f5726e92e17e5eeac062e959f7f887dfd77bb4f2544",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S25_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S26_Serena.wav",
+      "bytes": 161324,
+      "sha256": "303cbbf49ee992cb373e73fcde3e9e7712be690f5d689ea54024c7ccf415eee4",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S26_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S27_Serena.wav",
+      "bytes": 314924,
+      "sha256": "e0a3b8b3d750450c5aa573b8fcd833308175114a47139a1c83d3b06ad132fdd5",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S27_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S28_Serena.wav",
+      "bytes": 134444,
+      "sha256": "97f86dcf43e714a7ede6c6597b3e0f84f3b51d8c1565a508df97ac0b5c9637ca",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S28_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S29_Serena.wav",
+      "bytes": 130604,
+      "sha256": "0d36b960242448cb24f999e299b8ae64e26a6c7df0211ead0a320a1d7b52f3ee",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S29_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/utterances/S30_Serena.wav",
+      "bytes": 280364,
+      "sha256": "48b7d739987aa55bf752bb94e837d780d47317cf1568edac234f6dfeef40c650",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S30_Serena_a1.wav"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/audio_verification.json",
+      "bytes": 10073,
+      "sha256": "fc33f62ef6c801499c547e1e418b9b4449e02dac533e8e2bf434e99d7add4e2e",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\audio_verification.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/audition_manifest.json",
+      "bytes": 6457,
+      "sha256": "8562589fc4ef224d80788b2c0189d1351d22bd47e03e657af5ecad7a190ed0a0",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\samples\\manifest.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/batch_manifest.json",
+      "bytes": 73644,
+      "sha256": "43ef0f35eff10d2ea29ebc361b5e739d94138f69a8220729c38e15c7d2caa4ac",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\batch_manifest.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/director_notes.json",
+      "bytes": 18953,
+      "sha256": "f1a39adee7ccb03b811f039ef5b3c36c6c499b11cb35e0d1354b8a662ecfaf00",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\director_notes.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/download_timing.json",
+      "bytes": 6816,
+      "sha256": "89dec71459b167f9f5bba72eda281bac1061624e4ae84a8571fbc0d0dea27bf0",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\download_timing.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/final_technical_review.json",
+      "bytes": 4717,
+      "sha256": "c8458d513250b67b148cf2d89f7ba2c68b76229ec3f386d5599ddbbb14b1c0a1",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\final_technical_review.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/publication.json",
+      "bytes": 2162,
+      "sha256": "b9a24d1f2b85fe1da0eeb0f57901e8605c7baccb93d7f7f60f9fafac3804d788",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\publication.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/voice_upgrade/runtime_manifest.json",
+      "bytes": 2705,
+      "sha256": "61c40d9700e5c70ba4ce903b7a9c9a43074caa72bb889bef0e86ca4fe55248b7",
+      "original_sources": [
+        "PROJECT_ROOT\\work\\tts_upgrade\\runtime_manifest.json"
+      ]
+    },
+    {
+      "path": "provenance/audio/说明.txt",
+      "bytes": 1331,
+      "sha256": "a2003d63331e63ece2c295edf7833af0c2575fbb76f9462be72d295f526d8387",
+      "original_sources": []
+    }
+  ],
+  "file_count": 79,
+  "total_bytes": 18178677,
+  "selected_utterances": 30,
+  "discarded_utterances_included": [
+    "S16 initial 8.32-second render"
+  ],
+  "heavy_model_weights_included": false,
+  "python_environment_included": false,
+  "full_lossless_master_included": false,
+  "waveform_review_scope": "Six selected spoken windows per final film; no claim of full subjective listening review.",
+  "subtitle_review_scope": "Six frames around three subtitle exit times; full video decode belongs to each film edit_report.json."
+}

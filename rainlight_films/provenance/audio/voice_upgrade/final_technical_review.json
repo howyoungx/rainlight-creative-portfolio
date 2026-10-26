@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-20T08:35:07.058445-05:00",
+  "status": "technical_pass",
+  "gpu_generator_process_exited": true,
+  "all_30_locked_texts_match": true,
+  "all_30_entire_waveforms_retained": true,
+  "all_30_start_at_shot_plus_one": true,
+  "narration_seconds": 300,
+  "formal_audio_unchanged_at_check": {
+    "master.wav": false,
+    "narration.wav": false,
+    "cues.json": false
+  },
+  "samples": [
+    {
+      "shot_id": "S01",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.869699478149414e-05
+    },
+    {
+      "shot_id": "S02",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.673004150390625e-05
+    },
+    {
+      "shot_id": "S03",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.738569259643555e-05
+    },
+    {
+      "shot_id": "S04",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.161762237548828e-05
+    },
+    {
+      "shot_id": "S05",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.08427619934082e-05
+    },
+    {
+      "shot_id": "S06",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.054473876953125e-05
+    },
+    {
+      "shot_id": "S07",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.3763389587402344e-05
+    },
+    {
+      "shot_id": "S08",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.340576171875e-05
+    },
+    {
+      "shot_id": "S09",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.251169204711914e-05
+    },
+    {
+      "shot_id": "S10",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.839897155761719e-05
+    },
+    {
+      "shot_id": "S11",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.066394805908203e-05
+    },
+    {
+      "shot_id": "S12",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.988908767700195e-05
+    },
+    {
+      "shot_id": "S13",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.3048133850097656e-05
+    },
+    {
+      "shot_id": "S14",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.245208740234375e-05
+    },
+    {
+      "shot_id": "S15",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.976987838745117e-05
+    },
+    {
+      "shot_id": "S16",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.263090133666992e-05
+    },
+    {
+      "shot_id": "S17",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.060434341430664e-05
+    },
+    {
+      "shot_id": "S18",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.167722702026367e-05
+    },
+    {
+      "shot_id": "S19",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.322694778442383e-05
+    },
+    {
+      "shot_id": "S20",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.2809715270996094e-05
+    },
+    {
+      "shot_id": "S21",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.066394805908203e-05
+    },
+    {
+      "shot_id": "S22",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.40614128112793e-05
+    },
+    {
+      "shot_id": "S23",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.64320182800293e-05
+    },
+    {
+      "shot_id": "S24",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.851818084716797e-05
+    },
+    {
+      "shot_id": "S25",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.7206878662109375e-05
+    },
+    {
+      "shot_id": "S26",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.857778549194336e-05
+    },
+    {
+      "shot_id": "S27",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.257129669189453e-05
+    },
+    {
+      "shot_id": "S28",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.346536636352539e-05
+    },
+    {
+      "shot_id": "S29",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 4.9948692321777344e-05
+    },
+    {
+      "shot_id": "S30",
+      "full_waveform_retained": true,
+      "max_pcm_quantization_difference": 5.054473876953125e-05
+    }
+  ]
+}

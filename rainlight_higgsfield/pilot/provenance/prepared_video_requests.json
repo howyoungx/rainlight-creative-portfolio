@@ -1,0 +1,139 @@
+{
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": false,
+        "bitrate_mode": "high",
+        "prompt": "Continue exactly from the reference frame in 丝线刺绣 style. A single unbroken 10-second eye-level medium two-shot; no cuts and no added characters. Xiaohe slowly draws the two ends of the existing cream cloth band snug around the robot's already drooping own RIGHT flipper, then gently secures one small support knot and rests one hand beside the arm. This is one careful comforting action, never pulling or removing the arm. The robot glances up toward her with two teal eyes; she gives one small reassuring smile. The brass lantern stays standing in its original ground position and its weak amber flame remains lit throughout. Chest hatch stays closed. Preserve exactly the original character shapes, face count, clothing, attached limbs, material style and spatial layout. Subtle stitched cloth flexes and silver rain threads move in the background. Keep textile fibers consistent. A very slow nearly imperceptible push-in; no orbit. No speech or lip-sync, no new text, logos, duplicate fingers, extra hands, camera cuts, magical transformation or sudden lighting changes. Use first six seconds for the slow tightening, final four seconds for the small reassuring glance and quiet breathing.",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "314647d9-107b-476e-9aef-8248bda9abff"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "kling4_0",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "mode": "image-to-video",
+        "prompt": "Continue exactly from the reference frame in 透光皮影 style. A single unbroken 10-second eye-level medium two-shot; no cuts and no added characters. Xiaohe slowly draws the two ends of the existing cream cloth band snug around the robot's already drooping own RIGHT flipper, then gently secures one small support knot and rests one hand beside the arm. This is one careful comforting action, never pulling or removing the arm. The robot glances up toward her with two teal eyes; she gives one small reassuring smile. The brass lantern stays standing in its original ground position and its weak amber flame remains lit throughout. Chest hatch stays closed. Preserve exactly the original character shapes, face count, clothing, attached limbs, material style and spatial layout. Graceful precisely articulated shadow-puppet motion, tiny parallax of layered scenery; keep silhouettes crisp and connected. A very slow nearly imperceptible push-in; no orbit. No speech or lip-sync, no new text, logos, duplicate fingers, extra hands, camera cuts, magical transformation or sudden lighting changes. Use first six seconds for the slow tightening, final four seconds for the small reassuring glance and quiet breathing.",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "914f7424-f87c-41df-8d99-c05b8a44c063"
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "flux_3_video",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "prompt": "Continue exactly from the reference frame in 蓝晒摄影 style. A single unbroken 10-second eye-level medium two-shot; no cuts and no added characters. Xiaohe slowly draws the two ends of the existing cream cloth band snug around the robot's already drooping own RIGHT flipper, then gently secures one small support knot and rests one hand beside the arm. This is one careful comforting action, never pulling or removing the arm. The robot glances up toward her with two teal eyes; she gives one small reassuring smile. The brass lantern stays standing in its original ground position and its weak amber flame remains lit throughout. Chest hatch stays closed. Preserve exactly the original character shapes, face count, clothing, attached limbs, material style and spatial layout. Subtle photographic parallax and organic silver rain; grain stays fine and steady without boiling, tearing or morphing. A very slow nearly imperceptible push-in; no orbit. No speech or lip-sync, no new text, logos, duplicate fingers, extra hands, camera cuts, magical transformation or sudden lighting changes. Use first six seconds for the slow tightening, final four seconds for the small reassuring glance and quiet breathing.",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "55b231f8-6a23-4450-a628-55190672c641"
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "veo3_1",
+        "duration": 6,
+        "aspect_ratio": "16:9",
+        "quality": "ultra",
+        "variant": "veo-3-1-preview",
+        "prompt": "Continue exactly from the reference frame in 真人实景童话 style. A single unbroken 6-second eye-level medium two-shot; no cuts and no added characters. Xiaohe slowly draws the two ends of the existing cream cloth band snug around the robot's already drooping own RIGHT flipper, then gently secures one small support knot and rests one hand beside the arm. This is one careful comforting action, never pulling or removing the arm. The robot glances up toward her with two teal eyes; she gives one small reassuring smile. The brass lantern stays standing in its original ground position and its weak amber flame remains lit throughout. Chest hatch stays closed. Preserve exactly the original character shapes, face count, clothing, attached limbs, material style and spatial layout. Natural gentle human hand movement, physically convincing cloth tension and slight animatronic response; subtle real rain outside. A very slow nearly imperceptible push-in; no orbit. No speech or lip-sync, no new text, logos, duplicate fingers, extra hands, camera cuts, magical transformation or sudden lighting changes. Complete the gentle tightening and reassuring glance within six seconds.",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "94508158-9cb0-4d18-bf0e-5942ec2e80d4"
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "wan3_0_prime",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "enable_thinking": true,
+        "prompt": "Continue exactly from the reference frame in 木雕嵌木木偶 style. A single unbroken 10-second eye-level medium two-shot; no cuts and no added characters. Xiaohe slowly draws the two ends of the existing cream cloth band snug around the robot's already drooping own RIGHT flipper, then gently secures one small support knot and rests one hand beside the arm. This is one careful comforting action, never pulling or removing the arm. The robot glances up toward her with two teal eyes; she gives one small reassuring smile. The brass lantern stays standing in its original ground position and its weak amber flame remains lit throughout. Chest hatch stays closed. Preserve exactly the original character shapes, face count, clothing, attached limbs, material style and spatial layout. Small expressive articulated wooden-puppet movements with stable wood grain, real fabric bandage bends naturally; controlled miniature-stage camera. A very slow nearly imperceptible push-in; no orbit. No speech or lip-sync, no new text, logos, duplicate fingers, extra hands, camera cuts, magical transformation or sudden lighting changes. Use first six seconds for the slow tightening, final four seconds for the small reassuring glance and quiet breathing.",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "3b6728d8-e1cf-4b24-9ad3-3ec3f2e7b343"
+          }
+        ]
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "index": 1,
+      "model": "seedance_2_5",
+      "cost": {
+        "credits": 160,
+        "credits_exact": 160
+      }
+    },
+    {
+      "index": 2,
+      "model": "kling4_0",
+      "cost": {
+        "credits": 10,
+        "credits_exact": 10
+      }
+    },
+    {
+      "index": 3,
+      "model": "flux_3_video",
+      "cost": {
+        "credits": 80,
+        "credits_exact": 80
+      }
+    },
+    {
+      "index": 4,
+      "model": "veo3_1",
+      "cost": {
+        "credits": 90,
+        "credits_exact": 90
+      }
+    },
+    {
+      "index": 5,
+      "model": "wan3_0_prime",
+      "cost": {
+        "credits": 60,
+        "credits_exact": 60
+      }
+    }
+  ]
+}

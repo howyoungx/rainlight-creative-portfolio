@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-25T01:56:59.606-05:00",
+  "audio_samples_per_channel": 14400000,
+  "duration_seconds": 300,
+  "subtitle_cues": 30,
+  "sha256": {
+    "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+    "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+  }
+}

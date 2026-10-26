@@ -1,0 +1,251 @@
+{
+  "prompt": [
+    4,
+    "0b4f49df-7ba0-4720-bde6-3f4bff57a90c",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Edit the reference photograph. Change only the woman's red raincoat to an elegant cream-colored wool coat with a dark green scarf. Keep the same woman, recognizable face, black hair, pose, transparent umbrella, camera angle, rainy neon street and background train. Realistic fashion editorial photograph.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 448,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 12347
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 448
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "22",
+            0
+          ],
+          "negative": [
+            "23",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/05_virtual_outfit"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "ref_01.png"
+        }
+      },
+      "21": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "20",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      },
+      "23": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "5",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1792472376715
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "05_virtual_outfit_00001_.png",
+          "subfolder": "spark_demos",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 448
+          },
+          "id": "63651446-0763-4afe-ae96-26a6d607db42"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "0b4f49df-7ba0-4720-bde6-3f4bff57a90c",
+          "timestamp": 1792472376716
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8"
+          ],
+          "prompt_id": "0b4f49df-7ba0-4720-bde6-3f4bff57a90c",
+          "timestamp": 1792472376728
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "0b4f49df-7ba0-4720-bde6-3f4bff57a90c",
+          "timestamp": 1792472381989
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

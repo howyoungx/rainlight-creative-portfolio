@@ -1,0 +1,331 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-20T10:38:55-05:00",
+  "completed_at": "2026-10-20T10:41:14-05:00",
+  "path": "PROJECT_ROOT\\outputs\\rainlight_films\\05_pixel\\film.mp4",
+  "bytes": 70720581,
+  "elapsed_seconds": 139.125,
+  "encode_seconds": 128.898,
+  "audio_master": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+  "cue_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\cues.json",
+  "shot_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30"
+  ],
+  "crop_policy": "Center crop to 16:9; 768x448 source loses 8 pixels at top and bottom; upscale to 1280x720.",
+  "frame_policy": "First 240 decoded frames per generated clip; no video looping or padding.",
+  "source_audio_policy": "Generated clip sound is replaced by the shared narration/music master.",
+  "visual_postprocessing": "Pixel style only: each cropped source frame is downsampled to 256x144 with area averaging, then enlarged with nearest-neighbor to 1280x720 (exact 5x5 pixel blocks), before subtitles and titles are composited.",
+  "video_frames_written": 7200,
+  "audio_samples_written": 14400000,
+  "source_clips": [
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S01_h3_matte_qc4\\05_pixel_S01_h3_matte_qc4_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 0,
+      "timeline_end_seconds": 10,
+      "encode_seconds": 2.77
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S02_ltx_v2\\05_pixel_S02_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 10,
+      "timeline_end_seconds": 20,
+      "encode_seconds": 2.887
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S03_ltx_v2\\05_pixel_S03_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 20,
+      "timeline_end_seconds": 30,
+      "encode_seconds": 3.324
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S04_ltx_v2\\05_pixel_S04_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 30,
+      "timeline_end_seconds": 40,
+      "encode_seconds": 5.809
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S05_ltx_v2\\05_pixel_S05_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 40,
+      "timeline_end_seconds": 50,
+      "encode_seconds": 5.742
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S06_ltx_v3\\05_pixel_S06_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 50,
+      "timeline_end_seconds": 60,
+      "encode_seconds": 4.965
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S07_ltx_v2\\05_pixel_S07_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 60,
+      "timeline_end_seconds": 70,
+      "encode_seconds": 2.869
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S08_ltx_v3\\05_pixel_S08_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 70,
+      "timeline_end_seconds": 80,
+      "encode_seconds": 3.061
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S09_ltx_v4_safe\\05_pixel_S09_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 80,
+      "timeline_end_seconds": 90,
+      "encode_seconds": 5.478
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S10_ltx_v4_safe\\05_pixel_S10_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 90,
+      "timeline_end_seconds": 100,
+      "encode_seconds": 5.435
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S11_ltx_v2\\05_pixel_S11_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 100,
+      "timeline_end_seconds": 110,
+      "encode_seconds": 4.666
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S12_ltx_v2\\05_pixel_S12_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 110,
+      "timeline_end_seconds": 120,
+      "encode_seconds": 4.435
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S13_h3_qc2\\05_pixel_S13_h3_qc2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 120,
+      "timeline_end_seconds": 130,
+      "encode_seconds": 3.334
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S14_ltx_v4_safe\\05_pixel_S14_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 130,
+      "timeline_end_seconds": 140,
+      "encode_seconds": 3.169
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S15_ltx_v2\\05_pixel_S15_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 140,
+      "timeline_end_seconds": 150,
+      "encode_seconds": 5.003
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S16_ltx_v2\\05_pixel_S16_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 150,
+      "timeline_end_seconds": 160,
+      "encode_seconds": 3.599
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S17_ltx_v2\\05_pixel_S17_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 160,
+      "timeline_end_seconds": 170,
+      "encode_seconds": 3.845
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S18_ltx_v2\\05_pixel_S18_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 170,
+      "timeline_end_seconds": 180,
+      "encode_seconds": 4.017
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S19_ltx_v4_safe\\05_pixel_S19_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 180,
+      "timeline_end_seconds": 190,
+      "encode_seconds": 4.245
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S20_h3_qc3\\05_pixel_S20_h3_qc3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 190,
+      "timeline_end_seconds": 200,
+      "encode_seconds": 4.688
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S21_ltx_v4_safe\\05_pixel_S21_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 200,
+      "timeline_end_seconds": 210,
+      "encode_seconds": 4.947
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S22_ltx_v2\\05_pixel_S22_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 210,
+      "timeline_end_seconds": 220,
+      "encode_seconds": 4.409
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S23_ltx_v2\\05_pixel_S23_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 220,
+      "timeline_end_seconds": 230,
+      "encode_seconds": 5.138
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S24_ltx_v2\\05_pixel_S24_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 230,
+      "timeline_end_seconds": 240,
+      "encode_seconds": 3.562
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S25_ltx_v2\\05_pixel_S25_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 240,
+      "timeline_end_seconds": 250,
+      "encode_seconds": 3.369
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S26_ltx_v4_safe\\05_pixel_S26_ltx_v4_safe_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 250,
+      "timeline_end_seconds": 260,
+      "encode_seconds": 4.82
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S27_ltx_v3\\05_pixel_S27_ltx_v3_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 260,
+      "timeline_end_seconds": 270,
+      "encode_seconds": 5.266
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S28_ltx_v2\\05_pixel_S28_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 270,
+      "timeline_end_seconds": 280,
+      "encode_seconds": 5.886
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S29_ltx_v2\\05_pixel_S29_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 280,
+      "timeline_end_seconds": 290,
+      "encode_seconds": 4.087
+    },
+    {
+      "clip": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\05_pixel_S30_ltx_v2\\05_pixel_S30_ltx_v2_00001_.mp4",
+      "used_frames": 240,
+      "first_frame": 0,
+      "last_frame": 239,
+      "timeline_start_seconds": 290,
+      "timeline_end_seconds": 300,
+      "encode_seconds": 3.717
+    }
+  ],
+  "verified": true,
+  "decoded_frames": 7200,
+  "duration_seconds": 300.0,
+  "audio_duration_seconds": 300.0,
+  "fps": 24.0,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "validation_seconds": 9.991
+}

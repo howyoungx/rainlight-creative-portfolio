@@ -1,0 +1,206 @@
+{
+  "prompt": [
+    5,
+    "ade285f0-7592-440e-9376-6c66842a035b",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "A polished 2 by 2 sticker sheet showing the SAME adorable small orange fox character with a cream muzzle, big expressive eyes and a tiny teal scarf. Four distinct expressions: top left waving hello with a happy smile, top right laughing with tears of joy, bottom left sleepy hugging a pillow, bottom right cheering holding a little red heart. White background, thick clean sticker outlines, four separated full-body stickers with consistent character design. Charming soft 3D cartoon style. No text, no lettering.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 768,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 12348
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 768
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/06_sticker_pack"
+        }
+      }
+    },
+    {
+      "create_time": 1792472384772
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "06_sticker_pack_00001_.png",
+          "subfolder": "spark_demos",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 768
+          },
+          "id": "ac1076b5-b3db-4f3c-a43a-d97efe125544"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "ade285f0-7592-440e-9376-6c66842a035b",
+          "timestamp": 1792472384774
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8"
+          ],
+          "prompt_id": "ade285f0-7592-440e-9376-6c66842a035b",
+          "timestamp": 1792472384774
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "ade285f0-7592-440e-9376-6c66842a035b",
+          "timestamp": 1792472387050
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "wall_seconds": 128.76826989999972,
+  "execution_seconds_sum": 76.731,
+  "resolution": [
+    768,
+    1152
+  ],
+  "steps": 4,
+  "model": "FLUX.2 Klein 4B FP8"
+}

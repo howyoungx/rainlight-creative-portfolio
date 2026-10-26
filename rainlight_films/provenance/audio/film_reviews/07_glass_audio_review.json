@@ -1,0 +1,154 @@
+{
+  "style_id": "07_glass",
+  "checked_at": "2026-10-22T10:48:10.767395-05:00",
+  "film": "PROJECT_ROOT\\outputs\\rainlight_films\\07_glass\\film.mp4",
+  "film_bytes": 98707502,
+  "film_mtime_ns": 1792684064044425800,
+  "film_sha256": "10174a3b466f14bd63fe5a06f2efb32559a89f1c2dde8108cabf78566d42f0f8",
+  "cue_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+  "published_master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+  "old_piper_reference_sha256": "c06aaf576219222fcfa82a3a66ba6a5b1d93e4498249f17e5278682edeb2adb4",
+  "audio_metadata": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 300.0
+  },
+  "waveform_samples": [
+    {
+      "shot_id": "S01",
+      "start_seconds": 1.0,
+      "window_seconds": 4.1,
+      "new_master_correlation": 0.9999432609032727,
+      "old_piper_master_correlation": -0.015909066732718607,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 199,
+      "passed": true
+    },
+    {
+      "shot_id": "S05",
+      "start_seconds": 41.0,
+      "window_seconds": 4.26,
+      "new_master_correlation": 0.9999269247607525,
+      "old_piper_master_correlation": 0.0009993660076183272,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 206,
+      "passed": true
+    },
+    {
+      "shot_id": "S13",
+      "start_seconds": 121.0,
+      "window_seconds": 7.14,
+      "new_master_correlation": 0.9999039408958564,
+      "old_piper_master_correlation": -0.00087204567437813,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 341,
+      "passed": true
+    },
+    {
+      "shot_id": "S16",
+      "start_seconds": 151.0,
+      "window_seconds": 3.86,
+      "new_master_correlation": 0.999933923403711,
+      "old_piper_master_correlation": -0.00030710337585899045,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 188,
+      "passed": true
+    },
+    {
+      "shot_id": "S23",
+      "start_seconds": 221.0,
+      "window_seconds": 4.74,
+      "new_master_correlation": 0.9999606635739827,
+      "old_piper_master_correlation": 0.002942459232870471,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 229,
+      "passed": true
+    },
+    {
+      "shot_id": "S30",
+      "start_seconds": 291.0,
+      "window_seconds": 6.34,
+      "new_master_correlation": 0.9997747464009457,
+      "old_piper_master_correlation": -0.0005263117633910859,
+      "alignment_lag_samples": 0,
+      "alignment_lag_seconds": 0.0,
+      "sample_coverage": 1.0,
+      "audio_frames_decoded": 303,
+      "passed": true
+    }
+  ],
+  "audio_passed": true,
+  "subtitle_contact_sheet": "PROJECT_ROOT\\work\\film_audio_qc\\07_glass_subtitle_contact.jpg",
+  "subtitle_frames": [
+    {
+      "shot_id": "S01",
+      "requested_seconds": 5.85,
+      "actual_seconds": 5.875,
+      "subtitle_expected": true,
+      "expected_text": "雨城已经很久，没有看见清晨了。",
+      "frames_decoded_for_seek": 142
+    },
+    {
+      "shot_id": "S01",
+      "requested_seconds": 6.35,
+      "actual_seconds": 6.375,
+      "subtitle_expected": false,
+      "expected_text": "",
+      "frames_decoded_for_seek": 154
+    },
+    {
+      "shot_id": "S13",
+      "requested_seconds": 128.75,
+      "actual_seconds": 128.75,
+      "subtitle_expected": true,
+      "expected_text": "灯还亮着，圆点却快走不动了。",
+      "frames_decoded_for_seek": 211
+    },
+    {
+      "shot_id": "S13",
+      "requested_seconds": 129.25,
+      "actual_seconds": 129.25,
+      "subtitle_expected": false,
+      "expected_text": "",
+      "frames_decoded_for_seek": 223
+    },
+    {
+      "shot_id": "S23",
+      "requested_seconds": 226.49,
+      "actual_seconds": 226.5,
+      "subtitle_expected": true,
+      "expected_text": "“那就分一点给灯，也留一点给你。”",
+      "frames_decoded_for_seek": 157
+    },
+    {
+      "shot_id": "S23",
+      "requested_seconds": 226.99,
+      "actual_seconds": 227.0,
+      "subtitle_expected": false,
+      "expected_text": "",
+      "frames_decoded_for_seek": 169
+    }
+  ],
+  "subtitle_visual_review": {
+    "approved": true,
+    "reviewed_at": "2026-10-22T10:50:03.860022-05:00",
+    "method": "Six sampled frames: S01, S13 and S23 at 0.25 seconds before and after each new subtitle end.",
+    "notes": "已目检 S01/S13/S23 字幕退出前后六帧：文字原文正确、清晰，退出后无残留。玻璃分片在人物和近景保留，部分远景较平滑。此结论仅覆盖六帧抽检。"
+  },
+  "full_video_decode_repeated": false,
+  "audio_sampled_seconds": 30.439999999999998,
+  "video_sampled_frames": 6,
+  "lag_measurement": "Full-resolution cross-correlation within +/-480 samples (10 ms).",
+  "wall_seconds": 6.609854999987874
+}

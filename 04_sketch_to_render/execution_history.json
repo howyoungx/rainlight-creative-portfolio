@@ -1,0 +1,251 @@
+{
+  "prompt": [
+    3,
+    "a30f153e-c80c-4a2b-baa6-6db9d7af81a0",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Turn this architectural sketch into a realistic architectural photograph. Preserve the cabin silhouette, centered triangular roof, one front door, two front windows, path and trees from the drawing. Build the cabin with warm cedar wood and dark slate roof in a tranquil pine forest at golden hour. Cozy warm window light, subtle ground fog, refined architecture photography. No sketch lines, no text.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 512,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 12346
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 512
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "22",
+            0
+          ],
+          "negative": [
+            "23",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/04_sketch_to_render"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "demo_cabin_sketch.png"
+        }
+      },
+      "21": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "20",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      },
+      "23": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "5",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1792472372671
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "04_sketch_to_render_00001_.png",
+          "subfolder": "spark_demos",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 512
+          },
+          "id": "b75ed216-e1ad-4329-a5d8-04066e91110d"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "a30f153e-c80c-4a2b-baa6-6db9d7af81a0",
+          "timestamp": 1792472372672
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8"
+          ],
+          "prompt_id": "a30f153e-c80c-4a2b-baa6-6db9d7af81a0",
+          "timestamp": 1792472372680
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "a30f153e-c80c-4a2b-baa6-6db9d7af81a0",
+          "timestamp": 1792472375336
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

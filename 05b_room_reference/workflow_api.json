@@ -1,0 +1,138 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux-2-klein-4b-fp8.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_4b.safetensors",
+        "type": "flux2",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "Real estate photograph of a simple small unfurnished rectangular living room, large floor-to-ceiling window on the left wall looking at green trees, plain white walls, light oak floor, a small neutral sofa centered against the back wall, a low simple rectangular coffee table, one floor lamp on the right, clean uncluttered space, wide angle camera from the doorway, daylight, realistic interior photography.",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "ConditioningZeroOut",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "width": 768,
+        "height": 512,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "noise_seed": 20261021
+      }
+    },
+    "8": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "9": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "steps": 4,
+        "width": 768,
+        "height": 512
+      }
+    },
+    "10": {
+      "class_type": "CFGGuider",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "4",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "cfg": 1.0
+      }
+    },
+    "11": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "noise": [
+          "7",
+          0
+        ],
+        "guider": [
+          "10",
+          0
+        ],
+        "sampler": [
+          "8",
+          0
+        ],
+        "sigmas": [
+          "9",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ]
+      }
+    },
+    "12": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "11",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "13": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "12",
+          0
+        ],
+        "filename_prefix": "spark_demos/05b_room_reference"
+      }
+    }
+  }
+}

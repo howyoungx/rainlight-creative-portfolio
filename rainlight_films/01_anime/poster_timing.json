@@ -1,0 +1,25 @@
+{
+  "style_id": "01_anime",
+  "name": "手绘赛璐璐动画",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:33:47-05:00",
+  "completed_at": "2026-10-20T00:39:18.144-05:00",
+  "generation_seconds": 3.907,
+  "queue_seconds": 0.153,
+  "layout_seconds": 0.103,
+  "rework_seconds": 6.486,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 331.144,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.2324,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:39:17.911-05:00",
+      "completed_at": "2026-10-20T00:39:18.144-05:00",
+      "seconds": 0.2324,
+      "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "style_id": "03_papercut",
+  "name": "立体剪纸剧场",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:01-05:00",
+  "completed_at": "2026-10-20T00:43:14.282-05:00",
+  "generation_seconds": 3.72,
+  "queue_seconds": 0.652,
+  "layout_seconds": 0.11,
+  "rework_seconds": 6.301,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 553.282,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.3965,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:39:18.438-05:00",
+      "completed_at": "2026-10-20T00:39:18.599-05:00",
+      "seconds": 0.1609,
+      "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+    },
+    {
+      "started_at": "2026-10-20T00:43:14.046-05:00",
+      "completed_at": "2026-10-20T00:43:14.282-05:00",
+      "seconds": 0.2356,
+      "reason": "Typeset visually approved paper-character revision with unobstructed faces."
+    }
+  ],
+  "generation_revisions": [
+    {
+      "job_key": "03_papercut_poster_v3",
+      "prompt_id": "b937b57f-a9dc-4b33-bc64-a074ce709922",
+      "execution_seconds": 7.716,
+      "queue_seconds": 178.702,
+      "submitted_at": "2026-10-20T00:39:55.504-05:00",
+      "completed_at": "2026-10-20T00:43:02.787-05:00",
+      "selected": true,
+      "reason": "Restyle both characters into flat layered cardstock instead of rounded CG puppets."
+    }
+  ],
+  "generation_revision_seconds": 7.716,
+  "queue_revision_seconds": 178.702
+}

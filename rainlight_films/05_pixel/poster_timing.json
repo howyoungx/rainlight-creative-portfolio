@@ -1,0 +1,58 @@
+{
+  "style_id": "05_pixel",
+  "name": "像素冒险电影",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:16-05:00",
+  "completed_at": "2026-10-20T01:01:32.493-05:00",
+  "generation_seconds": 3.882,
+  "queue_seconds": 0.10400000000000001,
+  "layout_seconds": 0.135,
+  "rework_seconds": 6.4750000000000005,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 1636.493,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.3135,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:39:18.923-05:00",
+      "completed_at": "2026-10-20T00:39:19.084-05:00",
+      "seconds": 0.1612,
+      "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+    },
+    {
+      "started_at": "2026-10-20T01:01:32.340-05:00",
+      "completed_at": "2026-10-20T01:01:32.493-05:00",
+      "seconds": 0.1523,
+      "reason": "Nearest-neighbor enlargement preserves the coarse image pixel grid; title typography is composed afterwards at full resolution."
+    }
+  ],
+  "generation_revisions": [
+    {
+      "job_key": "05_poster_v3",
+      "prompt_id": "0d02e3e7-616c-454c-b5fa-0ddee9e400a7",
+      "execution_seconds": 7.757,
+      "queue_seconds": 0.021,
+      "submitted_at": "2026-10-20T00:57:11.606-05:00",
+      "completed_at": "2026-10-20T00:57:19.790-05:00",
+      "selected": true,
+      "reason": "Local ComfyUI diffusion revision supplied the source for the subsequently pixelated final artwork."
+    }
+  ],
+  "generation_revision_seconds": 7.757,
+  "queue_revision_seconds": 0.021,
+  "postprocess_revisions": [
+    {
+      "job_key": "05_poster_pixelgrid",
+      "prompt_id": "7c304952-a78b-4b81-b831-13b682e4ba64",
+      "execution_seconds": 0.349,
+      "queue_seconds": 17.485,
+      "submitted_at": "2026-10-20T00:59:34.634-05:00",
+      "completed_at": "2026-10-20T00:59:52.796-05:00",
+      "method": "Local ComfyUI native ImageScale area downsample to 160x240, followed by nearest-exact enlargement to 768x1152. This is pixel-grid postprocessing, separately recorded from diffusion generation."
+    }
+  ],
+  "postprocess_seconds": 0.349,
+  "postprocess_queue_seconds": 17.485
+}

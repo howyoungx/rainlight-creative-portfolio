@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "started_at": "2026-10-25T02:48:25.258-05:00",
+  "completed_at": "2026-10-25T02:48:29.600-05:00",
+  "elapsed_seconds": 4.342609899991658,
+  "archive": "Rainlight_Higgsfield_5_Pilots.zip",
+  "archive_bytes": 256097540,
+  "archive_sha256": "74ecab62bf93820aacd383a68c2b6275b2c76b9507621cbc831642a80f188540",
+  "crc_passed": true,
+  "content_sha256_passed": true,
+  "preview_count": 5,
+  "files": [
+    {
+      "id": "11_seedance_thread",
+      "name": "织光",
+      "model": "Seedance 2.5",
+      "preview_file": "11_seedance_thread/preview.mp4",
+      "requested_duration_seconds": 10.0,
+      "actual_duration_seconds": 10.041666666666666,
+      "credits": 162.0,
+      "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+      "preview_sha256": "8f9c5063abe551949ffbb1c92610bab6f969bc8867a9df472291572118ce2f0a",
+      "raw_sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+      "reference_sha256": "339742b3d05e9dcc620652a09c172cde5b2bebbbee592ae61a8cae845ab11149",
+      "media_report_sha256": "a262bbb5e488f9937148295dda5f57152d4406d957dbf06a899f8e1277f4ea91"
+    },
+    {
+      "id": "12_kling_shadow",
+      "name": "影中灯",
+      "model": "Kling 4.0",
+      "preview_file": "12_kling_shadow/preview.mp4",
+      "requested_duration_seconds": 10.0,
+      "actual_duration_seconds": 10.041666666666666,
+      "credits": 12.0,
+      "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+      "preview_sha256": "7b5975320c3a69faa4e20e46b95ddcaccf5a0dd571f8cb47ffec205d23f34cb0",
+      "raw_sha256": "94ad291b05e9dc7a09557761ec552a648e97e8d7da3dcfdfcd3aa3a210b57623",
+      "reference_sha256": "f3631f772bf42178979714dd4687cd9d55d771d1b12f6d0da0111f46cda46148",
+      "media_report_sha256": "45f068408d6829b932bcaa1bb95e298734a3c611f17a7366c1b5f7b916456dad"
+    },
+    {
+      "id": "13_flux_cyanotype",
+      "name": "普鲁士蓝的黎明",
+      "model": "FLUX 3 Video",
+      "preview_file": "13_flux_cyanotype/preview.mp4",
+      "requested_duration_seconds": 10.0,
+      "actual_duration_seconds": 10.041666666666666,
+      "credits": 82.0,
+      "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+      "preview_sha256": "aa9ea4f0cf761bab6857b949734919a721f2b57bc78c9cfa3f2c2bc0490af8f6",
+      "raw_sha256": "a1c016c31dcbc02bd1cedd963495334ad1bb3f0db62af1f21b7bbfe7b3813026",
+      "reference_sha256": "fff494b49430ad8aec89a27fea0bd6966670bd72f0f462108f7c6a009d07548d",
+      "media_report_sha256": "96a88c0dfe576f7917f6c44ceecc81feee21ec14e89ebe423f176b5ebe1291f4"
+    },
+    {
+      "id": "14_veo_liveaction",
+      "name": "雨夜实录",
+      "model": "Google Veo 3.1",
+      "preview_file": "14_veo_liveaction/preview.mp4",
+      "requested_duration_seconds": 6.0,
+      "actual_duration_seconds": 6.0,
+      "credits": 92.0,
+      "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+      "preview_sha256": "0b3bb37d31213a9ecb6416850fc8d81a9c580e4173869f5c5fddb4377a76c919",
+      "raw_sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7",
+      "reference_sha256": "0bd3aee595978e2a32e928120c1741403476a1e439c47b00e500be65787683b9",
+      "media_report_sha256": "5f46c759550e5cb2d6e01a166ac01ccab5d6798710ea702207b727f22d5b9b6d"
+    },
+    {
+      "id": "15_wan_marquetry",
+      "name": "木作微光",
+      "model": "Wan 3.0 Prime",
+      "preview_file": "15_wan_marquetry/preview.mp4",
+      "requested_duration_seconds": 10.0,
+      "actual_duration_seconds": 10.0,
+      "credits": 62.0,
+      "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+      "preview_sha256": "f0e93843a59ea99c1189b377b0dd1f12b77e59d9cf5377311adfab1c20e8175d",
+      "raw_sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+      "reference_sha256": "81827177fa1c2647d20fa24d9f1168ff38c22f8c56f126434f1fecb826e0c5bd",
+      "media_report_sha256": "960feb1b6715196df89400f20e9dec51b22c4030096925941b127d2d4f134647"
+    }
+  ],
+  "archive_inventory": [
+    {
+      "file": "11_seedance_thread/contact.jpg",
+      "sha256": "452fb452e8f48c3b5a398d89e9205ff38f3053e852ca84344bc463ccf101d14d"
+    },
+    {
+      "file": "11_seedance_thread/media_report.json",
+      "sha256": "a262bbb5e488f9937148295dda5f57152d4406d957dbf06a899f8e1277f4ea91"
+    },
+    {
+      "file": "11_seedance_thread/preview.mp4",
+      "sha256": "8f9c5063abe551949ffbb1c92610bab6f969bc8867a9df472291572118ce2f0a"
+    },
+    {
+      "file": "11_seedance_thread/raw.mp4",
+      "sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c"
+    },
+    {
+      "file": "11_seedance_thread/reference.png",
+      "sha256": "339742b3d05e9dcc620652a09c172cde5b2bebbbee592ae61a8cae845ab11149"
+    },
+    {
+      "file": "12_kling_shadow/contact.jpg",
+      "sha256": "fd988de68c2a728296aaa21c298c4e714b0fd39fccf5765bc1247c07d54d41cb"
+    },
+    {
+      "file": "12_kling_shadow/media_report.json",
+      "sha256": "45f068408d6829b932bcaa1bb95e298734a3c611f17a7366c1b5f7b916456dad"
+    },
+    {
+      "file": "12_kling_shadow/preview.mp4",
+      "sha256": "7b5975320c3a69faa4e20e46b95ddcaccf5a0dd571f8cb47ffec205d23f34cb0"
+    },
+    {
+      "file": "12_kling_shadow/raw.mp4",
+      "sha256": "94ad291b05e9dc7a09557761ec552a648e97e8d7da3dcfdfcd3aa3a210b57623"
+    },
+    {
+      "file": "12_kling_shadow/reference.png",
+      "sha256": "f3631f772bf42178979714dd4687cd9d55d771d1b12f6d0da0111f46cda46148"
+    },
+    {
+      "file": "13_flux_cyanotype/contact.jpg",
+      "sha256": "6e9c767eea2f5cda5a2c629d1cf3388b27140a1abd70e897a29589958f606920"
+    },
+    {
+      "file": "13_flux_cyanotype/media_report.json",
+      "sha256": "96a88c0dfe576f7917f6c44ceecc81feee21ec14e89ebe423f176b5ebe1291f4"
+    },
+    {
+      "file": "13_flux_cyanotype/preview.mp4",
+      "sha256": "aa9ea4f0cf761bab6857b949734919a721f2b57bc78c9cfa3f2c2bc0490af8f6"
+    },
+    {
+      "file": "13_flux_cyanotype/raw.mp4",
+      "sha256": "a1c016c31dcbc02bd1cedd963495334ad1bb3f0db62af1f21b7bbfe7b3813026"
+    },
+    {
+      "file": "13_flux_cyanotype/reference.png",
+      "sha256": "fff494b49430ad8aec89a27fea0bd6966670bd72f0f462108f7c6a009d07548d"
+    },
+    {
+      "file": "14_veo_liveaction/contact.jpg",
+      "sha256": "5d75f961c83cc1b67c6cf5eece04abfc9cb14068a0f9f0e0285226a25d13787c"
+    },
+    {
+      "file": "14_veo_liveaction/media_report.json",
+      "sha256": "5f46c759550e5cb2d6e01a166ac01ccab5d6798710ea702207b727f22d5b9b6d"
+    },
+    {
+      "file": "14_veo_liveaction/preview.mp4",
+      "sha256": "0b3bb37d31213a9ecb6416850fc8d81a9c580e4173869f5c5fddb4377a76c919"
+    },
+    {
+      "file": "14_veo_liveaction/raw.mp4",
+      "sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7"
+    },
+    {
+      "file": "14_veo_liveaction/reference.png",
+      "sha256": "0bd3aee595978e2a32e928120c1741403476a1e439c47b00e500be65787683b9"
+    },
+    {
+      "file": "15_wan_marquetry/contact.jpg",
+      "sha256": "cc107c979ad4451930cf0a5b798d8e7899e88add853958149514aed4cfa1e9e9"
+    },
+    {
+      "file": "15_wan_marquetry/media_report.json",
+      "sha256": "960feb1b6715196df89400f20e9dec51b22c4030096925941b127d2d4f134647"
+    },
+    {
+      "file": "15_wan_marquetry/preview.mp4",
+      "sha256": "f0e93843a59ea99c1189b377b0dd1f12b77e59d9cf5377311adfab1c20e8175d"
+    },
+    {
+      "file": "15_wan_marquetry/raw.mp4",
+      "sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd"
+    },
+    {
+      "file": "15_wan_marquetry/reference.png",
+      "sha256": "81827177fa1c2647d20fa24d9f1168ff38c22f8c56f126434f1fecb826e0c5bd"
+    },
+    {
+      "file": "index.html",
+      "sha256": "3cba18d4f0be2e88d54eee6b6ce5b161cf214fced78a25eed2ca3f0cc04c376c"
+    },
+    {
+      "file": "media_manifest.json",
+      "sha256": "8aae5648cca493c9e1fa2561caf26d0df8afe5e6dc4dc17fb581b829f1b22414"
+    },
+    {
+      "file": "pilot_manifest.json",
+      "sha256": "0903d6e5cef21b450a2e7f6b7a9f792a60f27b526e8a5a9c7f4d6f5c8bf35da5"
+    },
+    {
+      "file": "provenance/balance_after_submission.json",
+      "sha256": "ea332ea895cf7d5b2f49a19fa448f5fc5c182164bf14c862048eb2921384f479"
+    },
+    {
+      "file": "provenance/budget_quote.json",
+      "sha256": "2db5952ed2e63326f1da43b262cfdc728378494f9207c6526b88f05f68b3ce06"
+    },
+    {
+      "file": "provenance/catalog_snapshot.json",
+      "sha256": "198342e2f3525bd4e4f421dd757d9bbfaadafc99d10835a1a642a6f607b7c488"
+    },
+    {
+      "file": "provenance/creative_plan.json",
+      "sha256": "35e88accc8b0a0f572c6ba231f9eb0d1b603cbeadf212b2b6c6c78a964deebae"
+    },
+    {
+      "file": "provenance/image_results.json",
+      "sha256": "fe195d59e2561aedc588a2ee28445171f9f50bf723362bc51d532c02bc6dd07e"
+    },
+    {
+      "file": "provenance/image_results_downloaded.json",
+      "sha256": "499954315d24af334c24e9146f4c1aa674d2ca31cc7b05da65591f42c06c6567"
+    },
+    {
+      "file": "provenance/image_submission.json",
+      "sha256": "d36185b664937b51c3ae7d092171c8e8756f943bde89f6c6f60625f5a4d4b042"
+    },
+    {
+      "file": "provenance/pilot_requests.json",
+      "sha256": "d31b7908dc314e690ac395d1938d38bc6b5135d92ff167556bd1f13e1a3ccb37"
+    },
+    {
+      "file": "provenance/prepared_video_requests.json",
+      "sha256": "902c37723986b67afbd550f353e00456995dd2ae36320a7b8f167ae90f0955ba"
+    },
+    {
+      "file": "provenance/root_reference_review.json",
+      "sha256": "a62c470feed488989a7d82a051f62a03d0c02374ba487af81b917800bacbbbfa"
+    },
+    {
+      "file": "provenance/storyboard_reference_review.json",
+      "sha256": "67d7d4bf31e3c2966ea5f3ac239a6c05ea82a968f7e6d900083939cd572b850a"
+    },
+    {
+      "file": "provenance/submitted_video_requests.json",
+      "sha256": "24234ffc346892c67960b81906fdadebaea05b32628aa3b8a006814497974fab"
+    },
+    {
+      "file": "provenance/video_results.json",
+      "sha256": "aa90d52983553fb2a0f413e5276d26da87ae623413dbc4c4a8a8765d0ff1092b"
+    },
+    {
+      "file": "provenance/video_results_part1.json",
+      "sha256": "45907bcc5a5038de2ca308daab9d1b17ba50b0f29b5d32cf472d5e286487d4d3"
+    },
+    {
+      "file": "provenance/video_results_part1_downloaded.json",
+      "sha256": "73e2d07dcee5512467d441bfd691239d81840e5a11e7cda59169a3ce377482e6"
+    },
+    {
+      "file": "provenance/video_results_part2.json",
+      "sha256": "56ca7fc5590e2dc2407b461342e25c4c9c4440fdad99a86772a6929d19047dfd"
+    },
+    {
+      "file": "provenance/video_results_part2_downloaded.json",
+      "sha256": "cfce234bdfe7be6ee820c3c6e3970d15e790b57c172fad0ff1ca3d435b8689ec"
+    },
+    {
+      "file": "provenance/video_results_part3.json",
+      "sha256": "812f147760644f4cae42a38666c432762c819949de80362a0ac36d5d33cbda4e"
+    },
+    {
+      "file": "provenance/video_results_part3_downloaded.json",
+      "sha256": "987a126650a444845c556475ed29b7c492b36dad7af62e7b3df1002a2ff515f4"
+    },
+    {
+      "file": "provenance/video_results_part4.json",
+      "sha256": "a60bfa8296fa7bf40cbb2e0b7a2e7f7baae65559d6c1755300401d6ddda6e4f0"
+    },
+    {
+      "file": "provenance/video_results_part4_downloaded.json",
+      "sha256": "e99dfe04ac8b240db40e106b6cf2d8e533d5da912e95cddaf84c767ea777efe4"
+    },
+    {
+      "file": "provenance/video_submission.json",
+      "sha256": "05cf15f6c351a65e02262ee233dff69c1cdac0eeedbb1d5dd8ec588462c1a9c6"
+    },
+    {
+      "file": "provenance/video_visual_review_part1.json",
+      "sha256": "c1c604b8eaf75b6c1d90b1caef330e33395186f439734dfa9dcd0c7ccea9dc24"
+    },
+    {
+      "file": "provenance/video_visual_review_part2.json",
+      "sha256": "1f1602cc6c0e85c6ca8770d86d98522adaa87c5eca2ac020f81c3e4aa11c5f05"
+    },
+    {
+      "file": "provenance/video_visual_review_part3.json",
+      "sha256": "41707b2d5769675d2cd847c90109400b338835392db2027368d9ed77ed286285"
+    },
+    {
+      "file": "provenance/video_visual_review_part4.json",
+      "sha256": "e55cb6dc7aa4a0aa56570062295fb1051b20dfca120bc1783fadd63d7b721222"
+    },
+    {
+      "file": "README.txt",
+      "sha256": "c8bb992c8a109298d308d1cc63aa605fa1d2f4155d17b44de7d64f69fd8e6ab9"
+    }
+  ],
+  "provenance": [
+    {
+      "file": "provenance/balance_after_submission.json",
+      "sha256": "ea332ea895cf7d5b2f49a19fa448f5fc5c182164bf14c862048eb2921384f479"
+    },
+    {
+      "file": "provenance/budget_quote.json",
+      "sha256": "2db5952ed2e63326f1da43b262cfdc728378494f9207c6526b88f05f68b3ce06"
+    },
+    {
+      "file": "provenance/catalog_snapshot.json",
+      "sha256": "198342e2f3525bd4e4f421dd757d9bbfaadafc99d10835a1a642a6f607b7c488"
+    },
+    {
+      "file": "provenance/creative_plan.json",
+      "sha256": "35e88accc8b0a0f572c6ba231f9eb0d1b603cbeadf212b2b6c6c78a964deebae"
+    },
+    {
+      "file": "provenance/image_results.json",
+      "sha256": "fe195d59e2561aedc588a2ee28445171f9f50bf723362bc51d532c02bc6dd07e"
+    },
+    {
+      "file": "provenance/image_results_downloaded.json",
+      "sha256": "499954315d24af334c24e9146f4c1aa674d2ca31cc7b05da65591f42c06c6567"
+    },
+    {
+      "file": "provenance/image_submission.json",
+      "sha256": "d36185b664937b51c3ae7d092171c8e8756f943bde89f6c6f60625f5a4d4b042"
+    },
+    {
+      "file": "provenance/pilot_requests.json",
+      "sha256": "d31b7908dc314e690ac395d1938d38bc6b5135d92ff167556bd1f13e1a3ccb37"
+    },
+    {
+      "file": "provenance/prepared_video_requests.json",
+      "sha256": "902c37723986b67afbd550f353e00456995dd2ae36320a7b8f167ae90f0955ba"
+    },
+    {
+      "file": "provenance/root_reference_review.json",
+      "sha256": "a62c470feed488989a7d82a051f62a03d0c02374ba487af81b917800bacbbbfa"
+    },
+    {
+      "file": "provenance/storyboard_reference_review.json",
+      "sha256": "67d7d4bf31e3c2966ea5f3ac239a6c05ea82a968f7e6d900083939cd572b850a"
+    },
+    {
+      "file": "provenance/submitted_video_requests.json",
+      "sha256": "24234ffc346892c67960b81906fdadebaea05b32628aa3b8a006814497974fab"
+    },
+    {
+      "file": "provenance/video_results.json",
+      "sha256": "aa90d52983553fb2a0f413e5276d26da87ae623413dbc4c4a8a8765d0ff1092b"
+    },
+    {
+      "file": "provenance/video_results_part1.json",
+      "sha256": "45907bcc5a5038de2ca308daab9d1b17ba50b0f29b5d32cf472d5e286487d4d3"
+    },
+    {
+      "file": "provenance/video_results_part1_downloaded.json",
+      "sha256": "73e2d07dcee5512467d441bfd691239d81840e5a11e7cda59169a3ce377482e6"
+    },
+    {
+      "file": "provenance/video_results_part2.json",
+      "sha256": "56ca7fc5590e2dc2407b461342e25c4c9c4440fdad99a86772a6929d19047dfd"
+    },
+    {
+      "file": "provenance/video_results_part2_downloaded.json",
+      "sha256": "cfce234bdfe7be6ee820c3c6e3970d15e790b57c172fad0ff1ca3d435b8689ec"
+    },
+    {
+      "file": "provenance/video_results_part3.json",
+      "sha256": "812f147760644f4cae42a38666c432762c819949de80362a0ac36d5d33cbda4e"
+    },
+    {
+      "file": "provenance/video_results_part3_downloaded.json",
+      "sha256": "987a126650a444845c556475ed29b7c492b36dad7af62e7b3df1002a2ff515f4"
+    },
+    {
+      "file": "provenance/video_results_part4.json",
+      "sha256": "a60bfa8296fa7bf40cbb2e0b7a2e7f7baae65559d6c1755300401d6ddda6e4f0"
+    },
+    {
+      "file": "provenance/video_results_part4_downloaded.json",
+      "sha256": "e99dfe04ac8b240db40e106b6cf2d8e533d5da912e95cddaf84c767ea777efe4"
+    },
+    {
+      "file": "provenance/video_submission.json",
+      "sha256": "05cf15f6c351a65e02262ee233dff69c1cdac0eeedbb1d5dd8ec588462c1a9c6"
+    },
+    {
+      "file": "provenance/video_visual_review_part1.json",
+      "sha256": "c1c604b8eaf75b6c1d90b1caef330e33395186f439734dfa9dcd0c7ccea9dc24"
+    },
+    {
+      "file": "provenance/video_visual_review_part2.json",
+      "sha256": "1f1602cc6c0e85c6ca8770d86d98522adaa87c5eca2ac020f81c3e4aa11c5f05"
+    },
+    {
+      "file": "provenance/video_visual_review_part3.json",
+      "sha256": "41707b2d5769675d2cd847c90109400b338835392db2027368d9ed77ed286285"
+    },
+    {
+      "file": "provenance/video_visual_review_part4.json",
+      "sha256": "e55cb6dc7aa4a0aa56570062295fb1051b20dfca120bc1783fadd63d7b721222"
+    }
+  ],
+  "manifest_sha256": "0903d6e5cef21b450a2e7f6b7a9f792a60f27b526e8a5a9c7f4d6f5c8bf35da5",
+  "actual_duration_seconds": 46.125,
+  "credits_recorded": 410,
+  "scope": "Five S14 short pilots, not five 300-second films",
+  "archive_index_self_download_removed": true,
+  "external_gallery_has_zip_link": true,
+  "report_excluded_from_archive": true
+}

@@ -1,0 +1,183 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux-2-klein-4b-fp8.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_4b.safetensors",
+        "type": "flux2",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "Redesign the room in the reference image into a refined warm mid-century modern living room. Keep the exact same camera viewpoint, room shape, wall positions, left floor-to-ceiling window, door openings and floor plan. Replace the sofa with a warm rust-orange fabric sofa in the same position, walnut oval coffee table in the center, cream textured rug, walnut low cabinet on the right wall, large green plant near the window, tasteful abstract artwork on the back wall, warm brass floor lamp. Preserve the daylight and the outdoor trees. Photorealistic interior design magazine photograph, no text.",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "ConditioningZeroOut",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "width": 768,
+        "height": 512,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "noise_seed": 20261022
+      }
+    },
+    "8": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "9": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "steps": 4,
+        "width": 768,
+        "height": 512
+      }
+    },
+    "10": {
+      "class_type": "CFGGuider",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "22",
+          0
+        ],
+        "negative": [
+          "23",
+          0
+        ],
+        "cfg": 1.0
+      }
+    },
+    "11": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "noise": [
+          "7",
+          0
+        ],
+        "guider": [
+          "10",
+          0
+        ],
+        "sampler": [
+          "8",
+          0
+        ],
+        "sigmas": [
+          "9",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ]
+      }
+    },
+    "12": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "11",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "13": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "12",
+          0
+        ],
+        "filename_prefix": "spark_demos/05c_room_makeover"
+      }
+    },
+    "20": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "demo_room.png"
+      }
+    },
+    "21": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": [
+          "20",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "22": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ],
+        "latent": [
+          "21",
+          0
+        ]
+      }
+    },
+    "23": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": [
+          "5",
+          0
+        ],
+        "latent": [
+          "21",
+          0
+        ]
+      }
+    }
+  }
+}

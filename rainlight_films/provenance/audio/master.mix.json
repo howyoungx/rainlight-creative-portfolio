@@ -1,0 +1,147 @@
+{
+  "started_at": "2026-10-20T08:34:27.618867-05:00",
+  "completed_at": "2026-10-20T08:34:28.718363-05:00",
+  "mix_wall_seconds": 1.0995,
+  "output": {
+    "path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "seconds": 300.0,
+    "sample_rate": 48000,
+    "pre_normalization_peak": 0.8128660917282104,
+    "normalization_gain": 1.0
+  },
+  "sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+  "music": {
+    "path": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\shared_music_00001.flac",
+    "source_seconds": 116.63383333333333,
+    "master_seconds": 300,
+    "source_stats": {
+      "peak": 0.8642076253890991,
+      "rms": 0.08785169206128268,
+      "rms_dbfs": -21.12499738780144
+    },
+    "normalization_gain": 0.18514069455006477,
+    "normalization_target_rms_dbfs": -27.0,
+    "source_peak_ceiling_after_normalization": 0.16,
+    "theme_repetition_used": true,
+    "placements": [
+      {
+        "theme_pass": 1,
+        "source_start_seconds": 0,
+        "source_end_seconds": 116.63383333333333,
+        "timeline_start_seconds": 0.0,
+        "timeline_end_seconds": 116.63383333333333,
+        "crossfade_in_seconds": 0.0
+      },
+      {
+        "theme_pass": 2,
+        "source_start_seconds": 0,
+        "source_end_seconds": 116.63383333333333,
+        "timeline_start_seconds": 113.13383333333333,
+        "timeline_end_seconds": 229.76766666666666,
+        "crossfade_in_seconds": 3.5
+      },
+      {
+        "theme_pass": 3,
+        "source_start_seconds": 0,
+        "source_end_seconds": 73.73233333333333,
+        "timeline_start_seconds": 226.26766666666666,
+        "timeline_end_seconds": 300.0,
+        "crossfade_in_seconds": 3.5
+      }
+    ],
+    "tail_silence_padding_seconds": 0,
+    "scene_envelope_seconds_and_linear_gain": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        0.82
+      ],
+      [
+        70,
+        0.88
+      ],
+      [
+        120,
+        1.0
+      ],
+      [
+        180,
+        0.94
+      ],
+      [
+        190,
+        0.3
+      ],
+      [
+        210,
+        0.3
+      ],
+      [
+        225,
+        0.85
+      ],
+      [
+        245,
+        1.1
+      ],
+      [
+        250,
+        1.3
+      ],
+      [
+        280,
+        1.3
+      ],
+      [
+        285,
+        1.12
+      ],
+      [
+        292,
+        1.0
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "voice_duck_db": -8,
+    "duck_attack_seconds": 0.28,
+    "duck_release_seconds": 0.75,
+    "final_music_stats": {
+      "peak": 0.1921866536140442,
+      "rms": 0.01184805853614339,
+      "rms_dbfs": -38.527056176399235
+    }
+  },
+  "narration": {
+    "path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\narration.wav",
+    "stats": {
+      "peak": 0.799957275390625,
+      "rms": 0.06768374926352677,
+      "rms_dbfs": -23.390311841176885
+    },
+    "voice_faded_in_last_8_seconds": false
+  },
+  "ambience": {
+    "used": false,
+    "reason": "Benchmark audio not independently checked for voices"
+  },
+  "mixed_stats_before_write_normalization": {
+    "peak": 0.8128660917282104,
+    "rms": 0.068714341464585,
+    "rms_dbfs": -23.259052225645817
+  },
+  "validation": {
+    "pcm_duration_seconds": 300,
+    "sample_rate": 48000,
+    "channels": 2,
+    "source_voice_text_unchanged": true,
+    "all_audio_samples_finite": true,
+    "write_peak_ceiling": 0.95,
+    "human_listening_review": false
+  }
+}

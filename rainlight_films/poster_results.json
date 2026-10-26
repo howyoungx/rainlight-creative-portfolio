@@ -1,0 +1,413 @@
+[
+  {
+    "style_id": "01_anime",
+    "name": "手绘赛璐璐动画",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:33:47-05:00",
+    "completed_at": "2026-10-20T00:39:18.144-05:00",
+    "generation_seconds": 3.907,
+    "queue_seconds": 0.153,
+    "layout_seconds": 0.103,
+    "rework_seconds": 6.486,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 331.144,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.2324,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:39:17.911-05:00",
+        "completed_at": "2026-10-20T00:39:18.144-05:00",
+        "seconds": 0.2324,
+        "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+      }
+    ],
+    "processing_seconds_total": 10.7284,
+    "queue_seconds_total": 0.153,
+    "poster_file": "01_anime.jpg"
+  },
+  {
+    "style_id": "02_inkwash",
+    "name": "东方水墨",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:33:55-05:00",
+    "completed_at": "2026-10-20T00:39:18.365-05:00",
+    "generation_seconds": 3.721,
+    "queue_seconds": 0.384,
+    "layout_seconds": 0.111,
+    "rework_seconds": 5.733,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 323.366,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.1535,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:39:18.211-05:00",
+        "completed_at": "2026-10-20T00:39:18.365-05:00",
+        "seconds": 0.1535,
+        "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+      }
+    ],
+    "processing_seconds_total": 9.7185,
+    "queue_seconds_total": 0.384,
+    "poster_file": "02_inkwash.jpg"
+  },
+  {
+    "style_id": "03_papercut",
+    "name": "立体剪纸剧场",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:01-05:00",
+    "completed_at": "2026-10-20T00:43:14.282-05:00",
+    "generation_seconds": 3.72,
+    "queue_seconds": 0.652,
+    "layout_seconds": 0.11,
+    "rework_seconds": 6.301,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 553.282,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.3965,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:39:18.438-05:00",
+        "completed_at": "2026-10-20T00:39:18.599-05:00",
+        "seconds": 0.1609,
+        "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+      },
+      {
+        "started_at": "2026-10-20T00:43:14.046-05:00",
+        "completed_at": "2026-10-20T00:43:14.282-05:00",
+        "seconds": 0.2356,
+        "reason": "Typeset visually approved paper-character revision with unobstructed faces."
+      }
+    ],
+    "generation_revisions": [
+      {
+        "job_key": "03_papercut_poster_v3",
+        "prompt_id": "b937b57f-a9dc-4b33-bc64-a074ce709922",
+        "execution_seconds": 7.716,
+        "queue_seconds": 178.702,
+        "submitted_at": "2026-10-20T00:39:55.504-05:00",
+        "completed_at": "2026-10-20T00:43:02.787-05:00",
+        "selected": true,
+        "reason": "Restyle both characters into flat layered cardstock instead of rounded CG puppets."
+      }
+    ],
+    "generation_revision_seconds": 7.716,
+    "queue_revision_seconds": 178.702,
+    "processing_seconds_total": 18.2435,
+    "queue_seconds_total": 179.354,
+    "poster_file": "03_papercut.jpg"
+  },
+  {
+    "style_id": "04_clay",
+    "name": "黏土定格动画",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:09-05:00",
+    "completed_at": "2026-10-20T11:17:41.829-05:00",
+    "generation_seconds": 4.086,
+    "queue_seconds": 0.839,
+    "layout_seconds": 0.085,
+    "rework_seconds": 5.955,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 38612.829,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.4218,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:39:18.661-05:00",
+        "completed_at": "2026-10-20T00:39:18.867-05:00",
+        "seconds": 0.2057,
+        "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+      },
+      {
+        "started_at": "2026-10-20T11:16:36.758-05:00",
+        "completed_at": "2026-10-20T11:16:36.975-05:00",
+        "seconds": 0.2161,
+        "reason": "Remove the extra upper-right lighthouse while keeping the original poster layout."
+      }
+    ],
+    "generation_revisions": [
+      {
+        "job_key": "04_clay_poster_v3_single_tower",
+        "prompt_id": "c14dd9e2-78b2-408c-ba2f-2575ac9cc950",
+        "execution_seconds": 9.744,
+        "queue_seconds": 38.288,
+        "submitted_at": "2026-10-20T11:14:03.095-05:00",
+        "completed_at": "2026-10-20T11:14:51.474-05:00",
+        "selected": true,
+        "reason": "Remove the extra upper-right lighthouse; retain the central lighthouse, foreground characters and approved composition.",
+        "prior_art_sha256": "3baa9dad4953243953b5c204bb37e7108281fddbfcaa3cc14a2595625bd89da1",
+        "selected_art_sha256": "a85097bdaff8e4569488d045e47c074d66472a3a97e41a6b412b7a8cedae2516"
+      }
+    ],
+    "generation_revision_seconds": 9.744,
+    "queue_revision_seconds": 38.288,
+    "previous_completion_times": [
+      "2026-10-20T00:39:18.867-05:00"
+    ],
+    "last_revision_submitted_at": "2026-10-20T11:14:03.095-05:00",
+    "last_revision_completed_at": "2026-10-20T11:17:41.829-05:00",
+    "last_revision_elapsed_seconds": 218.734,
+    "processing_seconds_total": 20.2918,
+    "queue_seconds_total": 39.127,
+    "poster_file": "04_clay.jpg",
+    "timing_before_sessions": {
+      "status": "complete",
+      "started_at": "2026-10-20T00:34:09-05:00",
+      "completed_at": "2026-10-20T11:17:41.829-05:00",
+      "elapsed_seconds": 38612.829
+    },
+    "activity_sessions": [
+      {
+        "id": "legacy-initial",
+        "started_at": "2026-10-20T00:34:09-05:00",
+        "source": "existing_recorded_production_span",
+        "note": "Historical span includes review and waiting; no utilization claim.",
+        "ended_at": "2026-10-20T00:39:18.867-05:00",
+        "end_reason": "complete"
+      },
+      {
+        "id": "single-tower-poster-revision",
+        "started_at": "2026-10-20T11:14:03.095-05:00",
+        "ended_at": "2026-10-20T11:17:41.829-05:00",
+        "source": "observed_comfy_submission_to_reviewed_publication",
+        "end_reason": "complete",
+        "note": "Includes generation, queue, layout, visual review and poster bundle publication."
+      }
+    ],
+    "active_elapsed_seconds": 528.601,
+    "inactive_seconds": 38084.228
+  },
+  {
+    "style_id": "05_pixel",
+    "name": "像素冒险电影",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:16-05:00",
+    "completed_at": "2026-10-20T01:01:32.493-05:00",
+    "generation_seconds": 3.882,
+    "queue_seconds": 0.10400000000000001,
+    "layout_seconds": 0.135,
+    "rework_seconds": 6.4750000000000005,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 1636.493,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.3135,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:39:18.923-05:00",
+        "completed_at": "2026-10-20T00:39:19.084-05:00",
+        "seconds": 0.1612,
+        "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+      },
+      {
+        "started_at": "2026-10-20T01:01:32.340-05:00",
+        "completed_at": "2026-10-20T01:01:32.493-05:00",
+        "seconds": 0.1523,
+        "reason": "Nearest-neighbor enlargement preserves the coarse image pixel grid; title typography is composed afterwards at full resolution."
+      }
+    ],
+    "generation_revisions": [
+      {
+        "job_key": "05_poster_v3",
+        "prompt_id": "0d02e3e7-616c-454c-b5fa-0ddee9e400a7",
+        "execution_seconds": 7.757,
+        "queue_seconds": 0.021,
+        "submitted_at": "2026-10-20T00:57:11.606-05:00",
+        "completed_at": "2026-10-20T00:57:19.790-05:00",
+        "selected": true,
+        "reason": "Local ComfyUI diffusion revision supplied the source for the subsequently pixelated final artwork."
+      }
+    ],
+    "generation_revision_seconds": 7.757,
+    "queue_revision_seconds": 0.021,
+    "postprocess_revisions": [
+      {
+        "job_key": "05_poster_pixelgrid",
+        "prompt_id": "7c304952-a78b-4b81-b831-13b682e4ba64",
+        "execution_seconds": 0.349,
+        "queue_seconds": 17.485,
+        "submitted_at": "2026-10-20T00:59:34.634-05:00",
+        "completed_at": "2026-10-20T00:59:52.796-05:00",
+        "method": "Local ComfyUI native ImageScale area downsample to 160x240, followed by nearest-exact enlargement to 768x1152. This is pixel-grid postprocessing, separately recorded from diffusion generation."
+      }
+    ],
+    "postprocess_seconds": 0.349,
+    "postprocess_queue_seconds": 17.485,
+    "processing_seconds_total": 18.9115,
+    "queue_seconds_total": 17.61,
+    "poster_file": "05_pixel.jpg"
+  },
+  {
+    "style_id": "06_oil",
+    "name": "流动油画",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:24-05:00",
+    "completed_at": "2026-10-20T00:46:13.007-05:00",
+    "generation_seconds": 7.762,
+    "queue_seconds": 299.50100000000003,
+    "layout_seconds": 0.142,
+    "rework_seconds": 6.21,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 709.007,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.0975,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:46:12.909-05:00",
+        "completed_at": "2026-10-20T00:46:13.007-05:00",
+        "seconds": 0.0975,
+        "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+      }
+    ],
+    "processing_seconds_total": 14.2115,
+    "queue_seconds_total": 299.501,
+    "poster_file": "06_oil.jpg"
+  },
+  {
+    "style_id": "07_glass",
+    "name": "彩色玻璃幻想",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:30-05:00",
+    "completed_at": "2026-10-20T00:46:13.116-05:00",
+    "generation_seconds": 4.494,
+    "queue_seconds": 37.372,
+    "layout_seconds": 0.121,
+    "rework_seconds": 6.585,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 703.117,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "generation_revisions": [
+      {
+        "job_key": "07_glass_poster_v3",
+        "prompt_id": "1e4cfde1-fbef-45e8-9d48-c6193bbc4fb9",
+        "execution_seconds": 4.428,
+        "queue_seconds": 0.979,
+        "submitted_at": "2026-10-20T00:44:42.504-05:00",
+        "completed_at": "2026-10-20T00:44:48.307-05:00",
+        "selected": false,
+        "reason": "Make woman, spherical robot and scenery from glass mosaic, including faceted face, hair and clothing."
+      },
+      {
+        "job_key": "07_glass_poster_v4",
+        "prompt_id": "45d9f514-dd47-409f-b7e7-47715cbfa11f",
+        "execution_seconds": 5.373,
+        "queue_seconds": 0.039,
+        "submitted_at": "2026-10-20T00:45:13.554-05:00",
+        "completed_at": "2026-10-20T00:45:19.353-05:00",
+        "selected": true,
+        "reason": "Make woman, spherical robot and scenery from glass mosaic, including faceted face, hair and clothing."
+      }
+    ],
+    "generation_revision_seconds": 9.801,
+    "queue_revision_seconds": 1.018,
+    "layout_revision_seconds": 0.0856,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:46:13.030-05:00",
+        "completed_at": "2026-10-20T00:46:13.116-05:00",
+        "seconds": 0.0856,
+        "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+      }
+    ],
+    "processing_seconds_total": 21.0866,
+    "queue_seconds_total": 38.39,
+    "poster_file": "07_glass.jpg"
+  },
+  {
+    "style_id": "08_comic",
+    "name": "欧式清线漫画",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:38-05:00",
+    "completed_at": "2026-10-20T00:46:13.199-05:00",
+    "generation_seconds": 4.724,
+    "queue_seconds": 2.676,
+    "layout_seconds": 0.165,
+    "rework_seconds": 6.146,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 695.2,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.0758,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:46:13.123-05:00",
+        "completed_at": "2026-10-20T00:46:13.199-05:00",
+        "seconds": 0.0758,
+        "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+      }
+    ],
+    "processing_seconds_total": 11.1108,
+    "queue_seconds_total": 2.676,
+    "poster_file": "08_comic.jpg"
+  },
+  {
+    "style_id": "09_charcoal",
+    "name": "炭笔黑白电影",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:44-05:00",
+    "completed_at": "2026-10-20T00:46:13.279-05:00",
+    "generation_seconds": 4.296,
+    "queue_seconds": 2.9139999999999997,
+    "layout_seconds": 0.174,
+    "rework_seconds": 6.596,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 689.28,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.0733,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:46:13.206-05:00",
+        "completed_at": "2026-10-20T00:46:13.279-05:00",
+        "seconds": 0.0733,
+        "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+      }
+    ],
+    "processing_seconds_total": 11.1393,
+    "queue_seconds_total": 2.914,
+    "poster_file": "09_charcoal.jpg"
+  },
+  {
+    "style_id": "10_3d",
+    "name": "童话三维动画",
+    "type": "poster",
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:53-05:00",
+    "completed_at": "2026-10-20T00:46:13.361-05:00",
+    "generation_seconds": 4.59,
+    "queue_seconds": 1.222,
+    "layout_seconds": 0.194,
+    "rework_seconds": 6.119,
+    "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+    "elapsed_seconds": 680.361,
+    "resolution": "1200x1800",
+    "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+    "layout_revision_seconds": 0.0729,
+    "layout_revisions": [
+      {
+        "started_at": "2026-10-20T00:46:13.288-05:00",
+        "completed_at": "2026-10-20T00:46:13.361-05:00",
+        "seconds": 0.0729,
+        "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+      }
+    ],
+    "processing_seconds_total": 10.9759,
+    "queue_seconds_total": 1.222,
+    "poster_file": "10_3d.jpg"
+  }
+]

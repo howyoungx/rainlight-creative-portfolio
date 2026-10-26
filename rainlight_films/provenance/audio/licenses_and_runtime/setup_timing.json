@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\piper_windows_amd64.zip",
+      "source": "https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_windows_amd64.zip",
+      "bytes": 22477236,
+      "sha256": "f3c58906402b24f3a96d92145f58acba6d86c9b5db896d207f78dc80811efcea",
+      "wall_seconds": 5.433
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\zh_CN-huayan-medium.onnx",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx",
+      "bytes": 63201294,
+      "sha256": "9929917bf8cabb26fd528ea44d3a6699c11e87317a14765312420be230be0f3d",
+      "wall_seconds": 2.928
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\zh_CN-huayan-medium.onnx.json",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx.json",
+      "bytes": 4822,
+      "sha256": "d521dc45504a8ccc99e325822b35946dd701840bfb07e3dbb31a40929ed6a82b",
+      "wall_seconds": 0.608
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\HUAYAN_MODEL_CARD.txt",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/MODEL_CARD",
+      "bytes": 276,
+      "sha256": "25d7d8f7a03e9382e629c5c4f074176e7ca84e08be12a873022e91fcac98c2c7",
+      "wall_seconds": 0.607
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\PIPER_LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/rhasspy/piper/2023.11.14-2/LICENSE.md",
+      "bytes": 1071,
+      "sha256": "4cd71dece7037f1d6d93cce7570c57ab75ea9ac566fd4990be2f3ab08d15b47f",
+      "wall_seconds": 0.295
+    },
+    {
+      "path": "PROJECT_ROOT\\work\\film_audio_tools\\PIPER_README.txt",
+      "source": "https://raw.githubusercontent.com/rhasspy/piper/2023.11.14-2/README.md",
+      "bytes": 6724,
+      "sha256": "f21c5a91b37cfbf5ade95b431880554a6d746c1dec78d9bef676738fc6016b84",
+      "wall_seconds": 0.272
+    }
+  ],
+  "download_and_extract_seconds": 5.92
+}

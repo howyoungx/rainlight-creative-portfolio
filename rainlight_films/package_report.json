@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-25T02:16:57.468-05:00",
+  "completed_at": "2026-10-25T02:17:00.704-05:00",
+  "elapsed_seconds": 3.236,
+  "archive_bytes": 1907822528,
+  "file_count": 893,
+  "crc_verified": true,
+  "required_deliverables_verified": true,
+  "films": 10,
+  "posters": 10,
+  "includes_final_audio_reviews": true,
+  "includes_final_handoff": true,
+  "note": "Final package rebuilt after all ten audio, subtitle and portable-source reviews. Report lives outside the ZIP to avoid self-reference. Media completion time is unchanged."
+}

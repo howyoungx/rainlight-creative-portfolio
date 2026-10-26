@@ -1,0 +1,10 @@
+{
+  "name": "posters_10_refined/02_film_noir",
+  "start": "2026-10-20T00:10:14.195300",
+  "wall_seconds": 11.75,
+  "status": "success",
+  "files": [
+    "PROJECT_ROOT\\outputs\\posters_10_refined\\02_film_noir\\02_film_noir_00001_.png"
+  ],
+  "execution_seconds": 8.03
+}

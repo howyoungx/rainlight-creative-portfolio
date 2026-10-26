@@ -1,0 +1,35 @@
+{
+  "scope": "仅一条已付费S14短样片的视觉验收；未提交额外生成。",
+  "reviewer": "storyboard",
+  "records": [
+    {
+      "id": "14_veo_liveaction",
+      "raw_sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7",
+      "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\raw.mp4",
+      "approved_for_pilot": true,
+      "approved_for_full_film": false,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "fps": 24.0,
+      "container_duration_seconds": 6.016,
+      "reviewer": "storyboard",
+      "reviewed_at_utc": "2026-10-25T07:47:20.494097+00:00",
+      "method_zh": "亲看首帧、25%、50%、75%、末帧全景；补看头部f0/30/34/36/38/42/60/66/72/96/120/143和手部f0/12/24/36/48/60/72/84/96/108/120/143局部时序，重点核验眼灯、颈部和包扎关系。非逐帧无瑕疵保证。",
+      "evidence": [
+        "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\contact.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\14_veo_liveaction_head.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\14_veo_liveaction_hands.jpg"
+      ],
+      "notes_zh": {
+        "样片结论": "通过展示样片验收：人物双手完成收紧布带并松手，机器人抬头回应，动作清楚；真实衣料、皮肤、雨景、铜灯与珐琅道具材质保持。",
+        "参考图原有偏差": "机器人起始图已为分离头身、机械手臂结构，非原剧情固定的一体球形；S14背景灯塔已亮。正式整片必须先统一造型和熄灯时间线。",
+        "眼部变化复核": "f34约1.417秒可见奶油色机械眼睑从上方盖下，f36约1.5秒接近闭合，f38约1.583秒闭合，f42约1.75秒重开，之后恢复完整青色圆眼。按完整时序更符合眨眼，不能仅由1.5秒抽帧判为眼灯异常消失。",
+        "颈部变化复核": "f66约2.75秒开始头部后仰露出黑色颈腔；f72约3秒至末帧可见颈腔内连接柱，头仍与身体相连，表面轮廓和材质保持。可解释为此参考道具的机械颈关节活动，未见明显脱头。间隙较大且是动态新增的结构暴露，与原一体球形设定仍不一致，整片设计需明确锁定。",
+        "动作新增偏差": "实际动作包含重新收紧结/布尾，末尾仍有布尾垂挂，没有完全照指令压平；但包扎的核心意义成立。手臂保持连接，未见明显多手、新人物、开胸或灯具漂浮。布带在机器人放下手臂后仍保留，未消失。",
+        "整片限制": "通过仅表示该6秒短样片可用于展示比较，不能视为已完成一条正式10秒剧情镜头或已验证300秒连续性。6秒主动作之外的4秒反应镜头尚未制作；需先纠正提前亮塔并统一机器人关节设计。"
+      }
+    }
+  ]
+}

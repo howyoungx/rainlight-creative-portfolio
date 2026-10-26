@@ -1,0 +1,251 @@
+{
+  "prompt": [
+    14,
+    "75cea60d-2193-4205-b192-bb108c375db9",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Photorealistic cyberpunk thriller key art. Extreme low-angle close-up of her under the transparent umbrella, colossal futuristic city towers and holographic neon light, electric magenta and cyan, deep black shadows, rain streaks, powerful high contrast, cinematic advertising polish. Huge bold condensed white title integrated at bottom.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 20262000
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 1152
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "22",
+            0
+          ],
+          "negative": [
+            "23",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/posters_10/01_cyberpunk"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "ref_01.png"
+        }
+      },
+      "21": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "20",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      },
+      "23": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "5",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1792472794482
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "01_cyberpunk_00001_.png",
+          "subfolder": "spark_demos\\posters_10",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 1152
+          },
+          "id": "2b675f83-78bc-49de-a830-272800537bdc"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "75cea60d-2193-4205-b192-bb108c375db9",
+          "timestamp": 1792472794484
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8"
+          ],
+          "prompt_id": "75cea60d-2193-4205-b192-bb108c375db9",
+          "timestamp": 1792472794496
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "75cea60d-2193-4205-b192-bb108c375db9",
+          "timestamp": 1792472801923
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

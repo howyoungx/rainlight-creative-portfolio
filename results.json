@@ -1,0 +1,136 @@
+[
+  {
+    "name": "01_photo_to_video",
+    "start": "2026-10-19T23:53:13.931848",
+    "wall_seconds": 64.24,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\01_photo_to_video\\01_photo_to_video_00001_.mp4"
+    ],
+    "execution_seconds": 62.826,
+    "label": "照片动起来",
+    "media": {
+      "frames": 73,
+      "fps": 24.0,
+      "duration": 3.0416666666666665,
+      "size": [
+        768,
+        448
+      ]
+    }
+  },
+  {
+    "name": "02_text_to_movie",
+    "start": "2026-10-19T23:54:18.193551",
+    "wall_seconds": 40.25,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\02_text_to_movie\\02_text_to_movie_00001_.mp4"
+    ],
+    "execution_seconds": 37.59,
+    "label": "文字拍短片",
+    "media": {
+      "frames": 73,
+      "fps": 24.0,
+      "duration": 3.0416666666666665,
+      "size": [
+        768,
+        448
+      ]
+    }
+  },
+  {
+    "name": "03_movie_poster",
+    "start": "2026-10-19T23:59:20.527384",
+    "wall_seconds": 12.1,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\03_movie_poster\\03_movie_poster_00001_.png"
+    ],
+    "execution_seconds": 8.744,
+    "label": "电影海报"
+  },
+  {
+    "name": "04_sketch_to_render",
+    "start": "2026-10-19T23:59:32.639880",
+    "wall_seconds": 4.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\04_sketch_to_render\\04_sketch_to_render_00001_.png"
+    ],
+    "execution_seconds": 2.664,
+    "label": "草图变实景"
+  },
+  {
+    "name": "05_virtual_outfit",
+    "start": "2026-10-19T23:59:36.707853",
+    "wall_seconds": 8.03,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\05_virtual_outfit\\05_virtual_outfit_00001_.png"
+    ],
+    "execution_seconds": 5.273,
+    "label": "AI 换装"
+  },
+  {
+    "name": "05b_room_reference",
+    "start": "2026-10-20T00:00:57.759477",
+    "wall_seconds": 4.08,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\05b_room_reference\\05b_room_reference_00001_.png"
+    ],
+    "execution_seconds": 1.806,
+    "label": "装修输入素材"
+  },
+  {
+    "name": "05c_room_makeover",
+    "start": "2026-10-20T00:01:01.848874",
+    "wall_seconds": 4.01,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\05c_room_makeover\\05c_room_makeover_00001_.png"
+    ],
+    "execution_seconds": 2.566,
+    "label": "AI 装修"
+  },
+  {
+    "name": "06_sticker_pack",
+    "start": "2026-10-19T23:59:44.742297",
+    "wall_seconds": 4.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\06_sticker_pack\\06_sticker_pack_00001_.png"
+    ],
+    "execution_seconds": 2.276,
+    "label": "专属表情包"
+  },
+  {
+    "name": "07_robot_reference",
+    "start": "2026-10-19T23:59:48.803322",
+    "wall_seconds": 4.05,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\07_robot_reference\\07_robot_reference_00001_.png"
+    ],
+    "execution_seconds": 1.589,
+    "label": "3D 输入素材"
+  },
+  {
+    "name": "07_image_to_3d",
+    "start": "2026-10-19T23:59:52.865143",
+    "wall_seconds": 20.1,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\07_image_to_3d\\07_image_to_3d_00001_.glb"
+    ],
+    "execution_seconds": 18.279,
+    "label": "图片变 3D",
+    "media": {
+      "vertices": 41744,
+      "triangles": 85024,
+      "texture": false,
+      "octree_resolution": 128
+    }
+  }
+]

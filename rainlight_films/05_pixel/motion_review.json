@@ -1,0 +1,192 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-20T10:38:53.722820-05:00",
+  "clip_sha256": [
+    "87f30e631679858bb4907873dd58760b469c2bba22b2de962ea4a1ab2c423152",
+    "0a99af4f93e4dce6d480cf3ef945278472624e731d1c2d7f99dd930948217869",
+    "6696d94878860002ffded63c05b2a1f96b8bf65061869c6b00e2b58fc4cc655e",
+    "84f94c00c1132719ffb8f0fbbcd864fee06eb4badf29a1c6ea324281034c30ba",
+    "56534e7a30bb07bacd5c24874c63efb231674b53caed142f65c0d9bad70b4736",
+    "8c0c59e264f68722a07d92c15158a05a6c417945b5f384d6ff11a1703c89a729",
+    "6602f55e3ac180e31b08994edabdbcb40c191eb3ba9db82104da705f0950dbc5",
+    "6ce1c1b3ec7d19b0b9af5406528439594b28298bb603c3ac06265af36225681a",
+    "929f8017b0d135ea2e73016a0cc20274c381a18a0c1ea4db8f5c38ac03519d0b",
+    "d0b6023bd8abe687b2c8b326b78cfac4afa46c9f640dcb765bfb40e19d2b2d1a",
+    "af9ad98a24099eff9fd336ef99adbb86d9c61d399cff98ef165a0968fa272685",
+    "c6e58fcf87cc5038c5434d095764ad225f5648a7ccfbd3285677b68ca7f2bda7",
+    "4b7c9e8949f7bb45391e66fc063c0017aadc24a6e4fa809254280fe616e55a0d",
+    "5e175ee312e98b7c3eb37e09a75d0098ccf13d5f568ce35e34c2e386ab700e21",
+    "cd8368931d1bf15996127784868ae30b4f55acabb7b93135d011c802b17c8802",
+    "d59f65561914b92b5267757830f5aa708f920e6228191bc54f20e460c317e6dc",
+    "6b5d2e9375ebc7ab8fb6beddc25e7f9c81c773470e6def33fef270ea2d64908b",
+    "6246c7d04d5fc8c2f29021ab13c36f1ab1ee33b2c555e2c290c0830223c7fa99",
+    "466d35381b6ebd7f143c718039c41d88a2961cc949ad8d4d710b74828f89b37e",
+    "2d7fa3de009eed101a7a47cc5992d364fc253f1604b0ec112f689f99549452be",
+    "c67ee2707fb88dd58f23b8591c2de05cf54601a7ffd5df21e70f6a26221ffb1a",
+    "7f7af35eaaa689105392461e318d6df72c00c19308c52ba7edecdc96a5dc324a",
+    "16721e273330a3c910ebf34f93d8c1811ee23dd7ad05a43298bc0b725790e4f7",
+    "019b4e8909d9a7a6bf02f466c8620f8759f85876434d174b3fe6dc8345881315",
+    "9bad870aa498ea096ff3e284af35e654d6bac13f40fd0c2a362aad625ae355c0",
+    "0559289574018ed4d896ebd127cf823dd28343597c6aad0e35afbcf3d8c99b57",
+    "cf076b0ebb0bacced4ae5d8fafe0872c20286479e8bdbf445589bc5c346fcf09",
+    "f4e07a761067e84236b082583433a30fa1cafca3023f53b8ef3826bd4c79fce6",
+    "72a325c82eab7bfef74c0c2c3fcc7b7784a6f91a0b2ef2616404538f50cf815b",
+    "ddc8e210702c877e539de1965af01ab787789bf40c6c41aed0c7041815a81201"
+  ],
+  "notes": {
+    "method": "Each current source visually compared at frames 0, 60, 120, 180 and 239 against its keyframe. Minor hand and medium drift may be accepted; narrative state, unique characters, intact lantern and obvious hallucinated text were checked.",
+    "review_history": "PROJECT_ROOT\\work\\film_motion_qc\\review_history.json",
+    "shots": [
+      {
+        "shot_id": "S01",
+        "verdict": "usable_with_minor_notes",
+        "notes": "本地 ComfyUI 遮罩合成通过：原画暗城/山体/灯塔作固定前景，H3 qc3 的冷蓝天空与雨保持运动；全程窗户和唯一灯塔熄灭，无文字，无明显边缘跳接。该静止建立镜头明确采用局部前景合成，生成依赖与后处理单独留档。"
+      },
+      {
+        "shot_id": "S02",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S03",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主把完整灯放到长凳，圆点转向回应，角色与独立暖灯保持；平滑动画表面由后期粗像素网格统一。"
+      },
+      {
+        "shot_id": "S04",
+        "verdict": "usable_with_minor_notes",
+        "notes": "摄影机上移并拉近，后段圆点接近下缘；完整主提灯、唯一黑暗灯塔与蓝灰雨城保持。"
+      },
+      {
+        "shot_id": "S05",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主转正并小步行进，圆点侧转；蓝灰巷道与手边完整暖灯保持，接受少量机位变化。"
+      },
+      {
+        "shot_id": "S06",
+        "verdict": "usable_with_minor_notes",
+        "notes": "微小推近使机器人靠近下缘；完整提灯、蓝灰街景和一人一球保持。"
+      },
+      {
+        "shot_id": "S07",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主把完整暖灯略举高，居民手、圆点和窗边情节保留；人物与机器人表面平滑由最终像素后期统一。"
+      },
+      {
+        "shot_id": "S08",
+        "verdict": "usable_with_minor_notes",
+        "notes": "圆点短肢有指状变化，球体、两脚和落叶未变成其他物体；女主始终握持完整灯，唯一远灯塔仍暗。"
+      },
+      {
+        "shot_id": "S09",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主回头看向镜头，伙伴仍背面向前；脚下连续石阶与完整提灯保持，无新增人物或悬空。"
+      },
+      {
+        "shot_id": "S10",
+        "verdict": "usable_with_minor_notes",
+        "notes": "镜头上移使圆点接近下缘，球形身体和短肢保留；女主提灯始终完整，雨城仍为蓝灰暗色。"
+      },
+      {
+        "shot_id": "S11",
+        "verdict": "usable_with_minor_notes",
+        "notes": "双手保护完整暖灯，女主低头和眼神变化可读；蓝灰城市场景与完整灯架保留。"
+      },
+      {
+        "shot_id": "S12",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主稍放低完整灯，圆点球形和受损短肢保持；灯仍单独由手握持。"
+      },
+      {
+        "shot_id": "S13",
+        "verdict": "usable_with_minor_notes",
+        "notes": "H3 qc2 通过：小禾蹲姿与手边唯一完整暖灯始终固定，圆点仅轻微起伏/转眼，原受损短肢和蓝灰雨城保留；无复制、灯具融合或伪文字。"
+      },
+      {
+        "shot_id": "S14",
+        "verdict": "usable_with_minor_notes",
+        "notes": "保守动作使完整灯始终由手提住，圆点及包扎短肢保持；微小表情和光晕变化可接受。"
+      },
+      {
+        "shot_id": "S15",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主抱着完整圆点并持灯，机位推近后灯靠近下缘；伙伴未落地或融合，抱持关系清楚。"
+      },
+      {
+        "shot_id": "S16",
+        "verdict": "usable_with_minor_notes",
+        "notes": "小幅步态与提灯轻晃保持完整，未见物体复制。"
+      },
+      {
+        "shot_id": "S17",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主将灯从胸前放低至身侧，球形机器人及拱门平台保持，远城与夜雨仍暗。"
+      },
+      {
+        "shot_id": "S18",
+        "verdict": "usable_with_minor_notes",
+        "notes": "完整暖灯独立放在圆座，圆点略向后倾但球形和短肢保持，灯未再回到手中或融合。"
+      },
+      {
+        "shot_id": "S19",
+        "verdict": "usable_with_minor_notes",
+        "notes": "铜灯完全熄灭的状态正确，完整金属框、暗玻璃与蓝灰街景保留。"
+      },
+      {
+        "shot_id": "S20",
+        "verdict": "usable_with_minor_notes",
+        "notes": "H3 qc3 通过：铜灯全程熄灭、暗玻璃和金属框保留，圆点保持单个小球形体并闭眼，小禾低头静坐；窗边冷蓝光略变亮，无暖光复燃或伪文字。"
+      },
+      {
+        "shot_id": "S21",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_21_25_4c70e5de.json：单个圆点与小禾身份稳定，心核亮度和开盖状态保持。"
+      },
+      {
+        "shot_id": "S22",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_21_25_4c70e5de.json：心核从手边移到地面并变为清楚的暖色心形图案；单个核心与存活圆点可读，记录表演差异而不返工。"
+      },
+      {
+        "shot_id": "S23",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_21_25_4c70e5de.json：两份光始终分别在双掌中，双手轮廓及光线连接稳定。"
+      },
+      {
+        "shot_id": "S24",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_21_25_4c70e5de.json：机器人胸光与完整提灯两处暖光持续可见；后段推进裁掉脚部但不影响分光结果。"
+      },
+      {
+        "shot_id": "S25",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_21_25_4c70e5de.json：夜色单一山顶灯塔保持，雨与暖光信号可读，没有复制地标。"
+      },
+      {
+        "shot_id": "S26",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_26_30_55e519f7.json：居民举灯后灯移入近前景，手部退出画面，单个暖灯主体完整；放大/漂浮感作为表演差异记录。"
+      },
+      {
+        "shot_id": "S27",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_26_30_55e519f7.json：城市窗灯逐步清晰，山顶仅一座亮灯塔，夜雨状态保持。"
+      },
+      {
+        "shot_id": "S28",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_26_30_55e519f7.json：云开与晨光增强，城市和单塔稳定，符合清晨到来的叙事。"
+      },
+      {
+        "shot_id": "S29",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_26_30_55e519f7.json：小禾由坐到站、圆点留在旁边，完整亮灯置于两者之间；陪伴及眺望城市的剧情保持。"
+      },
+      {
+        "shot_id": "S30",
+        "verdict": "usable_with_minor_notes",
+        "notes": "并行目检 audio_local，证据 05_pixel_26_30_55e519f7.json：两个伙伴并肩下山、手边暖灯保持，未见角色复制或关键道具破碎。"
+      }
+    ]
+  }
+}

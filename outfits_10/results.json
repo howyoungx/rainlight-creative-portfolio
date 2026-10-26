@@ -1,0 +1,132 @@
+[
+  {
+    "name": "outfits_10/01_business",
+    "start": "2026-10-20T00:06:56.603761",
+    "wall_seconds": 12.05,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\01_business\\01_business_00001_.png"
+    ],
+    "execution_seconds": 6.627,
+    "style": "都市通勤",
+    "slug": "01_business",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A sharply tailored charcoal gray wool blazer over a white silk blouse, high-waisted matching tailored trousers, refined minimal silver jewelry. Confident polished modern professional style."
+  },
+  {
+    "name": "outfits_10/02_french",
+    "start": "2026-10-20T00:07:08.676918",
+    "wall_seconds": 12.08,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\02_french\\02_french_00001_.png"
+    ],
+    "execution_seconds": 6.453,
+    "style": "法式复古",
+    "slug": "02_french",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A camel wool beret, an elegant short navy wool jacket over an ivory and navy striped knit top, a soft burgundy silk neck scarf, high-waisted beige trousers. Effortless classic French vintage style."
+  },
+  {
+    "name": "outfits_10/03_streetwear",
+    "start": "2026-10-20T00:07:20.766755",
+    "wall_seconds": 16.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\03_streetwear\\03_streetwear_00001_.png"
+    ],
+    "execution_seconds": 6.822,
+    "style": "运动街头",
+    "slug": "03_streetwear",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: An oversized cobalt blue technical varsity jacket with cream sleeves over a white hoodie, loose charcoal cargo trousers, playful layered streetwear styling. Stylish contemporary sporty urban outfit, no logos."
+  },
+  {
+    "name": "outfits_10/04_gothic",
+    "start": "2026-10-20T00:07:36.838277",
+    "wall_seconds": 16.07,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\04_gothic\\04_gothic_00001_.png"
+    ],
+    "execution_seconds": 6.376,
+    "style": "暗黑哥特",
+    "slug": "04_gothic",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: An elaborate fitted black velvet coat with a high lace collar, subtle Victorian puff shoulders, intricate black lace cuffs, silver filigree fasteners and a small dark ruby brooch. Elegant mysterious gothic fashion, sophisticated fully clothed styling."
+  },
+  {
+    "name": "outfits_10/05_hanfu",
+    "start": "2026-10-20T00:07:52.920925",
+    "wall_seconds": 12.03,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\05_hanfu\\05_hanfu_00001_.png"
+    ],
+    "execution_seconds": 6.376,
+    "style": "现代汉服",
+    "slug": "05_hanfu",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A beautiful contemporary Chinese hanfu outfit: pale jade green flowing cross-collar outer robe with fine white botanical embroidery, ivory inner garment, a dark jade sash and long draped sleeves. Graceful tasteful historical-inspired fabric styling adapted to the same pose."
+  },
+  {
+    "name": "outfits_10/06_kimono",
+    "start": "2026-10-20T00:08:04.962454",
+    "wall_seconds": 16.05,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\06_kimono\\06_kimono_00001_.png"
+    ],
+    "execution_seconds": 6.334,
+    "style": "和风浴衣",
+    "slug": "06_kimono",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A deep indigo Japanese yukata with small cream and pale pink cherry blossom patterns, a broad muted coral obi sash, beautifully wrapped long sleeves. Traditional elegant Japanese summer clothing, preserve her original hairstyle."
+  },
+  {
+    "name": "outfits_10/07_denim",
+    "start": "2026-10-20T00:08:21.019898",
+    "wall_seconds": 16.07,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\07_denim\\07_denim_00001_.png"
+    ],
+    "execution_seconds": 6.555,
+    "style": "美式牛仔",
+    "slug": "07_denim",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A washed medium-blue denim jacket over a plain white cotton T-shirt, high-waisted blue jeans, a narrow brown leather belt, sleeves casually rolled. Relaxed classic American denim style, realistic heavy denim texture."
+  },
+  {
+    "name": "outfits_10/08_punk",
+    "start": "2026-10-20T00:08:37.095982",
+    "wall_seconds": 16.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\08_punk\\08_punk_00001_.png"
+    ],
+    "execution_seconds": 7.044,
+    "style": "皮革摇滚",
+    "slug": "08_punk",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A burgundy leather motorcycle jacket with silver zippers and studs over a black graphic-free crewneck top, black trousers, chunky silver chain necklace. Bold refined rock-and-roll punk fashion with believable detailed leather texture."
+  },
+  {
+    "name": "outfits_10/09_evening",
+    "start": "2026-10-20T00:08:53.173578",
+    "wall_seconds": 12.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\09_evening\\09_evening_00001_.png"
+    ],
+    "execution_seconds": 6.972,
+    "style": "丝绒晚礼服",
+    "slug": "09_evening",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: An elegant emerald green velvet evening gown with a high modest boat neckline, long fitted sleeves, a defined waist and subtle structured draping, small pearl earrings. Sophisticated formal evening attire, fully covered upper body, beautiful rich velvet highlights."
+  },
+  {
+    "name": "outfits_10/10_outdoor",
+    "start": "2026-10-20T00:09:05.240991",
+    "wall_seconds": 8.06,
+    "status": "success",
+    "files": [
+      "PROJECT_ROOT\\outputs\\outfits_10\\10_outdoor\\10_outdoor_00001_.png"
+    ],
+    "execution_seconds": 7.089,
+    "style": "户外机能",
+    "slug": "10_outdoor",
+    "prompt": "Photorealistic virtual wardrobe try-on. Edit ONLY the clothing and requested fashion accessories of the woman in the reference photo. Preserve the same recognizable face, facial expression, black hair, age, body proportions, hand placement, pose, clear transparent umbrella, rainy neon city street, elevated train, original camera viewpoint and lighting. The clothes must fit naturally, and she must keep holding the umbrella in exactly the same position. Preserve the full original scene. No text, no logos, no watermark. Outfit: A bright mustard yellow premium waterproof technical shell jacket with a raised collar, contrasting charcoal utility pockets and sealed seam details, dark olive hiking trousers and an understated crossbody utility strap. Contemporary outdoor gorpcore style, practical layered clothing, no logos."
+  }
+]

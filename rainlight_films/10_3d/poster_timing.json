@@ -1,0 +1,25 @@
+{
+  "style_id": "10_3d",
+  "name": "童话三维动画",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:53-05:00",
+  "completed_at": "2026-10-20T00:46:13.361-05:00",
+  "generation_seconds": 4.59,
+  "queue_seconds": 1.222,
+  "layout_seconds": 0.194,
+  "rework_seconds": 6.119,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 680.361,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.0729,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:46:13.288-05:00",
+      "completed_at": "2026-10-20T00:46:13.361-05:00",
+      "seconds": 0.0729,
+      "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "narration": {
+    "engine": "Qwen3-TTS 0.1.1 official local inference",
+    "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "speaker": "Serena",
+    "execution": "Local NVIDIA RTX Spark GPU, BF16, PyTorch SDPA, offline inference",
+    "language": "zh_CN Mandarin",
+    "voice_sample_rate": 24000,
+    "master_sample_rate": 48000,
+    "engine_license": "Apache-2.0",
+    "model_license": "Apache-2.0",
+    "reference_voice_cloning": false,
+    "engine_source": "https://github.com/QwenLM/Qwen3-TTS",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "runtime_manifest": "PROJECT_ROOT\\work\\tts_upgrade\\runtime_manifest.json",
+    "model_download_timing": "PROJECT_ROOT\\work\\tts_upgrade\\download_timing.json",
+    "audition_manifest": "PROJECT_ROOT\\work\\tts_upgrade\\samples\\manifest.json",
+    "batch_manifest": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\batch_manifest.json"
+  },
+  "music_planned": {
+    "engine": "Local ComfyUI MiniMax Music3",
+    "models": [
+      "minimax_music3_dit_int8_convrot.safetensors",
+      "minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+      "minimax_music3_dav.safetensors"
+    ],
+    "status": "Generated locally and mixed; see music and final_mix records"
+  },
+  "narration_timing": {
+    "shared_master_generated_once_for_ten_visual_editions": true,
+    "new_calls_generation_seconds": 181.41989490001288,
+    "synthesis_wall_seconds": 181.41989490001288,
+    "total_wall_seconds": 195.0906321000075,
+    "started_at": "2026-10-20T08:30:50.711588-05:00",
+    "completed_at": "2026-10-20T08:34:05.804403-05:00",
+    "reused_sample_count": 3
+  },
+  "validation": {
+    "master_pcm_seconds": 300,
+    "all_spoken_cues_fit_within_8_seconds": true,
+    "cue_count": 30,
+    "text_source": "PROJECT_ROOT\\work\\film_storyboard_draft.json",
+    "human_listening_review": false,
+    "time_stretch_or_truncation_used": false
+  },
+  "music": {
+    "engine": "Local ComfyUI MiniMax Music3",
+    "source_path": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\shared_music_00001.flac",
+    "raw_duration_seconds": 116.63383333333333,
+    "theme_repetition_used": true,
+    "placements": [
+      {
+        "theme_pass": 1,
+        "source_start_seconds": 0,
+        "source_end_seconds": 116.63383333333333,
+        "timeline_start_seconds": 0.0,
+        "timeline_end_seconds": 116.63383333333333,
+        "crossfade_in_seconds": 0.0
+      },
+      {
+        "theme_pass": 2,
+        "source_start_seconds": 0,
+        "source_end_seconds": 116.63383333333333,
+        "timeline_start_seconds": 113.13383333333333,
+        "timeline_end_seconds": 229.76766666666666,
+        "crossfade_in_seconds": 3.5
+      },
+      {
+        "theme_pass": 3,
+        "source_start_seconds": 0,
+        "source_end_seconds": 73.73233333333333,
+        "timeline_start_seconds": 226.26766666666666,
+        "timeline_end_seconds": 300.0,
+        "crossfade_in_seconds": 3.5
+      }
+    ],
+    "mix_metadata": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.mix.json"
+  },
+  "previous_narration": {
+    "engine": "Piper 2023.11.14-2 portable Windows AMD64",
+    "execution": "Local CPU, no cloud inference",
+    "model": "zh_CN-huayan-medium",
+    "language": "zh_CN Mandarin",
+    "voice_sample_rate": 22050,
+    "master_sample_rate": 48000,
+    "engine_license": "MIT",
+    "voice_dataset_license": "Unknown as stated in original MODEL_CARD",
+    "reference_voice_cloning": false,
+    "engine_source": "https://github.com/rhasspy/piper/releases/tag/2023.11.14-2",
+    "model_source": "https://huggingface.co/rhasspy/piper-voices/tree/main/zh/zh_CN/huayan/medium",
+    "model_card_source": "https://huggingface.co/rhasspy/piper-voices/blob/main/zh/zh_CN/huayan/medium/MODEL_CARD",
+    "local_license_folder": "PROJECT_ROOT\\work\\rainlight_production\\audio\\provenance"
+  },
+  "final_mix": {
+    "path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "seconds": 300,
+    "sample_rate": 48000,
+    "channels": 2,
+    "wall_seconds": 1.0995,
+    "sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a"
+  }
+}

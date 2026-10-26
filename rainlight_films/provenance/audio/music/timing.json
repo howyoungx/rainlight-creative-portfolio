@@ -1,0 +1,13 @@
+{
+  "key": "shared_music",
+  "status": "success",
+  "submitted_at": "2026-10-20T00:37:15.883-05:00",
+  "completed_at": "2026-10-20T00:42:17.714-05:00",
+  "prompt_id": "dbd0b473-b755-4cf2-b4f1-317c0edb0625",
+  "files": [
+    "PROJECT_ROOT\\work\\rainlight_production\\jobs\\shared_music\\shared_music_00001.flac"
+  ],
+  "wall_seconds": 301.831,
+  "execution_seconds": 299.341,
+  "queue_seconds": 0.806
+}

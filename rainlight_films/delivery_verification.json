@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-10-25T02:16:46.412-05:00",
+  "passed": true,
+  "final": true,
+  "posters": 10,
+  "films": 10,
+  "total_movie_seconds": 3000,
+  "unique_source_clips": 300,
+  "shared_audio_master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+  "records": [
+    {
+      "id": "01_anime",
+      "name": "手绘赛璐璐动画",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "6553520cd0bca31ed33b804744618fbcdf9158ec9ac5ec10bf93892ef9a8332d",
+      "active_elapsed_seconds": 2743.24,
+      "span_seconds": 29044.685
+    },
+    {
+      "id": "02_inkwash",
+      "name": "东方水墨",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "10841330afdcef8e8905f2e6d0e66f70a19239c1b82725c9e24cc6461510db76",
+      "active_elapsed_seconds": 2382.368,
+      "span_seconds": 28387.666
+    },
+    {
+      "id": "03_papercut",
+      "name": "立体剪纸剧场",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "cf71688478b5ae2742776407ef677bd0c811e593bec4ee35dbc22a81bff9a1c6",
+      "active_elapsed_seconds": 1688.439,
+      "span_seconds": 1688.439
+    },
+    {
+      "id": "04_clay",
+      "name": "黏土定格动画",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "6db9b1c811482a31b48f229b454d8719c0081461b3c6a18b51ab1b5587ae9ced",
+      "active_elapsed_seconds": 2030.784,
+      "span_seconds": 2030.784
+    },
+    {
+      "id": "05_pixel",
+      "name": "像素冒险电影",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "57b3d0b60bf6c2722c1cf81c1530e4e144aee598244010d89c38e007ce33a33a",
+      "active_elapsed_seconds": 3813.315,
+      "span_seconds": 3813.315
+    },
+    {
+      "id": "06_oil",
+      "name": "流动油画",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "d6133b0838c7955f1791f2f26b220cb056b51f78613db0133795edd249d9b3a4",
+      "active_elapsed_seconds": 4409.616,
+      "span_seconds": 4409.616
+    },
+    {
+      "id": "07_glass",
+      "name": "彩色玻璃幻想",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "10174a3b466f14bd63fe5a06f2efb32559a89f1c2dde8108cabf78566d42f0f8",
+      "active_elapsed_seconds": 5085.416,
+      "span_seconds": 174571.867
+    },
+    {
+      "id": "08_comic",
+      "name": "欧式清线漫画",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "0c2f0937ae61d1850c75e8cd83b8b73f42ce2d634400ad8b28bee7dc6aca50f7",
+      "active_elapsed_seconds": 4442.788,
+      "span_seconds": 174869.887
+    },
+    {
+      "id": "09_charcoal",
+      "name": "炭笔黑白电影",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "8aab3b9bf78a6014387637fdd889f42e1f1fa23c6d0c5f6668580a75ec33b829",
+      "active_elapsed_seconds": 4306.924,
+      "span_seconds": 176437.131
+    },
+    {
+      "id": "10_3d",
+      "name": "童话三维动画",
+      "complete": true,
+      "seconds": 300,
+      "frames": 7200,
+      "poster": [
+        1200,
+        1800
+      ],
+      "source_frames": 30,
+      "source_clips": 30,
+      "audio": "Qwen3-TTS / Serena",
+      "audio_and_subtitle_review": true,
+      "film_sha256": "9d6bd39914f7a0666b666fef02a59094be2651ba260968328f8baee4a7087505",
+      "active_elapsed_seconds": 4178.597,
+      "span_seconds": 400724.126
+    }
+  ],
+  "errors": [],
+  "method": "Verify the existing full-decode reports, accepted-frame and motion review hashes, final portable media checksums, sampled final-audio/subtitle review, and local HTML links. This audit does not repeat full video decoding."
+}

@@ -1,0 +1,35 @@
+{
+  "submitted_at": "2026-10-25T07:35:07.804Z",
+  "approved_estimated_credits": 10,
+  "response": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "314647d9-107b-476e-9aef-8248bda9abff",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "job_id": "914f7424-f87c-41df-8d99-c05b8a44c063",
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "job_id": "55b231f8-6a23-4450-a628-55190672c641",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "job_id": "94508158-9cb0-4d18-bf0e-5942ec2e80d4",
+        "status": "pending"
+      },
+      {
+        "index": 5,
+        "job_id": "3b6728d8-e1cf-4b24-9ad3-3ec3f2e7b343",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 5,
+    "failed_count": 0
+  }
+}

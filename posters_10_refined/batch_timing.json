@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 115.66665129999456,
+  "execution_seconds_sum": 80.332,
+  "resolution": [
+    768,
+    1152
+  ],
+  "steps": 4,
+  "model": "FLUX.2 Klein 4B FP8",
+  "comparison": "Same source, same per-style seed, same model, resolution, sampler and steps; changed design prompts. Reasoning setting was reported by the user, not independently measured."
+}

@@ -1,0 +1,192 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-20T09:04:00.041767-05:00",
+  "clip_sha256": [
+    "11cf580f6db7022613335cbb6ee6950a1b5a53c004e31a46a835ffd378362b85",
+    "a4a91477243556347eb53680b182624dc48e067f261a8917f956826a9db53fc0",
+    "52a9d8406d4907ade3a1c9490c81776d447c26f130ffc778e2443673855072fa",
+    "2f377ca6c6bf0019095b9949997510aefec51a3a0738f229b6bb406771cc1767",
+    "da1b60d1ff3f73c72389398139039dd6c029221807c74446e259963b023077a5",
+    "b1a7c0036c049dcd0e21924ad7f1d0357b455097b62da962dd1c9b20a4cfa60d",
+    "65991ce28d4c53d619bba420b41a4d7a04c75d0ca45801e4ff2ae8f0e7f81217",
+    "f4385743f2e582e28948469361a5699dd5856c184a6d8477f4d45871b7e5c653",
+    "3e4612319398699b59926fb95544172c9e247558f0bd357f03a20a435a1135ed",
+    "3dbaf440e2a1e3f6eaa53cf28c14356399b7645045c8b2b24c788bddd4654c54",
+    "b5758a54ee96d5d405b459a3d7e42ea641c558720cee885fb66049d385e39dad",
+    "3e3f6f9224f2f88fbea710be362c799fcc7b357bc0bae9c30c6561500057308e",
+    "e325b674807bba70ae695197ebba51b87e96a1dea687bcff93d1917e70331c11",
+    "f0448c952a56b22951390c399b2c77bbc942d069bee34a48126a27f65c352add",
+    "9f9dff16244864116f239031a140ca36c362fb1c86fb747b7ed85b6407e84712",
+    "21584da33fa59210ff4b8ec4a074929c2d5b1f71eb9f9e7bce5959ed87888f0d",
+    "6789cb79536cdf426e95357cd6f2835f5f914c434f1aeaa2bb1644bb1e8e368e",
+    "9092465df9bb9e9c4150c59df3d3a5a1400ea316620ff5a30eb51e2075b06d46",
+    "4e18fcbbffdcd49304b950be4513e2ec2dc5fd0a14614b400fc4bee8fe4f5101",
+    "e78cfefe0d17dcccc14753eafd377aab93e13321e329986fae0bd9e425122da3",
+    "fd614661d8b3eb8bbaffa83a5eeb44285de047cf094ae9b170eb50452d9b227f",
+    "8eb462eef7de57d3e511132a2a28d4202c6e7ff52ad131cf8b03125f037446a1",
+    "fbde3efe5113ecbe0a924daf28dc52e2905712b8c2491a00b34c9dd4468e274c",
+    "42cbedc8bde510bc3113f3b37a99ad0680138dd7af3d1d257a1f9918f0d77c80",
+    "a2b9aa6cb2d56829904d558305c4d0abe3162419f4312c8047dd9d80b0e8750e",
+    "aaa881ef18570c5beeca7acafcf7cdc3736ddab5b02ab9d1853ac1e7e95b4c1a",
+    "e0f305747d2e11d5b1bcc0e48c4c5f576c68c2863272a6914e95dabbffe53732",
+    "18739042cc47e8e2ae2157e346d1ed6f4224d8feb04cdbb51a14dc9cda338bef",
+    "0e2e27edbef9ca235f766d581a242bc04b6277e6b67d146d5b5497186fd79f82",
+    "0f7feff2d1ed4829aed6416fe4bf5440bc03168628470e683487ac195b4d7a64"
+  ],
+  "notes": {
+    "method": "Each current source visually compared at frames 0, 60, 120, 180 and 239 against its keyframe. Minor hand and medium drift may be accepted; narrative state, unique characters, intact lantern and obvious hallucinated text were checked.",
+    "review_history": "PROJECT_ROOT\\work\\film_motion_qc\\review_history.json",
+    "shots": [
+      {
+        "shot_id": "S01",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S02",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S03",
+        "verdict": "usable_with_minor_notes",
+        "notes": "球形机器人嘴型略有拟人化变化，单一女主、圆形伙伴与完整铜灯保留；水墨材质与醒来回应情节清楚。"
+      },
+      {
+        "shot_id": "S04",
+        "verdict": "usable_with_minor_notes",
+        "notes": "镜头缓慢重新取景，后段圆点靠近画面下缘；单一灯塔、女主与完整铜灯保持，望向山顶的目标可读。"
+      },
+      {
+        "shot_id": "S05",
+        "verdict": "usable_with_minor_notes",
+        "notes": "步伐较小且略有滑移，女主与球形机器人未复制，灯保持完整；雨巷与出发方向清楚。"
+      },
+      {
+        "shot_id": "S06",
+        "verdict": "usable_with_minor_notes",
+        "notes": "摄影机缓慢上移，圆点后段部分被下缘裁去；原画既有的窗内居民、女主及微光保持，仍可读。"
+      },
+      {
+        "shot_id": "S07",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主手部有小幅姿态变化，窗中居民手与铜灯仍各自完整；将暖光留给居民的情节清楚。"
+      },
+      {
+        "shot_id": "S08",
+        "verdict": "usable_with_minor_notes",
+        "notes": "摄影机推拉幅度较大，但石阶、落叶、女主与球形机器人保持，铜灯未变形，可接受。"
+      },
+      {
+        "shot_id": "S09",
+        "verdict": "usable_with_minor_notes",
+        "notes": "返工后放大检查：女主始终留在石阶，机器人先短暂跳起再落在上一级台阶，后半不再悬空走入云中；石阶和完整铜灯持续保留，接受机器人一次较夸张的小跳。"
+      },
+      {
+        "shot_id": "S10",
+        "verdict": "usable_with_minor_notes",
+        "notes": "返工后机器人保持球形身体与原位，不再长出长柄；机位略向上移动使机器人靠近下缘，但独立完整铜灯和女主保持。"
+      },
+      {
+        "shot_id": "S11",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S12",
+        "verdict": "usable_with_minor_notes",
+        "notes": "镜头缓慢上移，圆点后段接近下缘，仍保持完整球体与独立铜灯；女主照护伙伴的关系清楚。"
+      },
+      {
+        "shot_id": "S13",
+        "verdict": "usable_with_minor_notes",
+        "notes": "圆点有较夸张的前倾和旋转，布带、球形身体、眼睛与女主手中的完整灯保持，无新增角色。"
+      },
+      {
+        "shot_id": "S14",
+        "verdict": "usable_with_minor_notes",
+        "notes": "放大抽帧检查：女主将完整铜灯举高后再放低，后段灯大部被下缘裁切；手仍接住提手，圆点已包扎的手臂保持，未出现物体融合。"
+      },
+      {
+        "shot_id": "S15",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S16",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S17",
+        "verdict": "usable_with_minor_notes",
+        "notes": "女主发型有轻微拉长，机位缓慢上移；原画中的球形伙伴和完整铜灯保持，抵达灯塔平台的场景可读。"
+      },
+      {
+        "shot_id": "S18",
+        "verdict": "usable_with_minor_notes",
+        "notes": "放灯后女主抬手的幅度较大，铜灯始终完整留在石座上，圆点保持独立，接受这一动作表现。"
+      },
+      {
+        "shot_id": "S19",
+        "verdict": "usable_with_minor_notes",
+        "notes": "返工后铜灯始终完整熄灭，石座、房屋与山景均保留；只出现轻微机位漂移和云雨变化，环境连续性通过。"
+      },
+      {
+        "shot_id": "S20",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S21",
+        "verdict": "usable_with_minor_notes",
+        "notes": "返工后只有原有琥珀心核发光，未出现画外灯或新增光团；上移机位在后段略裁去机器人下部，敞开球壳、女主和心核关系清楚。"
+      },
+      {
+        "shot_id": "S22",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S23",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S24",
+        "verdict": "usable_with_minor_notes",
+        "notes": "机器人面部短暂出现较强青绿色光晕，后又恢复原色；球形身体、铜灯和两处琥珀光保持独立，生命回应清楚，接受颜色变化。"
+      },
+      {
+        "shot_id": "S25",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S26",
+        "verdict": "usable_with_minor_notes",
+        "notes": "返工后暖灯和居民手保持在窗内原有比例，未出现写实巨大前景手；水墨轮廓、完整灯身和居民回应情节均保留。"
+      },
+      {
+        "shot_id": "S27",
+        "verdict": "usable_with_minor_notes",
+        "notes": "城市远景有轻微推拉和薄雾漂移；暖窗、山顶唯一灯塔与水墨建筑保持，城市回应的情节可读。"
+      },
+      {
+        "shot_id": "S28",
+        "verdict": "usable_with_minor_notes",
+        "notes": "云层逐渐变得较写实，但水墨建筑与唯一灯塔保持；金色晨光恢复色彩符合此镜剧情，可接受这一材质变化。"
+      },
+      {
+        "shot_id": "S29",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S30",
+        "verdict": "usable_with_minor_notes",
+        "notes": "镜头向上取景，后段机器人靠近下缘；女主、球形伙伴和单盏完整小灯保持，脚下仍有可读道路，接受机位裁切。"
+      }
+    ]
+  }
+}

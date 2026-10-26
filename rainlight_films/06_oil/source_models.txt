@@ -1,0 +1,43 @@
+《雨城最后一束光》· 流动油画版画面来源
+
+所有图像和动态源镜头均在本机 ComfyUI 生成；列明的局部合成也在本机完成。
+图像：FLUX.2 Klein 4B FP8；动态镜头按下列实际接受的源清单统计。
+MiniMax H3 + 本地 ComfyUI 原画前景合成：1 镜 / LTX-Video 2B 0.9.8 distilled BF16：29 镜
+每镜使用前 240 个源视频帧，24 fps，10 秒；30 镜共 300 秒，无循环、无变速。
+源片帧数（容器记录）：MiniMax H3 + 本地 ComfyUI 原画前景合成：243 帧；LTX-Video 2B 0.9.8 distilled BF16：241 帧。
+源画面 768×448，中心裁切后放大为 1280×720。
+源片已通过逐镜动态抽帧检查；整片导出状态以 timing.json、edit_report.json 为准。
+视频源音轨未用于成片。中文旁白、原创音乐及后期见上一级 sources.txt。
+
+S01  MiniMax H3 + 本地 ComfyUI 原画前景合成  06_oil_S01_h3_matte_qc3
+  原始动态生成依赖：06_oil_S01_h3_qc2
+  本地 ComfyUI 使用正确暗城原画固定建筑、山体、灯塔及被错误照亮的云层/光晕区域，保留其余深色天空的生成雨云细微运动；静止建立镜头采用明确记录的局部原画合成。
+S02  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S02_ltx_v2
+S03  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S03_ltx_v2
+S04  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S04_ltx_v2
+S05  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S05_ltx_qc1
+S06  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S06_ltx_v3
+S07  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S07_ltx_v2
+S08  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S08_ltx_v3
+S09  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S09_ltx_v4_safe
+S10  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S10_ltx_v4_safe
+S11  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S11_ltx_v2
+S12  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S12_ltx_v2
+S13  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S13_ltx_v2
+S14  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S14_ltx_v4_safe
+S15  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S15_ltx_v2
+S16  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S16_ltx_v2
+S17  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S17_ltx_qc1
+S18  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S18_ltx_v2
+S19  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S19_ltx_v4_safe
+S20  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S20_ltx_v5_safe
+S21  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S21_ltx_v4_safe
+S22  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S22_ltx_v2
+S23  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S23_ltx_v2
+S24  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S24_ltx_v2
+S25  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S25_ltx_qc1
+S26  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S26_ltx_v4_safe
+S27  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S27_ltx_qc1
+S28  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S28_ltx_v2
+S29  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S29_ltx_v2
+S30  LTX-Video 2B 0.9.8 distilled BF16  06_oil_S30_ltx_v2

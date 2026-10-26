@@ -1,0 +1,549 @@
+{
+  "style_id": "08_comic",
+  "film_completed_at": "2026-10-22T11:15:46.787-05:00",
+  "published_at": "2026-10-22T11:15:54.707-05:00",
+  "publication_started_at": "2026-10-22T11:15:52.961-05:00",
+  "note": "These are the accepted original frames and clips used in this film. The edit uses the first 240 frames of each source clip and replaces any source sound with the shared Serena narration and music.",
+  "shots": [
+    {
+      "shot": "S01",
+      "frame": "source_frames/S01.png",
+      "frame_sha256": "20055b744ec71b2e03025188643edc805150bb8a63a004045b2df6dcd8dd6fd2",
+      "frame_job": "08_comic_S01_frame_v4_light",
+      "clip": "source_clips/S01.mp4",
+      "clip_sha256": "30f945d79115643f7d78479a0139db18015c6cac7308e6e6d722bd64ce0eb642",
+      "clip_job": "08_comic_S01_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        0,
+        10
+      ]
+    },
+    {
+      "shot": "S02",
+      "frame": "source_frames/S02.png",
+      "frame_sha256": "300eabcf07202b4291261c76748af6601299b71c4861f4a2596f01e78887b372",
+      "frame_job": "08_comic_S02_frame_v5",
+      "clip": "source_clips/S02.mp4",
+      "clip_sha256": "38b67aaafb8efe627b9e321c4e80b9cdbbccbae528a86c38c80faee6974926b3",
+      "clip_job": "08_comic_S02_h3_qc3_io_retry",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        10,
+        20
+      ]
+    },
+    {
+      "shot": "S03",
+      "frame": "source_frames/S03.png",
+      "frame_sha256": "cfd14ea41b50c35fedb15b647420030918a391c4331d1dc6a3d867149f280999",
+      "frame_job": "08_comic_S03_frame_v4_light",
+      "clip": "source_clips/S03.mp4",
+      "clip_sha256": "abdc424cedfec837fbb9d807a7de210e5fe217871b2769153886a013f06eb4e5",
+      "clip_job": "08_comic_S03_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        20,
+        30
+      ]
+    },
+    {
+      "shot": "S04",
+      "frame": "source_frames/S04.png",
+      "frame_sha256": "37b872ce39ecfe884802f5c3397f199ed95b8fe146c7d190135c4a2c0b89a524",
+      "frame_job": "08_comic_S04_frame_v4_light",
+      "clip": "source_clips/S04.mp4",
+      "clip_sha256": "ff0969ff8c4e31eb6226cc5f1240a5ecb95cca1095904fbf9860ae6c2aef6283",
+      "clip_job": "08_comic_S04_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        30,
+        40
+      ]
+    },
+    {
+      "shot": "S05",
+      "frame": "source_frames/S05.png",
+      "frame_sha256": "8b280a2f69f53a998927ae605e31a85e396b911a968e55cd9e0886caaf60029d",
+      "frame_job": "08_comic_S05_frame_v4_light",
+      "clip": "source_clips/S05.mp4",
+      "clip_sha256": "de826bff8538c7b44e9421245fdbce4faa9d4ef5943da49c55a6d60fff5aeb28",
+      "clip_job": "08_comic_S05_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        40,
+        50
+      ]
+    },
+    {
+      "shot": "S06",
+      "frame": "source_frames/S06.png",
+      "frame_sha256": "c2703ae4e741ec7383eeada5901256b311ecb8a0ac8a59d5a77099a353098710",
+      "frame_job": "08_comic_S06_frame_v4_light",
+      "clip": "source_clips/S06.mp4",
+      "clip_sha256": "234401716a1e9ef08e985c6d05e06070165ac751843845968893e1cd013d5f18",
+      "clip_job": "08_comic_S06_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        50,
+        60
+      ]
+    },
+    {
+      "shot": "S07",
+      "frame": "source_frames/S07.png",
+      "frame_sha256": "fa64dd1d79511ffb0dc78090c52db4daa89303d4586bb779998a751cc7cf0041",
+      "frame_job": "08_comic_S07_frame_v4_light",
+      "clip": "source_clips/S07.mp4",
+      "clip_sha256": "e769634b43d4655c535076730598b6fd422851ae9ac572548c3f97607bc28fe0",
+      "clip_job": "08_comic_S07_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        60,
+        70
+      ]
+    },
+    {
+      "shot": "S08",
+      "frame": "source_frames/S08.png",
+      "frame_sha256": "cd637b7947f5f4701a13855f67f0e6f0b78f8b00dfb950632e8f28f03e160d46",
+      "frame_job": "08_comic_S08_frame_v5",
+      "clip": "source_clips/S08.mp4",
+      "clip_sha256": "c94e74383788ac0c23e06123d8af7df4ed9ccb694efc03dbdc06970a38cb8931",
+      "clip_job": "08_comic_S08_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        70,
+        80
+      ]
+    },
+    {
+      "shot": "S09",
+      "frame": "source_frames/S09.png",
+      "frame_sha256": "76bf9013ddf787a318072742ebe33f27f6179cdc6ccfc2f329643c22f3f056e1",
+      "frame_job": "08_comic_S09_frame_v4_light",
+      "clip": "source_clips/S09.mp4",
+      "clip_sha256": "8151b25535e17f07480708257c6709ec1dc8e6c62bfd6a07067cb52ce112fce5",
+      "clip_job": "08_comic_S09_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        80,
+        90
+      ]
+    },
+    {
+      "shot": "S10",
+      "frame": "source_frames/S10.png",
+      "frame_sha256": "43045bc8ff79f168dd366cf64862a409b2797ed3210ca126e07b33d2f2f4d170",
+      "frame_job": "08_comic_S10_frame_v4_light",
+      "clip": "source_clips/S10.mp4",
+      "clip_sha256": "99624446770206a8ac97a3c7556c6757d9cf37d53f0811b6cdea61eb03a588ef",
+      "clip_job": "08_comic_S10_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        90,
+        100
+      ]
+    },
+    {
+      "shot": "S11",
+      "frame": "source_frames/S11.png",
+      "frame_sha256": "0b9206d9dcdc530996faa5d8f04d104ca1e043754fc8d2b501e43979444f163b",
+      "frame_job": "08_comic_S11_frame_v4_light",
+      "clip": "source_clips/S11.mp4",
+      "clip_sha256": "bf01732e43f7610a91310e98497dc243f5ba35655ad5bc14bb052132f548ce22",
+      "clip_job": "08_comic_S11_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        100,
+        110
+      ]
+    },
+    {
+      "shot": "S12",
+      "frame": "source_frames/S12.png",
+      "frame_sha256": "8dc968fbfc8c0954891edc3d9b331bf29ecca8f11eaff23b61e05f7085c69474",
+      "frame_job": "08_comic_S12_frame_v4_light",
+      "clip": "source_clips/S12.mp4",
+      "clip_sha256": "365ddd1044a149244d92984b7bf08fe5d3e64cbeaece8b769a2b354b9d972f65",
+      "clip_job": "08_comic_S12_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        110,
+        120
+      ]
+    },
+    {
+      "shot": "S13",
+      "frame": "source_frames/S13.png",
+      "frame_sha256": "eec121db1c20e2f6faf668c82d11a02a4fdbe64c70f69d26b08daa90ca0ebb1a",
+      "frame_job": "08_comic_S13_frame_v4_light",
+      "clip": "source_clips/S13.mp4",
+      "clip_sha256": "25ec443f311a1b740085ac5abf247b0c4fe42ea27584b0b696facf5ddbaa5d57",
+      "clip_job": "08_comic_S13_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        120,
+        130
+      ]
+    },
+    {
+      "shot": "S14",
+      "frame": "source_frames/S14.png",
+      "frame_sha256": "45c803be2d24f01a318af189ba0b113903cf62383cf28affa20b566b8dc6cd8e",
+      "frame_job": "08_comic_S14_frame_v4_light",
+      "clip": "source_clips/S14.mp4",
+      "clip_sha256": "16439b36674001693881fe9a3af6c7814023901f565393d600c9677345a2b688",
+      "clip_job": "08_comic_S14_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        130,
+        140
+      ]
+    },
+    {
+      "shot": "S15",
+      "frame": "source_frames/S15.png",
+      "frame_sha256": "835fc61b91f22ef799e3f2d0bb8939420ceb96c897ef62a48810a2da5ee6f034",
+      "frame_job": "08_comic_S15_frame_v4_light",
+      "clip": "source_clips/S15.mp4",
+      "clip_sha256": "f53a2bbe7bbeb332c97089937051736ff38222d054b9f944a4ee6307efb38970",
+      "clip_job": "08_comic_S15_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        140,
+        150
+      ]
+    },
+    {
+      "shot": "S16",
+      "frame": "source_frames/S16.png",
+      "frame_sha256": "99f603c602e884cafb8d074d2207a2558764a0e18ec4fb2d99f770a04dfafbe5",
+      "frame_job": "08_comic_S16_frame_v5",
+      "clip": "source_clips/S16.mp4",
+      "clip_sha256": "b8885de7bd2fa234545f7e166bd1d5e963f575b6a9c2380963d658ddf850eed7",
+      "clip_job": "08_comic_S16_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        150,
+        160
+      ]
+    },
+    {
+      "shot": "S17",
+      "frame": "source_frames/S17.png",
+      "frame_sha256": "8fabba7503ec913236691e6db871918bfaac21c5ff5f6cbef0f6c6ce610d33eb",
+      "frame_job": "08_comic_S17_frame_v4_light",
+      "clip": "source_clips/S17.mp4",
+      "clip_sha256": "650711e76adafd22582f88b8d4e7460fcc569389d4566c5c832504a0e88d8dec",
+      "clip_job": "08_comic_S17_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        160,
+        170
+      ]
+    },
+    {
+      "shot": "S18",
+      "frame": "source_frames/S18.png",
+      "frame_sha256": "f87059567709d0b1ecaca25723f69650b70932d0c38d4d407a3ca36bcb8b8e97",
+      "frame_job": "08_comic_S18_frame_v5",
+      "clip": "source_clips/S18.mp4",
+      "clip_sha256": "f4c15fe8abf77b4b4e026900bb679c872e94a1e701f09819d28a120dca225e72",
+      "clip_job": "08_comic_S18_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        170,
+        180
+      ]
+    },
+    {
+      "shot": "S19",
+      "frame": "source_frames/S19.png",
+      "frame_sha256": "7b7395b88a970fbd1f69806b10e9d4326b3e918f7749a50a91573760fa51c06a",
+      "frame_job": "08_comic_S19_frame_v4_light",
+      "clip": "source_clips/S19.mp4",
+      "clip_sha256": "fdc2e776805190fbcb1744087518de397f6c2f8edc804e1f952fb1e9f6b37aad",
+      "clip_job": "08_comic_S19_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        180,
+        190
+      ]
+    },
+    {
+      "shot": "S20",
+      "frame": "source_frames/S20.png",
+      "frame_sha256": "03a36e25684ff42c78280251919fcdbef4e3d1af11dae96b6ba3e7a751d6ee53",
+      "frame_job": "08_comic_S20_frame_v4_light",
+      "clip": "source_clips/S20.mp4",
+      "clip_sha256": "8616fa2e8b86cffae9628f6834e797cb43478b6196c4b64aa7cc7a319642c1e9",
+      "clip_job": "08_comic_S20_ltx_v5_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        190,
+        200
+      ]
+    },
+    {
+      "shot": "S21",
+      "frame": "source_frames/S21.png",
+      "frame_sha256": "6a9a6fb0be2dc8ca169791171663d2653921aba10ef7ceaea25e02589ee516e6",
+      "frame_job": "08_comic_S21_frame_v4_light",
+      "clip": "source_clips/S21.mp4",
+      "clip_sha256": "fc3493912b5788a912f3ea6b9c140a26f3ce26f2d87c434d13be3cb5b910a498",
+      "clip_job": "08_comic_S21_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        200,
+        210
+      ]
+    },
+    {
+      "shot": "S22",
+      "frame": "source_frames/S22.png",
+      "frame_sha256": "47aa3cb8c579fc3a16056eeb176375f0d6fd0ca02d257962c48059addedad486",
+      "frame_job": "08_comic_S22_frame_v4_light",
+      "clip": "source_clips/S22.mp4",
+      "clip_sha256": "16557d56476e9d691f3b67f9881643719a6fe10d0838b41d54ba25e3f832ad75",
+      "clip_job": "08_comic_S22_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        210,
+        220
+      ]
+    },
+    {
+      "shot": "S23",
+      "frame": "source_frames/S23.png",
+      "frame_sha256": "00d1cce53bce01d43ff33606ba52e9c6aaacb761a157ef4d21e33465528f2be4",
+      "frame_job": "08_comic_S23_frame_v5",
+      "clip": "source_clips/S23.mp4",
+      "clip_sha256": "b1ab2d12051d62856c6368ddba3acd55439538f2ba633e11faf2ff74a3217fc7",
+      "clip_job": "08_comic_S23_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        220,
+        230
+      ]
+    },
+    {
+      "shot": "S24",
+      "frame": "source_frames/S24.png",
+      "frame_sha256": "c449b5ba8515ed1b0d58c5d0530127b7ef72c1529c7a43e9d7f1d9d3cb4ef1d3",
+      "frame_job": "08_comic_S24_frame_v5",
+      "clip": "source_clips/S24.mp4",
+      "clip_sha256": "de54c3347a88eab51489fc987b9f9349ff6f22b3ee6ae0e244ab9a26132a6305",
+      "clip_job": "08_comic_S24_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        230,
+        240
+      ]
+    },
+    {
+      "shot": "S25",
+      "frame": "source_frames/S25.png",
+      "frame_sha256": "65b9383e2b9b84de55442b42b4d18b7ddaa7a0de5086b03a88e20645faffb8ca",
+      "frame_job": "08_comic_S25_frame_v4_light",
+      "clip": "source_clips/S25.mp4",
+      "clip_sha256": "824cea194c29f6f3858d3ed1108c7aef54fbcf19e08db126f13cec1ac98860a9",
+      "clip_job": "08_comic_S25_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        240,
+        250
+      ]
+    },
+    {
+      "shot": "S26",
+      "frame": "source_frames/S26.png",
+      "frame_sha256": "6b8470ead1a2c9149e53371c6c83e5c7ad31a397f609da20fd65a53553369b84",
+      "frame_job": "08_comic_S26_frame_v4_light",
+      "clip": "source_clips/S26.mp4",
+      "clip_sha256": "4d80b234e3321dcb92fad3e449ddd1ee20826a5b7db7d7006f13aba28c825825",
+      "clip_job": "08_comic_S26_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        250,
+        260
+      ]
+    },
+    {
+      "shot": "S27",
+      "frame": "source_frames/S27.png",
+      "frame_sha256": "0439315bf24d9da8d5ada6c34b47637ebc8d71178e36f04254b81464ea5c3329",
+      "frame_job": "08_comic_S27_frame_v4_light",
+      "clip": "source_clips/S27.mp4",
+      "clip_sha256": "16d530f30704263e3ce9a616d71e26c33359cb84ce5dfc32f8fb17c91d033fd5",
+      "clip_job": "08_comic_S27_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        260,
+        270
+      ]
+    },
+    {
+      "shot": "S28",
+      "frame": "source_frames/S28.png",
+      "frame_sha256": "a273b34371a5c95dae789f164409046cd914fc0f58d2aceb926f4fa118b36b8e",
+      "frame_job": "08_comic_S28_frame_v4_light",
+      "clip": "source_clips/S28.mp4",
+      "clip_sha256": "6e21aa5aa56022b08c8c035ed40ff9b35ca041b08193bbaa8df86062af838c36",
+      "clip_job": "08_comic_S28_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        270,
+        280
+      ]
+    },
+    {
+      "shot": "S29",
+      "frame": "source_frames/S29.png",
+      "frame_sha256": "7ad05a34d170c39f344d1e4521c1460d32017a9295ed55f3c8c4f93cec9538d9",
+      "frame_job": "08_comic_S29_frame_v4_light",
+      "clip": "source_clips/S29.mp4",
+      "clip_sha256": "894d364abdf56cffd9c1d59d932fc6c3206ba0fdeefb636ed304e1c5f5f306de",
+      "clip_job": "08_comic_S29_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        280,
+        290
+      ]
+    },
+    {
+      "shot": "S30",
+      "frame": "source_frames/S30.png",
+      "frame_sha256": "3169b68cd4aa67386d47d365144bd4df540d6b2e9be5c615cc5c5b95adf09177",
+      "frame_job": "08_comic_S30_frame_v4_light",
+      "clip": "source_clips/S30.mp4",
+      "clip_sha256": "6196a0e36a876c2068c0264526836ee191ff4fba6f3b14083bc0ec5af6bf6770",
+      "clip_job": "08_comic_S30_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        290,
+        300
+      ]
+    }
+  ]
+}

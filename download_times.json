@@ -1,0 +1,29 @@
+{
+  "wall_seconds": 405.1905226999952,
+  "files": [
+    {
+      "file": "diffusion_models/flux-2-klein-4b-fp8.safetensors",
+      "seconds": 392.5,
+      "bytes": 4070624520,
+      "status": "ok"
+    },
+    {
+      "file": "text_encoders/qwen_3_4b.safetensors",
+      "seconds": 405.18,
+      "bytes": 8044982048,
+      "status": "ok"
+    },
+    {
+      "file": "vae/flux2-vae.safetensors",
+      "seconds": 21.55,
+      "bytes": 336213556,
+      "status": "ok"
+    },
+    {
+      "file": "checkpoints/hunyuan3d-dit-v2_fp16.safetensors",
+      "seconds": 376.15,
+      "bytes": 4928151562,
+      "status": "ok"
+    }
+  ]
+}

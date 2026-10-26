@@ -1,0 +1,501 @@
+{
+  "queried_on": "2026-10-25",
+  "purpose": "Rainlight five additional Higgsfield films; planning only",
+  "models": [
+    {
+      "id": "seedance_2_5",
+      "name": "Seedance 2.5",
+      "provider_name": "Bytedance",
+      "description": "Seedance 2.5 text-to-video, multimodal omni-reference generation, video edit, and video extension",
+      "output_type": "video",
+      "parameters": [
+        {
+          "name": "mode",
+          "required": "optional",
+          "type": "string",
+          "description": "Generation mode: 't2v' for prompt-only generation, 'omni_reference' for image, video, or audio references, 'video_edit' to edit one reference video (billed by that video's duration; 'duration' and 'aspect_ratio' are ignored), or 'video_extension' to extend a reference video ('aspect_ratio' is ignored — the output follows the extended video).",
+          "options": [
+            "t2v",
+            "omni_reference",
+            "video_edit",
+            "video_extension"
+          ],
+          "default": "t2v"
+        },
+        {
+          "name": "duration",
+          "required": "optional",
+          "type": "number",
+          "description": "Duration in seconds (4-30). Whole number.",
+          "min": 4,
+          "max": 30,
+          "default": 5
+        },
+        {
+          "name": "resolution",
+          "required": "optional",
+          "type": "string",
+          "description": "Output resolution: 480p, 720p, or 1080p.",
+          "options": [
+            "480p",
+            "720p",
+            "1080p"
+          ],
+          "default": "720p"
+        },
+        {
+          "name": "generate_audio",
+          "required": "optional",
+          "type": "bool",
+          "description": "Generate audio for the output video.",
+          "default": true
+        },
+        {
+          "name": "bitrate_mode",
+          "required": "optional",
+          "type": "string",
+          "description": "'standard' = normal output bitrate; 'high' = higher bitrate output.",
+          "options": [
+            "standard",
+            "high"
+          ],
+          "default": "standard"
+        },
+        {
+          "name": "extension_mode",
+          "required": "optional",
+          "type": "string",
+          "description": "Extension direction; required for mode 'video_extension' and not allowed otherwise.",
+          "options": [
+            "backward",
+            "forward"
+          ],
+          "nullable": true
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "start_image",
+            "end_image",
+            "image_references",
+            "video_references",
+            "audio_references"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "tags": [
+        "text-to-video",
+        "reference",
+        "identity",
+        "audio-reference",
+        "video-reference",
+        "video-edit",
+        "video-extension",
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    },
+    {
+      "id": "kling4_0",
+      "name": "Kling 4.0",
+      "provider_name": "Kling",
+      "description": "Generate video from text, ordered keyframes, references, or edit an input video",
+      "output_type": "video",
+      "parameters": [
+        {
+          "name": "mode",
+          "required": "optional",
+          "type": "string",
+          "description": "Generation mode.",
+          "options": [
+            "text-to-video",
+            "image-to-video",
+            "reference-to-video",
+            "video-edit"
+          ],
+          "default": "text-to-video"
+        },
+        {
+          "name": "resolution",
+          "required": "optional",
+          "type": "string",
+          "description": "Output resolution.",
+          "options": [
+            "720p",
+            "1080p"
+          ],
+          "default": "1080p"
+        },
+        {
+          "name": "duration",
+          "required": "optional",
+          "type": "number",
+          "description": "Duration in whole seconds (3-30). Whole number.",
+          "min": 3,
+          "max": 30,
+          "default": 10
+        },
+        {
+          "name": "kling_element_ids",
+          "required": "optional",
+          "type": "string_array",
+          "description": "Accessible, ready Kling element IDs or reference UUIDs (up to seven)."
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "start_image",
+            "end_image",
+            "image_references",
+            "video_references"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "21:9",
+        "16:9",
+        "9:16",
+        "1:1",
+        "auto"
+      ],
+      "tags": [
+        "text-to-video",
+        "image-to-video",
+        "reference-to-video",
+        "video-edit",
+        "keyframes"
+      ]
+    },
+    {
+      "id": "flux_3_video",
+      "name": "FLUX 3 Video",
+      "provider_name": "Black Forest Labs",
+      "description": "Text-to-video, multi-frame image-to-video, and video continuation with synchronized audio",
+      "output_type": "video",
+      "parameters": [
+        {
+          "name": "duration",
+          "required": "optional",
+          "type": "number",
+          "description": "Duration in whole seconds (5-20). Whole number.",
+          "min": 5,
+          "max": 20,
+          "default": 5
+        },
+        {
+          "name": "resolution",
+          "required": "optional",
+          "type": "string",
+          "description": "Output resolution: 720p, 1080p, 2K, or 4K.",
+          "options": [
+            "720p",
+            "1080p",
+            "2k",
+            "4k"
+          ],
+          "default": "720p"
+        },
+        {
+          "name": "generate_audio",
+          "required": "optional",
+          "type": "bool",
+          "description": "Generate synchronized speech, effects, and ambience.",
+          "default": true
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "start_image",
+            "end_image",
+            "image_references",
+            "video_references"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "tags": [
+        "text-to-video",
+        "image-to-video",
+        "video-continuation",
+        "audio",
+        "start-frame",
+        "end-frame",
+        "storyboard",
+        "1080p",
+        "2k",
+        "4k"
+      ]
+    },
+    {
+      "id": "veo3_1",
+      "name": "Google Veo 3.1",
+      "provider_name": "Google",
+      "description": "Ultra-realistic, top-tier cinematic quality",
+      "output_type": "video",
+      "parameters": [
+        {
+          "name": "duration",
+          "required": "optional",
+          "type": "number",
+          "description": "Duration of the output video in seconds.",
+          "options": [
+            4,
+            6,
+            8
+          ],
+          "default": 8
+        },
+        {
+          "name": "quality",
+          "required": "optional",
+          "type": "string",
+          "description": "Output quality tier.",
+          "options": [
+            "basic",
+            "high",
+            "ultra"
+          ],
+          "default": "basic"
+        },
+        {
+          "name": "variant",
+          "required": "optional",
+          "type": "string",
+          "description": "Veo 3.1 variant: 'veo-3-1-preview' = best quality, 'veo-3-1-fast' = faster generation.",
+          "options": [
+            "veo-3-1-preview",
+            "veo-3-1-fast"
+          ],
+          "default": "veo-3-1-fast"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "start_image"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "16:9",
+        "9:16"
+      ],
+      "tags": [
+        "ultra-realistic",
+        "cinematic",
+        "top-tier",
+        "quality",
+        "audio"
+      ]
+    },
+    {
+      "id": "wan3_0_prime",
+      "name": "Wan 3.0 Prime",
+      "provider_name": "Wan",
+      "description": "Wan 3.0 Prime text-to-video, first/last frame video, and multimodal reference-to-video with native audio",
+      "output_type": "video",
+      "parameters": [
+        {
+          "name": "duration",
+          "required": "optional",
+          "type": "number",
+          "description": "Duration in seconds (2-30), or -1 to let the model choose the length from the prompt and media. Smart duration (-1) is only available for unlimited generations. Whole number.",
+          "min": -1,
+          "max": 30,
+          "default": 5
+        },
+        {
+          "name": "resolution",
+          "required": "optional",
+          "type": "string",
+          "description": "Output resolution: 480p, 720p, or 1080p.",
+          "options": [
+            "480p",
+            "720p",
+            "1080p"
+          ],
+          "default": "720p"
+        },
+        {
+          "name": "generate_audio",
+          "required": "optional",
+          "type": "bool",
+          "description": "Generate a native audio track for the output video.",
+          "default": true
+        },
+        {
+          "name": "enable_thinking",
+          "required": "optional",
+          "type": "bool",
+          "description": "Let the model reason about the prompt before generating (slower, better prompt adherence).",
+          "default": false
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "start_image",
+            "end_image",
+            "image_references",
+            "video_references",
+            "audio_references"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4"
+      ],
+      "tags": [
+        "text-to-video",
+        "reference",
+        "identity",
+        "audio-reference",
+        "video-reference",
+        "first-last-frame",
+        "sound",
+        "thinking",
+        "480p",
+        "720p",
+        "1080p",
+        "prime"
+      ]
+    }
+  ],
+  "image_model": {
+    "id": "nano_banana_pro",
+    "name": "Nano Banana Pro",
+    "provider_name": "Google",
+    "description": "Ultimate quality, text and diagrams",
+    "output_type": "image",
+    "parameters": [
+      {
+        "name": "resolution",
+        "required": "optional",
+        "type": "string",
+        "description": "Output resolution.",
+        "options": [
+          "1k",
+          "2k",
+          "4k"
+        ],
+        "default": "2k"
+      }
+    ],
+    "medias": [
+      {
+        "name": "medias",
+        "type": "image",
+        "roles": [
+          "image_references"
+        ]
+      }
+    ],
+    "aspect_ratios": [
+      "1:1",
+      "3:2",
+      "2:3",
+      "4:3",
+      "3:4",
+      "4:5",
+      "5:4",
+      "9:16",
+      "16:9",
+      "21:9"
+    ],
+    "tags": [
+      "quality",
+      "text-rendering",
+      "diagrams",
+      "photorealistic",
+      "versatile",
+      "4k",
+      "text-to-image",
+      "image-to-image",
+      "unlim"
+    ],
+    "supports_unlim": true
+  },
+  "balance": {
+    "credits": 2070.56,
+    "subscription_plan_type": "ultra",
+    "free_trial": {
+      "status": "pending",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": null,
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "ai_influencer_motion_control",
+          "ai_influencer_replace_object",
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 3,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "ai_influencer_sheet"
+        ],
+        "remaining": 5,
+        "parameters": {},
+        "max_duration": null
+      }
+    ]
+  },
+  "preferences": {
+    "auto_create_project": false
+  },
+  "web_supporting_reference": "https://github.com/higgsfield-ai/skills/blob/main/higgsfield-generate/references/model-catalog.md",
+  "catalog_note": "Model recommendation scores are lexical relevance, not objective video-quality ranking. Artistic pairings are production hypotheses pending actual pilot results."
+}

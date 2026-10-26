@@ -1,0 +1,177 @@
+{
+  "status": "five_short_pilots_complete_full_films_not_authorized",
+  "approved_scope": "Five S14 pilot clips, four at 10 seconds and Veo at 6 seconds, including five reference images",
+  "approved_budget_cap_credits": 410,
+  "full_films_budget_authorized": false,
+  "user_approval": "先花 410 积分做 5 个短样片（推荐；每个 6–10 秒，再决定整片）",
+  "quoted_on": "2026-10-25",
+  "client_timezone": "America/Chicago",
+  "currency": "Higgsfield credits",
+  "balance_observed": 2070.56,
+  "models": [
+    {
+      "model": "seedance_2_5",
+      "clips": 30,
+      "duration_seconds_each": 10,
+      "credits_each": 160,
+      "total_credits": 4800
+    },
+    {
+      "model": "kling4_0",
+      "clips": 30,
+      "duration_seconds_each": 10,
+      "credits_each": 10,
+      "total_credits": 300
+    },
+    {
+      "model": "flux_3_video",
+      "clips": 30,
+      "duration_seconds_each": 10,
+      "credits_each": 80,
+      "total_credits": 2400
+    },
+    {
+      "model": "veo3_1",
+      "clips": 60,
+      "segments": [
+        {
+          "count": 30,
+          "duration": 6,
+          "credits_each": 90
+        },
+        {
+          "count": 30,
+          "duration": 4,
+          "credits_each": 60
+        }
+      ],
+      "total_credits": 4500
+    },
+    {
+      "model": "wan3_0_prime",
+      "clips": 30,
+      "duration_seconds_each": 10,
+      "credits_each": 60,
+      "total_credits": 1800
+    }
+  ],
+  "price_quotes": [
+    {
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": false,
+        "bitrate_mode": "high"
+      },
+      "cost": {
+        "credits": 160,
+        "credits_exact": 160
+      }
+    },
+    {
+      "params": {
+        "model": "kling4_0",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "mode": "reference-to-video"
+      },
+      "cost": {
+        "credits": 10,
+        "credits_exact": 10
+      }
+    },
+    {
+      "params": {
+        "model": "flux_3_video",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "generate_audio": false
+      },
+      "cost": {
+        "credits": 80,
+        "credits_exact": 80
+      }
+    },
+    {
+      "params": {
+        "model": "veo3_1",
+        "duration": 6,
+        "aspect_ratio": "16:9",
+        "quality": "ultra",
+        "variant": "veo-3-1-preview"
+      },
+      "cost": {
+        "credits": 90,
+        "credits_exact": 90
+      }
+    },
+    {
+      "params": {
+        "model": "veo3_1",
+        "duration": 4,
+        "aspect_ratio": "16:9",
+        "quality": "ultra",
+        "variant": "veo-3-1-preview"
+      },
+      "cost": {
+        "credits": 60,
+        "credits_exact": 60
+      }
+    },
+    {
+      "params": {
+        "model": "wan3_0_prime",
+        "duration": 10,
+        "aspect_ratio": "16:9",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "enable_thinking": true
+      },
+      "cost": {
+        "credits": 60,
+        "credits_exact": 60
+      }
+    }
+  ],
+  "images": {
+    "model": "nano_banana_pro",
+    "resolution": "2k",
+    "aspect_ratio": "16:9",
+    "credits_each": 2,
+    "base_count": 180,
+    "total_credits": 360
+  },
+  "first_pass_video_credits": 13800,
+  "first_pass_total_credits": 14160,
+  "proposed_full_budget_cap": 17000,
+  "repair_reserve_credits": 2840,
+  "pilot": {
+    "count": 5,
+    "video_duration_seconds": [
+      10,
+      10,
+      10,
+      6,
+      10
+    ],
+    "video_credits": 400,
+    "images": 5,
+    "image_credits": 10,
+    "total_credits": 410,
+    "notes": "One S14 test shot per model. Successful first-pass shots and reference frames can count toward the full films; not five finished films. No retries included."
+  },
+  "funding_shortfall_first_pass": 12089.44,
+  "notes": [
+    "Five final films remain 300 seconds each, total 1500 seconds.",
+    "Veo uses two freshly generated shots per 10-second story beat (6+4 seconds). No loops or slow motion to pad duration.",
+    "Cost-only quotes do not validate references or generation readiness. Requote with prepared media before spending.",
+    "Actual cost and elapsed time will be logged by job. Prices, failures and replacement shots can change totals.",
+    "The cost-only planning pass submitted no jobs. After user approval, five reference images and five short pilot videos were generated for 410 credits; full films remain unauthorized.",
+    "Budget decision is needed because the current balance cannot fund the requested full scope."
+  ]
+}

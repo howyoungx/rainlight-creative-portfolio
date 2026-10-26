@@ -1,0 +1,88 @@
+{
+  "reviewer": "storyboard",
+  "reviewed_at_utc": "2026-10-25T07:40:29.067531+00:00",
+  "scope": "Read-only independent reference-image advisory; no paid jobs submitted or changed. Root already approved and submitted five movement pilots.",
+  "decision": "All five are readable and usable for the approved movement/style pilots. This is not full-film continuity approval. No extra paid reference retry requested.",
+  "method": "Actual rendered pixels of all five downloaded images inspected; inherited reference deviations separated from later video motion failures.",
+  "video_request_source": "PROJECT_ROOT\\work\\higgsfield_five\\submitted_video_requests.json",
+  "video_request_sha256": "77cdff58738e0966c38406b9eef0be20da0880fe5c488b2ebffc4fe5636cf349",
+  "video_qa_focus": [
+    "Two hands remain attached and do not multiply.",
+    "Only small tightening and flattening of the existing band; cloth remains supported around the original right arm.",
+    "Robot arm stays attached, chest stays closed, one woman and one robot persist.",
+    "Lantern keeps its original geometry, ground position and flame; no text or sudden new props.",
+    "Preserve each actual reference material and identity during the pilot; record canonical identity and early tower light separately as inherited reference limitations."
+  ],
+  "records": [
+    {
+      "id": "11_seedance_thread",
+      "assigned_video_model": "seedance_2_5",
+      "image_generator": "Nano Banana Pro 2K",
+      "reference_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\reference.png",
+      "reference_sha256": "339742b3d05e9dcc620652a09c172cde5b2bebbbee592ae61a8cae845ab11149",
+      "manually_viewed": true,
+      "approved_for_motion_pilot": true,
+      "full_film_reuse_without_continuity_corrections": false,
+      "style_observed": "Tactile felt and embroidery, visible seams and threads; clear material distinction from previous ten local versions.",
+      "anatomy_and_action": "One woman and one robot; two readable human hands contacting the existing support band. Robot is elongated with a body seam and long flippers, rather than the locked single sphere.",
+      "lighting": "Distant tower already has a bright warm beacon and horizontal beam. This contradicts the S14 dark-tower story state and is inherited from the reference image.",
+      "full_film_correction": "Darken the distant tower and remove its beam; lock spherical robot proportions across the entire sequence before adopting this shot."
+    },
+    {
+      "id": "12_kling_shadow",
+      "assigned_video_model": "kling4_0",
+      "image_generator": "Nano Banana Pro 2K",
+      "reference_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\12_kling_shadow\\reference.png",
+      "reference_sha256": "f3631f772bf42178979714dd4687cd9d55d771d1b12f6d0da0111f46cda46148",
+      "manually_viewed": true,
+      "approved_for_motion_pilot": true,
+      "full_film_reuse_without_continuity_corrections": false,
+      "style_observed": "Backlit leather-puppet scene, visible articulated pivots and cutout profile; layered scenery and single readable composition.",
+      "anatomy_and_action": "Two visible human hands hold the two existing cloth tails. Robot has distinct head/torso, articulated hands and fingers, beyond the canonical sphere and flippers; material interpretation is usable for a movement trial.",
+      "lighting": "Distant tower aperture is already warm and luminous. The bright stage backlight can be a medium convention, but the explicit lit tower conflicts with S14.",
+      "full_film_correction": "Keep the stage medium but make the tower lamp visibly dark; lock a consistent spherical or explicitly redesigned puppet robot before all 30 beats."
+    },
+    {
+      "id": "13_flux_cyanotype",
+      "assigned_video_model": "flux_3_video",
+      "image_generator": "Nano Banana Pro 2K",
+      "reference_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\13_flux_cyanotype\\reference.png",
+      "reference_sha256": "fff494b49430ad8aec89a27fea0bd6966670bd72f0f462108f7c6a009d07548d",
+      "manually_viewed": true,
+      "approved_for_motion_pilot": true,
+      "full_film_reuse_without_continuity_corrections": false,
+      "style_observed": "Prussian-blue graphic illustration on a pale paper border, closer to cyanotype-inspired illustration than photographic cyanotype.",
+      "anatomy_and_action": "One woman, one elongated rounded robot and a single lantern. Both hands visibly engage the band; long robot arms and tiny fingers differ from original short flippers.",
+      "lighting": "Tower aperture is pale like other paper highlights; illumination is ambiguous without an obvious projected beam. Do not rate this alone as proven premature light.",
+      "full_film_correction": "Choose whether illustration is the intended medium and label accurately. Lock proportions and ensure the tower aperture stays dark until S25."
+    },
+    {
+      "id": "14_veo_liveaction",
+      "assigned_video_model": "veo3_1",
+      "image_generator": "Nano Banana Pro 2K",
+      "reference_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\reference.png",
+      "reference_sha256": "0bd3aee595978e2a32e928120c1741403476a1e439c47b00e500be65787683b9",
+      "manually_viewed": true,
+      "approved_for_motion_pilot": true,
+      "full_film_reuse_without_continuity_corrections": false,
+      "style_observed": "Credible live-action woman, natural hands, wet masonry and a physical cream-enamel robot prop; distinct from animation styles.",
+      "anatomy_and_action": "Hands grasp the existing band around an attached arm. The robot has a separate head and torso and articulated arms rather than one sphere; acceptable as a deliberate pilot prop variant only.",
+      "lighting": "A visible warm point at the distant tower top reads as an already lit beacon, contrary to S14.",
+      "full_film_correction": "Turn the distant beacon off and establish the final robot prop design consistently before producing full narrative coverage."
+    },
+    {
+      "id": "15_wan_marquetry",
+      "assigned_video_model": "wan3_0_prime",
+      "image_generator": "Nano Banana Pro 2K",
+      "reference_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\reference.png",
+      "reference_sha256": "81827177fa1c2647d20fa24d9f1168ff38c22f8c56f126434f1fecb826e0c5bd",
+      "manually_viewed": true,
+      "approved_for_motion_pilot": true,
+      "full_film_reuse_without_continuity_corrections": false,
+      "style_observed": "Clear carved wood and inlaid miniature architecture; fabric band distinct from wood, readable grain and carved face.",
+      "anatomy_and_action": "Two human hands contact the existing fabric support. Robot has head/torso segmentation and no small mouth; woman has swept hair instead of blunt fringe. These are initial reference deviations, not video-model failures.",
+      "lighting": "Distant tower top already has a warm beacon. Foreground lantern is correctly lit; tower is premature for S14.",
+      "full_film_correction": "Darken the distant tower and lock the chosen wooden character design, including face, hair and robot shape, throughout all 30 beats."
+    }
+  ]
+}

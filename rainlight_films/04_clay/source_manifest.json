@@ -1,0 +1,549 @@
+{
+  "style_id": "04_clay",
+  "film_completed_at": "2026-10-20T10:03:24.587-05:00",
+  "published_at": "2026-10-20T10:03:33.766-05:00",
+  "publication_started_at": "2026-10-20T10:03:32.575-05:00",
+  "note": "These are the accepted original frames and clips used in this film. The edit uses the first 240 frames of each source clip and replaces any source sound with the shared Serena narration and music.",
+  "shots": [
+    {
+      "shot": "S01",
+      "frame": "source_frames/S01.png",
+      "frame_sha256": "a543d738c4db58e3bb90ece48cfd41082d8d7a4f99c72d461d6721acd959d221",
+      "frame_job": "04_clay_S01_frame_v5",
+      "clip": "source_clips/S01.mp4",
+      "clip_sha256": "1ab86b6d1344fb5b603b3d0d3d5615178c7371366d5010ea7aaff9a354f657b9",
+      "clip_job": "04_clay_S01_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        0,
+        10
+      ]
+    },
+    {
+      "shot": "S02",
+      "frame": "source_frames/S02.png",
+      "frame_sha256": "dee57724bf3c95941d87d1fc52ce1aaaff53a8bf0f9956a7d8507840a2f63240",
+      "frame_job": "04_clay_S02_frame_v3",
+      "clip": "source_clips/S02.mp4",
+      "clip_sha256": "66cad2e678f82b2a6535de293589c8911bf8d42d3f3881ae7eb3646bb619a971",
+      "clip_job": "04_clay_S02_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        10,
+        20
+      ]
+    },
+    {
+      "shot": "S03",
+      "frame": "source_frames/S03.png",
+      "frame_sha256": "5edb13177b91d08951424b54c4a5d722d14d9ad741d9ec1f0ba0dc0a68aaccdc",
+      "frame_job": "04_clay_S03_frame_v3",
+      "clip": "source_clips/S03.mp4",
+      "clip_sha256": "9b1bff7719885f602efec57e3b90987ac30d54adfb3f1b9ff8106a29db038122",
+      "clip_job": "04_clay_S03_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        20,
+        30
+      ]
+    },
+    {
+      "shot": "S04",
+      "frame": "source_frames/S04.png",
+      "frame_sha256": "c99b0dc4cbb7083feb068bf6e015ac588e0799a01b476f1c7bbd7a63794cde42",
+      "frame_job": "04_clay_S04_frame_v5",
+      "clip": "source_clips/S04.mp4",
+      "clip_sha256": "f685ae5a8c376fe78a426c725caf326a58e263f362e9e5625b11660c20d8f371",
+      "clip_job": "04_clay_S04_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        30,
+        40
+      ]
+    },
+    {
+      "shot": "S05",
+      "frame": "source_frames/S05.png",
+      "frame_sha256": "50f29583a0f5df573182005c4aedefddb4a2ecf2f6b988aacfc09e0e508f5b81",
+      "frame_job": "04_clay_S05_frame_v3",
+      "clip": "source_clips/S05.mp4",
+      "clip_sha256": "b3e32185b8d7af73d6737d67922adfa3ccc142d4efd013d37ef5c7e08ae445e3",
+      "clip_job": "04_clay_S05_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        40,
+        50
+      ]
+    },
+    {
+      "shot": "S06",
+      "frame": "source_frames/S06.png",
+      "frame_sha256": "52c369ef2bd5040506a92067efd1637d17dce9f27f47b11d54ba5d6b61deee16",
+      "frame_job": "04_clay_S06_frame_v3",
+      "clip": "source_clips/S06.mp4",
+      "clip_sha256": "ed8022a231ddd8657448616b19abb9b608b11f6e6aca51cddba1bf78e16edc50",
+      "clip_job": "04_clay_S06_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        50,
+        60
+      ]
+    },
+    {
+      "shot": "S07",
+      "frame": "source_frames/S07.png",
+      "frame_sha256": "a23344e8ab656aec986bc42af2562c862b537b21b148b0283e951c9ddb89af24",
+      "frame_job": "04_clay_S07_frame_v3",
+      "clip": "source_clips/S07.mp4",
+      "clip_sha256": "85d0cf76e3c9a4651a0f67d45916aad5a81645f48dbc9b3edbed847c3ee5083e",
+      "clip_job": "04_clay_S07_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        60,
+        70
+      ]
+    },
+    {
+      "shot": "S08",
+      "frame": "source_frames/S08.png",
+      "frame_sha256": "3e15ca3df822a36de271f9f38a4c3cbc91921278cfd33e1e6a5bd99b86bdcaa5",
+      "frame_job": "04_clay_S08_frame_v4",
+      "clip": "source_clips/S08.mp4",
+      "clip_sha256": "6851791753fb404aba9244e3c6fcb0af6201c2695602241c3c70111a6ad87974",
+      "clip_job": "04_clay_S08_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        70,
+        80
+      ]
+    },
+    {
+      "shot": "S09",
+      "frame": "source_frames/S09.png",
+      "frame_sha256": "f3080e49c52961c8cd02bafaa426bf5f127681ce2e23c2eba8aff23f95533572",
+      "frame_job": "04_clay_S09_frame_v3",
+      "clip": "source_clips/S09.mp4",
+      "clip_sha256": "41a47f5a4c637e7031b51e9cd3df6206cb4ef3b62fb6040eacfcb4991d47523b",
+      "clip_job": "04_clay_S09_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        80,
+        90
+      ]
+    },
+    {
+      "shot": "S10",
+      "frame": "source_frames/S10.png",
+      "frame_sha256": "d112b179a2eac289ef6bdebc07e9758b093d1b7adda3e2d432654973f4072a19",
+      "frame_job": "04_clay_S10_frame_v4",
+      "clip": "source_clips/S10.mp4",
+      "clip_sha256": "9aedc668d818a25a3482e5d4a4397e009145f8a7d90ca03523f6c8ade50d331c",
+      "clip_job": "04_clay_S10_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        90,
+        100
+      ]
+    },
+    {
+      "shot": "S11",
+      "frame": "source_frames/S11.png",
+      "frame_sha256": "b80da6644226f977247289695c1935506aec2589fb7ce392158ea41660900849",
+      "frame_job": "04_clay_S11_frame_v3",
+      "clip": "source_clips/S11.mp4",
+      "clip_sha256": "0d67aea7a277d04f27ac6b42de2d5e1744d5a2e8bcb544293b06eb5387ca1f37",
+      "clip_job": "04_clay_S11_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        100,
+        110
+      ]
+    },
+    {
+      "shot": "S12",
+      "frame": "source_frames/S12.png",
+      "frame_sha256": "0728e1aa063b558f853fdc492a8a1d16a7c2f8c98d1ffc834a1bcf5291f598a4",
+      "frame_job": "04_clay_S12_frame_v3",
+      "clip": "source_clips/S12.mp4",
+      "clip_sha256": "835a90d3f71c41cdac3442105e1a7eac2ec516f722f71b1431778eba04c18c1e",
+      "clip_job": "04_clay_S12_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        110,
+        120
+      ]
+    },
+    {
+      "shot": "S13",
+      "frame": "source_frames/S13.png",
+      "frame_sha256": "597e1665cdab0f074f909099618c9235883a733fba20468ede41bed70d75312e",
+      "frame_job": "04_clay_S13_frame_v3",
+      "clip": "source_clips/S13.mp4",
+      "clip_sha256": "eaa80e38c7454ea775eb967ac22a0425588f28f72a3b2786440af05c94735086",
+      "clip_job": "04_clay_S13_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        120,
+        130
+      ]
+    },
+    {
+      "shot": "S14",
+      "frame": "source_frames/S14.png",
+      "frame_sha256": "1e367ac3dfee0816b83d05339914dcaa8ee399dfed50765fd456d01d3f6eb7e8",
+      "frame_job": "04_clay_S14_frame_v3",
+      "clip": "source_clips/S14.mp4",
+      "clip_sha256": "eae9800fc8d8d4ee3abb31ec50e32559c1bb91a52debedef67636386b8b4b720",
+      "clip_job": "04_clay_S14_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        130,
+        140
+      ]
+    },
+    {
+      "shot": "S15",
+      "frame": "source_frames/S15.png",
+      "frame_sha256": "9f73501fc09449ce4703eedbe8c4cf8d11d106ece806cd36e93fcc1b5245e11b",
+      "frame_job": "04_clay_S15_frame_v4",
+      "clip": "source_clips/S15.mp4",
+      "clip_sha256": "7104a9667dc15015b7fba0588dd80d9d50e61d5db22ff0eb9a47bea956d3053a",
+      "clip_job": "04_clay_S15_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        140,
+        150
+      ]
+    },
+    {
+      "shot": "S16",
+      "frame": "source_frames/S16.png",
+      "frame_sha256": "8652d2bf75daede0f6d76d8420758981b201c8e4740c842f4b5e0d312590ff1e",
+      "frame_job": "04_clay_S16_frame_v3",
+      "clip": "source_clips/S16.mp4",
+      "clip_sha256": "db2c14dd54b683c4b238e1a33f4d343d745368ad32fffefc92206e3ae67aedd5",
+      "clip_job": "04_clay_S16_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        150,
+        160
+      ]
+    },
+    {
+      "shot": "S17",
+      "frame": "source_frames/S17.png",
+      "frame_sha256": "6712809d18054999608e112e42fa89cdafe9afe36e112faa63cf032025d592f7",
+      "frame_job": "04_clay_S17_frame_v3",
+      "clip": "source_clips/S17.mp4",
+      "clip_sha256": "e13b8d22a3c22aa43064a81b4eee75b8a99d33b93e298d8326dc7a1fc6534aa7",
+      "clip_job": "04_clay_S17_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        160,
+        170
+      ]
+    },
+    {
+      "shot": "S18",
+      "frame": "source_frames/S18.png",
+      "frame_sha256": "d7f7f11a78a4d7cf31b00f0f841044893d1c32979683cd76b9be11c12b686b97",
+      "frame_job": "04_clay_S18_frame_v3",
+      "clip": "source_clips/S18.mp4",
+      "clip_sha256": "ce7f3dcd143a102cf582804ba01faea2970104781b809d1446f2dd0663bfee99",
+      "clip_job": "04_clay_S18_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        170,
+        180
+      ]
+    },
+    {
+      "shot": "S19",
+      "frame": "source_frames/S19.png",
+      "frame_sha256": "682617f3f9f2142ad9b29f283294aab7c29d4c6b19ca7936193fce835e693044",
+      "frame_job": "04_clay_S19_frame_v3",
+      "clip": "source_clips/S19.mp4",
+      "clip_sha256": "b4b0a72fe8ea7381588973dd653c3d71dbc036fc1d75c4f973b3c793b8c2a3fe",
+      "clip_job": "04_clay_S19_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        180,
+        190
+      ]
+    },
+    {
+      "shot": "S20",
+      "frame": "source_frames/S20.png",
+      "frame_sha256": "7edaaf958c6d037f3d1158f715ec42648f93ccc30b59397614da3a67e50aaba8",
+      "frame_job": "04_clay_S20_frame_v3",
+      "clip": "source_clips/S20.mp4",
+      "clip_sha256": "6eb1c27f5c945ff6583e0f46f07e095669a0f2d0ea603eed94c91f3d8abfc400",
+      "clip_job": "04_clay_S20_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        190,
+        200
+      ]
+    },
+    {
+      "shot": "S21",
+      "frame": "source_frames/S21.png",
+      "frame_sha256": "0ad1b358e74d53ad5fe319e33de260bbf633fad29cfa74c11201b351a7a80152",
+      "frame_job": "04_clay_S21_frame_v5",
+      "clip": "source_clips/S21.mp4",
+      "clip_sha256": "8ff4047367682bc178e4958e37c84d7e3a980b0425ea9f73a2665f840113d6de",
+      "clip_job": "04_clay_S21_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        200,
+        210
+      ]
+    },
+    {
+      "shot": "S22",
+      "frame": "source_frames/S22.png",
+      "frame_sha256": "780adad61deb6cde5ecefe427b3688e7ad0300a443ba6d24576317086627f50b",
+      "frame_job": "04_clay_S22_frame_v4",
+      "clip": "source_clips/S22.mp4",
+      "clip_sha256": "1e4fd69906acdb09e4aa8f30725e3ec61799d4e28752fa984a30e155978813d4",
+      "clip_job": "04_clay_S22_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        210,
+        220
+      ]
+    },
+    {
+      "shot": "S23",
+      "frame": "source_frames/S23.png",
+      "frame_sha256": "498d8273f659d5d3c21a91c2dd146c884778d6ca9d98682de743e121a57278bc",
+      "frame_job": "04_clay_S23_frame_v3",
+      "clip": "source_clips/S23.mp4",
+      "clip_sha256": "e639fc9faa77d6332853ffea936f4e1020ffa8e1334d79c2adbfe6231fbe91cc",
+      "clip_job": "04_clay_S23_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        220,
+        230
+      ]
+    },
+    {
+      "shot": "S24",
+      "frame": "source_frames/S24.png",
+      "frame_sha256": "3821c4845629bd56135e85b1ca9fc5eb0ba3e15c7dad5b8b75113c998f7e11c3",
+      "frame_job": "04_clay_S24_frame_v4",
+      "clip": "source_clips/S24.mp4",
+      "clip_sha256": "72842451acd6b2db17df38c159bdc71aeefa0eb3881f04385b9be1b56c8bd92c",
+      "clip_job": "04_clay_S24_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        230,
+        240
+      ]
+    },
+    {
+      "shot": "S25",
+      "frame": "source_frames/S25.png",
+      "frame_sha256": "e7c8ef4f63a53881f3dd713cd8c57ad332f371c75ffaed7d2d37439873ee9748",
+      "frame_job": "04_clay_S25_frame_v4",
+      "clip": "source_clips/S25.mp4",
+      "clip_sha256": "8f2cc29df1d6d55618540cabddf7a5a0ed3c54f4682dacbcb00fffe93cd63488",
+      "clip_job": "04_clay_S25_h3_qc2",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        240,
+        250
+      ]
+    },
+    {
+      "shot": "S26",
+      "frame": "source_frames/S26.png",
+      "frame_sha256": "8f56d5c18c6266426576129c8c4d493546025d8dbaa840a5a923b3a809d55983",
+      "frame_job": "04_clay_S26_frame_v4",
+      "clip": "source_clips/S26.mp4",
+      "clip_sha256": "008eba0caf43e4dda41674f2ef833e5da92c7212880ec122bde53742d3747439",
+      "clip_job": "04_clay_S26_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        250,
+        260
+      ]
+    },
+    {
+      "shot": "S27",
+      "frame": "source_frames/S27.png",
+      "frame_sha256": "256d6096d9326c58250f22474394b9dec2563b721d32f50759209edfce23ae8a",
+      "frame_job": "04_clay_S27_frame_v3",
+      "clip": "source_clips/S27.mp4",
+      "clip_sha256": "16f603b2d9df1c65d1d6e4e50eced74b750086d7cf49b7ec7fbdf05231c2ce1a",
+      "clip_job": "04_clay_S27_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        260,
+        270
+      ]
+    },
+    {
+      "shot": "S28",
+      "frame": "source_frames/S28.png",
+      "frame_sha256": "ada5d39d8eb4bef3b7c80288547958821bb57806bb44a556903fe10e9ea2cb0f",
+      "frame_job": "04_clay_S28_frame_v3",
+      "clip": "source_clips/S28.mp4",
+      "clip_sha256": "869eea6c653e77f62581f6a2d7c73019c0b5c5d7e7a698c0b6a9249dc90490d9",
+      "clip_job": "04_clay_S28_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        270,
+        280
+      ]
+    },
+    {
+      "shot": "S29",
+      "frame": "source_frames/S29.png",
+      "frame_sha256": "80b635f4ad8add62daafd2bf6fd4368d3d477af85f5168051bcf49a68850bd35",
+      "frame_job": "04_clay_S29_frame_v3",
+      "clip": "source_clips/S29.mp4",
+      "clip_sha256": "0583df3619c4e1cc93f54762d46d0e1cc69b8e93145d57efed7d1ac58dea24c3",
+      "clip_job": "04_clay_S29_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        280,
+        290
+      ]
+    },
+    {
+      "shot": "S30",
+      "frame": "source_frames/S30.png",
+      "frame_sha256": "cd66a8d6423414976f350333833ab680b68256d9cf165b8a55bf80420df22ed9",
+      "frame_job": "04_clay_S30_frame_v3",
+      "clip": "source_clips/S30.mp4",
+      "clip_sha256": "c1e8f2bede9373c428e50df8df40419b28dd2e462bdded14d5b6401047723254",
+      "clip_job": "04_clay_S30_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        290,
+        300
+      ]
+    }
+  ]
+}

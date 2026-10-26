@@ -1,0 +1,183 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux-2-klein-4b-fp8.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_4b.safetensors",
+        "type": "flux2",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "Create a new professionally art-directed vertical poster from the supplied character reference, not a simple recoloring of the source. Keep the woman / black hair / red coat / umbrella motif, adapting the rendering to the medium. The only writing allowed is the exact title AFTER THE RAIN. No credits, taglines, logos, watermarks or invented writing. Design a sophisticated luxury-fashion editorial poster as immaculate studio photography. The same recognizable woman wears a sculptural red wool coat; a transparent umbrella creates one clean curved framing line above her head. Three-quarter waist-up portrait placed slightly left, natural skin texture, composed expression, soft black hair, finely resolved tailoring. Seamless warm-ivory background with one long pale-gray diagonal cast shadow and a few droplets catching light; eliminate the city completely. Restrained ruby, ivory and near-black, soft broad key light, subtle dark fill shaping the cheek and luxurious material detail. Place the large thin black high-contrast serif title in two lines across the empty upper-right area, carefully separated from the umbrella and face. Quiet magazine-level typography and generous margins, absolutely no coverlines or credits.",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "ConditioningZeroOut",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "width": 768,
+        "height": 1152,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "noise_seed": 20262009
+      }
+    },
+    "8": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "9": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "steps": 4,
+        "width": 768,
+        "height": 1152
+      }
+    },
+    "10": {
+      "class_type": "CFGGuider",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "22",
+          0
+        ],
+        "negative": [
+          "23",
+          0
+        ],
+        "cfg": 1.0
+      }
+    },
+    "11": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "noise": [
+          "7",
+          0
+        ],
+        "guider": [
+          "10",
+          0
+        ],
+        "sampler": [
+          "8",
+          0
+        ],
+        "sigmas": [
+          "9",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ]
+      }
+    },
+    "12": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "11",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "13": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "12",
+          0
+        ],
+        "filename_prefix": "spark_demos/posters_10_refined/10_fashion"
+      }
+    },
+    "20": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "ref_01.png"
+      }
+    },
+    "21": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": [
+          "20",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "22": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": [
+          "4",
+          0
+        ],
+        "latent": [
+          "21",
+          0
+        ]
+      }
+    },
+    "23": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": [
+          "5",
+          0
+        ],
+        "latent": [
+          "21",
+          0
+        ]
+      }
+    }
+  }
+}

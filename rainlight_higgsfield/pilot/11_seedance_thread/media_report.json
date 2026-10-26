@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "11_seedance_thread",
+  "label": "织光 · 丝线刺绣",
+  "model_id": "seedance_2_5",
+  "prepared_at": "2026-10-25T02:41:04.698668-05:00",
+  "expected_seconds": 10.0,
+  "raw": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\raw.mp4",
+    "bytes": 17517659,
+    "sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+    "video": {
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 241,
+      "duration_seconds": 10.041666666666666,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 10.0,
+      "time_base": "1/12288",
+      "native_audio_streams": 0,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666785
+    },
+    "video_packets": {
+      "sha256": "593efd0b29c64d028406f71691acef42e46aa2260e4ef52555864c462c8026ff",
+      "packets": 241,
+      "bytes": 17489739
+    },
+    "preserved_in_place": true
+  },
+  "preview": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\preview.mp4",
+    "bytes": 17742259,
+    "sha256": "8f9c5063abe551949ffbb1c92610bab6f969bc8867a9df472291572118ce2f0a",
+    "video": {
+      "codec": "hevc",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 241,
+      "duration_seconds": 10.041666666666666,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 10.0,
+      "time_base": "1/12288",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666785
+    },
+    "video_packets": {
+      "sha256": "593efd0b29c64d028406f71691acef42e46aa2260e4ef52555864c462c8026ff",
+      "packets": 241,
+      "bytes": 17489739
+    }
+  },
+  "audio": {
+    "source_start_seconds": 130.0,
+    "source_end_seconds": 140.04166666666666,
+    "speaker": "Serena",
+    "shot_id": "S14",
+    "text": "她可以先送灯。她却停下来，为圆点包好手臂。",
+    "speech_local_start_seconds": 1.0,
+    "speech_local_end_seconds": 5.800000000000011,
+    "tail_fade_seconds": 0.05,
+    "sample_rate": 48000,
+    "channels": 2,
+    "native_generated_audio_in_preview": false,
+    "master_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "verification": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 10.041666666666666,
+      "same_segment_correlation": 0.9998984563145952,
+      "coverage": 1.0,
+      "decoded_peak": 0.7963339686393738,
+      "passed": true
+    }
+  },
+  "contact": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\contact.jpg",
+    "sha256": "452fb452e8f48c3b5a398d89e9205ff38f3053e852ca84344bc463ccf101d14d",
+    "frames": [
+      {
+        "position": 0,
+        "frame_index": 0,
+        "requested_seconds": 0.0,
+        "actual_seconds": 0.0
+      },
+      {
+        "position": 0.25,
+        "frame_index": 60,
+        "requested_seconds": 2.5104166666666665,
+        "actual_seconds": 2.5
+      },
+      {
+        "position": 0.5,
+        "frame_index": 120,
+        "requested_seconds": 5.020833333333333,
+        "actual_seconds": 5.0
+      },
+      {
+        "position": 0.75,
+        "frame_index": 181,
+        "requested_seconds": 7.53125,
+        "actual_seconds": 7.541666666666667
+      },
+      {
+        "position": 1,
+        "frame_index": 240,
+        "requested_seconds": 10.0,
+        "actual_seconds": 10.0
+      }
+    ]
+  },
+  "video_reencoded": false,
+  "video_speed_changed": false,
+  "frames_repeated_or_padded": false,
+  "subtitles_burned_in": false,
+  "technical_passed": true,
+  "human_visual_review": {
+    "id": "11_seedance_thread",
+    "raw_sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+    "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\raw.mp4",
+    "approved_for_pilot": true,
+    "approved_for_full_film": false,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 24.0,
+    "container_duration_seconds": 10.041667,
+    "reviewer": "storyboard",
+    "reviewed_at_utc": "2026-10-25T07:42:34.646765+00:00",
+    "method_zh": "亲看首帧、25%、50%、75%、末帧全画面，以及0.5、1、1.5、2、2.5、3、3.5、4、5、6、7、9秒的手臂与布带局部时序抽帧；为展示样片审核，非逐帧无瑕疵保证。",
+    "evidence": [
+      "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\contact.jpg",
+      "PROJECT_ROOT\\work\\higgsfield_five\\qa\\11_seedance_thread_hands.jpg"
+    ],
+    "notes_zh": {
+      "样片结论": "通过展示样片验收：轻收紧、按平布带与后段安慰性的目光/微笑可读，织物表面、雨景、提灯与两个角色保持稳定。",
+      "参考图原有偏差": "机器人为偏长的缝合卵形而非原片固定球形；远处灯塔在S14就已点亮并射出光束。这是起始参考图已有，不能归为视频模型新增错误。",
+      "动态新增观察": "布带尾部在约2至3秒被收起按平，仍留在同一手臂上；支持手始终在臂下，未见明显多手、断臂、新人物、开胸或灯具漂浮。后段机器人抬头并微笑，材质仍为织物。局部布带折叠有生成式简化，未造成故事动作歧义。",
+      "整片限制": "尚未验证全片身份连续性；S14提前亮塔必须先纠正。本条为10.042秒原始输出，最终300秒剪辑时须按统一时间线处理，不能直接视为已完成的10秒正式镜头。"
+    },
+    "review_record": "video_visual_review_part1.json"
+  },
+  "scope": "Short S14 pilot only; no full film and no subjective visual approval implied.",
+  "packaging_wall_seconds": 4.977403500000946
+}

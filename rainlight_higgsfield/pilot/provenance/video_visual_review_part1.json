@@ -1,0 +1,58 @@
+{
+  "scope": "仅两条已付费S14短样片的视觉验收；不授权或提交任何额外生成。",
+  "reviewer": "storyboard",
+  "records": [
+    {
+      "id": "11_seedance_thread",
+      "raw_sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+      "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\raw.mp4",
+      "approved_for_pilot": true,
+      "approved_for_full_film": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24.0,
+      "container_duration_seconds": 10.041667,
+      "reviewer": "storyboard",
+      "reviewed_at_utc": "2026-10-25T07:42:34.646765+00:00",
+      "method_zh": "亲看首帧、25%、50%、75%、末帧全画面，以及0.5、1、1.5、2、2.5、3、3.5、4、5、6、7、9秒的手臂与布带局部时序抽帧；为展示样片审核，非逐帧无瑕疵保证。",
+      "evidence": [
+        "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\contact.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\11_seedance_thread_hands.jpg"
+      ],
+      "notes_zh": {
+        "样片结论": "通过展示样片验收：轻收紧、按平布带与后段安慰性的目光/微笑可读，织物表面、雨景、提灯与两个角色保持稳定。",
+        "参考图原有偏差": "机器人为偏长的缝合卵形而非原片固定球形；远处灯塔在S14就已点亮并射出光束。这是起始参考图已有，不能归为视频模型新增错误。",
+        "动态新增观察": "布带尾部在约2至3秒被收起按平，仍留在同一手臂上；支持手始终在臂下，未见明显多手、断臂、新人物、开胸或灯具漂浮。后段机器人抬头并微笑，材质仍为织物。局部布带折叠有生成式简化，未造成故事动作歧义。",
+        "整片限制": "尚未验证全片身份连续性；S14提前亮塔必须先纠正。本条为10.042秒原始输出，最终300秒剪辑时须按统一时间线处理，不能直接视为已完成的10秒正式镜头。"
+      }
+    },
+    {
+      "id": "15_wan_marquetry",
+      "raw_sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+      "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\raw.mp4",
+      "approved_for_pilot": true,
+      "approved_for_full_film": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30.0,
+      "container_duration_seconds": 10.0,
+      "reviewer": "storyboard",
+      "reviewed_at_utc": "2026-10-25T07:42:34.775616+00:00",
+      "method_zh": "亲看首帧、25%、50%、75%、末帧全画面，以及0.5、1、1.5、2、2.5、3、3.5、4、5、6、7、9秒的手臂与布带局部时序抽帧；为展示样片审核，非逐帧无瑕疵保证。",
+      "evidence": [
+        "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\contact.jpg",
+        "PROJECT_ROOT\\work\\higgsfield_five\\qa\\15_wan_marquetry_hands.jpg"
+      ],
+      "notes_zh": {
+        "样片结论": "通过展示样片验收：收拢布带、轻压包扎处和对视动作明确，木纹、人物数、胸盖及提灯稳定。",
+        "参考图原有偏差": "机器人有独立头部和躯干且缺小嘴，女孩木雕发型有变化；背景灯塔已亮，S14应尚未点亮。均是参考图起始状态。",
+        "动态新增观察": "约1至2秒上方布带被折下，约3至5秒再次轻压，另一只手持续托住手臂。布带覆盖较宽，包扎末端形状略有软化，但未见手臂被拔除或额外肢体；木偶关节与木纹可读，后段微笑与机器人回应克制。",
+        "整片限制": "先统一最终木偶身份设定并纠正提前亮塔，再决定是否可并入全片；这次通过仅表示可展示和比较该10秒动作试样。"
+      }
+    }
+  ]
+}

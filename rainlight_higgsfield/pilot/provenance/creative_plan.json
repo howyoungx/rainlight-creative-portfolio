@@ -1,0 +1,1022 @@
+{
+  "schema_version": "1.0",
+  "planning_only": true,
+  "created_at": "2026-10-25T02:35:40.727062-05:00",
+  "project_title_zh": "雨城最后一束光",
+  "status": "five S14 pilots approved by user per root message; full films not funded/approved yet",
+  "scope": {
+    "new_films_proposed": 5,
+    "duration_per_film_seconds": 300,
+    "total_seconds": 1500,
+    "shared_beats": 30,
+    "planned_video_segments": 180,
+    "prompt_expansion": "five complete pilot image/video pairs plus shared30-beat structure; full180 model-specific prompts intentionally deferred"
+  },
+  "spend_control": {
+    "calls_made_by_this_planner": 0,
+    "credits_spent_by_this_planner": 0,
+    "approved_pilot_credit_ceiling_from_root": 410,
+    "pilot_reference_images": 5,
+    "image_credits_each_from_root": 2,
+    "pilot_video_credits_total_from_root": 400,
+    "full_first_round_quote_from_root": 14160,
+    "reported_balance_from_root": 2070.56,
+    "quote_components_from_root": {
+      "video": 13800,
+      "180_images": 360
+    },
+    "prices_not_independently_verified_by_planner": true,
+    "no_full_batch_authorization_inferred": true
+  },
+  "source_lock": {
+    "story_path": "PROJECT_ROOT\\work\\film_storyboard_draft.json",
+    "story_sha256": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+    "audio_cues_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\cues.json",
+    "audio_cues_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "master_wav_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "speaker": "Serena",
+    "reuse_existing_300_second_master": true
+  },
+  "claim_policy_zh": "五方向是创意分配与待验证假设，不是模型风格排行榜或实测最佳声明；确切路由、参考输入、规格和费用由root实时验证。",
+  "continuity_contract": {
+    "story": "送灯少女小禾与旧机器人圆点，带着雨城最后一盏灯登上山顶。灯熄灭后，圆点愿意献出心核；小禾选择把光分给伙伴和灯塔。微弱信号得到城中居民回应，雨城终于重新迎来清晨。",
+    "arm": "右短臂S01-11完整，S12-13受损垂下；S14引入唯一布带，S15-30保留，不自行修复。",
+    "chest": "S01-20关闭，S21-23小胸盖打开且盖内无脸；S24-30关好并有微光。S21心核不能熄灭。",
+    "light": "S01全暗城；S02-18只有原手灯暖光和机器人微弱眼光；S19熄灭；S20无暖光；S21-23仅心核晶体光；S24灯与胸两小光；S25塔弱光而住户窗全暗；S26一处回应；S27散落窗灯但天灰；S28-30才曙光。",
+    "cast": "仅生成该镜可见主体；S06/S07/S26允许匿名住户剪影或手，特写不要无条件加入全身人物。",
+    "props": "同一无脸铜灯保持提手、灯体、手或支撑面关系；只有一个山顶灯塔。S26住户灯为另一个小型家用灯，不是复制主角铜灯。",
+    "S19": "首选起始残焰在前段熄灭，终态全暗；若端点约束不可靠，另报价明确的熄灯插入，不以亮灯成片蒙混。",
+    "S21": "起始胸盖已打开，仅心核轻亮，不现场变形开壳。",
+    "S23": "起始双掌已各有一颗碎晶，细光丝分开；不强求在镜头内暴力劈开晶体。",
+    "Veo": "每beat6秒A主动作+4秒B反应/插入，B继承A末态，轴线与道具状态保持；Serena旁白仍在原绝对时间，仅播一次。",
+    "duration": "每版300秒，不用循环、慢放或整段静帧填充。转场与0.8秒尾淡出均置于原时间线内。",
+    "audio": "关闭或弃用生成视频音轨，使用已验收Serena300秒母带，不重合成30句。",
+    "typography": "中文字和字幕仅后期叠加，生成画面不得包含字样、水印或边框。"
+  },
+  "pilot_budget_workflow": [
+    "仅生成5张S14参考图，先人工看完整图与四处材质。",
+    "每图通过后由root/delivery按精确路由提交对应视频，合计批准上限410credits。",
+    "视频通过后记录SHA，可直接放进原片S14；Veo样片仅占130-136秒。",
+    "失败保留费用与耗时；提出定向修法及报价，不独立追加收费生成。"
+  ],
+  "editions": [
+    {
+      "id": "hf11_seedance_silk",
+      "model": "Seedance 2.5",
+      "title_zh": "织光",
+      "title_en": "The Stitched Dawn",
+      "design_zh": "整座雨城、人物与圆点都由丝线刺绣构成。灰蓝经纬纹组成建筑，黄雨衣和红挎包用方向明确的缎面针法；雨是细银线。不是人物站在刺绣背景前。",
+      "difference_zh": "完整纺织媒介及可见针脚，区别前10部纸、泥、玻璃、油画和CG。",
+      "style_en": "An animated silk-embroidery tapestry fills the entire cinematic image. Every figure, garment, spherical robot, stone and background is constructed from fine visible silk stitches on woven fabric. Directional satin stitches define rounded volumes; restrained raised couching defines contours. Charcoal-blue woven rain, dull mustard jacket, muted red satchel and cream stitched robot. Fine silver-thread rain moves independently. Thread sheen is non-emissive; only the authorized story lamp emits amber light. Full-bleed single textile world without frame or lettering.",
+      "key_beats": [
+        "S11:裂灯是一道细绣线，火苗留在完整铜框内。",
+        "S14:布带采用与衣服不同的针法，接触关系清楚。",
+        "S23:两只手各托一粒小琥珀心核。",
+        "S28:灰蓝针脚显出新颜色，建筑结构不变。"
+      ],
+      "risks": [
+        {
+          "risk": "退成普通人物加布纹滤镜",
+          "handling": "验收脸、球壳、衣服、背景四处针脚；统一角色参考。"
+        },
+        {
+          "risk": "金丝造成提前亮城",
+          "handling": "材质反光与发光分开；每beat限制可见光源。"
+        },
+        {
+          "risk": "包扎生出多手或枝条",
+          "handling": "开始已包好大半，只压平一次现有带尾。"
+        }
+      ],
+      "pairing": "多参考能力用于同一针脚人物和场景，是待试样验证的创意假设。",
+      "planning_only": true,
+      "target_seconds": 300,
+      "segment_plan": {
+        "beats": 30,
+        "segments": 30,
+        "durations": [
+          10
+        ],
+        "total_seconds": 300,
+        "Veo_B_rule": null
+      },
+      "pilot": {
+        "beat_id": "S14",
+        "segment_id": "S14",
+        "start_seconds": 130,
+        "end_seconds": 140,
+        "duration_seconds": 10,
+        "reusable_in_full_film": true,
+        "image_resolution_requested": "2K",
+        "image_model_requested": "Nano Banana Pro",
+        "image_prompt_en": "An animated silk-embroidery tapestry fills the entire cinematic image. Every figure, garment, spherical robot, stone and background is constructed from fine visible silk stitches on woven fabric. Directional satin stitches define rounded volumes; restrained raised couching defines contours. Charcoal-blue woven rain, dull mustard jacket, muted red satchel and cream stitched robot. Fine silver-thread rain moves independently. Thread sheen is non-emissive; only the authorized story lamp emits amber light. Full-bleed single textile world without frame or lettering. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Depict the moment just before the one cloth-end press. Every visible subject uses the target artistic medium. One cinematic 16:9 frame. No panel, border, lettering, subtitle, watermark or signature.",
+        "video_prompt_en": "An animated silk-embroidery tapestry fills the entire cinematic image. Every figure, garment, spherical robot, stone and background is constructed from fine visible silk stitches on woven fabric. Directional satin stitches define rounded volumes; restrained raised couching defines contours. Charcoal-blue woven rain, dull mustard jacket, muted red satchel and cream stitched robot. Fine silver-thread rain moves independently. Thread sheen is non-emissive; only the authorized story lamp emits amber light. Full-bleed single textile world without frame or lettering. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Begin with the bandage already mostly finished. Xiaohe presses its existing loose cloth end down once with the fingers already touching it, then lets her hands rest nearby. Do not add another wrap or an elaborate knot. Yuandian gives a slight upward glance with its two eyes. The injured right flipper stays low and supported; the left flipper and closed chest do not change. The complete lantern remains on its stone and its tiny weak flame stays lit. Rain moves outside the shelter. Locked camera, one continuous quiet shot, same contact geometry and character count, no new objects or scene transition. No spoken dialogue, text, letters, logo or watermark.Use seconds0-2 to settle, seconds2-6 for the single cloth-end press, and seconds6-10 for the quiet response with continuing rain. Do not loop or slow the action to fill time.",
+        "end_state": [
+          "same bandage secure on anatomical right flipper",
+          "injured right flipper remains drooping",
+          "same intact weakly lit lamp on the same stone",
+          "same woman and single sphere",
+          "closed chest; no early heart light"
+        ],
+        "qa_zh": [
+          "脸、球壳、衣服、背景四处媒介一致",
+          "只有现有两只人手，确实接触布带",
+          "同一伤臂不换边、不复原",
+          "铜灯无脸完整，位于石面，弱光不灭",
+          "无新增人物、机器人、灯具或幻字",
+          "动作连续且不循环；Veo只6秒，其余10秒"
+        ],
+        "submission_owner": "root/delivery only; planner must not submit paid generation"
+      }
+    },
+    {
+      "id": "hf12_kling_shadow",
+      "model": "Kling 4.0",
+      "title_zh": "影中灯",
+      "title_en": "The Lantern Behind the Screen",
+      "design_zh": "透光彩绘皮影、薄皮革镂刻、细铆接关节，投在同一纱幕平面。动作沿舞台平面进行，冷暗幕布的环境照明不代表城内已经亮灯。",
+      "difference_zh": "透明薄皮革和投影边缘，区别前作厚纸层叠景深与三维木偶。",
+      "style_en": "A complete cinematic shadow-puppet theatre made of thin translucent painted leather, photographed through one taut fine silk screen. Visible carved leather edges, delicate punched ornament, tiny unobtrusive rivet joints and restrained transmitted color. Characters, spherical robot and architecture all share this flat leather craft. Dull ochre coat, muted vermilion satchel and ivory circular robot. Subdued cool-gray screen illumination represents night; only approved story lamps have concentrated amber light. Movement stays in the screen plane. Full-bleed single stage image without operators, rods, borders or lettering.",
+      "key_beats": [
+        "S09:斜向皮影石阶，伙伴只走现有路径。",
+        "S12:单一圆形剪影顶风，右短臂低垂。",
+        "S14:一小段浅色布带支持同一伤臂。",
+        "S27:窗孔逐个暖亮，城和单一灯塔固定。"
+      ],
+      "risks": [
+        {
+          "risk": "退成剪纸或CG",
+          "handling": "三项验收：透光皮革、纱幕、铆接；取消景深堆叠及环绕。"
+        },
+        {
+          "risk": "轮廓重叠合并人物",
+          "handling": "主体留间隙；仅布带接触位置相交，用有序起止参考锁轮廓。"
+        },
+        {
+          "risk": "背光误读为提前点灯",
+          "handling": "暗窗仍为深色不透光块，暖光仅在剧情允许处。"
+        }
+      ],
+      "pairing": "有序关键帧用于轮廓和接触关系，是创意方案，不声称已实测最佳。",
+      "planning_only": true,
+      "target_seconds": 300,
+      "segment_plan": {
+        "beats": 30,
+        "segments": 30,
+        "durations": [
+          10
+        ],
+        "total_seconds": 300,
+        "Veo_B_rule": null
+      },
+      "pilot": {
+        "beat_id": "S14",
+        "segment_id": "S14",
+        "start_seconds": 130,
+        "end_seconds": 140,
+        "duration_seconds": 10,
+        "reusable_in_full_film": true,
+        "image_resolution_requested": "2K",
+        "image_model_requested": "Nano Banana Pro",
+        "image_prompt_en": "A complete cinematic shadow-puppet theatre made of thin translucent painted leather, photographed through one taut fine silk screen. Visible carved leather edges, delicate punched ornament, tiny unobtrusive rivet joints and restrained transmitted color. Characters, spherical robot and architecture all share this flat leather craft. Dull ochre coat, muted vermilion satchel and ivory circular robot. Subdued cool-gray screen illumination represents night; only approved story lamps have concentrated amber light. Movement stays in the screen plane. Full-bleed single stage image without operators, rods, borders or lettering. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Depict the moment just before the one cloth-end press. Every visible subject uses the target artistic medium. One cinematic 16:9 frame. No panel, border, lettering, subtitle, watermark or signature.",
+        "video_prompt_en": "A complete cinematic shadow-puppet theatre made of thin translucent painted leather, photographed through one taut fine silk screen. Visible carved leather edges, delicate punched ornament, tiny unobtrusive rivet joints and restrained transmitted color. Characters, spherical robot and architecture all share this flat leather craft. Dull ochre coat, muted vermilion satchel and ivory circular robot. Subdued cool-gray screen illumination represents night; only approved story lamps have concentrated amber light. Movement stays in the screen plane. Full-bleed single stage image without operators, rods, borders or lettering. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Begin with the bandage already mostly finished. Xiaohe presses its existing loose cloth end down once with the fingers already touching it, then lets her hands rest nearby. Do not add another wrap or an elaborate knot. Yuandian gives a slight upward glance with its two eyes. The injured right flipper stays low and supported; the left flipper and closed chest do not change. The complete lantern remains on its stone and its tiny weak flame stays lit. Rain moves outside the shelter. Locked camera, one continuous quiet shot, same contact geometry and character count, no new objects or scene transition. No spoken dialogue, text, letters, logo or watermark.Use seconds0-2 to settle, seconds2-6 for the single cloth-end press, and seconds6-10 for the quiet response with continuing rain. Do not loop or slow the action to fill time.",
+        "end_state": [
+          "same bandage secure on anatomical right flipper",
+          "injured right flipper remains drooping",
+          "same intact weakly lit lamp on the same stone",
+          "same woman and single sphere",
+          "closed chest; no early heart light"
+        ],
+        "qa_zh": [
+          "脸、球壳、衣服、背景四处媒介一致",
+          "只有现有两只人手，确实接触布带",
+          "同一伤臂不换边、不复原",
+          "铜灯无脸完整，位于石面，弱光不灭",
+          "无新增人物、机器人、灯具或幻字",
+          "动作连续且不循环；Veo只6秒，其余10秒"
+        ],
+        "submission_owner": "root/delivery only; planner must not submit paid generation"
+      }
+    },
+    {
+      "id": "hf13_flux_cyanotype",
+      "model": "FLUX 3 Video",
+      "title_zh": "普鲁士蓝的黎明",
+      "title_en": "Dawn in Prussian Blue",
+      "design_zh": "活动蓝晒摄影：深普鲁士蓝、青白接触印相和细药液颗粒；黄衣、红包、青眼以克制手工点色保留身份。结尾扩展低饱和着色，蓝晒媒介不消失。",
+      "difference_zh": "蓝色摄影印相连续调，区别炭笔擦痕、漫画网点及普通蓝色滤镜。",
+      "style_en": "An animated cyanotype photographic print with deep Prussian-blue shadows, pale cyan contact-print highlights, subtle ferric photographic grain and authentic chemical edge variation within objects. Faces and architecture belong to the same photographic print medium. Restrained hand-applied ochre on the rain jacket, muted red on the satchel and faint teal eye lenses preserve identity. Amber is reserved for the authorized story light. Dark windows remain dense dark-blue interiors. Full-bleed image without paper border, captions or frame. Stable object contours, no dissolving emulsion.",
+      "key_beats": [
+        "S01:深蓝暗城，塔窗都暗，青白雨线。",
+        "S14:手、布带与圆壳有清楚的曝光层次。",
+        "S19:唯一琥珀点熄灭，整幅回到深蓝。",
+        "S28:屋顶出现克制红绿手工点色，蓝晒底材保留。"
+      ],
+      "risks": [
+        {
+          "risk": "纸边及签名变幻字",
+          "handling": "全幅无纸框，所有文字后期；检查墙面与四角。"
+        },
+        {
+          "risk": "负片把暗窗变亮",
+          "handling": "暗窗明确为深蓝实心；依明暗状态验收。"
+        },
+        {
+          "risk": "续接导致纹理或脸漂移",
+          "handling": "每10秒独立beat并绑定同一参考，优先不用跨beat续接。"
+        }
+      ],
+      "pairing": "多帧或延续能力用于同场景纹理一致性；高分辨率不等于实测更优，规格受报价和批准约束。",
+      "planning_only": true,
+      "target_seconds": 300,
+      "segment_plan": {
+        "beats": 30,
+        "segments": 30,
+        "durations": [
+          10
+        ],
+        "total_seconds": 300,
+        "Veo_B_rule": null
+      },
+      "pilot": {
+        "beat_id": "S14",
+        "segment_id": "S14",
+        "start_seconds": 130,
+        "end_seconds": 140,
+        "duration_seconds": 10,
+        "reusable_in_full_film": true,
+        "image_resolution_requested": "2K",
+        "image_model_requested": "Nano Banana Pro",
+        "image_prompt_en": "An animated cyanotype photographic print with deep Prussian-blue shadows, pale cyan contact-print highlights, subtle ferric photographic grain and authentic chemical edge variation within objects. Faces and architecture belong to the same photographic print medium. Restrained hand-applied ochre on the rain jacket, muted red on the satchel and faint teal eye lenses preserve identity. Amber is reserved for the authorized story light. Dark windows remain dense dark-blue interiors. Full-bleed image without paper border, captions or frame. Stable object contours, no dissolving emulsion. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Depict the moment just before the one cloth-end press. Every visible subject uses the target artistic medium. One cinematic 16:9 frame. No panel, border, lettering, subtitle, watermark or signature.",
+        "video_prompt_en": "An animated cyanotype photographic print with deep Prussian-blue shadows, pale cyan contact-print highlights, subtle ferric photographic grain and authentic chemical edge variation within objects. Faces and architecture belong to the same photographic print medium. Restrained hand-applied ochre on the rain jacket, muted red on the satchel and faint teal eye lenses preserve identity. Amber is reserved for the authorized story light. Dark windows remain dense dark-blue interiors. Full-bleed image without paper border, captions or frame. Stable object contours, no dissolving emulsion. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Begin with the bandage already mostly finished. Xiaohe presses its existing loose cloth end down once with the fingers already touching it, then lets her hands rest nearby. Do not add another wrap or an elaborate knot. Yuandian gives a slight upward glance with its two eyes. The injured right flipper stays low and supported; the left flipper and closed chest do not change. The complete lantern remains on its stone and its tiny weak flame stays lit. Rain moves outside the shelter. Locked camera, one continuous quiet shot, same contact geometry and character count, no new objects or scene transition. No spoken dialogue, text, letters, logo or watermark.Use seconds0-2 to settle, seconds2-6 for the single cloth-end press, and seconds6-10 for the quiet response with continuing rain. Do not loop or slow the action to fill time.",
+        "end_state": [
+          "same bandage secure on anatomical right flipper",
+          "injured right flipper remains drooping",
+          "same intact weakly lit lamp on the same stone",
+          "same woman and single sphere",
+          "closed chest; no early heart light"
+        ],
+        "qa_zh": [
+          "脸、球壳、衣服、背景四处媒介一致",
+          "只有现有两只人手，确实接触布带",
+          "同一伤臂不换边、不复原",
+          "铜灯无脸完整，位于石面，弱光不灭",
+          "无新增人物、机器人、灯具或幻字",
+          "动作连续且不循环；Veo只6秒，其余10秒"
+        ],
+        "submission_owner": "root/delivery only; planner must not submit paid generation"
+      }
+    },
+    {
+      "id": "hf14_veo_liveaction",
+      "model": "Veo 3.1",
+      "title_zh": "雨夜实录",
+      "title_en": "A Light Carried Home",
+      "design_zh": "真人实景童话：虚构成年东亚女性、旧雨衣、湿石阶和可信的膝高球形机械道具。重量与手的接触按实景处理，不要求对白口型。",
+      "difference_zh": "唯一完整真人电影摄影方向，区别前10部手绘与三维动画。",
+      "style_en": "Photoreal cinematic live-action fairy tale on a rain-soaked practical set. Xiaohe is a fictional adult East Asian woman aged twenty with natural facial proportions and believable skin, not a recognizable real person. A knee-high cream spherical animatronic companion is a tactile physical prop with two separate dim teal eye lenses, tiny feet and short flippers. Worn waterproof cloth, real brass and glass, wet stone and soft directional overcast light. Restrained film grain and a patient 50 mm lens. Realistic weight and contact, quiet human performance, no cartoon proportions or visible filming equipment.",
+      "key_beats": [
+        "S11:6秒护裂灯，4秒小禾注视反应。",
+        "S14:6秒压平现有带尾，4秒伤臂和圆点眼神。",
+        "S22:6秒轻止递核心，4秒视线确认不牺牲伙伴。",
+        "S24:6秒两处微光同框，4秒她放松呼吸。"
+      ],
+      "risks": [
+        {
+          "risk": "60镜脸变人或球壳长头",
+          "handling": "虚构成年角色与机器人三视图绑定同一参考ID。"
+        },
+        {
+          "risk": "6+4镜重复动作或伤臂换侧",
+          "handling": "B继承A末态，只拍反应/插入，不翻轴、不重新包扎。"
+        },
+        {
+          "risk": "生成对白冲突Serena",
+          "handling": "关闭原生音频；若不能关闭，成片弃用原生音轨。"
+        },
+        {
+          "risk": "托抱变拎头",
+          "handling": "S15起帧已托底抱稳，仅站稳迈步。"
+        }
+      ],
+      "pairing": "4/6/8秒时长促成6+4设计，写实方向是创意选择，ultra名称不是排行榜证据。",
+      "planning_only": true,
+      "target_seconds": 300,
+      "segment_plan": {
+        "beats": 30,
+        "segments": 60,
+        "durations": [
+          6,
+          4
+        ],
+        "total_seconds": 300,
+        "Veo_B_rule": "4s reaction/insert inherits the 6s main-action end state; no repeated action or duplicated narration"
+      },
+      "pilot": {
+        "beat_id": "S14",
+        "segment_id": "S14A",
+        "start_seconds": 130,
+        "end_seconds": 136,
+        "duration_seconds": 6,
+        "reusable_in_full_film": true,
+        "image_resolution_requested": "2K",
+        "image_model_requested": "Nano Banana Pro",
+        "image_prompt_en": "Photoreal cinematic live-action fairy tale on a rain-soaked practical set. Xiaohe is a fictional adult East Asian woman aged twenty with natural facial proportions and believable skin, not a recognizable real person. A knee-high cream spherical animatronic companion is a tactile physical prop with two separate dim teal eye lenses, tiny feet and short flippers. Worn waterproof cloth, real brass and glass, wet stone and soft directional overcast light. Restrained film grain and a patient 50 mm lens. Realistic weight and contact, quiet human performance, no cartoon proportions or visible filming equipment. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Depict the moment just before the one cloth-end press. Every visible subject uses the target artistic medium. One cinematic 16:9 frame. No panel, border, lettering, subtitle, watermark or signature.",
+        "video_prompt_en": "Photoreal cinematic live-action fairy tale on a rain-soaked practical set. Xiaohe is a fictional adult East Asian woman aged twenty with natural facial proportions and believable skin, not a recognizable real person. A knee-high cream spherical animatronic companion is a tactile physical prop with two separate dim teal eye lenses, tiny feet and short flippers. Worn waterproof cloth, real brass and glass, wet stone and soft directional overcast light. Restrained film grain and a patient 50 mm lens. Realistic weight and contact, quiet human performance, no cartoon proportions or visible filming equipment. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Begin with the bandage already mostly finished. Xiaohe presses its existing loose cloth end down once with the fingers already touching it, then lets her hands rest nearby. Do not add another wrap or an elaborate knot. Yuandian gives a slight upward glance with its two eyes. The injured right flipper stays low and supported; the left flipper and closed chest do not change. The complete lantern remains on its stone and its tiny weak flame stays lit. Rain moves outside the shelter. Locked camera, one continuous quiet shot, same contact geometry and character count, no new objects or scene transition. No spoken dialogue, text, letters, logo or watermark. Complete the cloth gesture during seconds1-4 and let the small look and rain continue to second6. A separate later S14B reaction will occupy136-140s; do not generate or extend it here.",
+        "end_state": [
+          "same bandage secure on anatomical right flipper",
+          "injured right flipper remains drooping",
+          "same intact weakly lit lamp on the same stone",
+          "same woman and single sphere",
+          "closed chest; no early heart light"
+        ],
+        "qa_zh": [
+          "脸、球壳、衣服、背景四处媒介一致",
+          "只有现有两只人手，确实接触布带",
+          "同一伤臂不换边、不复原",
+          "铜灯无脸完整，位于石面，弱光不灭",
+          "无新增人物、机器人、灯具或幻字",
+          "动作连续且不循环；Veo只6秒，其余10秒"
+        ],
+        "submission_owner": "root/delivery only; planner must not submit paid generation"
+      }
+    },
+    {
+      "id": "hf15_wan_wood",
+      "model": "Wan 3 Prime",
+      "title_zh": "木作微光",
+      "title_en": "The Carved City Wakes",
+      "design_zh": "木雕与嵌木木偶电影。脸、球壳、衣服和城市可辨木纹、凿痕与榫接；黄衣哑光、包为红嵌木、圆点奶白木球。布带是柔软真实织物。",
+      "difference_zh": "长纤维木纹、刻刀平面和嵌木建筑，区别黏土指纹、光滑CG及纸玻璃。",
+      "style_en": "A cinematic carved-wood puppet fable on a handcrafted wooden city set. Directional wood grain, shallow chisel facets and precise marquetry define every character and building. Xiaohe is an adult-proportioned articulated wooden figure with a matte mustard carved coat, navy legs and muted red inlaid satchel. Yuandian is one cream-painted wooden sphere with separate inset teal round eyes, tiny feet and short carved flippers. The narrow cream bandage is woven cloth. The small brass-and-glass lantern is a believable inanimate prop. Tactile matte solid surfaces, rain beads and soft practical illumination.",
+      "key_beats": [
+        "S05:木脚踏地接触清楚，有重量。",
+        "S14:软布带支持硬木伤臂，材质对比表达照料。",
+        "S21:小胸盖内为无脸木壳，一颗小心核。",
+        "S27:嵌木小窗逐个暖亮，城市几何固定。"
+      ],
+      "risks": [
+        {
+          "risk": "暖木色变提前晨光",
+          "handling": "区分固有色和照明，S28前冷暗照明、窗内黑。"
+        },
+        {
+          "risk": "球形木偶长头颈人手",
+          "handling": "参考只保留单球短肢；打开小胸盖，不掀整脑袋。"
+        },
+        {
+          "risk": "木纹变黏土或塑料",
+          "handling": "首尾参考锁纹理方向，检查脸、球、衣服、阶梯四区。"
+        }
+      ],
+      "pairing": "首尾参考与thinking作为关节和状态约束候选，实际效果由S14试样验证。",
+      "planning_only": true,
+      "target_seconds": 300,
+      "segment_plan": {
+        "beats": 30,
+        "segments": 30,
+        "durations": [
+          10
+        ],
+        "total_seconds": 300,
+        "Veo_B_rule": null
+      },
+      "pilot": {
+        "beat_id": "S14",
+        "segment_id": "S14",
+        "start_seconds": 130,
+        "end_seconds": 140,
+        "duration_seconds": 10,
+        "reusable_in_full_film": true,
+        "image_resolution_requested": "2K",
+        "image_model_requested": "Nano Banana Pro",
+        "image_prompt_en": "A cinematic carved-wood puppet fable on a handcrafted wooden city set. Directional wood grain, shallow chisel facets and precise marquetry define every character and building. Xiaohe is an adult-proportioned articulated wooden figure with a matte mustard carved coat, navy legs and muted red inlaid satchel. Yuandian is one cream-painted wooden sphere with separate inset teal round eyes, tiny feet and short carved flippers. The narrow cream bandage is woven cloth. The small brass-and-glass lantern is a believable inanimate prop. Tactile matte solid surfaces, rain beads and soft practical illumination. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Depict the moment just before the one cloth-end press. Every visible subject uses the target artistic medium. One cinematic 16:9 frame. No panel, border, lettering, subtitle, watermark or signature.",
+        "video_prompt_en": "A cinematic carved-wood puppet fable on a handcrafted wooden city set. Directional wood grain, shallow chisel facets and precise marquetry define every character and building. Xiaohe is an adult-proportioned articulated wooden figure with a matte mustard carved coat, navy legs and muted red inlaid satchel. Yuandian is one cream-painted wooden sphere with separate inset teal round eyes, tiny feet and short carved flippers. The narrow cream bandage is woven cloth. The small brass-and-glass lantern is a believable inanimate prop. Tactile matte solid surfaces, rain beads and soft practical illumination. Medium three-quarter front view under a stone shelter during cold rain. Exactly one adult woman Xiaohe kneels on frame left beside one knee-high spherical robot Yuandian on frame right. Xiaohe has a straight chin-length black bob and blunt bangs, a hood-down mustard rain jacket, navy trousers, black ankle boots and the same red satchel open beside her knee. Yuandian is a single cream sphere, two separate dim teal round eyes, tiny plain mouth, two tiny feet and two short flippers, with no separate head or neck. Its anatomical RIGHT flipper is injured and drooping; in this frontal view this is the flipper nearest Xiaohe, camera-left of the sphere. One narrow cream cloth support bandage already wraps that injured flipper. Her two hands rest at the existing cloth end; the intact left flipper is separate and still. The chest hatch is closed and flush. One complete faceless brass-and-glass lantern rests on a flat stone in the lower-left foreground, separate from her hands, with one very weak amber flame. No other warm light. The background is quiet and uncluttered, leaving a clear gap between bodies except at the bandage contact. Begin with the bandage already mostly finished. Xiaohe presses its existing loose cloth end down once with the fingers already touching it, then lets her hands rest nearby. Do not add another wrap or an elaborate knot. Yuandian gives a slight upward glance with its two eyes. The injured right flipper stays low and supported; the left flipper and closed chest do not change. The complete lantern remains on its stone and its tiny weak flame stays lit. Rain moves outside the shelter. Locked camera, one continuous quiet shot, same contact geometry and character count, no new objects or scene transition. No spoken dialogue, text, letters, logo or watermark.Use seconds0-2 to settle, seconds2-6 for the single cloth-end press, and seconds6-10 for the quiet response with continuing rain. Do not loop or slow the action to fill time.",
+        "end_state": [
+          "same bandage secure on anatomical right flipper",
+          "injured right flipper remains drooping",
+          "same intact weakly lit lamp on the same stone",
+          "same woman and single sphere",
+          "closed chest; no early heart light"
+        ],
+        "qa_zh": [
+          "脸、球壳、衣服、背景四处媒介一致",
+          "只有现有两只人手，确实接触布带",
+          "同一伤臂不换边、不复原",
+          "铜灯无脸完整，位于石面，弱光不灭",
+          "无新增人物、机器人、灯具或幻字",
+          "动作连续且不循环；Veo只6秒，其余10秒"
+        ],
+        "submission_owner": "root/delivery only; planner must not submit paid generation"
+      }
+    }
+  ],
+  "shared_beats": [
+    {
+      "beat_id": "S01",
+      "title_zh": "雨城",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "duration_seconds": 10,
+      "story_action_zh": "城里已许久没有光，山顶灯塔隐没在风雨中。",
+      "scene_reference_en": "A vast rain-soaked hillside city of closely packed old buildings and steep stairways, almost monochrome, shuttered windows, a dark lighthouse at the highest summit, empty streets and low storm clouds. Establish the city geography clearly. No protagonist is visible yet.",
+      "action_reference_en": "Slow forward aerial drift toward the distant unlit hilltop lighthouse. Rain falls steadily, mist slides between rooftops. Preserve the skyline and do not jump to another scene.",
+      "narration_zh": "雨城已经很久，没有看见清晨了。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 1.0,
+        "end_seconds": 4.6,
+        "subtitle_end_seconds": 6.1,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S01_Serena_reused_sample.wav",
+        "audio_sha256": "02491d00500afa735493a8de5cd3d091815308790bdc9cbbe40b7697a399e09d"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S02",
+      "title_zh": "最后一盏",
+      "start_seconds": 10,
+      "end_seconds": 20,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾在空荡荡的灯铺中提起唯一仍亮着的铜灯。",
+      "scene_reference_en": "Inside a deserted old lantern workshop, Xiaohe stands beside a wooden table holding the only lit brass lantern. Many unlit lantern frames hang behind her. The warm amber flame illuminates her face and mustard rain jacket against a cold gray room.",
+      "action_reference_en": "Xiaohe gently lifts the brass lantern from the table and studies its tiny flame. Subtle amber light moves across her face. Camera slowly pushes closer.",
+      "narration_zh": "只剩这一盏灯，还记得太阳的颜色。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 11.0,
+        "end_seconds": 14.12,
+        "subtitle_end_seconds": 15.62,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S02_Serena_reused_sample.wav",
+        "audio_sha256": "e1fe8a6a765481583a1ccd8a8b9832c55fce1a611907b10957c7b386a47d3c99"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S03",
+      "title_zh": "伙伴醒来",
+      "start_seconds": 20,
+      "end_seconds": 30,
+      "duration_seconds": 10,
+      "story_action_zh": "圆点的蓝眼亮起，朝小禾伸出小手。",
+      "scene_reference_en": "Yuandian sits on the edge of the workshop table beside Xiaohe’s hand and the brass lantern. Its two large circular teal eyes are dim but awake. The robot is intact, cream enamel slightly worn, chest hatch shut.",
+      "action_reference_en": "Yuandian’s teal eyes brighten. It raises one little mechanical hand toward Xiaohe; she gently touches its hand with one fingertip. Keep a steady intimate close framing.",
+      "narration_zh": "陪她出发的，是一台旧送灯机器人。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 21.0,
+        "end_seconds": 24.12,
+        "subtitle_end_seconds": 25.62,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S03_Serena_a1.wav",
+        "audio_sha256": "bf9b27aea0964f7b399b0d4fd5d9d776b4c0a4352ac1d2de4843b0038c563344"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S04",
+      "title_zh": "山顶的约定",
+      "start_seconds": 30,
+      "end_seconds": 40,
+      "duration_seconds": 10,
+      "story_action_zh": "两位伙伴望向远处山顶，确定共同目标。",
+      "scene_reference_en": "Xiaohe and Yuandian stand beneath the workshop doorway, seen from behind in three-quarter view. Xiaohe carries the lit brass lantern. Beyond them, a steep street leads visually toward the dark lighthouse on the hilltop.",
+      "action_reference_en": "Xiaohe looks from the lantern up toward the distant lighthouse. Yuandian follows her gaze. Camera eases forward between their silhouettes toward the uphill route.",
+      "narration_zh": "他们要把灯送上山顶，重新点亮雨城。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 31.0,
+        "end_seconds": 34.04,
+        "subtitle_end_seconds": 35.54,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S04_Serena_a1.wav",
+        "audio_sha256": "e3f571899ea294400710378ab227144a2eaad4336b19d31f12434925ab7de41b"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S05",
+      "title_zh": "踏入雨中",
+      "start_seconds": 40,
+      "end_seconds": 50,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾和圆点离开灯铺，并肩迈进冷雨。",
+      "scene_reference_en": "Full-body side view of Xiaohe walking uphill on an empty wet stone street, Yuandian beside her at knee height. Xiaohe holds the brass lantern at waist level. Mustard rain jacket and red canvas shoulder satchel remain clearly visible, lantern is still bright.",
+      "action_reference_en": "Gentle side-tracking shot. Xiaohe and Yuandian walk together at a measured pace through shallow puddles. Their footsteps and tiny splashes stay natural.",
+      "narration_zh": "小禾出门时，圆点把步子调得和她一样慢。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 41.0,
+        "end_seconds": 44.76,
+        "subtitle_end_seconds": 46.26,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S05_Serena_a1.wav",
+        "audio_sha256": "3877892a1b43e4569b8d8868b8344c55642106e670e72f742392d3e4703a28a3"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S06",
+      "title_zh": "紧闭的窗",
+      "start_seconds": 50,
+      "end_seconds": 60,
+      "duration_seconds": 10,
+      "story_action_zh": "微光经过一排关着的窗，只有一道窗缝悄悄打开。",
+      "scene_reference_en": "Xiaohe and Yuandian pass a long row of tall dark shuttered windows in a narrow uphill street. One window has a tiny gap with an anonymous resident’s silhouette behind it. The lantern casts a small warm oval on wet stone.",
+      "action_reference_en": "Slow lateral camera move as the pair pass. A single wooden shutter opens a few centimeters, catching the amber reflection, then stays slightly open.",
+      "narration_zh": "起初，谁也不相信一盏灯能改变什么。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 51.0,
+        "end_seconds": 55.0,
+        "subtitle_end_seconds": 56.5,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S06_Serena_a1.wav",
+        "audio_sha256": "7cc9bba02d2b17d0b79306288475677215e45bbdd1dfe7362cb00b45e586e092"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S07",
+      "title_zh": "留下一点暖",
+      "start_seconds": 60,
+      "end_seconds": 70,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾将灯举到窗边，暖光照亮居民伸出的手。",
+      "scene_reference_en": "Under a narrow eave, Xiaohe holds the brass lantern near a half-open window. Only an anonymous resident’s open hands are visible inside, lit by the amber glow. Yuandian waits beside Xiaohe. No new recurring face is introduced.",
+      "action_reference_en": "Xiaohe raises the lantern slightly toward the resident’s hands. The hands slowly open and relax in the warmth. The flame remains safely inside the glass.",
+      "narration_zh": "可只要走近一点，陌生的手也会变暖。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 61.0,
+        "end_seconds": 64.36,
+        "subtitle_end_seconds": 65.86,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S07_Serena_a1.wav",
+        "audio_sha256": "8ca24ffa9952764f1a9ae73e15b5bcdac3044dd0f7be7035ee1f108dfe02c92f"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S08",
+      "title_zh": "抬头见路",
+      "start_seconds": 70,
+      "end_seconds": 80,
+      "duration_seconds": 10,
+      "story_action_zh": "圆点清开脚前的落叶，露出通向山顶的石阶。",
+      "scene_reference_en": "At the foot of a long steep stone stairway, Yuandian stands beside a small pile of wet leaves, clearing the first step with its tiny hand. Xiaohe waits behind it with the lit brass lantern. The lighthouse is visible high above.",
+      "action_reference_en": "Yuandian brushes wet leaves from one stair, then turns its gaze toward Xiaohe. Xiaohe gives a small grateful smile and steps onto the cleared stair.",
+      "narration_zh": "圆点没有说话，只把路上的落叶扫开。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 71.0,
+        "end_seconds": 74.44,
+        "subtitle_end_seconds": 75.94,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S08_Serena_a1.wav",
+        "audio_sha256": "2f2ad3269c2c4c724e9f2ce5b245c49777464b33d1719f59da8746f697ef2c63"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S09",
+      "title_zh": "往上走",
+      "start_seconds": 80,
+      "end_seconds": 90,
+      "duration_seconds": 10,
+      "story_action_zh": "伙伴沿着蜿蜒石阶爬升，城市渐渐远去。",
+      "scene_reference_en": "A dramatic wide view of a winding hillside stairway above the rain city. Xiaohe and Yuandian appear small but recognizable on the stairs, her mustard coat and their amber lantern the only warm colors. The lighthouse looms ahead.",
+      "action_reference_en": "Slow crane upward as the pair climb a short stretch of stairs. Rain streams down the stone gutters. Keep the same route and two characters.",
+      "narration_zh": "一百级，又一百级。灯塔仍在雨的另一头。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 81.0,
+        "end_seconds": 86.04,
+        "subtitle_end_seconds": 87.54,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S09_Serena_a1.wav",
+        "audio_sha256": "90989377a3fd6329c3658051b947fafb5d8ca51a7607cd0bbb6b8e6fd976361e"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S10",
+      "title_zh": "风桥",
+      "start_seconds": 90,
+      "end_seconds": 100,
+      "duration_seconds": 10,
+      "story_action_zh": "他们来到横跨深沟的旧石桥，风雨明显增强。",
+      "scene_reference_en": "Xiaohe and Yuandian stand at the entrance to a narrow old stone bridge over a deep misty ravine. The bridge is intact but exposed to strong wind. The lantern flame bends behind its glass. The hem of Xiaohe’s rain jacket is pushed sideways.",
+      "action_reference_en": "Camera slowly advances toward the bridge. Gusts push the rain diagonally; Xiaohe braces her feet and shields the lantern with her shoulder. Yuandian leans into the wind.",
+      "narration_zh": "到了风桥，雨忽然横着落下来。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 91.0,
+        "end_seconds": 93.8,
+        "subtitle_end_seconds": 95.3,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S10_Serena_a1.wav",
+        "audio_sha256": "8e8b4c7c3096d419518df64ce375b50e9860ab9ee62f41c414617694a2ccffeb"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S11",
+      "title_zh": "灯将熄灭",
+      "start_seconds": 100,
+      "end_seconds": 110,
+      "duration_seconds": 10,
+      "story_action_zh": "灯罩出现细裂纹，小禾努力护住摇晃的火苗。",
+      "scene_reference_en": "Tight view of the same brass lantern in Xiaohe’s hands on the stormy bridge. One glass panel has a fine visible crack. The small amber flame is weak and bent by a draft. Her yellow sleeves frame the lantern.",
+      "action_reference_en": "The flame flickers urgently while rain beads move across cracked glass. Xiaohe curls her hands protectively around the frame. Gentle handheld tension, without abrupt camera shake.",
+      "narration_zh": "玻璃裂了。最后的火苗，开始发抖。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 101.0,
+        "end_seconds": 104.92,
+        "subtitle_end_seconds": 106.42,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S11_Serena_a1.wav",
+        "audio_sha256": "3c4d320c5fc07c928c15b36ee209f3ed4c1bcfce54e60dc6f3a6ba01a2599b4a"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S12",
+      "title_zh": "圆点挡风",
+      "start_seconds": 110,
+      "end_seconds": 120,
+      "duration_seconds": 10,
+      "story_action_zh": "圆点用身体挡在灯前，右臂在风中受损垂下。",
+      "scene_reference_en": "Yuandian braces its round cream body between the lantern and the wind on the bridge. Its right flipper-like arm is visibly bent and hanging low. Xiaohe crouches immediately behind the robot, protecting the lantern. Avoid detached parts or sparks near the flame.",
+      "action_reference_en": "Yuandian leans forward to shield the lantern, its teal eyes bright with determination but determined. Its damaged right arm trembles once and stays lowered. Xiaohe reaches toward the robot.",
+      "narration_zh": "圆点扑到灯前，把自己变成了一面墙。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 111.0,
+        "end_seconds": 114.28,
+        "subtitle_end_seconds": 115.78,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S12_Serena_a1.wav",
+        "audio_sha256": "9df7d08e2de585f9864e7c21a765b1e1cd68e55ebb2285850e792827d291f4a8"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S13",
+      "title_zh": "先救伙伴",
+      "start_seconds": 120,
+      "end_seconds": 130,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾在安全桥头蹲下，圆点的蓝眼开始变暗。",
+      "scene_reference_en": "At the sheltered far end of the bridge, Xiaohe kneels beside Yuandian. The robot sits exhausted with its damaged right arm lowered and two large teal eyes dim. The lantern stands on the ground next to Xiaohe, still flickering weakly.",
+      "action_reference_en": "Xiaohe gently steadies Yuandian’s body with both hands, looking into its dim eye. Yuandian tries to rise, then settles back. Hold the emotional close-up without changing location.",
+      "narration_zh": "灯还亮着，圆点却快走不动了。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 121.0,
+        "end_seconds": 127.64,
+        "subtitle_end_seconds": 129,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S13_Serena_a1.wav",
+        "audio_sha256": "106363f5d1728c0035255df23f7778539bc3e0344f84548701dceb49b6d67c11"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S14",
+      "title_zh": "没有放下你",
+      "start_seconds": 130,
+      "end_seconds": 140,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾从红挎包取出一条布带，包好圆点受损的右臂。",
+      "scene_reference_en": "Under a stone overhang, Xiaohe kneels beside Yuandian. A narrow cream-colored cloth bandage is wrapped around its damaged right flipper-like arm as a gentle support. Her red canvas satchel is open beside her. The weak antique brass lantern rests safely on a flat stone.",
+      "action_reference_en": "Xiaohe carefully finishes one simple wrap of the cloth bandage around the robot’s damaged right arm. Yuandian raises its two teal eyes toward her. Slow intimate camera push, calm gentle gestures.",
+      "narration_zh": "她可以先送灯。她却停下来，为圆点包好手臂。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 131.0,
+        "end_seconds": 135.8,
+        "subtitle_end_seconds": 137.3,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S14_Serena_a1.wav",
+        "audio_sha256": "ed7f732a80c778f90ccea790e775881294cd3e6fcb4f4c097fd6eaa118448db4"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S15",
+      "title_zh": "一起到山顶",
+      "start_seconds": 140,
+      "end_seconds": 150,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾抱起圆点，另一只手提灯，继续登山。",
+      "scene_reference_en": "Xiaohe stands at the edge of the shelter carrying Yuandian against her left side and holding the brass lantern in her right hand. A narrow cream-colored cloth bandage supports Yuandian’s damaged right arm. The red canvas shoulder satchel remains across Xiaohe’s body.",
+      "action_reference_en": "Xiaohe adjusts the robot securely against her side, takes a determined breath, and steps out into the rain. Yuandian rests its teal eyes toward her face.",
+      "narration_zh": "“说好一起到山顶，就一个也不能少。”",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 141.0,
+        "end_seconds": 144.2,
+        "subtitle_end_seconds": 145.7,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S15_Serena_a1.wav",
+        "audio_sha256": "497e2eee6359fdb11d917bf0ad820a37ae5177eb5767b82f477a22f675f2954c"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S16",
+      "title_zh": "微光与脚步",
+      "start_seconds": 150,
+      "end_seconds": 160,
+      "duration_seconds": 10,
+      "story_action_zh": "沉重脚步继续向上，灯光越来越弱。",
+      "scene_reference_en": "Low close view of Xiaohe’s dark boots climbing wet steep stone steps. The brass lantern hangs close to her right knee with a very faint flame. The bottom of her mustard coat moves in the rain. Yuandian is carried above the frame.",
+      "action_reference_en": "Track slowly beside Xiaohe’s boots as she climbs several steps. The lantern swings gently and its tiny flame dips, then briefly recovers. No running or falling.",
+      "narration_zh": "她走得更慢了。每一步，都替两个人走。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 151.0,
+        "end_seconds": 154.36,
+        "subtitle_end_seconds": 155.86,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S16_Serena_a2.wav",
+        "audio_sha256": "234034e3e45b843a3b7b7bef93fe554126513c69daf74303cf924126f8700cd5"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S17",
+      "title_zh": "灯塔终于到了",
+      "start_seconds": 160,
+      "end_seconds": 170,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾抱着圆点终于抵达灯塔平台，暴雨仍未停。",
+      "scene_reference_en": "Xiaohe reaches the hilltop lighthouse platform carrying Yuandian. An enormous circular beacon lens is visible through an open stone arch. The weak brass lantern glows in her right hand; the city lies far below through mist.",
+      "action_reference_en": "Camera slowly widens to reveal the huge dark beacon above the small exhausted pair. Xiaohe crosses the final few steps toward the open arch.",
+      "narration_zh": "终于，灯塔就在眼前。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 161.0,
+        "end_seconds": 163.72,
+        "subtitle_end_seconds": 165.22,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S17_Serena_a1.wav",
+        "audio_sha256": "51eb3a5e10a28728ec6472aff48530e5f1653e86aa5e8ed605942d3a366dca39"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S18",
+      "title_zh": "放上最后一盏",
+      "start_seconds": 170,
+      "end_seconds": 180,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾把铜灯轻轻放入灯塔中央的圆形灯座。",
+      "scene_reference_en": "Inside the lighthouse chamber, a large circular glass beacon lens surrounds a simple central stone pedestal. Xiaohe holds the brass lantern just above the pedestal. Yuandian sits beside her, damaged right arm supported by a cream cloth bandage.",
+      "action_reference_en": "Xiaohe gently lowers the lantern onto the center of the pedestal and removes her hands. A faint amber glint crosses the enormous lens. Keep the beacon unlit otherwise.",
+      "narration_zh": "她把最后一盏灯，放进了灯塔的心口。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 171.0,
+        "end_seconds": 174.36,
+        "subtitle_end_seconds": 175.86,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S18_Serena_a1.wav",
+        "audio_sha256": "b83048675cab84740c903f2f6cb104a51859fa1c3b984ab28420bb37a66ac52e"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S19",
+      "title_zh": "熄灭",
+      "start_seconds": 180,
+      "end_seconds": 190,
+      "duration_seconds": 10,
+      "story_action_zh": "铜灯中的火苗突然熄灭，画面陷入蓝灰色。",
+      "scene_reference_en": "Extreme close-up of the brass lantern resting on the lighthouse pedestal. Its small flame has shrunk to a thin amber point. The cracked glass and worn brass are clearly visible. Cold gray storm light surrounds it.",
+      "action_reference_en": "The tiny flame slowly contracts and goes out completely, leaving a thread of smoke. The warm reflection fades from the glass. Hold on the darkness at the end.",
+      "narration_zh": "可就在那一刻，火灭了。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 181.0,
+        "end_seconds": 184.12,
+        "subtitle_end_seconds": 185.62,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S19_Serena_a1.wav",
+        "audio_sha256": "ea51e3366fca7c55a0e3a89abc0413a41d359f183106db194298683a060d305b"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S20",
+      "title_zh": "失去颜色的愿望",
+      "start_seconds": 190,
+      "end_seconds": 200,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾低头坐在石台旁，圆点靠近她。",
+      "scene_reference_en": "Xiaohe sits on the stone floor beside the unlit lantern pedestal, rain on her face, shoulders lowered. Yuandian sits close beside her, dim teal eyes turned upward. Her red canvas satchel is still visible; its right arm remains supported by the cream cloth bandage.",
+      "action_reference_en": "Xiaohe lowers her gaze and slowly opens her empty hands. Yuandian gently touches the edge of her sleeve with its intact left hand. Camera stays still and patient.",
+      "narration_zh": "她已经把能带来的，都带到了这里。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 191.0,
+        "end_seconds": 194.28,
+        "subtitle_end_seconds": 195.78,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S20_Serena_a1.wav",
+        "audio_sha256": "a7ba9822304dd6498631bfabb80dc7b85155a9f473cb256d0b5bc36111099811"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S21",
+      "title_zh": "心里还有光",
+      "start_seconds": 200,
+      "end_seconds": 210,
+      "duration_seconds": 10,
+      "story_action_zh": "圆点打开胸口，露出仍在发光的小小琥珀心核。",
+      "scene_reference_en": "Close view of Yuandian beside Xiaohe. Its circular chest hatch is open, revealing a small glowing amber crystal heart. Its two teal eyes are gentle and dim; damaged right arm is supported by a cream cloth bandage. Xiaohe’s hand rests nearby.",
+      "action_reference_en": "The robot opens its small chest hatch fully and reveals the warm crystal. Amber light slowly reaches Xiaohe’s fingers. Yuandian looks from its heart toward the empty lantern.",
+      "narration_zh": "圆点胸口，还有一点光。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 201.0,
+        "end_seconds": 203.4,
+        "subtitle_end_seconds": 204.9,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S21_Serena_a1.wav",
+        "audio_sha256": "dc336ebc8e56f3179e16a77afc15d249c9cab268f285b8f80d2a1872519d99e0"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S22",
+      "title_zh": "没有代价的答案",
+      "start_seconds": 210,
+      "end_seconds": 220,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾挡住圆点递出心核的动作，凝视它的眼睛。",
+      "scene_reference_en": "Xiaohe kneels face to face with Yuandian. The robot holds a tiny glowing amber crystal in its intact left hand above the open chest hatch. Xiaohe gently cups the robot’s hand, stopping it from giving away the whole heart.",
+      "action_reference_en": "Xiaohe softly shakes her head once and closes her fingers gently around the robot’s hand. Yuandian pauses, its two teal eyes fixed on her. No forceful struggle, no extra characters.",
+      "narration_zh": "它愿意把心交出去。小禾却摇了摇头。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 211.0,
+        "end_seconds": 214.68,
+        "subtitle_end_seconds": 216.18,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S22_Serena_a1.wav",
+        "audio_sha256": "8498e675b764784de43ca8ef5914cced2e24750c38ea31b7fbfaecb82c845aca"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S23",
+      "title_zh": "把光分成两份",
+      "start_seconds": 220,
+      "end_seconds": 230,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾将心核中的光分成两粒，掌中各留一小点温暖。",
+      "scene_reference_en": "A poetic close-up of Xiaohe’s cupped hands holding two tiny separate amber crystal fragments, each glowing faintly. Yuandian’s open chest and the dark brass lantern are softly visible behind her hands. This is gentle storybook magic, no tools, no violent breaking.",
+      "action_reference_en": "A delicate warm thread of light between the two crystal fragments slowly separates. Each fragment keeps a small steady glow. Xiaohe carefully opens her hands to reveal both lights.",
+      "narration_zh": "“那就分一点给灯，也留一点给你。”",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 221.0,
+        "end_seconds": 225.24,
+        "subtitle_end_seconds": 226.74,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\S23_Serena_reused_sample.wav",
+        "audio_sha256": "fdf473e8b4691701677df81d55aa5406fe4cad8869a090178173097276585446"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S24",
+      "title_zh": "两盏小小的灯",
+      "start_seconds": 230,
+      "end_seconds": 240,
+      "duration_seconds": 10,
+      "story_action_zh": "一半心核回到圆点胸中，一半在铜灯中发亮。",
+      "scene_reference_en": "Xiaohe stands between the pedestal and Yuandian. The brass lantern now holds one tiny amber crystal glowing weakly, while Yuandian’s closed chest hatch glows faintly from the other half. The robot’s teal eyes are awake. Both warm points are visible together.",
+      "action_reference_en": "Yuandian’s teal eyes gradually brightens as the lantern’s small amber glow steadies. Xiaohe looks from the robot to the lantern with cautious hope. Camera gently pulls back to include both lights.",
+      "narration_zh": "两点微光都很小。但谁也没有消失。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 231.0,
+        "end_seconds": 235.0,
+        "subtitle_end_seconds": 236.5,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S24_Serena_a1.wav",
+        "audio_sha256": "a5f13226172072124c28e48aec7543358eb3f5fb3d9b28403cd9c32fc5dee7db"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S25",
+      "title_zh": "请看见我们",
+      "start_seconds": 240,
+      "end_seconds": 250,
+      "duration_seconds": 10,
+      "story_action_zh": "灯塔向灰暗城市闪出一次微弱却清晰的暖光。",
+      "scene_reference_en": "Exterior wide shot of the hilltop lighthouse above the dark city in heavy mist. A very small amber glow sits inside its great circular lens, almost overwhelmed by the cold storm. The city windows below are still mostly dark.",
+      "action_reference_en": "One soft amber pulse travels through the lighthouse lens and briefly reaches the rooftops below. Hold the dark city after the pulse; do not instantly light every window.",
+      "narration_zh": "灯塔只亮了一下，像轻轻说了声：我们在。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 241.0,
+        "end_seconds": 245.16,
+        "subtitle_end_seconds": 246.66,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S25_Serena_a1.wav",
+        "audio_sha256": "6b05bf9fbfbbd4fb402f5f5726e92e17e5eeac062e959f7f887dfd77bb4f2544"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S26",
+      "title_zh": "第一声回应",
+      "start_seconds": 250,
+      "end_seconds": 260,
+      "duration_seconds": 10,
+      "story_action_zh": "最早那扇窗打开，居民举起一盏小小的暖灯。",
+      "scene_reference_en": "Return to the same narrow street window seen earlier. The wooden shutter is now open. Anonymous resident hands hold a tiny warm household lantern just inside the window. The surrounding street remains cold and dark. No readable signs or recurring face required.",
+      "action_reference_en": "The hands gently lift the small glowing lantern into the open window. Its warm light touches the wet wall. Camera slowly pushes toward this single first response.",
+      "narration_zh": "山脚下，第一扇窗回应了它。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 251.0,
+        "end_seconds": 254.36,
+        "subtitle_end_seconds": 255.86,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S26_Serena_a1.wav",
+        "audio_sha256": "303cbbf49ee992cb373e73fcde3e9e7712be690f5d689ea54024c7ccf415eee4"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S27",
+      "title_zh": "一座城的回应",
+      "start_seconds": 260,
+      "end_seconds": 270,
+      "duration_seconds": 10,
+      "story_action_zh": "暖光一扇接一扇出现，从街角一路连向山顶。",
+      "scene_reference_en": "A sweeping elevated view across the hillside city, with scattered amber windows beginning to glow among many dark ones. Steep streets connect the houses toward the lighthouse. The storm clouds are starting to thin.",
+      "action_reference_en": "Warm lights gradually appear in neighboring windows in a clear spreading sequence. The glow travels slowly up the hillside streets, while the camera glides above the rooftops.",
+      "narration_zh": "然后是一条街。再然后，是整座城。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 261.0,
+        "end_seconds": 267.56,
+        "subtitle_end_seconds": 269,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S27_Serena_a1.wav",
+        "audio_sha256": "e0a3b8b3d750450c5aa573b8fcd833308175114a47139a1c83d3b06ad132fdd5"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S28",
+      "title_zh": "雨城重新有了颜色",
+      "start_seconds": 270,
+      "end_seconds": 280,
+      "duration_seconds": 10,
+      "story_action_zh": "众多微光汇入灯塔的镜片，城市迎来第一束晨光。",
+      "scene_reference_en": "Wide cinematic view from beside the lighthouse lens across the city. Countless warm windows shine below. Pale sunrise breaks through thinning clouds, revealing muted greens, brick reds and soft blue roofs for the first time. The beacon lens catches the city lights.",
+      "action_reference_en": "The sunrise gradually expands through the cloud gap and sweeps gentle color across the rooftops. The lighthouse lens glows warmly with reflected light, without a destructive beam or explosion.",
+      "narration_zh": "原来，光不是一个人撑住的。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 271.0,
+        "end_seconds": 273.8,
+        "subtitle_end_seconds": 275.3,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S28_Serena_a1.wav",
+        "audio_sha256": "97f86dcf43e714a7ede6c6597b3e0f84f3b51d8c1565a508df97ac0b5c9637ca"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S29",
+      "title_zh": "一起看见清晨",
+      "start_seconds": 280,
+      "end_seconds": 290,
+      "duration_seconds": 10,
+      "story_action_zh": "小禾与圆点并肩坐在平台边，看着重新有色彩的城市。",
+      "scene_reference_en": "Xiaohe and Yuandian sit side by side safely on the broad lighthouse steps at dawn, looking over the colorful waking city. The cream cloth bandage remains around Yuandian’s damaged right arm; Xiaohe still wears her red canvas satchel. The brass lantern rests between them, still holding a tiny amber glow.",
+      "action_reference_en": "Slow gentle arc around the pair from behind toward a three-quarter view. Xiaohe smiles faintly and rests a hand beside Yuandian. Yuandian’s teal eyes glow steadily. Soft dawn wind moves her hair.",
+      "narration_zh": "它要有人送去，也要有人愿意接住。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 281.0,
+        "end_seconds": 283.72,
+        "subtitle_end_seconds": 285.22,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S29_Serena_a1.wav",
+        "audio_sha256": "0d36b960242448cb24f999e299b8ae64e26a6c7df0211ead0a320a1d7b52f3ee"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    },
+    {
+      "beat_id": "S30",
+      "title_zh": "新的送灯路",
+      "start_seconds": 290,
+      "end_seconds": 300,
+      "duration_seconds": 10,
+      "story_action_zh": "两位伙伴带着小灯并肩下山，故事在清晨的道路上结束。",
+      "scene_reference_en": "Xiaohe and Yuandian walk side by side down the broad hilltop steps into a softly colorful sunlit city. Xiaohe carries the same small brass lantern. Her red canvas satchel is visible; the cream cloth bandage still supports Yuandian’s damaged right arm. Their silhouettes are calm and hopeful.",
+      "action_reference_en": "Slow pullback as the two companions walk down several steps together. The lantern swings gently. Hold the sunlit city composition for the final two seconds, suitable for a clean fade to black in editing.",
+      "narration_zh": "后来，他们继续送灯。把一点光，送到另一个人手中。",
+      "voice_cue": {
+        "speaker": "Serena",
+        "start_seconds": 291.0,
+        "end_seconds": 296.84,
+        "subtitle_end_seconds": 298.34,
+        "audio_path": "PROJECT_ROOT\\work\\tts_upgrade\\new_audio\\narration_cues\\20261020T083050_S30_Serena_a1.wav",
+        "audio_sha256": "48b7d739987aa55bf752bb94e837d780d47317cf1568edac234f6dfeef40c650"
+      },
+      "full_model_specific_prompt": "deferred until full-film budget approval"
+    }
+  ],
+  "timing_ledger_requirements": [
+    "每调用保存model route/参数/参考ID/prompt SHA/quote/实扣积分可得时值/submit/provider完成/download完成/status/retry_of/output SHA。",
+    "每片记录准备、首提交、最后生成、导出、完整技术检查、人工音画验收与发布时间；暂停单列。",
+    "未提供的服务端执行或队列时间标未知，不能把墙钟历时冒充GPU秒数。",
+    "共享Serena母带及旧本地参考不重复算五次新生成；复用S14样片只计一次；废稿和失败均保留。"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "style_id": "09_charcoal",
+  "name": "炭笔黑白电影",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:44-05:00",
+  "completed_at": "2026-10-20T00:46:13.279-05:00",
+  "generation_seconds": 4.296,
+  "queue_seconds": 2.9139999999999997,
+  "layout_seconds": 0.174,
+  "rework_seconds": 6.596,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 689.28,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.0733,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:46:13.206-05:00",
+      "completed_at": "2026-10-20T00:46:13.279-05:00",
+      "seconds": 0.0733,
+      "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-20T01:09:28-05:00",
+  "reviewer": "director_visual_review",
+  "frame_sha256": [
+    "965ec1abf9c4c708a926621e219db8161e330d75291c0f227fb0d9b503a241df",
+    "897fcec49eabed7f2a283de1abc4c5149c4434ab6438c29af8e1303061f5850e",
+    "0c6b41cbcfde525c946b304bc95f45bf36c154d3ca86101c23b9d72a403a2cd4",
+    "659d951565a592d15ef5b815ed972ed99ad3bf8b6e5c4268b3d199fa41530503",
+    "9fab3d8c04c87f19d97ebb36cf12412364b989eba5fe1cb106a84c52e823e348",
+    "6851b801b82e0de57466dd87155429093244ef91b2b10fc30b66c2583e642a39",
+    "7dab6d799eb944053a2872a66c984c7f6078b516078079274c435b1ddabbf769",
+    "a7491a0e836903b39939acefba406a93d33ca45be62ada6bb8d3dd07963518da",
+    "16e300c80b2fb273b1ae565786ecbd6228f225a9352bd92c23322bbc8ef6dd78",
+    "79997e29d8150d1c2f6b575aa0355af7fffd6c170b7cbb3e63aee61ca6935be8",
+    "2530cb312f4c3b60c82abbaeb76caa673d6f73ebdc01e04a88370d4b37f2131f",
+    "587012116f70e49fa1c6300236d01ed1ce8e8e3b3e36ea3bb762d55c0619b234",
+    "2828e645079bdcfab3d6f0bda4cd744ff326395fbfbe15274c5f5821845bad49",
+    "40d6219a447072f6bb1283772210387290d6621d88596dff5b6c9c8046ad4c1a",
+    "1736276e4bd52774333bece83f258fa5ad83cc17e84ca5346e169979aebbfc29",
+    "84370134199ffa0e21eb26d1a8366ba63248bbaef946b9266a90e5c3df47a5eb",
+    "6985c08b0cb86555e7f87eea0bc8035a0493b7de9938c84fd0b856a8b72e0f5a",
+    "bec4bd0960b6de12c75e87945df173de6084871bc8680a8d1019db1b9bc8cc04",
+    "37dce9b56b53dffdf417effbc74863aed8182d7d763a3a4f019de13b9ccd855c",
+    "d453440e81fec2579ee6b0c61c3d09dd4d57735440761469f22723bc08045454",
+    "2cbbd933bc5869f226087717a9d7eb7d03fd9c41071d67cdf27894590f79e4ff",
+    "8e79365922d546e322be4ae2b63dcbe7e823a80d1aefc2a8de11a88445000708",
+    "ce944e42ea30aa9bd60dc35f41bf88cc3bb13e0cb088b37fa885e1cb0e9d034c",
+    "7bdd1149a5bceb5968e9639df08e2e6a1ee00f1522a30481d7e359d414b5014b",
+    "91f5a670c0cdb2ebd76f70e61e2be3e6371c26d7443f0acad3f49b026bcf01ca",
+    "76f390f2544c91a6b2b9ecc0dc00b454eecae4898b24f72f3e07a4740090e44b",
+    "6e5fa8993557e6cad43509d85298d315ca33708a44b54bfe9affb15960b821e1",
+    "9a6626d7f676bcf3622f4d98e91bda8a30b0000571e26018b5503d635a0b2d74",
+    "d8e644744fcfa32792ffd1a6f21403a4a8cf8ab66d9c0d367a39e8e00f31a002",
+    "04fe59ff920d0f8158fbfc688ecc90ec2f6b66000c59035ce06fad409a32209a"
+  ],
+  "notes": [
+    "30 frames visually reviewed and approved by main director after final revisions.",
+    "Character counts, spherical robot silhouette, lantern state and story actions pass. Minor local bandage placement or omission differences remain across shots and are accepted.",
+    "S19 targeted revision v3 visually approved: same complete lantern and pedestal, fully dark chamber with no flame, glow or ember. All other 29 mother frames unchanged."
+  ]
+}

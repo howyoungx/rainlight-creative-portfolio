@@ -1,0 +1,253 @@
+{
+  "prompt": [
+    24,
+    "1b04d16a-bfd3-4c23-b05b-679278ffca4c",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "flux-2-klein-4b-fp8.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_4b.safetensors",
+          "type": "flux2",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "flux2-vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Create a completely new vertical poster design using the woman in the reference image as the character reference. Retain her black hair and recognizable features where compatible with the illustration style, and the red coat / umbrella motif. Redesign composition, materials and typography to commit fully to the requested style. The ONLY text is the exact title \"AFTER THE RAIN\". No small text, no credits, no logos, no watermark. Art Nouveau fine-art poster, exquisite decorative illustration. The red-coated woman in elegant side profile, her umbrella becoming a large circular ornamental halo. Sinuous dark ink outlines, stylized iris flowers and flowing botanical vines form an intricate frame, gold olive teal vermilion palette, flat muted color, gilded printing on aged cream paper. Luxurious symmetrical border with beautiful ornamental serif title in an integrated bottom cartouche. No photography, no futuristic city.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyFlux2LatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 20262006
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "9": {
+        "class_type": "Flux2Scheduler",
+        "inputs": {
+          "steps": 4,
+          "width": 768,
+          "height": 1152
+        }
+      },
+      "10": {
+        "class_type": "CFGGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "22",
+            0
+          ],
+          "negative": [
+            "23",
+            0
+          ],
+          "cfg": 1.0
+        }
+      },
+      "11": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "7",
+            0
+          ],
+          "guider": [
+            "10",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "11",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "12",
+            0
+          ],
+          "filename_prefix": "spark_demos/posters_10/07_art_nouveau"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "ref_01.png"
+        }
+      },
+      "21": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "20",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "4",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      },
+      "23": {
+        "class_type": "ReferenceLatent",
+        "inputs": {
+          "conditioning": [
+            "5",
+            0
+          ],
+          "latent": [
+            "21",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "create_time": 1792472862872
+    },
+    [
+      "13"
+    ]
+  ],
+  "outputs": {
+    "13": {
+      "images": [
+        {
+          "filename": "07_art_nouveau_00001_.png",
+          "subfolder": "spark_demos\\posters_10",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 1152
+          },
+          "id": "d0c526f7-269c-444f-92eb-aa8806826a4c"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "1b04d16a-bfd3-4c23-b05b-679278ffca4c",
+          "timestamp": 1792472869133
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "8",
+            "20",
+            "21"
+          ],
+          "prompt_id": "1b04d16a-bfd3-4c23-b05b-679278ffca4c",
+          "timestamp": 1792472869149
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "1b04d16a-bfd3-4c23-b05b-679278ffca4c",
+          "timestamp": 1792472877181
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "13": {
+      "node_id": "13",
+      "display_node": "13",
+      "parent_node": null,
+      "real_node_id": "13"
+    }
+  }
+}

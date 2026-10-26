@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "poster_seconds": 10.7284,
+  "poster_elapsed_seconds": 331.144,
+  "poster_started_at": "2026-10-20T00:33:47-05:00",
+  "poster_completed_at": "2026-10-20T00:39:18.144-05:00",
+  "started_at": "2026-10-20T00:35:24.276-05:00",
+  "stage": "五分钟成片已验收",
+  "style_id": "01_anime",
+  "name": "手绘赛璐璐动画",
+  "shots_total": 30,
+  "keyframes_done": 30,
+  "keyframes_seconds": 84.335,
+  "queue_seconds": 257.844,
+  "engine": "ltx",
+  "video_done": 30,
+  "video_seconds": 635.047,
+  "video_rework_seconds": 0,
+  "poster_queue_seconds": 0.153,
+  "poster_status": "complete",
+  "interrupted_export_wall_seconds": 40.344,
+  "interrupted_export_note": "CPU export was stopped with the generation runner at the user request; existing accepted shots were subsequently assembled for handoff. This is wall time, not a measured CPU utilization total.",
+  "duration_seconds": 300,
+  "edit_seconds": 266.806,
+  "validation_seconds": 15.293,
+  "source_frames": 240,
+  "source_clip_seconds": 10,
+  "frame_policy": "30 unique generated continuous shots, 240 original frames each, no looping, no retiming",
+  "shared_audio": "Shared audio preparation counted separately at project level",
+  "file_bytes": 87998700,
+  "rework_seconds": 223.851,
+  "shared_input_hashes": {
+    "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+    "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+  },
+  "timing_before_sessions": {
+    "status": "complete",
+    "started_at": "2026-10-20T00:35:24.276-05:00",
+    "completed_at": "2026-10-20T01:18:30.811-05:00",
+    "elapsed_seconds": 2586.535
+  },
+  "activity_sessions": [
+    {
+      "id": "legacy-initial",
+      "started_at": "2026-10-20T00:35:24.276-05:00",
+      "source": "existing_recorded_production_span",
+      "note": "Historical span includes review and waiting; no utilization claim.",
+      "ended_at": "2026-10-20T01:18:30.811-05:00",
+      "end_reason": "complete"
+    },
+    {
+      "id": "ba1cbe37296b4ee9a6cb31ed5ba190b8",
+      "started_at": "2026-10-20T08:36:52.256-05:00",
+      "reason": "影片继续制作或音轨修订",
+      "event": "resumed",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-20T08:39:28.961-05:00",
+      "end_reason": "complete"
+    }
+  ],
+  "original_timing_snapshot": "PROJECT_ROOT\\work\\rainlight_production\\timing_history\\01_anime_before_sessions.eefe0949369d916d.json",
+  "delivery_revisions": [
+    {
+      "revision": 1,
+      "completed_at": "2026-10-20T01:18:30.811-05:00",
+      "elapsed_seconds": 2586.535,
+      "active_elapsed_seconds": 2586.535,
+      "inactive_seconds": 0.0,
+      "shared_input_hashes": {
+        "audio": "c06aaf576219222fcfa82a3a66ba6a5b1d93e4498249f17e5278682edeb2adb4",
+        "cues": "0d4c31d3d3077d5ce2426196f326253e3c2bdb928202b5aacab2c726db649cd3",
+        "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+        "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+      },
+      "file_bytes": 88000893,
+      "duration_seconds": 300,
+      "edit_seconds": 124.786,
+      "validation_seconds": 7.358,
+      "cumulative_edit_seconds": 124.786,
+      "cumulative_validation_seconds": 7.358
+    },
+    {
+      "revision": 2,
+      "completed_at": "2026-10-20T08:39:28.961-05:00",
+      "elapsed_seconds": 29044.685,
+      "active_elapsed_seconds": 2743.24,
+      "inactive_seconds": 26301.445,
+      "shared_input_hashes": {
+        "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+        "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+        "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+        "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+      },
+      "file_bytes": 87998700,
+      "duration_seconds": 300,
+      "edit_seconds": 142.02,
+      "validation_seconds": 7.935,
+      "cumulative_edit_seconds": 266.806,
+      "cumulative_validation_seconds": 15.293
+    }
+  ],
+  "previous_delivery": {
+    "revision": 1,
+    "completed_at": "2026-10-20T01:18:30.811-05:00",
+    "elapsed_seconds": 2586.535,
+    "active_elapsed_seconds": 2586.535,
+    "inactive_seconds": 0.0,
+    "shared_input_hashes": {
+      "audio": "c06aaf576219222fcfa82a3a66ba6a5b1d93e4498249f17e5278682edeb2adb4",
+      "cues": "0d4c31d3d3077d5ce2426196f326253e3c2bdb928202b5aacab2c726db649cd3",
+      "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+      "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+    },
+    "file_bytes": 88000893,
+    "duration_seconds": 300,
+    "edit_seconds": 124.786,
+    "validation_seconds": 7.358,
+    "cumulative_edit_seconds": 124.786,
+    "cumulative_validation_seconds": 7.358,
+    "timing_snapshot": "PROJECT_ROOT\\work\\rainlight_production\\timing_history\\01_anime_before_revision.1e12c944791ee714.json"
+  },
+  "resumed_at": "2026-10-20T08:36:52.256-05:00",
+  "elapsed_seconds": 29044.685,
+  "active_elapsed_seconds": 2743.24,
+  "inactive_seconds": 26301.445,
+  "completed_at": "2026-10-20T08:39:28.961-05:00",
+  "latest_edit_seconds": 142.02,
+  "latest_validation_seconds": 7.935
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "12_kling_shadow",
+  "label": "影中灯 · 透光皮影",
+  "model_id": "kling4_0",
+  "prepared_at": "2026-10-25T02:46:56.146592-05:00",
+  "expected_seconds": 10.0,
+  "raw": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\12_kling_shadow\\raw.mp4",
+    "bytes": 9923711,
+    "sha256": "94ad291b05e9dc7a09557761ec552a648e97e8d7da3dcfdfcd3aa3a210b57623",
+    "video": {
+      "codec": "h264",
+      "width": 1928,
+      "height": 1076,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 241,
+      "duration_seconds": 10.041666666666666,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 10.0,
+      "time_base": "1/12288",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666785
+    },
+    "video_packets": {
+      "sha256": "f22529f6f228d280c57ae63771c504ab4529d1d76b133e2061592d40c9898a34",
+      "packets": 241,
+      "bytes": 9754230
+    },
+    "preserved_in_place": true
+  },
+  "preview": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\12_kling_shadow\\preview.mp4",
+    "bytes": 10002613,
+    "sha256": "7b5975320c3a69faa4e20e46b95ddcaccf5a0dd571f8cb47ffec205d23f34cb0",
+    "video": {
+      "codec": "h264",
+      "width": 1928,
+      "height": 1076,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 241,
+      "duration_seconds": 10.041666666666666,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 10.0,
+      "time_base": "1/12288",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666785
+    },
+    "video_packets": {
+      "sha256": "f22529f6f228d280c57ae63771c504ab4529d1d76b133e2061592d40c9898a34",
+      "packets": 241,
+      "bytes": 9754230
+    }
+  },
+  "audio": {
+    "source_start_seconds": 130.0,
+    "source_end_seconds": 140.04166666666666,
+    "speaker": "Serena",
+    "shot_id": "S14",
+    "text": "她可以先送灯。她却停下来，为圆点包好手臂。",
+    "speech_local_start_seconds": 1.0,
+    "speech_local_end_seconds": 5.800000000000011,
+    "tail_fade_seconds": 0.05,
+    "sample_rate": 48000,
+    "channels": 2,
+    "native_generated_audio_in_preview": false,
+    "master_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "verification": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 10.041666666666666,
+      "same_segment_correlation": 0.9998984563145952,
+      "coverage": 1.0,
+      "decoded_peak": 0.7963339686393738,
+      "passed": true
+    }
+  },
+  "contact": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\12_kling_shadow\\contact.jpg",
+    "sha256": "fd988de68c2a728296aaa21c298c4e714b0fd39fccf5765bc1247c07d54d41cb",
+    "frames": [
+      {
+        "position": 0,
+        "frame_index": 0,
+        "requested_seconds": 0.0,
+        "actual_seconds": 0.0
+      },
+      {
+        "position": 0.25,
+        "frame_index": 60,
+        "requested_seconds": 2.5104166666666665,
+        "actual_seconds": 2.5
+      },
+      {
+        "position": 0.5,
+        "frame_index": 120,
+        "requested_seconds": 5.020833333333333,
+        "actual_seconds": 5.0
+      },
+      {
+        "position": 0.75,
+        "frame_index": 181,
+        "requested_seconds": 7.53125,
+        "actual_seconds": 7.541666666666667
+      },
+      {
+        "position": 1,
+        "frame_index": 240,
+        "requested_seconds": 10.0,
+        "actual_seconds": 10.0
+      }
+    ]
+  },
+  "video_reencoded": false,
+  "video_speed_changed": false,
+  "frames_repeated_or_padded": false,
+  "subtitles_burned_in": false,
+  "technical_passed": true,
+  "human_visual_review": {
+    "id": "12_kling_shadow",
+    "raw_sha256": "94ad291b05e9dc7a09557761ec552a648e97e8d7da3dcfdfcd3aa3a210b57623",
+    "approved_for_pilot": true,
+    "approved_for_full_film": false,
+    "reviewed_at_utc": "2026-10-25T07:47:34.959Z",
+    "method_zh": "实际查看5个全画面时间点和0、0.5、1、1.5、2、2.5、3、4、5、6、8、9.5秒的手部密采对照。",
+    "notes_zh": {
+      "样片结论": "通过展示样片验收：皮影关节与人物剪影稳定，收拢布带、轻压包扎处、对视的动作完整可读。",
+      "参考图原有偏差": "背景灯塔在S14已经亮灯；机器人为头身分段且有手指的造型，与原片固定球形不同。这些由参考图带入，正式整片需统一。",
+      "动态新增观察": "0至3秒将现有布带收拢，4秒起双手轻压手臂；布尾仍可见。2至3秒布层与指尖轮廓略有简化，未见明显额外手、断臂或道具漂浮。后半段动作较克制，以目光和轻微推近延续。",
+      "实际规格": "原始输出1928×1076、24fps、241帧、约10.042秒；保留原始画面和帧率，没有冒称标准1920×1080。"
+    },
+    "review_record": "video_visual_review_part4.json"
+  },
+  "scope": "Short S14 pilot only; no full film and no subjective visual approval implied.",
+  "packaging_wall_seconds": 3.905217299994547
+}

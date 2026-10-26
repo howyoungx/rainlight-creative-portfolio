@@ -1,0 +1,302 @@
+[
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      14.432539939880371,
+      12.139819145202637,
+      9.54079818725586,
+      8.269050598144531
+    ],
+    "sha256": "0830dd97b61bef7820f68a2a4061528cc2dde7121d8cb2d61d35b3aff27c683c"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      29.16427993774414,
+      18.583690643310547,
+      18.679330825805664,
+      13.641880989074707
+    ],
+    "sha256": "ea0b791855b41ec033371da54d300e5d6bd200a7e2773ae49de7a73943654969"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      21.32508659362793,
+      4.310732841491699,
+      3.1321303844451904,
+      1.5400855541229248
+    ],
+    "sha256": "0d75a3ada13eca0658298067514ed6a9bc0c3d371f2717d915e9ce102ff241f9"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      38.56304168701172,
+      33.21467208862305,
+      33.282676696777344,
+      39.62635040283203
+    ],
+    "sha256": "837824acf2ef12e5913b8509f7a12bf27667650f692a154bced40a7865ef841c"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      16.29774284362793,
+      15.60828971862793,
+      15.182477951049805,
+      11.678369522094727
+    ],
+    "sha256": "b82135ed9684be3051eb3b3221a68fbf28d782c0c9561d65420b763724eaed50"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      30.7132625579834,
+      8.528553009033203,
+      7.718688011169434,
+      4.590355396270752
+    ],
+    "sha256": "6717aa11f9f45a1e21c2be3ff8c9d5ffac399a737eea6e8eb77536b3952cfd26"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      22.447683334350586,
+      16.5999813079834,
+      14.930788040161133,
+      11.312190055847168
+    ],
+    "sha256": "3be3131028e746a9f1f2824283d464891d17293223918aca0790d49e06bfd338"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      48.21171188354492,
+      32.46495056152344,
+      10.144082069396973,
+      2.4733383655548096
+    ],
+    "sha256": "db3922ca71a16281275e13c8f8dce06cfceb779be08a6273951c34dd7e61ed50"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      27.859296798706055,
+      27.575645446777344,
+      27.340557098388672,
+      26.052734375
+    ],
+    "sha256": "bdc9b8e697ba895694ece48681390e22b87a18867cbbd87e471cdca7411e8d60"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      20.71733856201172,
+      16.02430534362793,
+      16.406095504760742,
+      14.739768981933594
+    ],
+    "sha256": "e7f4bc5f3f6520c7d99a55543d3907adabb2d4fecb6d43afa31102f4be77d629"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      31.631898880004883,
+      31.581737518310547,
+      31.480344772338867,
+      26.408668518066406
+    ],
+    "sha256": "41d5c4ce6d6fd468e3ce3e03e286962dfcb689491557d20c2935f170c05daf67"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      11.20225715637207,
+      3.2496745586395264,
+      3.1360056400299072,
+      1.4592479467391968
+    ],
+    "sha256": "661f94fffdfc5a3dcdf7c48f77743111e05e0fd509e7237acd284ec5c1b00b72"
+  },
+  {
+    "decoded_frames": 243,
+    "sample_motion_mean_absolute_differences": [
+      6.55643892288208,
+      8.775638580322266,
+      7.22157096862793,
+      6.256882667541504
+    ],
+    "sha256": "c17f7cc8d42fe6e8da2ab7f78092709665b15b752176cf8f05723df03a7f59db"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      31.10790252685547,
+      14.19900131225586,
+      15.162248611450195,
+      13.31513500213623
+    ],
+    "sha256": "4b19aeeb846c914b926b3060ab8f201696605984e1e65ee90b3b36c988fac979"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      28.726577758789062,
+      22.425222396850586,
+      19.108924865722656,
+      17.644609451293945
+    ],
+    "sha256": "38ecff90a53c3105d574a7b1764b59bcb95decbdd4edfed0b2fe932e3b40081e"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      38.55522918701172,
+      15.79354190826416,
+      5.5090837478637695,
+      2.967587471008301
+    ],
+    "sha256": "de45890534628eae70cb7c5da2c164efb5e8a677b93050bc941c5902d770feef"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      48.607032775878906,
+      35.45284652709961,
+      7.661070823669434,
+      2.82480788230896
+    ],
+    "sha256": "9802d6fc7d66fd6711edef2a92d2242fbaa8ff17a4ab5c8493734d1faf447741"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      17.1900577545166,
+      16.970672607421875,
+      17.823055267333984,
+      9.921595573425293
+    ],
+    "sha256": "95b5bf5a7709c2a52c4c57e7ce0847bef7ddf45ec41145bbac08849e62afb254"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      42.495845794677734,
+      39.3951530456543,
+      22.44318962097168,
+      13.910776138305664
+    ],
+    "sha256": "214aaaeb2ae9cd81ee125c0d6e1c9591dd5eaea1ed60fe074d0f3ae65db33eea"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      31.181873321533203,
+      27.2701358795166,
+      26.8870906829834,
+      16.216751098632812
+    ],
+    "sha256": "cccd6b4e0bbf6efb1b116367d4f3c670a930fc2da2e081f6daa707a2e66e326c"
+  },
+  {
+    "decoded_frames": 243,
+    "sample_motion_mean_absolute_differences": [
+      19.34592056274414,
+      12.6552734375,
+      16.139585494995117,
+      4.940042018890381
+    ],
+    "sha256": "7472cf8fa3a6792d5aec99789a7a88a90ee8ff4cb00509b9e8edc092e21bc936"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      28.5625,
+      5.819397926330566,
+      3.4222004413604736,
+      9.44083309173584
+    ],
+    "sha256": "fbf61bcddc0e9349b7415f72c8036dd42fa5cca2315c5ab49826e55703fb01f6"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      24.410682678222656,
+      16.832820892333984,
+      18.46467399597168,
+      1.9361048936843872
+    ],
+    "sha256": "98e1ef6654f51cfb02344e7d680daa8f4363bcd10fc9bf917d50104bc62a9093"
+  },
+  {
+    "decoded_frames": 243,
+    "sample_motion_mean_absolute_differences": [
+      7.662543296813965,
+      9.119279861450195,
+      10.17947006225586,
+      6.904777526855469
+    ],
+    "sha256": "cd7e9587c51cc9b912fe025a9cc726286e8f0261a5c0a392e8dc3ac9e32b8fb8"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      29.14219093322754,
+      33.39116668701172,
+      20.790008544921875,
+      3.1299757957458496
+    ],
+    "sha256": "2044567e73c3c10a08a47eef1d9ae2836056e70e7a1e99bbbd8475f6902667e3"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      3.4769034385681152,
+      8.784831047058105,
+      3.378208637237549,
+      2.5054409503936768
+    ],
+    "sha256": "af991084fcb6cd0075716a8934d8508f1f2e2ae2b9223c90c139488ac06c1ab0"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      55.64719772338867,
+      25.153335571289062,
+      24.320777893066406,
+      25.603221893310547
+    ],
+    "sha256": "51cdacdbae567b61026616995db01360c783681d30b759baf9e3132ed5b749cb"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      65.38994598388672,
+      58.78766632080078,
+      55.49699401855469,
+      28.51481819152832
+    ],
+    "sha256": "131902cfa1c84b2e1c6c54f46451b162e489eb622878dab9dea03101bfa75323"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      57.3404655456543,
+      39.28878402709961,
+      23.27263069152832,
+      19.59678840637207
+    ],
+    "sha256": "9b771b6d4d30245e081310dcc27f25e363948bb4d9f11f78819b27a27d9a973c"
+  },
+  {
+    "decoded_frames": 241,
+    "sample_motion_mean_absolute_differences": [
+      39.831459045410156,
+      34.16505432128906,
+      26.377031326293945,
+      29.76540756225586
+    ],
+    "sha256": "939d5e8a9df76d2aea9a3f5fc8a1b44b506b3506e5850c917f358e506df7ad3b"
+  }
+]

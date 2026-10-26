@@ -1,0 +1,25 @@
+{
+  "style_id": "08_comic",
+  "name": "欧式清线漫画",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:38-05:00",
+  "completed_at": "2026-10-20T00:46:13.199-05:00",
+  "generation_seconds": 4.724,
+  "queue_seconds": 2.676,
+  "layout_seconds": 0.165,
+  "rework_seconds": 6.146,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 695.2,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.0758,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:46:13.123-05:00",
+      "completed_at": "2026-10-20T00:46:13.199-05:00",
+      "seconds": 0.0758,
+      "reason": "Final poster composition with unobstructed girl and spherical robot faces; checked visually."
+    }
+  ]
+}

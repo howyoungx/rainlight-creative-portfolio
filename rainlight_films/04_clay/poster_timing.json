@@ -1,0 +1,79 @@
+{
+  "style_id": "04_clay",
+  "name": "黏土定格动画",
+  "type": "poster",
+  "status": "complete",
+  "started_at": "2026-10-20T00:34:09-05:00",
+  "completed_at": "2026-10-20T11:17:41.829-05:00",
+  "generation_seconds": 4.086,
+  "queue_seconds": 0.839,
+  "layout_seconds": 0.085,
+  "rework_seconds": 5.955,
+  "rework_reason": "First attempt duplicated the human and omitted the robot; rejected in visual QA.",
+  "elapsed_seconds": 38612.829,
+  "resolution": "1200x1800",
+  "generator": "Local ComfyUI / FLUX.2 Klein 4B FP8",
+  "layout_revision_seconds": 0.4218,
+  "layout_revisions": [
+    {
+      "started_at": "2026-10-20T00:39:18.661-05:00",
+      "completed_at": "2026-10-20T00:39:18.867-05:00",
+      "seconds": 0.2057,
+      "reason": "Move title to the bottom 20 percent of the poster to keep both character faces unobstructed."
+    },
+    {
+      "started_at": "2026-10-20T11:16:36.758-05:00",
+      "completed_at": "2026-10-20T11:16:36.975-05:00",
+      "seconds": 0.2161,
+      "reason": "Remove the extra upper-right lighthouse while keeping the original poster layout."
+    }
+  ],
+  "generation_revisions": [
+    {
+      "job_key": "04_clay_poster_v3_single_tower",
+      "prompt_id": "c14dd9e2-78b2-408c-ba2f-2575ac9cc950",
+      "execution_seconds": 9.744,
+      "queue_seconds": 38.288,
+      "submitted_at": "2026-10-20T11:14:03.095-05:00",
+      "completed_at": "2026-10-20T11:14:51.474-05:00",
+      "selected": true,
+      "reason": "Remove the extra upper-right lighthouse; retain the central lighthouse, foreground characters and approved composition.",
+      "prior_art_sha256": "3baa9dad4953243953b5c204bb37e7108281fddbfcaa3cc14a2595625bd89da1",
+      "selected_art_sha256": "a85097bdaff8e4569488d045e47c074d66472a3a97e41a6b412b7a8cedae2516"
+    }
+  ],
+  "generation_revision_seconds": 9.744,
+  "queue_revision_seconds": 38.288,
+  "previous_completion_times": [
+    "2026-10-20T00:39:18.867-05:00"
+  ],
+  "last_revision_submitted_at": "2026-10-20T11:14:03.095-05:00",
+  "last_revision_completed_at": "2026-10-20T11:17:41.829-05:00",
+  "last_revision_elapsed_seconds": 218.734,
+  "timing_before_sessions": {
+    "status": "complete",
+    "started_at": "2026-10-20T00:34:09-05:00",
+    "completed_at": "2026-10-20T11:17:41.829-05:00",
+    "elapsed_seconds": 38612.829
+  },
+  "activity_sessions": [
+    {
+      "id": "legacy-initial",
+      "started_at": "2026-10-20T00:34:09-05:00",
+      "source": "existing_recorded_production_span",
+      "note": "Historical span includes review and waiting; no utilization claim.",
+      "ended_at": "2026-10-20T00:39:18.867-05:00",
+      "end_reason": "complete"
+    },
+    {
+      "id": "single-tower-poster-revision",
+      "started_at": "2026-10-20T11:14:03.095-05:00",
+      "ended_at": "2026-10-20T11:17:41.829-05:00",
+      "source": "observed_comfy_submission_to_reviewed_publication",
+      "end_reason": "complete",
+      "note": "Includes generation, queue, layout, visual review and poster bundle publication."
+    }
+  ],
+  "active_elapsed_seconds": 528.601,
+  "inactive_seconds": 38084.228
+}

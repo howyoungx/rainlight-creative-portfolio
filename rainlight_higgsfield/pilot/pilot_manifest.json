@@ -1,0 +1,232 @@
+{
+  "title": "雨城最后一束光 · 五模型试映",
+  "scope": "五个 S14 短样片；不是五部五分钟成片",
+  "status": "complete_pilots_only",
+  "approved_budget_cap_credits": 410,
+  "credits": 410,
+  "zip_file": "Rainlight_Higgsfield_5_Pilots.zip",
+  "timing_note": "从参考图提交到样片检查完成计制作历时；生成耗时为提交至首次观察完成，包含排队和轮询间隔；检查历时也可能包含等待，均非模型纯计算或人工工时。五个任务并行，不可相加为总历时。",
+  "films": [
+    {
+      "id": "11_seedance_thread",
+      "name": "织光",
+      "model": "Seedance 2.5",
+      "style": "丝线刺绣",
+      "duration_seconds": 10,
+      "video_file": "11_seedance_thread/preview.mp4",
+      "reference_image_file": "11_seedance_thread/reference.png",
+      "credits": 162,
+      "verified": true,
+      "status": "样片已完成",
+      "notes": [
+        "样片结论：通过展示样片验收：轻收紧、按平布带与后段安慰性的目光/微笑可读，织物表面、雨景、提灯与两个角色保持稳定。",
+        "参考图原有偏差：机器人为偏长的缝合卵形而非原片固定球形；远处灯塔在S14就已点亮并射出光束。这是起始参考图已有，不能归为视频模型新增错误。",
+        "动态新增观察：布带尾部在约2至3秒被收起按平，仍留在同一手臂上；支持手始终在臂下，未见明显多手、断臂、新人物、开胸或灯具漂浮。后段机器人抬头并微笑，材质仍为织物。局部布带折叠有生成式简化，未造成故事动作歧义。",
+        "整片限制：尚未验证全片身份连续性；S14提前亮塔必须先纠正。本条为10.042秒原始输出，最终300秒剪辑时须按统一时间线处理，不能直接视为已完成的10秒正式镜头。"
+      ],
+      "timing": {
+        "started_at": "2026-10-25T07:35:07.804Z",
+        "image_completed_observed_at": "2026-10-25T07:35:56.597Z",
+        "image_seconds": 48.79,
+        "video_started_at": "2026-10-25T07:37:55.700Z",
+        "completed_at": "2026-10-25T07:42:34.646765+00:00",
+        "elapsed_seconds": 446.843,
+        "video_seconds": 152.224,
+        "qa_seconds": 89.948,
+        "video_completed_observed_at": "2026-10-25T07:40:27.924Z",
+        "packaging_seconds": 4.977,
+        "review_completed_at": "2026-10-25T07:42:34.646765+00:00"
+      },
+      "model_id": "seedance_2_5",
+      "approved_for_full_film": false,
+      "actual_duration_seconds": 10.041666666666666,
+      "native_fps": 24.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "raw_sha256": "34354d50ecfd0b262b2159c1b177a7316778fc4bbabcbfd0867dfbf786720a1c",
+      "preview_sha256": "8f9c5063abe551949ffbb1c92610bab6f969bc8867a9df472291572118ce2f0a"
+    },
+    {
+      "id": "12_kling_shadow",
+      "name": "影中灯",
+      "model": "Kling 4.0",
+      "style": "透光皮影",
+      "duration_seconds": 10,
+      "video_file": "12_kling_shadow/preview.mp4",
+      "reference_image_file": "12_kling_shadow/reference.png",
+      "credits": 12,
+      "verified": true,
+      "status": "样片已完成",
+      "notes": [
+        "样片结论：通过展示样片验收：皮影关节与人物剪影稳定，收拢布带、轻压包扎处、对视的动作完整可读。",
+        "参考图原有偏差：背景灯塔在S14已经亮灯；机器人为头身分段且有手指的造型，与原片固定球形不同。这些由参考图带入，正式整片需统一。",
+        "动态新增观察：0至3秒将现有布带收拢，4秒起双手轻压手臂；布尾仍可见。2至3秒布层与指尖轮廓略有简化，未见明显额外手、断臂或道具漂浮。后半段动作较克制，以目光和轻微推近延续。",
+        "实际规格：原始输出1928×1076、24fps、241帧、约10.042秒；保留原始画面和帧率，没有冒称标准1920×1080。"
+      ],
+      "timing": {
+        "started_at": "2026-10-25T07:35:07.804Z",
+        "image_completed_observed_at": "2026-10-25T07:35:56.597Z",
+        "image_seconds": 48.79,
+        "video_started_at": "2026-10-25T07:37:55.700Z",
+        "completed_at": "2026-10-25T07:47:34.959Z",
+        "elapsed_seconds": 747.155,
+        "video_seconds": 510.396,
+        "qa_seconds": 38.812,
+        "video_completed_observed_at": "2026-10-25T07:46:26.096Z",
+        "packaging_seconds": 3.905,
+        "review_completed_at": "2026-10-25T07:47:34.959Z"
+      },
+      "model_id": "kling4_0",
+      "approved_for_full_film": false,
+      "actual_duration_seconds": 10.041666666666666,
+      "native_fps": 24.0,
+      "resolution": [
+        1928,
+        1076
+      ],
+      "raw_sha256": "94ad291b05e9dc7a09557761ec552a648e97e8d7da3dcfdfcd3aa3a210b57623",
+      "preview_sha256": "7b5975320c3a69faa4e20e46b95ddcaccf5a0dd571f8cb47ffec205d23f34cb0"
+    },
+    {
+      "id": "13_flux_cyanotype",
+      "name": "普鲁士蓝的黎明",
+      "model": "FLUX 3 Video",
+      "style": "蓝晒摄影",
+      "duration_seconds": 10,
+      "video_file": "13_flux_cyanotype/preview.mp4",
+      "reference_image_file": "13_flux_cyanotype/reference.png",
+      "credits": 82,
+      "verified": true,
+      "status": "样片已完成",
+      "notes": [
+        "样片结论：通过展示样片验收：绕布、拉紧、收拢尾端并轻压包扎处的动作可读，机器人手臂保持与躯干连接，角色数量、地上的提灯和纸纹绘画质感稳定。",
+        "参考图原有偏差：机器人为较高的卵形，具有较长的机械前臂；人物脸型、蓝白纸纹线描与黄衣红包的局部着色均来自该参考图。画面并非严格单色蓝晒，这一风格取舍不是运动生成新增。原图远塔塔室本来较浅，未将其记为动态新增亮灯。",
+        "动态新增观察：0至5秒两手交替托臂、牵引和环绕布带；约5至6秒长布尾被收拢，后段仍以多道布层保留在同一前臂上，没有整条布带或被包扎手臂凭空消失。个别折层及手指轮廓发生轻微生成式简化，但抽检未见明确第三只手、断肢或肢体分叉。约8至10秒机器人轻抬头、身体转动，肩部连接仍连贯。地灯保持完整、落地和发光，远塔未新增明显光束；材质没有转成写实皮肤或金属。",
+        "整片限制：仅批准这一S14短样片用于展示比较，尚未验证全片身份、镜头衔接和包扎前后状态的一致性。实际原生尺寸1920×1088、24fps、10.0416667秒，已原样保留，不能称为1920×1080或已完成正式10秒整片镜头。"
+      ],
+      "timing": {
+        "started_at": "2026-10-25T07:35:07.804Z",
+        "image_completed_observed_at": "2026-10-25T07:35:56.597Z",
+        "image_seconds": 48.79,
+        "video_started_at": "2026-10-25T07:37:55.700Z",
+        "completed_at": "2026-10-25T07:45:49.163120+00:00",
+        "elapsed_seconds": 641.359,
+        "video_seconds": 296.536,
+        "qa_seconds": 113.058,
+        "video_completed_observed_at": "2026-10-25T07:42:52.236Z",
+        "packaging_seconds": 8.455,
+        "review_completed_at": "2026-10-25T07:45:49.163120+00:00"
+      },
+      "model_id": "flux_3_video",
+      "approved_for_full_film": false,
+      "actual_duration_seconds": 10.041666666666666,
+      "native_fps": 24.0,
+      "resolution": [
+        1920,
+        1088
+      ],
+      "raw_sha256": "a1c016c31dcbc02bd1cedd963495334ad1bb3f0db62af1f21b7bbfe7b3813026",
+      "preview_sha256": "aa9ea4f0cf761bab6857b949734919a721f2b57bc78c9cfa3f2c2bc0490af8f6"
+    },
+    {
+      "id": "14_veo_liveaction",
+      "name": "雨夜实录",
+      "model": "Google Veo 3.1",
+      "style": "真人实景童话",
+      "duration_seconds": 6,
+      "video_file": "14_veo_liveaction/preview.mp4",
+      "reference_image_file": "14_veo_liveaction/reference.png",
+      "credits": 92,
+      "verified": true,
+      "status": "样片已完成",
+      "notes": [
+        "样片结论：通过展示样片验收：人物双手完成收紧布带并松手，机器人抬头回应，动作清楚；真实衣料、皮肤、雨景、铜灯与珐琅道具材质保持。",
+        "参考图原有偏差：机器人起始图已为分离头身、机械手臂结构，非原剧情固定的一体球形；S14背景灯塔已亮。正式整片必须先统一造型和熄灯时间线。",
+        "眼部变化复核：f34约1.417秒可见奶油色机械眼睑从上方盖下，f36约1.5秒接近闭合，f38约1.583秒闭合，f42约1.75秒重开，之后恢复完整青色圆眼。按完整时序更符合眨眼，不能仅由1.5秒抽帧判为眼灯异常消失。",
+        "颈部变化复核：f66约2.75秒开始头部后仰露出黑色颈腔；f72约3秒至末帧可见颈腔内连接柱，头仍与身体相连，表面轮廓和材质保持。可解释为此参考道具的机械颈关节活动，未见明显脱头。间隙较大且是动态新增的结构暴露，与原一体球形设定仍不一致，整片设计需明确锁定。",
+        "动作新增偏差：实际动作包含重新收紧结/布尾，末尾仍有布尾垂挂，没有完全照指令压平；但包扎的核心意义成立。手臂保持连接，未见明显多手、新人物、开胸或灯具漂浮。布带在机器人放下手臂后仍保留，未消失。",
+        "整片限制：通过仅表示该6秒短样片可用于展示比较，不能视为已完成一条正式10秒剧情镜头或已验证300秒连续性。6秒主动作之外的4秒反应镜头尚未制作；需先纠正提前亮塔并统一机器人关节设计。"
+      ],
+      "timing": {
+        "started_at": "2026-10-25T07:35:07.804Z",
+        "image_completed_observed_at": "2026-10-25T07:35:56.597Z",
+        "image_seconds": 48.79,
+        "video_started_at": "2026-10-25T07:37:55.700Z",
+        "completed_at": "2026-10-25T07:47:20.494097+00:00",
+        "elapsed_seconds": 732.69,
+        "video_seconds": 382.771,
+        "qa_seconds": 98.876,
+        "video_completed_observed_at": "2026-10-25T07:44:18.471Z",
+        "packaging_seconds": 12.659,
+        "review_completed_at": "2026-10-25T07:47:20.494097+00:00"
+      },
+      "model_id": "veo3_1",
+      "approved_for_full_film": false,
+      "actual_duration_seconds": 6.0,
+      "native_fps": 24.0,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "raw_sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7",
+      "preview_sha256": "0b3bb37d31213a9ecb6416850fc8d81a9c580e4173869f5c5fddb4377a76c919"
+    },
+    {
+      "id": "15_wan_marquetry",
+      "name": "木作微光",
+      "model": "Wan 3.0 Prime",
+      "style": "木雕嵌木木偶",
+      "duration_seconds": 10,
+      "video_file": "15_wan_marquetry/preview.mp4",
+      "reference_image_file": "15_wan_marquetry/reference.png",
+      "credits": 62,
+      "verified": true,
+      "status": "样片已完成",
+      "notes": [
+        "样片结论：通过展示样片验收：收拢布带、轻压包扎处和对视动作明确，木纹、人物数、胸盖及提灯稳定。",
+        "参考图原有偏差：机器人有独立头部和躯干且缺小嘴，女孩木雕发型有变化；背景灯塔已亮，S14应尚未点亮。均是参考图起始状态。",
+        "动态新增观察：约1至2秒上方布带被折下，约3至5秒再次轻压，另一只手持续托住手臂。布带覆盖较宽，包扎末端形状略有软化，但未见手臂被拔除或额外肢体；木偶关节与木纹可读，后段微笑与机器人回应克制。",
+        "整片限制：先统一最终木偶身份设定并纠正提前亮塔，再决定是否可并入全片；这次通过仅表示可展示和比较该10秒动作试样。"
+      ],
+      "timing": {
+        "started_at": "2026-10-25T07:35:07.804Z",
+        "image_completed_observed_at": "2026-10-25T07:35:56.597Z",
+        "image_seconds": 48.79,
+        "video_started_at": "2026-10-25T07:37:55.700Z",
+        "completed_at": "2026-10-25T07:42:34.775616+00:00",
+        "elapsed_seconds": 446.972,
+        "video_seconds": 152.224,
+        "qa_seconds": 80.719,
+        "video_completed_observed_at": "2026-10-25T07:40:27.924Z",
+        "packaging_seconds": 9.397,
+        "review_completed_at": "2026-10-25T07:42:34.775616+00:00"
+      },
+      "model_id": "wan3_0_prime",
+      "approved_for_full_film": false,
+      "actual_duration_seconds": 10.0,
+      "native_fps": 30.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "raw_sha256": "047c967caf6321c07ce36b125f0bbfd28fa765ee8732359413a9f37e677ca4bd",
+      "preview_sha256": "f0e93843a59ea99c1189b377b0dd1f12b77e59d9cf5377311adfab1c20e8175d"
+    }
+  ],
+  "verified_count": 5,
+  "updated_at": "2026-10-25T07:47:35.903777+00:00",
+  "budget": {
+    "approved_credits": 410,
+    "quoted_images": 10,
+    "quoted_videos": 400,
+    "balance_before": 2070.56,
+    "balance_after_submission": 1660.56,
+    "observed_debit": 410,
+    "full_films_authorized": false
+  },
+  "completed_at": "2026-10-25T07:47:34.959Z",
+  "production_elapsed_seconds": 747.155,
+  "actual_total_video_seconds": 46.125
+}

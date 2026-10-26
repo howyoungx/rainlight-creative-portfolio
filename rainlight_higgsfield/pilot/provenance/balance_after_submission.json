@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-10-25T07:38:37.864Z",
+  "result": {
+    "credits": 1660.56,
+    "subscription_plan_type": "ultra",
+    "free_trial": {
+      "status": "pending",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": null,
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "ai_influencer_motion_control",
+          "ai_influencer_replace_object",
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 3,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "ai_influencer_sheet"
+        ],
+        "remaining": 5,
+        "parameters": {},
+        "max_duration": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "status": "generating",
+  "poster_seconds": 10.9759,
+  "poster_elapsed_seconds": 680.361,
+  "poster_started_at": "2026-10-20T00:34:53-05:00",
+  "poster_completed_at": "2026-10-20T00:46:13.361-05:00",
+  "poster_queue_seconds": 1.222,
+  "stage": "30 段动态镜头完成，正在检查动作、道具与画风连续性",
+  "poster_status": "complete",
+  "previous_queue_states": [
+    {
+      "status": "stopped",
+      "stage": "已按要求停止，保留现有素材",
+      "stopped_at": "2026-10-20T01:14:27.480-05:00"
+    }
+  ],
+  "updated_at": "2026-10-22T12:01:18.945-05:00",
+  "timing_before_sessions": {
+    "status": "pending",
+    "updated_at": "2026-10-20T09:27:36.081-05:00"
+  },
+  "activity_sessions": [
+    {
+      "id": "e5539a93a1794d3694bcc7c4406d0af7",
+      "started_at": "2026-10-20T10:56:50.145-05:00",
+      "reason": "提前整批准备分镜",
+      "event": "started",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-20T11:23:03.5265169-05:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": "b1989965893941d9a2cbe595581533c9",
+      "started_at": "2026-10-22T11:43:02.639-05:00",
+      "reason": "影片继续制作或音轨修订",
+      "event": "resumed",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-22T12:01:18.945-05:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": "9235630b1e334be99dba420b7e69d037",
+      "started_at": "2026-10-22T12:26:30.591-05:00",
+      "reason": "恢复最后三镜验收与修复",
+      "event": "resumed",
+      "source": "observed_activity_start"
+    }
+  ],
+  "started_at": "2026-10-20T10:56:50.145-05:00",
+  "style_id": "10_3d",
+  "name": "童话三维动画",
+  "shots_total": 30,
+  "keyframes_done": 30,
+  "keyframes_seconds": 107.319,
+  "queue_seconds": 4143.489,
+  "resumed_at": "2026-10-22T12:26:30.591-05:00",
+  "engine": "ltx",
+  "video_done": 30,
+  "video_seconds": 946.423,
+  "video_rework_seconds": 0,
+  "elapsed_seconds": 178310.859,
+  "active_elapsed_seconds": 2800.101,
+  "inactive_seconds": 175510.758
+}

@@ -1,0 +1,102 @@
+{
+  "official_source": "https://github.com/QwenLM/Qwen3-TTS",
+  "source_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "license": "Apache-2.0",
+  "model_source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "model_license": "apache-2.0",
+  "runtime": "C:/AI/ComfyUI/ComfyUI_windows_portable/python_embeded/python.exe",
+  "packages": {
+    "accelerate": "1.12.0",
+    "audioread": "3.1.0",
+    "cffi": "2.1.1",
+    "cloudpickle": "3.1.2",
+    "decorator": "5.3.1",
+    "flatbuffers": "25.12.19",
+    "huggingface_hub": "0.36.2",
+    "joblib": "1.6.0",
+    "lazy-loader": "0.6",
+    "librosa": "1.0.0",
+    "llvmlite": "0.50.0",
+    "msgpack": "1.2.3",
+    "narwhals": "2.27.1",
+    "numba": "0.68.0",
+    "onnxruntime": "1.31.0",
+    "platformdirs": "4.13.5",
+    "pooch": "1.9.0",
+    "pycparser": "3.11",
+    "scikit-learn": "1.9.1",
+    "soundfile": "0.14.0",
+    "sox": "1.5.0",
+    "threadpoolctl": "3.7.0",
+    "tokenizers": "0.22.2",
+    "transformers": "4.57.3"
+  },
+  "base_transformers_unchanged": "5.19.0",
+  "patches": [
+    {
+      "file": "packages/transformers/audio_utils.py",
+      "description": "Delay optional soxr import to its resampling branch. No audio input/resampling is used by CustomVoice. Native generated waveform remains unchanged."
+    }
+  ],
+  "unused_optional_dependencies": [
+    "SoX executable (only referenced by unused 25 Hz tokenizer)",
+    "FlashAttention (SDPA used)",
+    "soxr (not required for preset CustomVoice generation)"
+  ],
+  "pcm_checks": [
+    {
+      "shot_id": "S01",
+      "speaker": "Serena",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 86400,
+      "duration": 3.6,
+      "clipped_samples": 0
+    },
+    {
+      "shot_id": "S02",
+      "speaker": "Serena",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 74880,
+      "duration": 3.12,
+      "clipped_samples": 0
+    },
+    {
+      "shot_id": "S23",
+      "speaker": "Serena",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 101760,
+      "duration": 4.24,
+      "clipped_samples": 0
+    },
+    {
+      "shot_id": "S01",
+      "speaker": "Vivian",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 134400,
+      "duration": 5.6,
+      "clipped_samples": 0
+    },
+    {
+      "shot_id": "S02",
+      "speaker": "Vivian",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 90240,
+      "duration": 3.76,
+      "clipped_samples": 0
+    },
+    {
+      "shot_id": "S23",
+      "speaker": "Vivian",
+      "rate": 24000,
+      "channels": 1,
+      "frames": 96000,
+      "duration": 4.0,
+      "clipped_samples": 0
+    }
+  ]
+}

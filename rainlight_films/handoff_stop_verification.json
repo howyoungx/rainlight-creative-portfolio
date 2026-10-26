@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-10-22T12:03:51.6021261-05:00",
+  "status": "paused",
+  "completed_films": 9,
+  "completed_posters": 10,
+  "comfy_queue_confirmed_empty_before_shutdown": true,
+  "comfy_service_stopped": true,
+  "remaining_production_processes": [],
+  "stop_marker_present": true
+}

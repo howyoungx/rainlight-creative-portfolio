@@ -1,0 +1,192 @@
+{
+  "approved": true,
+  "reviewed_at": "2026-10-20T01:13:45.127793-05:00",
+  "clip_sha256": [
+    "12ddfb02a0fa846dab161fa32bb22b5dfefa7c92cf91abf2e261a60c7f30f7be",
+    "8cd82d29511c506df906c8dc056b265af4dfceafdd122369724bb2c03f246576",
+    "fef70c74bf9e37f54017f317f439ed9469777e5981532b4d51206dba08ec8d83",
+    "d31929f78e5cf20ac9dad82671b61ca7cf205db33616b7461569b8ad4c2d8496",
+    "009416231269e5f88e42a8c828f10e70db6adbd1d412635bbec83c0055d00dcc",
+    "71d3be20ddee75934a5524e85eb15ad7fd26ae95f00a929a3c1164b113b45937",
+    "599c7f8b15006d96911afa6386841a8aa3cfb101e90d3ec8b1641acaa1434411",
+    "4b6ad31739d71d226b4da9e06378fa634a8dc8cabec6d8ca050b894a78c2de6c",
+    "95a707a1bc638cc1c9760689748880010fc804003136cb0a4d69140769453e75",
+    "8f76d9c721bfecd186dfbce408885d8dc418d9671a82cf39329935018cc679ed",
+    "2badb961509e8ded68f41bf4a0dc7616da145da33a503bb5982620410f3b0ce4",
+    "bbca9f369f18b09484d83122a715b92d1caefd775bc0d20125c21b740b7db098",
+    "0c47e9ebe1c09e38e1f4674e9fccd0163a6087e4a3a61105ca61f79c687a8896",
+    "a1ec04828120cfd7ad6fef42121fa8ae4f9be6565fdf4f815c78b28281c9f778",
+    "36bf65c7c125792fefcc7af6308830e63420c758b75aea010b2697ba8d9e336f",
+    "5133b3304721c339badfaa09dd4d3bac67d0cd912035db0b746599fbd889beed",
+    "e046e632aa00feeb182caae90ec6896f5e235bca9ae081fc87e87d3817ffa76d",
+    "f01bcac06c4a133dee7e6ff5435eb911ab5b95134d42e757b1e4f510c63e3293",
+    "c983dbbc260f0bb5f5c4067e79ea937472245912b6bc4f710a2f1fcc0da47eae",
+    "cedb7224f3a27e0bf648f8ba94d57f7c5bed07a78d76f0f98e66f64539c75cd0",
+    "80e0037950da8094116fb4949c7ac431ac1123b3305d9b58f7bad08c942bc503",
+    "5431c3d886cb515a2b256811d07dd4252e4260ca132b7769d8a3571432e32cfd",
+    "bff7618576a7c3cbb7c0e7c5e826bda2b40f5cc367c61884af841915c501c71f",
+    "98502528be36711753febb89ef7f144cdbd5db8f25c5a1fadcee537f6c84f6f7",
+    "7717b11ecd9690087825c959e622e2595f5b24c8818f0e5ce2715856c11dfadb",
+    "abc39d2318f55468f2289de361a401a889a0970c957971b67c256e3287380c84",
+    "0a7202a69f11fa8d9caa4d556b069eea397e19d1e0dea55952da41ab87efc073",
+    "4aa46ef375c237ffd5d8ad6c0860adb351f3dcc3756de8fbd845a548125b8049",
+    "82c769f46c5870b695c565ab2870063e485172eeaa91510c90654f56ba61cb5f",
+    "dc98e29f20636a100cf532d73bf39c0633b289e31d46715c80fbb013784a006d"
+  ],
+  "notes": {
+    "method": "Each current source visually compared at frames 0, 60, 120, 180 and 239 against its keyframe. Minor hand and medium drift may be accepted; narrative state, unique characters, intact lantern and obvious hallucinated text were checked.",
+    "review_history": "PROJECT_ROOT\\work\\film_motion_qc\\review_history.json",
+    "shots": [
+      {
+        "shot_id": "S01",
+        "verdict": "usable_with_minor_notes",
+        "notes": "单一城镇和灯塔保持；轻微上下机位漂移与云层增厚，叙事仍清楚。"
+      },
+      {
+        "shot_id": "S02",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S03",
+        "verdict": "usable_with_minor_notes",
+        "notes": "铜灯完整保留并移至座沿；圆点伸臂稍夸张，身份和剧情可读。"
+      },
+      {
+        "shot_id": "S04",
+        "verdict": "usable_with_minor_notes",
+        "notes": "无幻字，完整铜灯与唯一灯塔保持；摄影机后半推进越过人物，可作推向目的地的镜头。"
+      },
+      {
+        "shot_id": "S05",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S06",
+        "verdict": "usable_with_minor_notes",
+        "notes": "v3修复通过：完整灯保持腿侧并部分被圆点遮挡，没有举灯变形。"
+      },
+      {
+        "shot_id": "S07",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S08",
+        "verdict": "usable_with_minor_notes",
+        "notes": "v3修复通过：完整灯全程悬挂。机位有推拉，仍可读。"
+      },
+      {
+        "shot_id": "S09",
+        "verdict": "usable_with_minor_notes",
+        "notes": "圆点后半跳起较轻浮，但角色和灯保留，上行剧情清楚。"
+      },
+      {
+        "shot_id": "S10",
+        "verdict": "usable_with_minor_notes",
+        "notes": "圆点张口形态稍夸张，人物、铜灯、桥保持，剧情可读。"
+      },
+      {
+        "shot_id": "S11",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S12",
+        "verdict": "usable_with_minor_notes",
+        "notes": "机器人嘴形较拟人，受伤姿态和完整灯保留，剧情可读。"
+      },
+      {
+        "shot_id": "S13",
+        "verdict": "usable_with_minor_notes",
+        "notes": "摄影机推近将圆点逐渐裁到画外，但初始受伤状态清楚，女主与铜灯完整保留。"
+      },
+      {
+        "shot_id": "S14",
+        "verdict": "usable_with_minor_notes",
+        "notes": "包扎状态保留；地面另有红袋为原画既存细节，未因动画新增主角或破坏灯。"
+      },
+      {
+        "shot_id": "S15",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S16",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S17",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S18",
+        "verdict": "usable_with_minor_notes",
+        "notes": "灯身和底座完整，仅提环顶部出现小簇夸张火光，剧情状态可读，作为轻微动画表现保留。"
+      },
+      {
+        "shot_id": "S19",
+        "verdict": "usable_with_minor_notes",
+        "notes": "修订通过：铜灯玻璃膛全段保持熄灭，雨景冷色状态清晰，无亮灯错误。"
+      },
+      {
+        "shot_id": "S20",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S21",
+        "verdict": "usable_with_minor_notes",
+        "notes": "开盖机器人及心核保持可读，轻微摄像机上移不影响情节。"
+      },
+      {
+        "shot_id": "S22",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S23",
+        "verdict": "usable_with_minor_notes",
+        "notes": "双手略有指节形变，但两枚心核始终分明。"
+      },
+      {
+        "shot_id": "S24",
+        "verdict": "usable_with_minor_notes",
+        "notes": "机器人胸口小光点后段弱化，眼睛与动作仍明确保持生命状态；完整铜灯和心核全程可读。"
+      },
+      {
+        "shot_id": "S25",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S26",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S27",
+        "verdict": "usable_with_minor_notes",
+        "notes": "修订通过：全段保持单一山体和灯塔，云仅为云，城市窗灯温暖可读。"
+      },
+      {
+        "shot_id": "S28",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S29",
+        "verdict": "usable",
+        "notes": "抽帧检查通过，剧情可读，主体与主道具保留。"
+      },
+      {
+        "shot_id": "S30",
+        "verdict": "usable_with_minor_notes",
+        "notes": "人物走路略有滑步和机器人轻弹跳，主角唯一、完整铜灯和结局方向均清晰。"
+      }
+    ]
+  }
+}

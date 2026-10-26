@@ -1,0 +1,10 @@
+{
+  "name": "02_text_to_movie",
+  "start": "2026-10-19T23:54:18.193551",
+  "wall_seconds": 40.25,
+  "status": "success",
+  "files": [
+    "PROJECT_ROOT\\outputs\\02_text_to_movie\\02_text_to_movie_00001_.mp4"
+  ],
+  "execution_seconds": 37.59
+}

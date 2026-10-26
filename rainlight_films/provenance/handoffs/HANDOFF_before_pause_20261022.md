@@ -1,0 +1,154 @@
+# 当前状态：已于 2026-10-22 恢复制作
+
+用户已明确要求继续制作，ComfyUI 与影片流程已经恢复。当前进度请以 [作品展映页](index.html) 为准。全部十部完成后，此文档将更新为最终交接。以下保留的是 **2026-10-20 的历史停机快照**；其中的停止状态不代表当前状态。原始记录另存于 [历史交接](provenance/handoffs/HANDOFF_2026-10-20.md)。
+
+---
+
+# 《雨城最后一束光》停机交接
+
+记录日期：2026-10-20。停止时间：11:23:03，America/Chicago（UTC−05:00）。
+
+**用户要求：保留现有成果，留下 Markdown 交接文档，停止所有工作。未获得用户新的明确恢复指令前，不启动任何制作、等待器或模型服务。**
+
+## 现有成果
+
+- **6 部完整影片**，每部 5 分钟，共 30 分钟：手绘赛璐璐、东方水墨、立体剪纸、黏土定格、像素冒险、流动油画。
+- **10 张宣传海报**，全部完成；黏土海报多余灯塔已修正。
+- **10 种风格 × 30 张分镜 = 300 张原画**，全部逐图检查通过，审核 SHA 与当前文件一致。
+- 完整剧本、30 段中文字幕、Serena 旁白、配乐、逐项计时均已保存。
+- **原目标 10 部五分钟影片尚未全部完成。** 后四部的进度见下表。
+
+入口：[作品展映页](index.html) · [十张海报](10_Posters.zip) · [制作耗时](timing_summary.txt) · [计时表](timing.csv) · [剧本](script.txt) · [配音比较](voice_upgrade/index.html)
+
+| 风格 | 状态 |
+|---|---|
+| 01 手绘赛璐璐 | 完整影片已交付，Serena 配音与字幕检查通过 |
+| 02 东方水墨 | 完整影片已交付，Serena 配音与字幕检查通过 |
+| 03 立体剪纸 | 完整影片已交付，Serena 配音与字幕检查通过 |
+| 04 黏土定格 | 完整影片已交付；海报第二灯塔已移除 |
+| 05 像素冒险 | 完整影片已交付；画面采用 5×5 像素网格，字幕后叠 |
+| 06 流动油画 | 完整影片已交付，Serena 配音与字幕检查通过 |
+| 07 彩色玻璃 | 原画完成；正式源镜头 17/30，仍有未审及待修镜头 |
+| 08 欧式清线 | 原画完成；尚未生成视频镜头 |
+| 09 炭笔黑白 | 原画完成；8 条视频预缓存，3 条通过、5 条待修 |
+| 10 童话三维 | 原画完成；8 条视频缓存，其中 S16 在停机时找回已完成输出 |
+
+01–06 的影片均为 1280×720、24 fps、7200 帧、300 秒，AAC 48 kHz 立体声。每部采用 30 个不同的源镜头，每镜取前 240 帧；无循环延长或调速凑时长。音轨抽样与当前 Serena 母带对齐，字幕退出时间已目检。
+
+`Rainlight_Current_Delivery.zip` 是此前停止时的旧交付包，**不是本次六部 Serena 版合集**。最新影片以展映页及各风格目录中的 `film.mp4` 为准。未生成最终十部影片总包。
+
+## 已完成影片计时
+
+制作活动历时包含创作、排队、检查、返工与导出，排除记录中的停止和交付后修订间隔。不同风格并行推进，因此这些时间不能相加作为项目总耗时。
+
+| 风格 | 制作活动历时 | 本次最终导出 |
+|---|---:|---:|
+| 手绘赛璐璐 | 45 分 43 秒 | 2 分 22 秒 |
+| 东方水墨 | 39 分 42 秒 | 2 分 44 秒 |
+| 立体剪纸 | 28 分 08 秒 | 2 分 30 秒 |
+| 黏土定格 | 33 分 51 秒 | 3 分 31 秒 |
+| 像素冒险 | 1 小时 03 分 33 秒 | 2 分 09 秒 |
+| 流动油画 | 1 小时 13 分 30 秒 | 4 分 19 秒 |
+
+精确值以各目录 `timing.json` 为准。01 包含此前已经交付的旧版制作时间及本次重新导出。05、06 的合成依赖已正确计入接受视频生成，未重复算作废弃返工。
+
+黏土海报本次新增生成 9.744 秒、排版 0.2161 秒；两次制作活动合计 528.601 秒。首次开工至最终定稿跨度为 38612.829 秒，其中 38084.228 秒为交付后间隔，均已分别保留。
+
+`queue_seconds` 是逐任务等待时间累计；同时排队的任务可能共享等待区间，因此该值可能大于实际墙钟等待。尚未完成的影片不能把缺少的计时理解为零。
+
+## 停机状态
+
+- `work/rainlight_production/stop.request` 已写入，保留此文件。
+- ComfyUI 队列已清空、运行任务已中断，随后 ComfyUI 服务关闭，8188 端口不再监听。
+- 主生产、源素材发布、音频检查、动作等待器、09/10 预生成等后台进程全部停止。
+- 三个协作代理均已停止工作，没有自动恢复安排。
+- 未恢复此前关闭的其他本地模型服务。
+- 项目与未完影片的活动区间已按 11:23:03 停止时间关闭；展示页状态已更新为停止。
+
+停机恢复记录在：
+
+`work/rainlight_production/handoff_20261020_stop/`
+
+其中 `comfy_history_at_stop.json` 保存停机前服务历史，`comfy_queue_at_stop.json` 确认队列为空，`job_recovery.json` 记录：
+
+1. `07_glass_S18_ltx_v2` 未完成，已标记 interrupted；执行时间未知，不应当作已完成的零秒任务。原 submitted 记录已改名保存为 stopped 记录。恢复时为该镜头使用新 revision key，避免覆盖这次中断证据。
+2. `10_3d_S16_ltx_v7_storysafe` 实际已完成，停机时找回并复制了 MP4，执行 22.705 秒。它的成功 timing 已保存，**尚未视觉验收，override 可能尚未添加 source_job**；应核对后复用，不重复生成。
+
+## 后四部的准确审核状态
+
+### 07 彩色玻璃
+
+- `07_glass_clips.json` 有 S01–S17 共 17 条。
+- S01、S02、S04、S06–S10 通过，共 8 条。
+- S03 待修：提灯把手变形，后段握持关系不清、出现悬灯感。
+- S05 待修：转身后人物趋近写实三维，丢失玻璃分片及原面孔特征。
+- S11–S15 已生成检查拼图，**主代理尚未查看，不得标记通过**。
+- S16–S17 未审；S18 中断；S19–S30 未生成。
+- 已准备但未执行的修复计划：`work/film_motion_qc/07_glass_repairs_qc1.json`。
+- 尚未查看的拼图：`work/film_motion_qc/root_07_glass_11_15_d28d430f.jpg`。
+
+### 08 欧式清线
+
+30 张原画通过；尚无视频镜头或动作审核结果。
+
+### 09 炭笔黑白
+
+预缓存 S01、S04、S19、S20、S21、S22、S23、S24，成功输出及 `source_job` 已记录；尚未组装正式 clips manifest。
+
+- 通过：S04、S21、S23。
+- S01 待修：后段黑边缩画面，末段整幅橙褐变色；不能仅覆盖建筑前景解决。
+- S19 待修：暗灯变成上下叠套的巨大银色壶罩。
+- S20 待修：凭空出现发光微缩建筑或机械。
+- S22 待修：出现三位无关成人肖像。
+- S24 待修：顶部持续幻字。主体和双光基本成立，但镜头明显推近；固定整条顶部遮罩可能切到灯顶并产生移动墙面接缝，**尚无批准的遮罩坐标**。
+
+预审证据在 `work/film_motion_qc/review_history.json`、`work/root_motion_reviews/` 和 `work/film_audio_qc/motion_assist/`。S24 详图为 `work/film_motion_qc/09_charcoal_prefetch_audio_21_24_v6_storysafe_S24_detail.jpg`。
+
+### 10 童话三维
+
+- 预生成成功且已设 `source_job`：S01、S02、S03、S05、S07、S08、S09。
+- S16 在停机时找回成功输出，尚未审查。
+- S01、S02、S03、S05 主代理已亲审通过，但因停止指令，**尚未合并进统一 review history**。
+- 通过报告：`work/root_motion_reviews/10_3d_prefetch_root_01_02_03_05_v7_storysafe.json`。
+- S07、S08、S09、S16 未审，其余尚未生成。
+
+## 文件与运行环境
+
+工作区：`PROJECT_ROOT`
+
+- 用户成果：`outputs/rainlight_films`
+- 制作缓存与实际任务计时：`work/rainlight_production`
+- 原画和视频清单：`<style>_frames.json`、`<style>_clips.json`
+- 原画与动作通过记录：`<style>_frame_review.json`、`<style>_motion_review.json`
+- 统一动作审核历史：`work/film_motion_qc/review_history.json`
+- 300 张原画与十张海报的最终交接审计：`work/rainlight_production/frame_quality/final_audit/storyboard_handoff.json`
+- ComfyUI：`C:\AI\ComfyUI\ComfyUI_windows_portable`
+- Python：`C:\AI\ComfyUI\ComfyUI_windows_portable\python_embeded\python.exe`
+- 本地 API 原地址：`http://127.0.0.1:8188`
+
+原画使用本地 FLUX.2 Klein 4B FP8；多数视频使用 LTXVideo 2B 0.9.8 distilled BF16，复杂返工使用 MiniMax H3。05、06 的 S01 使用本地 Comfy 原画前景与生成动态天空合成，依赖、遮罩和源片均保留。
+
+旁白使用用户选定的本地 **Qwen3-TTS 1.7B CustomVoice / Serena**，不是旧 Piper 声音。30 段旁白已完成，无需重做。规范母带：
+
+`work/rainlight_production/audio/master.wav`
+
+SHA-256：`05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a`
+
+配音运行依赖隔离在 `work/tts_upgrade`，不要升级或覆盖 Comfy 的 transformers 环境。原始旁白、音乐、运行信息和六部音频验收证据在 `outputs/rainlight_films/provenance/audio`。
+
+## 获得明确恢复指令后的顺序
+
+1. 先读本文件及停机恢复 JSON，不重做已经完成的海报、300 张原画或旁白。
+2. 核对 07 S18 中断任务并设置新的 revision；核对并复用 10 S16 找回的成功缓存。
+3. 启动本地 ComfyUI，后台启动必须使用隐藏窗口；确认 API 可用后，才移除 `stop.request`。
+4. 使用 embedded Python 启动 `work/film_production.py`，采用新的日志文件保留本次日志。新进程已经支持 `motion_only_prompt`，不再存在旧进程内存代码未更新的问题。
+5. 缓存命中必须保持原工作流与 SHA，不覆写旧 key 的不同提示。`source_job` 可以直接复用对应成功源片。
+6. 每个风格到 30 段后，逐段核对当前文件 SHA 并完成动作审核。不要把“生成完成”等同“视觉通过”；同一时刻只允许一个写入者更新 clips manifest、review history 与 gate。
+7. 主代理此前负责 S01–S05、S11–S15；delivery 负责 S06–S10、S16–S20、全部修复和唯一 gate 写入；audio 负责 S21–S30 只读建议及最终音频/字幕检查。恢复时可重新安排人员，仍保持单写入者。
+8. 源素材发布器为 `work/publish_film_sources.py --watch`；音频检查为 `work/film_audio_qc.py --next --wait`，生成字幕拼图后仍须人工查看才能批准。
+9. 新增局部合成使用 `work/film_composite_clip.py`，记录真实 ltx/h3 来源及 `dependency_job_keys`。完成影片后运行 `work/film_dependencies.py <style>`，将接受的源生成与合成各计一次，并发布依赖素材。
+10. 全十部真正完成后再运行 `work/audit_final_delivery.py --final`。最后一部的音频审核和便携源文件发布完成后，再制作最终总 ZIP；不能把本次部分成果宣称为十部完成。
+
+展示页和文字汇总可以通过新进程只读现有计时刷新：调用 `write_timing_summaries(existing_project, loaded_style_timings)` 及 `build_gallery()`。**不要为了刷新页面调用 complete 状态更新，重写六部影片已经确定的完成时间。**
+
+当前没有获准自动继续的工作。请等待用户恢复指令。

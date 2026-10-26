@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "11_seedance_thread",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\11_seedance_thread\\reference.png",
+      "bytes": 7840874,
+      "sha256": "339742b3d05e9dcc620652a09c172cde5b2bebbbee592ae61a8cae845ab11149",
+      "download_seconds": 19.081
+    },
+    {
+      "id": "12_kling_shadow",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\12_kling_shadow\\reference.png",
+      "bytes": 6667232,
+      "sha256": "f3631f772bf42178979714dd4687cd9d55d771d1b12f6d0da0111f46cda46148",
+      "download_seconds": 11.658
+    },
+    {
+      "id": "13_flux_cyanotype",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\13_flux_cyanotype\\reference.png",
+      "bytes": 8029546,
+      "sha256": "fff494b49430ad8aec89a27fea0bd6966670bd72f0f462108f7c6a009d07548d",
+      "download_seconds": 18.59
+    },
+    {
+      "id": "14_veo_liveaction",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\reference.png",
+      "bytes": 7676225,
+      "sha256": "0bd3aee595978e2a32e928120c1741403476a1e439c47b00e500be65787683b9",
+      "download_seconds": 18.38
+    },
+    {
+      "id": "15_wan_marquetry",
+      "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\15_wan_marquetry\\reference.png",
+      "bytes": 7115095,
+      "sha256": "81827177fa1c2647d20fa24d9f1168ff38c22f8c56f126434f1fecb826e0c5bd",
+      "download_seconds": 8.856
+    }
+  ]
+}

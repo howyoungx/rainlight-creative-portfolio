@@ -1,0 +1,10 @@
+{
+  "name": "01_photo_to_video",
+  "start": "2026-10-19T23:53:13.931848",
+  "wall_seconds": 64.24,
+  "status": "success",
+  "files": [
+    "PROJECT_ROOT\\outputs\\01_photo_to_video\\01_photo_to_video_00001_.mp4"
+  ],
+  "execution_seconds": 62.826
+}

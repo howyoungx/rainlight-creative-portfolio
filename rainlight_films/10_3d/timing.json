@@ -1,0 +1,128 @@
+{
+  "status": "complete",
+  "poster_seconds": 10.9759,
+  "poster_elapsed_seconds": 680.361,
+  "poster_started_at": "2026-10-20T00:34:53-05:00",
+  "poster_completed_at": "2026-10-20T00:46:13.361-05:00",
+  "poster_queue_seconds": 1.222,
+  "stage": "五分钟成片已验收",
+  "poster_status": "complete",
+  "previous_queue_states": [
+    {
+      "status": "stopped",
+      "stage": "已按要求停止，保留现有素材",
+      "stopped_at": "2026-10-20T01:14:27.480-05:00"
+    }
+  ],
+  "updated_at": "2026-10-22T12:01:18.945-05:00",
+  "timing_before_sessions": {
+    "status": "pending",
+    "updated_at": "2026-10-20T09:27:36.081-05:00"
+  },
+  "activity_sessions": [
+    {
+      "id": "e5539a93a1794d3694bcc7c4406d0af7",
+      "started_at": "2026-10-20T10:56:50.145-05:00",
+      "reason": "提前整批准备分镜",
+      "event": "started",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-20T11:23:03.5265169-05:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": "b1989965893941d9a2cbe595581533c9",
+      "started_at": "2026-10-22T11:43:02.639-05:00",
+      "reason": "影片继续制作或音轨修订",
+      "event": "resumed",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-22T12:01:18.945-05:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": "9235630b1e334be99dba420b7e69d037",
+      "started_at": "2026-10-22T12:26:30.591-05:00",
+      "reason": "恢复最后三镜验收与修复",
+      "event": "resumed",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-22T12:31:48.914-05:00",
+      "end_reason": "unverified_activity_gap_after_failed_repair"
+    },
+    {
+      "id": "9630d9e5c9344ffcbeedca30cebcd129",
+      "started_at": "2026-10-25T01:55:43.685-05:00",
+      "reason": "恢复最后三镜及最终交付",
+      "event": "resumed",
+      "source": "observed_activity_start",
+      "ended_at": "2026-10-25T02:15:34.271-05:00",
+      "end_reason": "complete"
+    }
+  ],
+  "started_at": "2026-10-20T10:56:50.145-05:00",
+  "style_id": "10_3d",
+  "name": "童话三维动画",
+  "shots_total": 30,
+  "keyframes_done": 30,
+  "keyframes_seconds": 107.319,
+  "queue_seconds": 5173.053,
+  "resumed_at": "2026-10-25T01:55:43.685-05:00",
+  "engine": "ltx",
+  "video_done": 30,
+  "video_seconds": 1385.506,
+  "video_rework_seconds": 0,
+  "activity_gap_notes": [
+    {
+      "from": "2026-10-22T12:31:48.914-05:00",
+      "to": "2026-10-25T01:55:43.685-05:00",
+      "prior_timing_snapshot": "PROJECT_ROOT\\work\\rainlight_production\\timing_history\\10_3d_before_gap_recovery_20261025.3e05760cebf85688.json",
+      "last_recorded_job": "PROJECT_ROOT\\work\\rainlight_production\\jobs\\10_3d_S21_h3_qc4_io_retry\\timing.json",
+      "accounting": "The prior process session was left open after the failed repair. No current production process or subsequent project media was present at resume. The gap after the last recorded job is excluded from activity elapsed time; this is a reconstruction from logs, not a measured user pause or GPU-utilization claim."
+    }
+  ],
+  "elapsed_seconds": 400724.126,
+  "active_elapsed_seconds": 4178.597,
+  "inactive_seconds": 396545.529,
+  "completed_at": "2026-10-25T02:15:34.271-05:00",
+  "duration_seconds": 300,
+  "edit_seconds": 145.127,
+  "validation_seconds": 6.648,
+  "latest_edit_seconds": 145.127,
+  "latest_validation_seconds": 6.648,
+  "source_frames": 240,
+  "source_clip_seconds": 10,
+  "frame_policy": "30 unique generated continuous shots, 240 original frames each, no looping, no retiming",
+  "shared_audio": "Shared audio preparation counted separately at project level",
+  "file_bytes": 59085870,
+  "rework_seconds": 559.726,
+  "accepted_video_dependency_keys": [
+    "10_3d_S13_h3_qc3_facefixed_resume1025",
+    "10_3d_S21_h3_qc5_resume1025"
+  ],
+  "dependency_accounting_note": "Accepted video time includes the generated source and local Comfy compositing once each. The generated input to an accepted composite is not discarded rework.",
+  "shared_input_hashes": {
+    "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+    "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+  },
+  "delivery_revisions": [
+    {
+      "revision": 1,
+      "completed_at": "2026-10-25T02:15:34.271-05:00",
+      "elapsed_seconds": 400724.126,
+      "active_elapsed_seconds": 4178.597,
+      "inactive_seconds": 396545.529,
+      "shared_input_hashes": {
+        "audio": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+        "cues": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+        "story": "6ab5459331a160a95aced0480daed89e850ed8f505ce7d2f74517bd8bdf721ef",
+        "styles": "d234d35c0c33b65b5dc33d071e70f1ab835e634da50c25c8a0b108e7dd8d5b93"
+      },
+      "file_bytes": 59085870,
+      "duration_seconds": 300,
+      "edit_seconds": 145.127,
+      "validation_seconds": 6.648,
+      "cumulative_edit_seconds": 145.127,
+      "cumulative_validation_seconds": 6.648
+    }
+  ]
+}

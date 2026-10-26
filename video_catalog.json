@@ -1,0 +1,155 @@
+[
+  {
+    "id": "01_anime",
+    "title": "雨城最后一束光｜01 手绘赛璐璐动画｜五分钟完整影片",
+    "path": "rainlight_films/01_anime/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 87998700
+  },
+  {
+    "id": "02_inkwash",
+    "title": "雨城最后一束光｜02 东方水墨｜五分钟完整影片",
+    "path": "rainlight_films/02_inkwash/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 114299379
+  },
+  {
+    "id": "03_papercut",
+    "title": "雨城最后一束光｜03 立体剪纸剧场｜五分钟完整影片",
+    "path": "rainlight_films/03_papercut/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 59382190
+  },
+  {
+    "id": "04_clay",
+    "title": "雨城最后一束光｜04 黏土定格动画｜五分钟完整影片",
+    "path": "rainlight_films/04_clay/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 45767392
+  },
+  {
+    "id": "05_pixel",
+    "title": "雨城最后一束光｜05 像素冒险电影｜五分钟完整影片",
+    "path": "rainlight_films/05_pixel/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 70720581
+  },
+  {
+    "id": "06_oil",
+    "title": "雨城最后一束光｜06 流动油画｜五分钟完整影片",
+    "path": "rainlight_films/06_oil/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 140196814
+  },
+  {
+    "id": "07_glass",
+    "title": "雨城最后一束光｜07 彩色玻璃幻想｜五分钟完整影片",
+    "path": "rainlight_films/07_glass/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 98707502
+  },
+  {
+    "id": "08_comic",
+    "title": "雨城最后一束光｜08 欧式清线漫画｜五分钟完整影片",
+    "path": "rainlight_films/08_comic/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 84937623
+  },
+  {
+    "id": "09_charcoal",
+    "title": "雨城最后一束光｜09 炭笔黑白电影｜五分钟完整影片",
+    "path": "rainlight_films/09_charcoal/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 195547879
+  },
+  {
+    "id": "10_3d",
+    "title": "雨城最后一束光｜10 童话三维动画｜五分钟完整影片",
+    "path": "rainlight_films/10_3d/film.mp4",
+    "kind": "full_film",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 59085870
+  },
+  {
+    "id": "11_seedance_thread",
+    "title": "雨城最后一束光｜11 织光｜Seedance 2.5·丝线刺绣样片",
+    "path": "rainlight_higgsfield/pilot/11_seedance_thread/preview.mp4",
+    "kind": "pilot",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 17742259
+  },
+  {
+    "id": "12_kling_shadow",
+    "title": "雨城最后一束光｜12 影中灯｜Kling 4.0·透光皮影样片",
+    "path": "rainlight_higgsfield/pilot/12_kling_shadow/preview.mp4",
+    "kind": "pilot",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 10002613
+  },
+  {
+    "id": "13_flux_cyanotype",
+    "title": "雨城最后一束光｜13 普鲁士蓝的黎明｜FLUX 3 Video·蓝晒摄影样片",
+    "path": "rainlight_higgsfield/pilot/13_flux_cyanotype/preview.mp4",
+    "kind": "pilot",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 29801708
+  },
+  {
+    "id": "14_veo_liveaction",
+    "title": "雨城最后一束光｜14 雨夜实录｜Google Veo 3.1·真人实景童话样片",
+    "path": "rainlight_higgsfield/pilot/14_veo_liveaction/preview.mp4",
+    "kind": "pilot",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 20521981
+  },
+  {
+    "id": "15_wan_marquetry",
+    "title": "雨城最后一束光｜15 木作微光｜Wan 3.0 Prime·木雕嵌木木偶样片",
+    "path": "rainlight_higgsfield/pilot/15_wan_marquetry/preview.mp4",
+    "kind": "pilot",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 30882765
+  },
+  {
+    "id": "01_photo_to_video",
+    "title": "ComfyUI 实测｜16 照片动起来",
+    "path": "01_photo_to_video/01_photo_to_video_00001_.mp4",
+    "kind": "demo",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 1685293
+  },
+  {
+    "id": "02_text_to_movie",
+    "title": "ComfyUI 实测｜17 文字生成短片",
+    "path": "02_text_to_movie/02_text_to_movie_00001_.mp4",
+    "kind": "demo",
+    "visibility": "unlisted",
+    "status": "pending",
+    "bytes": 1485704
+  }
+]

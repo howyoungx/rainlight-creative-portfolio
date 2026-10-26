@@ -1,0 +1,1080 @@
+{
+  "schema_version": "1.0",
+  "title_zh": "雨城最后一束光",
+  "title_en": "THE LAST LIGHT OF RAIN CITY",
+  "format": "Original animated short, 10 art styles sharing one locked 300-second edit",
+  "duration_seconds": 300,
+  "shot_count": 30,
+  "shot_duration_seconds": 10,
+  "logline_zh": "送灯少女小禾与旧机器人圆点，带着雨城最后一盏灯登上山顶。灯熄灭后，圆点愿意献出心核；小禾选择把光分给伙伴和灯塔。微弱信号得到城中居民回应，雨城终于重新迎来清晨。",
+  "theme_zh": "希望并非靠牺牲一个伙伴换来，而是由许多人互相回应。",
+  "story_world_zh": "童话雨城久失晨光。铜灯与机器人心核是可传递的微光；灯塔是让远方的人看见彼此的信号。城中人并非没有灯，而是失去点灯的勇气。最后的晨光采用童话视觉表达，不解释为科学装置。",
+  "characters": {
+    "lan": {
+      "name_zh": "小禾",
+      "age": 20,
+      "identity_en": "Xiaohe, an adult East Asian young woman courier, age 20, short straight chin-length black bob with blunt bangs, dark brown eyes, a mustard-yellow hooded rain jacket, navy trousers, a red canvas shoulder satchel, and black ankle boots. The hood stays down. Match the provided benchmark character reference exactly.",
+      "arc_zh": "从独自完成送灯任务，到选择不牺牲伙伴，最后明白微光需要彼此回应。"
+    },
+    "robot": {
+      "name_zh": "圆点",
+      "identity_en": "Yuandian, a small round cream-colored friendly robot about knee high, with two large teal circular eyes, a tiny simple smiling mouth, two short stubby legs, and two small flipper-like arms. A small discreet chest hatch conceals an amber crystal heart. Match the benchmark spherical silhouette exactly; no lettering or logos.",
+      "arc_zh": "从护送者变成需要被救的伙伴；愿意交出心核，但最终与小禾共同活下来。"
+    },
+    "lantern": {
+      "name_zh": "末灯",
+      "identity_en": "A small antique brass-and-glass hand lantern with a curved handle, curved protective metal frame, and one tiny amber flame. Match the benchmark lantern shape consistently.",
+      "arc_zh": "出发时是城里最后一盏灯；登顶时熄灭；分得半颗心核后发出微弱信号。"
+    }
+  },
+  "continuity_rules": [
+    "Xiaohe always matches the provided adult East Asian girl reference: black bob, mustard yellow hooded rain jacket, navy trousers, red canvas shoulder satchel, black ankle boots. No scarf. Hood down.",
+    "Yuandian always matches the round cream robot reference: two large teal circular eyes, small smiling mouth, short stubby legs, flipper-like arms. Do not turn it into a single-eye or rectangular robot.",
+    "Yuandian’s right flipper arm is intact through S11, damaged and drooping from S12 onward. S14 introduces a narrow cream cloth support bandage. S15-S30 keep this bandage in place. The arm does not spontaneously repair at the end.",
+    "The antique brass-and-glass lantern is the same object throughout: curved handle and curved protective frame. Amber flame bright S02-S10, weak S11-S18, extinguishes S19, dark S20-S23, tiny amber crystal glow S24-S30.",
+    "Yuandian’s chest stays closed before S21; crystal revealed S21-S23; closed and gently glowing again S24-S30.",
+    "The city stays largely blue-gray and desaturated through S25. Warm windows spread S26-S27. General environmental colors return gradually in S28-S30.",
+    "All ten versions share exact shot order, durations, narration, music structure, actions and core character silhouettes. Change the rendering style, not the story.",
+    "No baked-in typography, subtitles, speech balloons, logos, watermark, interface panels or random readable signs. Add all Chinese titles and subtitles in editing.",
+    "Use one clear main action per clip with a slow motivated camera move. Keep motion restrained for readable story and stable identities. This is a continuous narrative, not a loop or static slideshow.",
+    "Dissolves and final fade must fit inside the locked 300-second timeline; never add transition duration."
+  ],
+  "narration_direction_zh": "同一位温柔、克制的成年女性中文旁白。每镜从第1秒左右起读，通常3至7秒，保留雨声与音乐的呼吸。所有引号内台词仍由旁白表达，避免人物口型同步负担。禁止为填满时长重复旁白。",
+  "music_direction_zh": "五分钟原创无歌词配乐：0-90秒少量钢琴与雨声；90-160秒低弦乐与克制张力；160-190秒悬停；190-210秒尽量留白；210-250秒主题渐回；250-285秒暖弦乐与玻璃铃音展开；285-300秒自然收束。十版使用相同配乐母带。",
+  "poster_direction_zh": "每种风格制作独立竖版宣传海报。主构图：小禾与圆点站在山顶石阶，铜灯位于两者之间，蜿蜒石阶通向雨城；天空与暗城约占上半画面，晨光从灯塔和窗灯相连处展开。人物沿用基准：黑短发、黄雨衣、深蓝长裤、红挎包；圆点为圆形奶油色身体与两只青绿眼。圆点右臂保留结尾的浅米色布带。中文片名后期清晰排版「雨城最后一束光」，英文副题「THE LAST LIGHT OF RAIN CITY」，宣传句「你给出的光，总会有人接住。」不让图像模型直接生成文字。",
+  "style_guides": [
+    {
+      "id": "01_anime",
+      "name": "手绘赛璐璐动画",
+      "english": "Cel Animation",
+      "accent": "#e8b761",
+      "prompt": "Hand-drawn 2D Japanese theatrical anime, exquisitely painted watercolor backgrounds, crisp clean expressive cel shaded characters, elegant cinematic light, delicate line work, rich atmospheric perspective, traditional animation, absolutely not photorealistic"
+    },
+    {
+      "id": "02_inkwash",
+      "name": "东方水墨",
+      "english": "Ink and Wash",
+      "accent": "#c9a56d",
+      "prompt": "Chinese ink wash animation on textured ivory rice paper, expressive black brushwork, wet ink blooming and delicate grey washes, mountain mist, extreme negative space, restrained mustard and amber pigments as luminous accents, sophisticated hand painted shan shui illustration, entirely ink and brush materials"
+    },
+    {
+      "id": "03_papercut",
+      "name": "立体剪纸剧场",
+      "english": "Layered Paper",
+      "accent": "#e69568",
+      "prompt": "Handcrafted layered cut-paper animation, visibly stacked colored paper planes with soft cast shadows, intricate scissor-cut silhouettes, fibrous paper edges, geometric stylized figures and miniature city scenery, theatrical depth, restrained teal ochre ivory color palette, everything constructed from paper"
+    },
+    {
+      "id": "04_clay",
+      "name": "黏土定格动画",
+      "english": "Clay Stop Motion",
+      "accent": "#99c6ad",
+      "prompt": "Handmade clay stop-motion animation film, tactile plasticine puppets with visible fingerprints and handmade irregularities, miniature practical sets, chunky charming clay characters, warm miniature cinematic lighting, shallow macro depth of field, sophisticated artisan stop motion, every object made of clay"
+    },
+    {
+      "id": "05_pixel",
+      "name": "像素冒险电影",
+      "english": "Pixel Adventure",
+      "accent": "#91b5fb",
+      "prompt": "Beautiful detailed 16-bit pixel art animated adventure, crisp square pixel grid, carefully limited palette, deliberate pixel clusters, dithered atmospheric gradients, side-view game-like environments with rich layered depth, amber light against desaturated navy city, pixelated characters and scenery, no smooth vector edges"
+    },
+    {
+      "id": "06_oil",
+      "name": "流动油画",
+      "english": "Living Oil Painting",
+      "accent": "#d9af68",
+      "prompt": "Expressive animated oil painting, visible thick impasto brushstrokes, painterly textured canvas, luminous amber reflected through cobalt and slate brushwork, romantic chiaroscuro, vivid sculptural paint, figures entirely painted in broad intentional strokes, sophisticated gallery painting coming to life"
+    },
+    {
+      "id": "07_glass",
+      "name": "彩色玻璃幻想",
+      "english": "Stained Glass",
+      "accent": "#75c8ca",
+      "prompt": "Luminous stained-glass mosaic animation, every character and architectural element made of jewel-colored translucent glass pieces separated by bold dark lead outlines, intricate geometric facets, backlit amber and teal glass, beautiful cathedral-window craftsmanship, graphic flat dimensional composition, consistent glass material"
+    },
+    {
+      "id": "08_comic",
+      "name": "欧式清线漫画",
+      "english": "Ligne Claire",
+      "accent": "#ed9179",
+      "prompt": "Elegant European ligne claire graphic novel animation, uniform fine black ink outlines, flat carefully chosen colors, precise expressive simplified faces, beautifully drawn urban architecture, subtle printed halftone texture, cinematic single panel composition, sophisticated illustrated adventure, no speech bubbles or letters"
+    },
+    {
+      "id": "09_charcoal",
+      "name": "炭笔黑白电影",
+      "english": "Charcoal Noir",
+      "accent": "#d6bc78",
+      "prompt": "Hand-drawn charcoal noir animated film, monochrome graphite and charcoal on textured paper, smudged deep blacks and luminous white rain, dramatic high contrast chiaroscuro, expressive rough contour lines, the lantern alone glows a restrained amber gold accent, evocative film noir staging"
+    },
+    {
+      "id": "10_3d",
+      "name": "童话三维动画",
+      "english": "Sculpted 3D Fable",
+      "accent": "#90b8dc",
+      "prompt": "Premium stylized 3D animated feature film, appealing carefully sculpted characters, physically rendered soft fabrics and ceramic robot, expressive rounded shapes, cinematic volumetric light, detailed miniature-like city, exquisite warm and cool color contrast, polished storybook CGI, not live action"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "duration_seconds": 10,
+      "title_zh": "雨城",
+      "framing": "wide",
+      "location_zh": "雨城全景",
+      "story_action_zh": "城里已许久没有光，山顶灯塔隐没在风雨中。",
+      "keyframe_prompt_en": "A vast rain-soaked hillside city of closely packed old buildings and steep stairways, almost monochrome, shuttered windows, a dark lighthouse at the highest summit, empty streets and low storm clouds. Establish the city geography clearly. No protagonist is visible yet.",
+      "motion_prompt_en": "Slow forward aerial drift toward the distant unlit hilltop lighthouse. Rain falls steadily, mist slides between rooftops. Preserve the skyline and do not jump to another scene.",
+      "visual_prompt_en": "A vast rain-soaked hillside city of closely packed old buildings and steep stairways, almost monochrome, shuttered windows, a dark lighthouse at the highest summit, empty streets and low storm clouds. Establish the city geography clearly. No protagonist is visible yet. Slow forward aerial drift toward the distant unlit hilltop lighthouse. Rain falls steadily, mist slides between rooftops. Preserve the skyline and do not jump to another scene.",
+      "narration_zh": "雨城已经很久，没有看见清晨了。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "低沉雨声，远处风铃，少量钢琴单音。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "雨城已经很久，没有看见清晨了。",
+        "speaker": "single_narrator",
+        "start_seconds": 1.0,
+        "end_seconds": 9.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "雨城已经很久，没有看见清晨了。",
+        "start_seconds": 1.0,
+        "end_seconds": 9.0
+      }
+    },
+    {
+      "id": "S02",
+      "start_seconds": 10,
+      "end_seconds": 20,
+      "duration_seconds": 10,
+      "title_zh": "最后一盏",
+      "framing": "medium",
+      "location_zh": "旧灯铺",
+      "story_action_zh": "小禾在空荡荡的灯铺中提起唯一仍亮着的铜灯。",
+      "keyframe_prompt_en": "Inside a deserted old lantern workshop, Xiaohe stands beside a wooden table holding the only lit brass lantern. Many unlit lantern frames hang behind her. The warm amber flame illuminates her face and mustard rain jacket against a cold gray room.",
+      "motion_prompt_en": "Xiaohe gently lifts the brass lantern from the table and studies its tiny flame. Subtle amber light moves across her face. Camera slowly pushes closer.",
+      "visual_prompt_en": "Inside a deserted old lantern workshop, Xiaohe stands beside a wooden table holding the only lit brass lantern. Many unlit lantern frames hang behind her. The warm amber flame illuminates her face and mustard rain jacket against a cold gray room. Xiaohe gently lifts the brass lantern from the table and studies its tiny flame. Subtle amber light moves across her face. Camera slowly pushes closer.",
+      "narration_zh": "只剩这一盏灯，还记得太阳的颜色。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "近处火苗轻响；雨声在室外。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "只剩这一盏灯，还记得太阳的颜色。",
+        "speaker": "single_narrator",
+        "start_seconds": 11.0,
+        "end_seconds": 19.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "只剩这一盏灯，还记得太阳的颜色。",
+        "start_seconds": 11.0,
+        "end_seconds": 19.0
+      }
+    },
+    {
+      "id": "S03",
+      "start_seconds": 20,
+      "end_seconds": 30,
+      "duration_seconds": 10,
+      "title_zh": "伙伴醒来",
+      "framing": "close",
+      "location_zh": "旧灯铺",
+      "story_action_zh": "圆点的蓝眼亮起，朝小禾伸出小手。",
+      "keyframe_prompt_en": "Yuandian sits on the edge of the workshop table beside Xiaohe’s hand and the brass lantern. Its two large circular teal eyes are dim but awake. The robot is intact, cream enamel slightly worn, chest hatch shut.",
+      "motion_prompt_en": "Yuandian’s teal eyes brighten. It raises one little mechanical hand toward Xiaohe; she gently touches its hand with one fingertip. Keep a steady intimate close framing.",
+      "visual_prompt_en": "Yuandian sits on the edge of the workshop table beside Xiaohe’s hand and the brass lantern. Its two large circular teal eyes are dim but awake. The robot is intact, cream enamel slightly worn, chest hatch shut. Yuandian’s teal eyes brighten. It raises one little mechanical hand toward Xiaohe; she gently touches its hand with one fingertip. Keep a steady intimate close framing.",
+      "narration_zh": "陪她出发的，是一台旧送灯机器人。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "一声短促温柔的电子鸣音。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "陪她出发的，是一台旧送灯机器人。",
+        "speaker": "single_narrator",
+        "start_seconds": 21.0,
+        "end_seconds": 29.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "陪她出发的，是一台旧送灯机器人。",
+        "start_seconds": 21.0,
+        "end_seconds": 29.0
+      }
+    },
+    {
+      "id": "S04",
+      "start_seconds": 30,
+      "end_seconds": 40,
+      "duration_seconds": 10,
+      "title_zh": "山顶的约定",
+      "framing": "wide",
+      "location_zh": "灯铺门口",
+      "story_action_zh": "两位伙伴望向远处山顶，确定共同目标。",
+      "keyframe_prompt_en": "Xiaohe and Yuandian stand beneath the workshop doorway, seen from behind in three-quarter view. Xiaohe carries the lit brass lantern. Beyond them, a steep street leads visually toward the dark lighthouse on the hilltop.",
+      "motion_prompt_en": "Xiaohe looks from the lantern up toward the distant lighthouse. Yuandian follows her gaze. Camera eases forward between their silhouettes toward the uphill route.",
+      "visual_prompt_en": "Xiaohe and Yuandian stand beneath the workshop doorway, seen from behind in three-quarter view. Xiaohe carries the lit brass lantern. Beyond them, a steep street leads visually toward the dark lighthouse on the hilltop. Xiaohe looks from the lantern up toward the distant lighthouse. Yuandian follows her gaze. Camera eases forward between their silhouettes toward the uphill route.",
+      "narration_zh": "他们要把灯送上山顶，重新点亮雨城。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "音乐出现简短上行旋律。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "他们要把灯送上山顶，重新点亮雨城。",
+        "speaker": "single_narrator",
+        "start_seconds": 31.0,
+        "end_seconds": 39.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "他们要把灯送上山顶，重新点亮雨城。",
+        "start_seconds": 31.0,
+        "end_seconds": 39.0
+      }
+    },
+    {
+      "id": "S05",
+      "start_seconds": 40,
+      "end_seconds": 50,
+      "duration_seconds": 10,
+      "title_zh": "踏入雨中",
+      "framing": "tracking",
+      "location_zh": "石板街",
+      "story_action_zh": "小禾和圆点离开灯铺，并肩迈进冷雨。",
+      "keyframe_prompt_en": "Full-body side view of Xiaohe walking uphill on an empty wet stone street, Yuandian beside her at knee height. Xiaohe holds the brass lantern at waist level. Mustard rain jacket and red canvas shoulder satchel remain clearly visible, lantern is still bright.",
+      "motion_prompt_en": "Gentle side-tracking shot. Xiaohe and Yuandian walk together at a measured pace through shallow puddles. Their footsteps and tiny splashes stay natural.",
+      "visual_prompt_en": "Full-body side view of Xiaohe walking uphill on an empty wet stone street, Yuandian beside her at knee height. Xiaohe holds the brass lantern at waist level. Mustard rain jacket and red canvas shoulder satchel remain clearly visible, lantern is still bright. Gentle side-tracking shot. Xiaohe and Yuandian walk together at a measured pace through shallow puddles. Their footsteps and tiny splashes stay natural.",
+      "narration_zh": "小禾出门时，圆点把步子调得和她一样慢。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "脚步声，机械脚掌踏水声。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "小禾出门时，圆点把步子调得和她一样慢。",
+        "speaker": "single_narrator",
+        "start_seconds": 41.0,
+        "end_seconds": 49.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "小禾出门时，圆点把步子调得和她一样慢。",
+        "start_seconds": 41.0,
+        "end_seconds": 49.0
+      }
+    },
+    {
+      "id": "S06",
+      "start_seconds": 50,
+      "end_seconds": 60,
+      "duration_seconds": 10,
+      "title_zh": "紧闭的窗",
+      "framing": "wide",
+      "location_zh": "长街",
+      "story_action_zh": "微光经过一排关着的窗，只有一道窗缝悄悄打开。",
+      "keyframe_prompt_en": "Xiaohe and Yuandian pass a long row of tall dark shuttered windows in a narrow uphill street. One window has a tiny gap with an anonymous resident’s silhouette behind it. The lantern casts a small warm oval on wet stone.",
+      "motion_prompt_en": "Slow lateral camera move as the pair pass. A single wooden shutter opens a few centimeters, catching the amber reflection, then stays slightly open.",
+      "visual_prompt_en": "Xiaohe and Yuandian pass a long row of tall dark shuttered windows in a narrow uphill street. One window has a tiny gap with an anonymous resident’s silhouette behind it. The lantern casts a small warm oval on wet stone. Slow lateral camera move as the pair pass. A single wooden shutter opens a few centimeters, catching the amber reflection, then stays slightly open.",
+      "narration_zh": "起初，谁也不相信一盏灯能改变什么。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "雨声中加入轻微木窗吱响。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "起初，谁也不相信一盏灯能改变什么。",
+        "speaker": "single_narrator",
+        "start_seconds": 51.0,
+        "end_seconds": 59.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "起初，谁也不相信一盏灯能改变什么。",
+        "start_seconds": 51.0,
+        "end_seconds": 59.0
+      }
+    },
+    {
+      "id": "S07",
+      "start_seconds": 60,
+      "end_seconds": 70,
+      "duration_seconds": 10,
+      "title_zh": "留下一点暖",
+      "framing": "close",
+      "location_zh": "窗边雨檐",
+      "story_action_zh": "小禾将灯举到窗边，暖光照亮居民伸出的手。",
+      "keyframe_prompt_en": "Under a narrow eave, Xiaohe holds the brass lantern near a half-open window. Only an anonymous resident’s open hands are visible inside, lit by the amber glow. Yuandian waits beside Xiaohe. No new recurring face is introduced.",
+      "motion_prompt_en": "Xiaohe raises the lantern slightly toward the resident’s hands. The hands slowly open and relax in the warmth. The flame remains safely inside the glass.",
+      "visual_prompt_en": "Under a narrow eave, Xiaohe holds the brass lantern near a half-open window. Only an anonymous resident’s open hands are visible inside, lit by the amber glow. Yuandian waits beside Xiaohe. No new recurring face is introduced. Xiaohe raises the lantern slightly toward the resident’s hands. The hands slowly open and relax in the warmth. The flame remains safely inside the glass.",
+      "narration_zh": "可只要走近一点，陌生的手也会变暖。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "旋律变暖；没有对白。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "可只要走近一点，陌生的手也会变暖。",
+        "speaker": "single_narrator",
+        "start_seconds": 61.0,
+        "end_seconds": 69.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "可只要走近一点，陌生的手也会变暖。",
+        "start_seconds": 61.0,
+        "end_seconds": 69.0
+      }
+    },
+    {
+      "id": "S08",
+      "start_seconds": 70,
+      "end_seconds": 80,
+      "duration_seconds": 10,
+      "title_zh": "抬头见路",
+      "framing": "medium",
+      "location_zh": "山脚阶梯",
+      "story_action_zh": "圆点清开脚前的落叶，露出通向山顶的石阶。",
+      "keyframe_prompt_en": "At the foot of a long steep stone stairway, Yuandian stands beside a small pile of wet leaves, clearing the first step with its tiny hand. Xiaohe waits behind it with the lit brass lantern. The lighthouse is visible high above.",
+      "motion_prompt_en": "Yuandian brushes wet leaves from one stair, then turns its gaze toward Xiaohe. Xiaohe gives a small grateful smile and steps onto the cleared stair.",
+      "visual_prompt_en": "At the foot of a long steep stone stairway, Yuandian stands beside a small pile of wet leaves, clearing the first step with its tiny hand. Xiaohe waits behind it with the lit brass lantern. The lighthouse is visible high above. Yuandian brushes wet leaves from one stair, then turns its gaze toward Xiaohe. Xiaohe gives a small grateful smile and steps onto the cleared stair.",
+      "narration_zh": "圆点没有说话，只把路上的落叶扫开。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "叶片摩擦石面；轻轻的电子回应。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "圆点没有说话，只把路上的落叶扫开。",
+        "speaker": "single_narrator",
+        "start_seconds": 71.0,
+        "end_seconds": 79.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "圆点没有说话，只把路上的落叶扫开。",
+        "start_seconds": 71.0,
+        "end_seconds": 79.0
+      }
+    },
+    {
+      "id": "S09",
+      "start_seconds": 80,
+      "end_seconds": 90,
+      "duration_seconds": 10,
+      "title_zh": "往上走",
+      "framing": "wide",
+      "location_zh": "盘山石阶",
+      "story_action_zh": "伙伴沿着蜿蜒石阶爬升，城市渐渐远去。",
+      "keyframe_prompt_en": "A dramatic wide view of a winding hillside stairway above the rain city. Xiaohe and Yuandian appear small but recognizable on the stairs, her mustard coat and their amber lantern the only warm colors. The lighthouse looms ahead.",
+      "motion_prompt_en": "Slow crane upward as the pair climb a short stretch of stairs. Rain streams down the stone gutters. Keep the same route and two characters.",
+      "visual_prompt_en": "A dramatic wide view of a winding hillside stairway above the rain city. Xiaohe and Yuandian appear small but recognizable on the stairs, her mustard coat and their amber lantern the only warm colors. The lighthouse looms ahead. Slow crane upward as the pair climb a short stretch of stairs. Rain streams down the stone gutters. Keep the same route and two characters.",
+      "narration_zh": "一百级，又一百级。灯塔仍在雨的另一头。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "喘息与脚步；音乐逐渐累积。",
+      "transition_to_next": "soft dissolve within shot boundaries",
+      "voice": {
+        "text_zh": "一百级，又一百级。灯塔仍在雨的另一头。",
+        "speaker": "single_narrator",
+        "start_seconds": 81.0,
+        "end_seconds": 89.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "一百级，又一百级。灯塔仍在雨的另一头。",
+        "start_seconds": 81.0,
+        "end_seconds": 89.0
+      }
+    },
+    {
+      "id": "S10",
+      "start_seconds": 90,
+      "end_seconds": 100,
+      "duration_seconds": 10,
+      "title_zh": "风桥",
+      "framing": "wide",
+      "location_zh": "山腰旧桥",
+      "story_action_zh": "他们来到横跨深沟的旧石桥，风雨明显增强。",
+      "keyframe_prompt_en": "Xiaohe and Yuandian stand at the entrance to a narrow old stone bridge over a deep misty ravine. The bridge is intact but exposed to strong wind. The lantern flame bends behind its glass. The hem of Xiaohe’s rain jacket is pushed sideways.",
+      "motion_prompt_en": "Camera slowly advances toward the bridge. Gusts push the rain diagonally; Xiaohe braces her feet and shields the lantern with her shoulder. Yuandian leans into the wind.",
+      "visual_prompt_en": "Xiaohe and Yuandian stand at the entrance to a narrow old stone bridge over a deep misty ravine. The bridge is intact but exposed to strong wind. The lantern flame bends behind its glass. The hem of Xiaohe’s rain jacket is pushed sideways. Camera slowly advances toward the bridge. Gusts push the rain diagonally; Xiaohe braces her feet and shields the lantern with her shoulder. Yuandian leans into the wind.",
+      "narration_zh": "到了风桥，雨忽然横着落下来。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "强风突然进入；弦乐低音增加。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "到了风桥，雨忽然横着落下来。",
+        "speaker": "single_narrator",
+        "start_seconds": 91.0,
+        "end_seconds": 99.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "到了风桥，雨忽然横着落下来。",
+        "start_seconds": 91.0,
+        "end_seconds": 99.0
+      }
+    },
+    {
+      "id": "S11",
+      "start_seconds": 100,
+      "end_seconds": 110,
+      "duration_seconds": 10,
+      "title_zh": "灯将熄灭",
+      "framing": "close",
+      "location_zh": "风桥",
+      "story_action_zh": "灯罩出现细裂纹，小禾努力护住摇晃的火苗。",
+      "keyframe_prompt_en": "Tight view of the same brass lantern in Xiaohe’s hands on the stormy bridge. One glass panel has a fine visible crack. The small amber flame is weak and bent by a draft. Her yellow sleeves frame the lantern.",
+      "motion_prompt_en": "The flame flickers urgently while rain beads move across cracked glass. Xiaohe curls her hands protectively around the frame. Gentle handheld tension, without abrupt camera shake.",
+      "visual_prompt_en": "Tight view of the same brass lantern in Xiaohe’s hands on the stormy bridge. One glass panel has a fine visible crack. The small amber flame is weak and bent by a draft. Her yellow sleeves frame the lantern. The flame flickers urgently while rain beads move across cracked glass. Xiaohe curls her hands protectively around the frame. Gentle handheld tension, without abrupt camera shake.",
+      "narration_zh": "玻璃裂了。最后的火苗，开始发抖。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "玻璃轻响，风声压过旋律。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "玻璃裂了。最后的火苗，开始发抖。",
+        "speaker": "single_narrator",
+        "start_seconds": 101.0,
+        "end_seconds": 109.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "玻璃裂了。最后的火苗，开始发抖。",
+        "start_seconds": 101.0,
+        "end_seconds": 109.0
+      }
+    },
+    {
+      "id": "S12",
+      "start_seconds": 110,
+      "end_seconds": 120,
+      "duration_seconds": 10,
+      "title_zh": "圆点挡风",
+      "framing": "medium",
+      "location_zh": "风桥",
+      "story_action_zh": "圆点用身体挡在灯前，右臂在风中受损垂下。",
+      "keyframe_prompt_en": "Yuandian braces its round cream body between the lantern and the wind on the bridge. Its right flipper-like arm is visibly bent and hanging low. Xiaohe crouches immediately behind the robot, protecting the lantern. Avoid detached parts or sparks near the flame.",
+      "motion_prompt_en": "Yuandian leans forward to shield the lantern, its teal eyes bright with determination but determined. Its damaged right arm trembles once and stays lowered. Xiaohe reaches toward the robot.",
+      "visual_prompt_en": "Yuandian braces its round cream body between the lantern and the wind on the bridge. Its right flipper-like arm is visibly bent and hanging low. Xiaohe crouches immediately behind the robot, protecting the lantern. Avoid detached parts or sparks near the flame. Yuandian leans forward to shield the lantern, its teal eyes bright with determination but determined. Its damaged right arm trembles once and stays lowered. Xiaohe reaches toward the robot.",
+      "narration_zh": "圆点扑到灯前，把自己变成了一面墙。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "金属受力声，一声断续电子鸣音。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "圆点扑到灯前，把自己变成了一面墙。",
+        "speaker": "single_narrator",
+        "start_seconds": 111.0,
+        "end_seconds": 119.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "圆点扑到灯前，把自己变成了一面墙。",
+        "start_seconds": 111.0,
+        "end_seconds": 119.0
+      }
+    },
+    {
+      "id": "S13",
+      "start_seconds": 120,
+      "end_seconds": 130,
+      "duration_seconds": 10,
+      "title_zh": "先救伙伴",
+      "framing": "close",
+      "location_zh": "风桥桥头",
+      "story_action_zh": "小禾在安全桥头蹲下，圆点的蓝眼开始变暗。",
+      "keyframe_prompt_en": "At the sheltered far end of the bridge, Xiaohe kneels beside Yuandian. The robot sits exhausted with its damaged right arm lowered and two large teal eyes dim. The lantern stands on the ground next to Xiaohe, still flickering weakly.",
+      "motion_prompt_en": "Xiaohe gently steadies Yuandian’s body with both hands, looking into its dim eye. Yuandian tries to rise, then settles back. Hold the emotional close-up without changing location.",
+      "visual_prompt_en": "At the sheltered far end of the bridge, Xiaohe kneels beside Yuandian. The robot sits exhausted with its damaged right arm lowered and two large teal eyes dim. The lantern stands on the ground next to Xiaohe, still flickering weakly. Xiaohe gently steadies Yuandian’s body with both hands, looking into its dim eye. Yuandian tries to rise, then settles back. Hold the emotional close-up without changing location.",
+      "narration_zh": "灯还亮着，圆点却快走不动了。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "风声稍远，音乐停下一拍。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "灯还亮着，圆点却快走不动了。",
+        "speaker": "single_narrator",
+        "start_seconds": 121.0,
+        "end_seconds": 129.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "灯还亮着，圆点却快走不动了。",
+        "start_seconds": 121.0,
+        "end_seconds": 129.0
+      }
+    },
+    {
+      "id": "S14",
+      "start_seconds": 130,
+      "end_seconds": 140,
+      "duration_seconds": 10,
+      "title_zh": "没有放下你",
+      "framing": "medium",
+      "location_zh": "石檐下",
+      "story_action_zh": "小禾从红挎包取出一条布带，包好圆点受损的右臂。",
+      "keyframe_prompt_en": "Under a stone overhang, Xiaohe kneels beside Yuandian. A narrow cream-colored cloth bandage is wrapped around its damaged right flipper-like arm as a gentle support. Her red canvas satchel is open beside her. The weak antique brass lantern rests safely on a flat stone.",
+      "motion_prompt_en": "Xiaohe carefully finishes one simple wrap of the cloth bandage around the robot’s damaged right arm. Yuandian raises its two teal eyes toward her. Slow intimate camera push, calm gentle gestures.",
+      "visual_prompt_en": "Under a stone overhang, Xiaohe kneels beside Yuandian. A narrow cream-colored cloth bandage is wrapped around its damaged right flipper-like arm as a gentle support. Her red canvas satchel is open beside her. The weak antique brass lantern rests safely on a flat stone. Xiaohe carefully finishes one simple wrap of the cloth bandage around the robot’s damaged right arm. Yuandian raises its two teal eyes toward her. Slow intimate camera push, calm gentle gestures.",
+      "narration_zh": "她可以先送灯。她却停下来，为圆点包好手臂。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "布料摩擦声，单音钢琴重现。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "她可以先送灯。她却停下来，为圆点包好手臂。",
+        "speaker": "single_narrator",
+        "start_seconds": 131.0,
+        "end_seconds": 139.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "她可以先送灯。她却停下来，为圆点包好手臂。",
+        "start_seconds": 131.0,
+        "end_seconds": 139.0
+      }
+    },
+    {
+      "id": "S15",
+      "start_seconds": 140,
+      "end_seconds": 150,
+      "duration_seconds": 10,
+      "title_zh": "一起到山顶",
+      "framing": "medium",
+      "location_zh": "石檐出口",
+      "story_action_zh": "小禾抱起圆点，另一只手提灯，继续登山。",
+      "keyframe_prompt_en": "Xiaohe stands at the edge of the shelter carrying Yuandian against her left side and holding the brass lantern in her right hand. A narrow cream-colored cloth bandage supports Yuandian’s damaged right arm. The red canvas shoulder satchel remains across Xiaohe’s body.",
+      "motion_prompt_en": "Xiaohe adjusts the robot securely against her side, takes a determined breath, and steps out into the rain. Yuandian rests its teal eyes toward her face.",
+      "visual_prompt_en": "Xiaohe stands at the edge of the shelter carrying Yuandian against her left side and holding the brass lantern in her right hand. A narrow cream-colored cloth bandage supports Yuandian’s damaged right arm. The red canvas shoulder satchel remains across Xiaohe’s body. Xiaohe adjusts the robot securely against her side, takes a determined breath, and steps out into the rain. Yuandian rests its teal eyes toward her face.",
+      "narration_zh": "“说好一起到山顶，就一个也不能少。”",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "旁白读引号句，角色无需明显口型；音乐重新上行。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "“说好一起到山顶，就一个也不能少。”",
+        "speaker": "single_narrator",
+        "start_seconds": 141.0,
+        "end_seconds": 149.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "“说好一起到山顶，就一个也不能少。”",
+        "start_seconds": 141.0,
+        "end_seconds": 149.0
+      }
+    },
+    {
+      "id": "S16",
+      "start_seconds": 150,
+      "end_seconds": 160,
+      "duration_seconds": 10,
+      "title_zh": "微光与脚步",
+      "framing": "close",
+      "location_zh": "最后一段台阶",
+      "story_action_zh": "沉重脚步继续向上，灯光越来越弱。",
+      "keyframe_prompt_en": "Low close view of Xiaohe’s dark boots climbing wet steep stone steps. The brass lantern hangs close to her right knee with a very faint flame. The bottom of her mustard coat moves in the rain. Yuandian is carried above the frame.",
+      "motion_prompt_en": "Track slowly beside Xiaohe’s boots as she climbs several steps. The lantern swings gently and its tiny flame dips, then briefly recovers. No running or falling.",
+      "visual_prompt_en": "Low close view of Xiaohe’s dark boots climbing wet steep stone steps. The brass lantern hangs close to her right knee with a very faint flame. The bottom of her mustard coat moves in the rain. Yuandian is carried above the frame. Track slowly beside Xiaohe’s boots as she climbs several steps. The lantern swings gently and its tiny flame dips, then briefly recovers. No running or falling.",
+      "narration_zh": "她走得更慢了。每一步，都替两个人走。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "有节奏的沉重脚步，渐弱的风。",
+      "transition_to_next": "soft dissolve within shot boundaries",
+      "voice": {
+        "text_zh": "她走得更慢了。每一步，都替两个人走。",
+        "speaker": "single_narrator",
+        "start_seconds": 151.0,
+        "end_seconds": 159.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "她走得更慢了。每一步，都替两个人走。",
+        "start_seconds": 151.0,
+        "end_seconds": 159.0
+      }
+    },
+    {
+      "id": "S17",
+      "start_seconds": 160,
+      "end_seconds": 170,
+      "duration_seconds": 10,
+      "title_zh": "灯塔终于到了",
+      "framing": "wide",
+      "location_zh": "山顶平台",
+      "story_action_zh": "小禾抱着圆点终于抵达灯塔平台，暴雨仍未停。",
+      "keyframe_prompt_en": "Xiaohe reaches the hilltop lighthouse platform carrying Yuandian. An enormous circular beacon lens is visible through an open stone arch. The weak brass lantern glows in her right hand; the city lies far below through mist.",
+      "motion_prompt_en": "Camera slowly widens to reveal the huge dark beacon above the small exhausted pair. Xiaohe crosses the final few steps toward the open arch.",
+      "visual_prompt_en": "Xiaohe reaches the hilltop lighthouse platform carrying Yuandian. An enormous circular beacon lens is visible through an open stone arch. The weak brass lantern glows in her right hand; the city lies far below through mist. Camera slowly widens to reveal the huge dark beacon above the small exhausted pair. Xiaohe crosses the final few steps toward the open arch.",
+      "narration_zh": "终于，灯塔就在眼前。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "雨声变空旷，脚步出现石室回声。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "终于，灯塔就在眼前。",
+        "speaker": "single_narrator",
+        "start_seconds": 161.0,
+        "end_seconds": 169.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "终于，灯塔就在眼前。",
+        "start_seconds": 161.0,
+        "end_seconds": 169.0
+      }
+    },
+    {
+      "id": "S18",
+      "start_seconds": 170,
+      "end_seconds": 180,
+      "duration_seconds": 10,
+      "title_zh": "放上最后一盏",
+      "framing": "medium",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "小禾把铜灯轻轻放入灯塔中央的圆形灯座。",
+      "keyframe_prompt_en": "Inside the lighthouse chamber, a large circular glass beacon lens surrounds a simple central stone pedestal. Xiaohe holds the brass lantern just above the pedestal. Yuandian sits beside her, damaged right arm supported by a cream cloth bandage.",
+      "motion_prompt_en": "Xiaohe gently lowers the lantern onto the center of the pedestal and removes her hands. A faint amber glint crosses the enormous lens. Keep the beacon unlit otherwise.",
+      "visual_prompt_en": "Inside the lighthouse chamber, a large circular glass beacon lens surrounds a simple central stone pedestal. Xiaohe holds the brass lantern just above the pedestal. Yuandian sits beside her, damaged right arm supported by a cream cloth bandage. Xiaohe gently lowers the lantern onto the center of the pedestal and removes her hands. A faint amber glint crosses the enormous lens. Keep the beacon unlit otherwise.",
+      "narration_zh": "她把最后一盏灯，放进了灯塔的心口。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "铜框轻触石台；音乐悬停。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "她把最后一盏灯，放进了灯塔的心口。",
+        "speaker": "single_narrator",
+        "start_seconds": 171.0,
+        "end_seconds": 179.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "她把最后一盏灯，放进了灯塔的心口。",
+        "start_seconds": 171.0,
+        "end_seconds": 179.0
+      }
+    },
+    {
+      "id": "S19",
+      "start_seconds": 180,
+      "end_seconds": 190,
+      "duration_seconds": 10,
+      "title_zh": "熄灭",
+      "framing": "close",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "铜灯中的火苗突然熄灭，画面陷入蓝灰色。",
+      "keyframe_prompt_en": "Extreme close-up of the brass lantern resting on the lighthouse pedestal. Its small flame has shrunk to a thin amber point. The cracked glass and worn brass are clearly visible. Cold gray storm light surrounds it.",
+      "motion_prompt_en": "The tiny flame slowly contracts and goes out completely, leaving a thread of smoke. The warm reflection fades from the glass. Hold on the darkness at the end.",
+      "visual_prompt_en": "Extreme close-up of the brass lantern resting on the lighthouse pedestal. Its small flame has shrunk to a thin amber point. The cracked glass and worn brass are clearly visible. Cold gray storm light surrounds it. The tiny flame slowly contracts and goes out completely, leaving a thread of smoke. The warm reflection fades from the glass. Hold on the darkness at the end.",
+      "narration_zh": "可就在那一刻，火灭了。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "短促气流声，音乐停止，留下雨声。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "可就在那一刻，火灭了。",
+        "speaker": "single_narrator",
+        "start_seconds": 181.0,
+        "end_seconds": 189.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "可就在那一刻，火灭了。",
+        "start_seconds": 181.0,
+        "end_seconds": 189.0
+      }
+    },
+    {
+      "id": "S20",
+      "start_seconds": 190,
+      "end_seconds": 200,
+      "duration_seconds": 10,
+      "title_zh": "失去颜色的愿望",
+      "framing": "close",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "小禾低头坐在石台旁，圆点靠近她。",
+      "keyframe_prompt_en": "Xiaohe sits on the stone floor beside the unlit lantern pedestal, rain on her face, shoulders lowered. Yuandian sits close beside her, dim teal eyes turned upward. Her red canvas satchel is still visible; its right arm remains supported by the cream cloth bandage.",
+      "motion_prompt_en": "Xiaohe lowers her gaze and slowly opens her empty hands. Yuandian gently touches the edge of her sleeve with its intact left hand. Camera stays still and patient.",
+      "visual_prompt_en": "Xiaohe sits on the stone floor beside the unlit lantern pedestal, rain on her face, shoulders lowered. Yuandian sits close beside her, dim teal eyes turned upward. Her red canvas satchel is still visible; its right arm remains supported by the cream cloth bandage. Xiaohe lowers her gaze and slowly opens her empty hands. Yuandian gently touches the edge of her sleeve with its intact left hand. Camera stays still and patient.",
+      "narration_zh": "她已经把能带来的，都带到了这里。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "安静雨声，机器人轻碰布料。",
+      "transition_to_next": "soft dissolve within shot boundaries",
+      "voice": {
+        "text_zh": "她已经把能带来的，都带到了这里。",
+        "speaker": "single_narrator",
+        "start_seconds": 191.0,
+        "end_seconds": 199.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "她已经把能带来的，都带到了这里。",
+        "start_seconds": 191.0,
+        "end_seconds": 199.0
+      }
+    },
+    {
+      "id": "S21",
+      "start_seconds": 200,
+      "end_seconds": 210,
+      "duration_seconds": 10,
+      "title_zh": "心里还有光",
+      "framing": "close",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "圆点打开胸口，露出仍在发光的小小琥珀心核。",
+      "keyframe_prompt_en": "Close view of Yuandian beside Xiaohe. Its circular chest hatch is open, revealing a small glowing amber crystal heart. Its two teal eyes are gentle and dim; damaged right arm is supported by a cream cloth bandage. Xiaohe’s hand rests nearby.",
+      "motion_prompt_en": "The robot opens its small chest hatch fully and reveals the warm crystal. Amber light slowly reaches Xiaohe’s fingers. Yuandian looks from its heart toward the empty lantern.",
+      "visual_prompt_en": "Close view of Yuandian beside Xiaohe. Its circular chest hatch is open, revealing a small glowing amber crystal heart. Its two teal eyes are gentle and dim; damaged right arm is supported by a cream cloth bandage. Xiaohe’s hand rests nearby. The robot opens its small chest hatch fully and reveals the warm crystal. Amber light slowly reaches Xiaohe’s fingers. Yuandian looks from its heart toward the empty lantern.",
+      "narration_zh": "圆点胸口，还有一点光。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "清亮柔和的心核音，钢琴单音回应。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "圆点胸口，还有一点光。",
+        "speaker": "single_narrator",
+        "start_seconds": 201.0,
+        "end_seconds": 209.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "圆点胸口，还有一点光。",
+        "start_seconds": 201.0,
+        "end_seconds": 209.0
+      }
+    },
+    {
+      "id": "S22",
+      "start_seconds": 210,
+      "end_seconds": 220,
+      "duration_seconds": 10,
+      "title_zh": "没有代价的答案",
+      "framing": "close",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "小禾挡住圆点递出心核的动作，凝视它的眼睛。",
+      "keyframe_prompt_en": "Xiaohe kneels face to face with Yuandian. The robot holds a tiny glowing amber crystal in its intact left hand above the open chest hatch. Xiaohe gently cups the robot’s hand, stopping it from giving away the whole heart.",
+      "motion_prompt_en": "Xiaohe softly shakes her head once and closes her fingers gently around the robot’s hand. Yuandian pauses, its two teal eyes fixed on her. No forceful struggle, no extra characters.",
+      "visual_prompt_en": "Xiaohe kneels face to face with Yuandian. The robot holds a tiny glowing amber crystal in its intact left hand above the open chest hatch. Xiaohe gently cups the robot’s hand, stopping it from giving away the whole heart. Xiaohe softly shakes her head once and closes her fingers gently around the robot’s hand. Yuandian pauses, its two teal eyes fixed on her. No forceful struggle, no extra characters.",
+      "narration_zh": "它愿意把心交出去。小禾却摇了摇头。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "音乐温柔而克制。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "它愿意把心交出去。小禾却摇了摇头。",
+        "speaker": "single_narrator",
+        "start_seconds": 211.0,
+        "end_seconds": 219.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "它愿意把心交出去。小禾却摇了摇头。",
+        "start_seconds": 211.0,
+        "end_seconds": 219.0
+      }
+    },
+    {
+      "id": "S23",
+      "start_seconds": 220,
+      "end_seconds": 230,
+      "duration_seconds": 10,
+      "title_zh": "把光分成两份",
+      "framing": "close",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "小禾将心核中的光分成两粒，掌中各留一小点温暖。",
+      "keyframe_prompt_en": "A poetic close-up of Xiaohe’s cupped hands holding two tiny separate amber crystal fragments, each glowing faintly. Yuandian’s open chest and the dark brass lantern are softly visible behind her hands. This is gentle storybook magic, no tools, no violent breaking.",
+      "motion_prompt_en": "A delicate warm thread of light between the two crystal fragments slowly separates. Each fragment keeps a small steady glow. Xiaohe carefully opens her hands to reveal both lights.",
+      "visual_prompt_en": "A poetic close-up of Xiaohe’s cupped hands holding two tiny separate amber crystal fragments, each glowing faintly. Yuandian’s open chest and the dark brass lantern are softly visible behind her hands. This is gentle storybook magic, no tools, no violent breaking. A delicate warm thread of light between the two crystal fragments slowly separates. Each fragment keeps a small steady glow. Xiaohe carefully opens her hands to reveal both lights.",
+      "narration_zh": "“那就分一点给灯，也留一点给你。”",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "柔和铃音；这句作为旁白，无口型要求。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "“那就分一点给灯，也留一点给你。”",
+        "speaker": "single_narrator",
+        "start_seconds": 221.0,
+        "end_seconds": 229.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "“那就分一点给灯，也留一点给你。”",
+        "start_seconds": 221.0,
+        "end_seconds": 229.0
+      }
+    },
+    {
+      "id": "S24",
+      "start_seconds": 230,
+      "end_seconds": 240,
+      "duration_seconds": 10,
+      "title_zh": "两盏小小的灯",
+      "framing": "medium",
+      "location_zh": "灯塔内部",
+      "story_action_zh": "一半心核回到圆点胸中，一半在铜灯中发亮。",
+      "keyframe_prompt_en": "Xiaohe stands between the pedestal and Yuandian. The brass lantern now holds one tiny amber crystal glowing weakly, while Yuandian’s closed chest hatch glows faintly from the other half. The robot’s teal eyes are awake. Both warm points are visible together.",
+      "motion_prompt_en": "Yuandian’s teal eyes gradually brightens as the lantern’s small amber glow steadies. Xiaohe looks from the robot to the lantern with cautious hope. Camera gently pulls back to include both lights.",
+      "visual_prompt_en": "Xiaohe stands between the pedestal and Yuandian. The brass lantern now holds one tiny amber crystal glowing weakly, while Yuandian’s closed chest hatch glows faintly from the other half. The robot’s teal eyes are awake. Both warm points are visible together. Yuandian’s teal eyes gradually brightens as the lantern’s small amber glow steadies. Xiaohe looks from the robot to the lantern with cautious hope. Camera gently pulls back to include both lights.",
+      "narration_zh": "两点微光都很小。但谁也没有消失。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "两声轻微呼应的铃音，音乐缓缓恢复。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "两点微光都很小。但谁也没有消失。",
+        "speaker": "single_narrator",
+        "start_seconds": 231.0,
+        "end_seconds": 239.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "两点微光都很小。但谁也没有消失。",
+        "start_seconds": 231.0,
+        "end_seconds": 239.0
+      }
+    },
+    {
+      "id": "S25",
+      "start_seconds": 240,
+      "end_seconds": 250,
+      "duration_seconds": 10,
+      "title_zh": "请看见我们",
+      "framing": "wide",
+      "location_zh": "灯塔外部",
+      "story_action_zh": "灯塔向灰暗城市闪出一次微弱却清晰的暖光。",
+      "keyframe_prompt_en": "Exterior wide shot of the hilltop lighthouse above the dark city in heavy mist. A very small amber glow sits inside its great circular lens, almost overwhelmed by the cold storm. The city windows below are still mostly dark.",
+      "motion_prompt_en": "One soft amber pulse travels through the lighthouse lens and briefly reaches the rooftops below. Hold the dark city after the pulse; do not instantly light every window.",
+      "visual_prompt_en": "Exterior wide shot of the hilltop lighthouse above the dark city in heavy mist. A very small amber glow sits inside its great circular lens, almost overwhelmed by the cold storm. The city windows below are still mostly dark. One soft amber pulse travels through the lighthouse lens and briefly reaches the rooftops below. Hold the dark city after the pulse; do not instantly light every window.",
+      "narration_zh": "灯塔只亮了一下，像轻轻说了声：我们在。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "轻柔低频脉冲，雨声开始变细。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "灯塔只亮了一下，像轻轻说了声：我们在。",
+        "speaker": "single_narrator",
+        "start_seconds": 241.0,
+        "end_seconds": 249.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "灯塔只亮了一下，像轻轻说了声：我们在。",
+        "start_seconds": 241.0,
+        "end_seconds": 249.0
+      }
+    },
+    {
+      "id": "S26",
+      "start_seconds": 250,
+      "end_seconds": 260,
+      "duration_seconds": 10,
+      "title_zh": "第一声回应",
+      "framing": "close",
+      "location_zh": "曾经过的街窗",
+      "story_action_zh": "最早那扇窗打开，居民举起一盏小小的暖灯。",
+      "keyframe_prompt_en": "Return to the same narrow street window seen earlier. The wooden shutter is now open. Anonymous resident hands hold a tiny warm household lantern just inside the window. The surrounding street remains cold and dark. No readable signs or recurring face required.",
+      "motion_prompt_en": "The hands gently lift the small glowing lantern into the open window. Its warm light touches the wet wall. Camera slowly pushes toward this single first response.",
+      "visual_prompt_en": "Return to the same narrow street window seen earlier. The wooden shutter is now open. Anonymous resident hands hold a tiny warm household lantern just inside the window. The surrounding street remains cold and dark. No readable signs or recurring face required. The hands gently lift the small glowing lantern into the open window. Its warm light touches the wet wall. Camera slowly pushes toward this single first response.",
+      "narration_zh": "山脚下，第一扇窗回应了它。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "木窗打开，音乐主题轻轻出现。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "山脚下，第一扇窗回应了它。",
+        "speaker": "single_narrator",
+        "start_seconds": 251.0,
+        "end_seconds": 259.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "山脚下，第一扇窗回应了它。",
+        "start_seconds": 251.0,
+        "end_seconds": 259.0
+      }
+    },
+    {
+      "id": "S27",
+      "start_seconds": 260,
+      "end_seconds": 270,
+      "duration_seconds": 10,
+      "title_zh": "一座城的回应",
+      "framing": "wide",
+      "location_zh": "雨城街区",
+      "story_action_zh": "暖光一扇接一扇出现，从街角一路连向山顶。",
+      "keyframe_prompt_en": "A sweeping elevated view across the hillside city, with scattered amber windows beginning to glow among many dark ones. Steep streets connect the houses toward the lighthouse. The storm clouds are starting to thin.",
+      "motion_prompt_en": "Warm lights gradually appear in neighboring windows in a clear spreading sequence. The glow travels slowly up the hillside streets, while the camera glides above the rooftops.",
+      "visual_prompt_en": "A sweeping elevated view across the hillside city, with scattered amber windows beginning to glow among many dark ones. Steep streets connect the houses toward the lighthouse. The storm clouds are starting to thin. Warm lights gradually appear in neighboring windows in a clear spreading sequence. The glow travels slowly up the hillside streets, while the camera glides above the rooftops.",
+      "narration_zh": "然后是一条街。再然后，是整座城。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "渐强弦乐，远处风铃与轻微城市苏醒声。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "然后是一条街。再然后，是整座城。",
+        "speaker": "single_narrator",
+        "start_seconds": 261.0,
+        "end_seconds": 269.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "然后是一条街。再然后，是整座城。",
+        "start_seconds": 261.0,
+        "end_seconds": 269.0
+      }
+    },
+    {
+      "id": "S28",
+      "start_seconds": 270,
+      "end_seconds": 280,
+      "duration_seconds": 10,
+      "title_zh": "雨城重新有了颜色",
+      "framing": "wide",
+      "location_zh": "灯塔与城市",
+      "story_action_zh": "众多微光汇入灯塔的镜片，城市迎来第一束晨光。",
+      "keyframe_prompt_en": "Wide cinematic view from beside the lighthouse lens across the city. Countless warm windows shine below. Pale sunrise breaks through thinning clouds, revealing muted greens, brick reds and soft blue roofs for the first time. The beacon lens catches the city lights.",
+      "motion_prompt_en": "The sunrise gradually expands through the cloud gap and sweeps gentle color across the rooftops. The lighthouse lens glows warmly with reflected light, without a destructive beam or explosion.",
+      "visual_prompt_en": "Wide cinematic view from beside the lighthouse lens across the city. Countless warm windows shine below. Pale sunrise breaks through thinning clouds, revealing muted greens, brick reds and soft blue roofs for the first time. The beacon lens catches the city lights. The sunrise gradually expands through the cloud gap and sweeps gentle color across the rooftops. The lighthouse lens glows warmly with reflected light, without a destructive beam or explosion.",
+      "narration_zh": "原来，光不是一个人撑住的。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "音乐达到温暖高潮；雨声退去。",
+      "transition_to_next": "soft dissolve within shot boundaries",
+      "voice": {
+        "text_zh": "原来，光不是一个人撑住的。",
+        "speaker": "single_narrator",
+        "start_seconds": 271.0,
+        "end_seconds": 279.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "原来，光不是一个人撑住的。",
+        "start_seconds": 271.0,
+        "end_seconds": 279.0
+      }
+    },
+    {
+      "id": "S29",
+      "start_seconds": 280,
+      "end_seconds": 290,
+      "duration_seconds": 10,
+      "title_zh": "一起看见清晨",
+      "framing": "medium",
+      "location_zh": "山顶平台",
+      "story_action_zh": "小禾与圆点并肩坐在平台边，看着重新有色彩的城市。",
+      "keyframe_prompt_en": "Xiaohe and Yuandian sit side by side safely on the broad lighthouse steps at dawn, looking over the colorful waking city. The cream cloth bandage remains around Yuandian’s damaged right arm; Xiaohe still wears her red canvas satchel. The brass lantern rests between them, still holding a tiny amber glow.",
+      "motion_prompt_en": "Slow gentle arc around the pair from behind toward a three-quarter view. Xiaohe smiles faintly and rests a hand beside Yuandian. Yuandian’s teal eyes glow steadily. Soft dawn wind moves her hair.",
+      "visual_prompt_en": "Xiaohe and Yuandian sit side by side safely on the broad lighthouse steps at dawn, looking over the colorful waking city. The cream cloth bandage remains around Yuandian’s damaged right arm; Xiaohe still wears her red canvas satchel. The brass lantern rests between them, still holding a tiny amber glow. Slow gentle arc around the pair from behind toward a three-quarter view. Xiaohe smiles faintly and rests a hand beside Yuandian. Yuandian’s teal eyes glow steadily. Soft dawn wind moves her hair.",
+      "narration_zh": "它要有人送去，也要有人愿意接住。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "音乐舒展，风声柔和，远处一声鸟鸣。",
+      "transition_to_next": "straight cut",
+      "voice": {
+        "text_zh": "它要有人送去，也要有人愿意接住。",
+        "speaker": "single_narrator",
+        "start_seconds": 281.0,
+        "end_seconds": 289.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "它要有人送去，也要有人愿意接住。",
+        "start_seconds": 281.0,
+        "end_seconds": 289.0
+      }
+    },
+    {
+      "id": "S30",
+      "start_seconds": 290,
+      "end_seconds": 300,
+      "duration_seconds": 10,
+      "title_zh": "新的送灯路",
+      "framing": "wide",
+      "location_zh": "下山石阶",
+      "story_action_zh": "两位伙伴带着小灯并肩下山，故事在清晨的道路上结束。",
+      "keyframe_prompt_en": "Xiaohe and Yuandian walk side by side down the broad hilltop steps into a softly colorful sunlit city. Xiaohe carries the same small brass lantern. Her red canvas satchel is visible; the cream cloth bandage still supports Yuandian’s damaged right arm. Their silhouettes are calm and hopeful.",
+      "motion_prompt_en": "Slow pullback as the two companions walk down several steps together. The lantern swings gently. Hold the sunlit city composition for the final two seconds, suitable for a clean fade to black in editing.",
+      "visual_prompt_en": "Xiaohe and Yuandian walk side by side down the broad hilltop steps into a softly colorful sunlit city. Xiaohe carries the same small brass lantern. Her red canvas satchel is visible; the cream cloth bandage still supports Yuandian’s damaged right arm. Their silhouettes are calm and hopeful. Slow pullback as the two companions walk down several steps together. The lantern swings gently. Hold the sunlit city composition for the final two seconds, suitable for a clean fade to black in editing.",
+      "narration_zh": "后来，他们继续送灯。把一点光，送到另一个人手中。",
+      "narration_offset_seconds": 1.0,
+      "narration_max_duration_seconds": 8.0,
+      "sound_direction_zh": "主题旋律轻轻收束，脚步声淡出。",
+      "transition_to_next": "fade to black over final 0.8 seconds within this shot",
+      "voice": {
+        "text_zh": "后来，他们继续送灯。把一点光，送到另一个人手中。",
+        "speaker": "single_narrator",
+        "start_seconds": 291.0,
+        "end_seconds": 299.0,
+        "timing_type": "allocated_window; replace end with measured synthesis duration",
+        "max_duration_seconds": 8.0,
+        "direction_zh": "温柔克制，童话叙事；引号句也由旁白读，不要求人物口型。"
+      },
+      "subtitle": {
+        "text_zh": "后来，他们继续送灯。把一点光，送到另一个人手中。",
+        "start_seconds": 291.0,
+        "end_seconds": 299.0
+      }
+    }
+  ],
+  "timing_requirements_zh": "每个作品分别记录：准备开始、首个 ComfyUI 队列提交、每镜生成开始/完成、失败与重试、海报图生成及排版完成、视频渲染开始/完成、播放/时长/抽帧验收完成。报告端到端墙钟耗时与实际推理耗时；共享剧本/音轨制作耗时单列，不重复算成十次。若任务交错执行，同时给各作品从首次制作到落地的历时和实际占用时长。"
+}

@@ -1,0 +1,22 @@
+{
+  "engine": "ltx",
+  "model": "LTX-Video 2B 0.9.8 distilled BF16",
+  "text_encoder": "T5XXL FP8",
+  "steps": 8,
+  "cfg": 1,
+  "sampler": "euler",
+  "source_width": 768,
+  "source_height": 448,
+  "source_frames_per_shot": 241,
+  "source_fps": 24,
+  "used_frames_per_shot": 240,
+  "shots_per_film": 30,
+  "duration_seconds_per_film": 300,
+  "approved_after_visual_test": true,
+  "require_frame_visual_review": true,
+  "visual_test_key": "benchmark_ltx_10s",
+  "benchmark_execution_seconds": 26.484,
+  "alternative_benchmark_h3_execution_seconds": 187.779,
+  "decision": "Local animation test retained both character designs and drawn art style with continuous movement across ten seconds. Selected for substantially faster production. Each final film uses 30 independently generated shots; no looping or retiming. Source is center-cropped to 16:9 and resized to 1280x720 for delivery; this is not native 720p generation.",
+  "require_motion_visual_review": true
+}

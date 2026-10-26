@@ -1,0 +1,568 @@
+{
+  "style_id": "06_oil",
+  "film_completed_at": "2026-10-20T11:14:18.754-05:00",
+  "published_at": "2026-10-20T11:14:30.299-05:00",
+  "publication_started_at": "2026-10-20T11:14:28.048-05:00",
+  "note": "These are the accepted original frames and clips used in this film. The edit uses the first 240 frames of each source clip and replaces any source sound with the shared Serena narration and music.",
+  "shots": [
+    {
+      "shot": "S01",
+      "frame": "source_frames/S01.png",
+      "frame_sha256": "e4b0bb0273d2160095ac6f6bc93d0df2cb18c5b956c1671ddfbc74bf6e007ae6",
+      "frame_job": "06_oil_S01_frame_v5",
+      "clip": "source_clips/S01.mp4",
+      "clip_sha256": "896297511558700d9862a4c9aceab45c42e7a65a554044b6759ae9a21385ae01",
+      "clip_job": "06_oil_S01_h3_matte_qc3",
+      "decoded_source_frames": 243,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        0,
+        10
+      ],
+      "postprocess": {
+        "description": "本地 ComfyUI 使用正确暗城原画固定建筑、山体、灯塔及被错误照亮的云层/光晕区域，保留其余深色天空的生成雨云细微运动；静止建立镜头采用明确记录的局部原画合成。",
+        "dependency_job_keys": [
+          "06_oil_S01_h3_qc2"
+        ],
+        "reference_frame": "source_frames/S01.png",
+        "assets": [
+          {
+            "role": "06_oil_S01_h3_qc2",
+            "path": "source_dependencies/06_oil_S01_h3_qc2_00001_.mp4",
+            "sha256": "b0b320a29a980619afce0c45b2f2de1bb871b645f8e81e7e28c268db53cd54c4"
+          },
+          {
+            "role": "composite_mask",
+            "path": "source_dependencies/06_oil_S01_h3_matte_qc3_foreground_mask.png",
+            "sha256": "0c5a91b3711e13443aa4cac7fc1b8088ae8f44918a945cb902ef1d907193d947"
+          }
+        ]
+      }
+    },
+    {
+      "shot": "S02",
+      "frame": "source_frames/S02.png",
+      "frame_sha256": "10b216bc50cc5df42861ad9ff681cee905de616f36d1148612fd88fc76741de9",
+      "frame_job": "06_oil_S02_frame_v4_light",
+      "clip": "source_clips/S02.mp4",
+      "clip_sha256": "139f0a6ea764c0f165716ede6afbae508f324261a4019563a7cd8b2c0aec4657",
+      "clip_job": "06_oil_S02_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        10,
+        20
+      ]
+    },
+    {
+      "shot": "S03",
+      "frame": "source_frames/S03.png",
+      "frame_sha256": "e79c35ed7813632bed25d3d31a67ba1f23b0aa942531e42e127579c5474b0e5a",
+      "frame_job": "06_oil_S03_frame_v6",
+      "clip": "source_clips/S03.mp4",
+      "clip_sha256": "1be64c174f729ca053f87ccd0a394b5b7de0226ee601c4fb0e74b0f29779f8a9",
+      "clip_job": "06_oil_S03_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        20,
+        30
+      ]
+    },
+    {
+      "shot": "S04",
+      "frame": "source_frames/S04.png",
+      "frame_sha256": "6986c94b329c57e49d7059b965cbf663d0905e30a6d711c2c50404205b01b0af",
+      "frame_job": "06_oil_S04_frame_v6",
+      "clip": "source_clips/S04.mp4",
+      "clip_sha256": "417996f61b23854b02e81e42fa9e242e937be9d02b561f17e925afda29ee1cd2",
+      "clip_job": "06_oil_S04_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        30,
+        40
+      ]
+    },
+    {
+      "shot": "S05",
+      "frame": "source_frames/S05.png",
+      "frame_sha256": "a2cefe8cdd9290091af418912fa53f868eae0d51312667e65ba0084766d71570",
+      "frame_job": "06_oil_S05_frame_v5",
+      "clip": "source_clips/S05.mp4",
+      "clip_sha256": "ce52e5517e64486791eaaf1185f4ac7a26e5bd1e1e64aca4d74d2dde826aa783",
+      "clip_job": "06_oil_S05_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        40,
+        50
+      ]
+    },
+    {
+      "shot": "S06",
+      "frame": "source_frames/S06.png",
+      "frame_sha256": "eb03c7f26f36321dcd2f0d94a413d6814e039c03a4e5fff28b4ff707302135ef",
+      "frame_job": "06_oil_S06_frame_v5",
+      "clip": "source_clips/S06.mp4",
+      "clip_sha256": "f460c208e08e21adbba9a263ff9afd8943e38336786f13158afc903c8a02b902",
+      "clip_job": "06_oil_S06_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        50,
+        60
+      ]
+    },
+    {
+      "shot": "S07",
+      "frame": "source_frames/S07.png",
+      "frame_sha256": "71d812193ba548bb3f187fe6f05a596d6538634bf3d94d2cfd5630e9649198a4",
+      "frame_job": "06_oil_S07_frame_v4_light",
+      "clip": "source_clips/S07.mp4",
+      "clip_sha256": "6b97f18a7dadc5fe5f796bedf25adab61d6e282ff9997952d5949a59fa25925c",
+      "clip_job": "06_oil_S07_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        60,
+        70
+      ]
+    },
+    {
+      "shot": "S08",
+      "frame": "source_frames/S08.png",
+      "frame_sha256": "a43df226c92eb051c518bcef9e54f1e850da528b638b4109035f3026b8d1f6f0",
+      "frame_job": "06_oil_S08_frame_v4_light",
+      "clip": "source_clips/S08.mp4",
+      "clip_sha256": "562333b4dd0349970f54288c0708e54b4ff16f7d99a51044a7b33e575db7f8a7",
+      "clip_job": "06_oil_S08_ltx_v3",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        70,
+        80
+      ]
+    },
+    {
+      "shot": "S09",
+      "frame": "source_frames/S09.png",
+      "frame_sha256": "b66aa8f4d9e6f9067aee0e7460e2510408502acf46a249ba1ebd7b04b3876b26",
+      "frame_job": "06_oil_S09_frame_v4_light",
+      "clip": "source_clips/S09.mp4",
+      "clip_sha256": "c3619ccc3bb0e40c40fa0e42b04b75a86e29e2796f41c540cb792e927bd76e52",
+      "clip_job": "06_oil_S09_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        80,
+        90
+      ]
+    },
+    {
+      "shot": "S10",
+      "frame": "source_frames/S10.png",
+      "frame_sha256": "025f848ab0042defbc2cc2eddd6d952592c4a2b7d728b17905ea922a20bffed4",
+      "frame_job": "06_oil_S10_frame_v6",
+      "clip": "source_clips/S10.mp4",
+      "clip_sha256": "0c6aa439d54c640c66085fb0e8b96063d1efe66e6adcc59892fdb0a48fac87d5",
+      "clip_job": "06_oil_S10_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        90,
+        100
+      ]
+    },
+    {
+      "shot": "S11",
+      "frame": "source_frames/S11.png",
+      "frame_sha256": "f2728ab118410df1fd059c6cd6542d0eac10705e869540900a0a7dc57d49dbe2",
+      "frame_job": "06_oil_S11_frame_v4_light",
+      "clip": "source_clips/S11.mp4",
+      "clip_sha256": "952758b484c94c8a66510ebbdbe9b8b106a4a64854b400c25866cc8408ebe7d0",
+      "clip_job": "06_oil_S11_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        100,
+        110
+      ]
+    },
+    {
+      "shot": "S12",
+      "frame": "source_frames/S12.png",
+      "frame_sha256": "9d04a8a75f705da29928d08653374d0da630ddf4d89c6ca45c61c35c3801c1e8",
+      "frame_job": "06_oil_S12_frame_v4_light",
+      "clip": "source_clips/S12.mp4",
+      "clip_sha256": "09fbb12271eeb179192229ef2752f9a178cc34e30ad069fcbd658df7b1446ffb",
+      "clip_job": "06_oil_S12_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        110,
+        120
+      ]
+    },
+    {
+      "shot": "S13",
+      "frame": "source_frames/S13.png",
+      "frame_sha256": "c330c6b0f2678f0f45b500a6ead7af41c8fb1b13e4ef3dbfbb9890d246d80f94",
+      "frame_job": "06_oil_S13_frame_v5",
+      "clip": "source_clips/S13.mp4",
+      "clip_sha256": "cd8cb4b582260964006689cfe6e6c7b104cb99a7c3690c263a5f49ca53288642",
+      "clip_job": "06_oil_S13_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        120,
+        130
+      ]
+    },
+    {
+      "shot": "S14",
+      "frame": "source_frames/S14.png",
+      "frame_sha256": "dc69d434997f744e84939026e5f2fa4d4a3f1a1df2da63f5fb3ec32faffc91f8",
+      "frame_job": "06_oil_S14_frame_v4_light",
+      "clip": "source_clips/S14.mp4",
+      "clip_sha256": "7950cc7286043195f9fe849b66ae9adfc8d65631c5bebf478a8d4211d0b75ead",
+      "clip_job": "06_oil_S14_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        130,
+        140
+      ]
+    },
+    {
+      "shot": "S15",
+      "frame": "source_frames/S15.png",
+      "frame_sha256": "a8bb785b07e1ee7290bddcfd4ad21db4c16afd866bc71d6b33046f70d989b4b4",
+      "frame_job": "06_oil_S15_frame_v4_light",
+      "clip": "source_clips/S15.mp4",
+      "clip_sha256": "719443c11278650d2df85a694681ecd7b345ac90562a178ed6602c8b22ad1219",
+      "clip_job": "06_oil_S15_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        140,
+        150
+      ]
+    },
+    {
+      "shot": "S16",
+      "frame": "source_frames/S16.png",
+      "frame_sha256": "fc49e145c5bca7346a6a75e3593385277aafcce17a6b0d69bcbbcb1ce416d9a3",
+      "frame_job": "06_oil_S16_frame_v4_light",
+      "clip": "source_clips/S16.mp4",
+      "clip_sha256": "903736c28b1654c77d13d8232331c2eae77b21692ec48c95fe7b264ba41a5f0a",
+      "clip_job": "06_oil_S16_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        150,
+        160
+      ]
+    },
+    {
+      "shot": "S17",
+      "frame": "source_frames/S17.png",
+      "frame_sha256": "0a0de5efc4b3ab6f85e393309ae18f0756af24541c78bf25e8e316acee5c16b4",
+      "frame_job": "06_oil_S17_frame_v5",
+      "clip": "source_clips/S17.mp4",
+      "clip_sha256": "350b2a86809ce0c8633a9540394f30b0381c82c5b39ee44f2ea55fcb5c521cc0",
+      "clip_job": "06_oil_S17_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        160,
+        170
+      ]
+    },
+    {
+      "shot": "S18",
+      "frame": "source_frames/S18.png",
+      "frame_sha256": "db511d419e2cdc051f478d112aefd3a82d02b4e442caea15232f0fdb239417e7",
+      "frame_job": "06_oil_S18_frame_v4_light",
+      "clip": "source_clips/S18.mp4",
+      "clip_sha256": "ae41c6d8a30c2d00f437d8f1e6e54cb1286bd6ccdf661a2dbd85196d1df8bf9d",
+      "clip_job": "06_oil_S18_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        170,
+        180
+      ]
+    },
+    {
+      "shot": "S19",
+      "frame": "source_frames/S19.png",
+      "frame_sha256": "e4e5fac2786dd8d3fb2dff562ba3546dc5d724fbd0cc5c6cee2cc7982365b9a2",
+      "frame_job": "06_oil_S19_frame_v5",
+      "clip": "source_clips/S19.mp4",
+      "clip_sha256": "6fab5e52778361abce5ae050ae689ae3e2f1d9805445b0e88aaadeb1519cd506",
+      "clip_job": "06_oil_S19_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        180,
+        190
+      ]
+    },
+    {
+      "shot": "S20",
+      "frame": "source_frames/S20.png",
+      "frame_sha256": "7f4a694ab7d8e0e3e8479be8c39f802272062b7aa48c47a0b58056f4ccf17f01",
+      "frame_job": "06_oil_S20_frame_v5",
+      "clip": "source_clips/S20.mp4",
+      "clip_sha256": "80a890ad5bea5d8d1be2105e608288ea05478347ebffc3539cdf070e050554a9",
+      "clip_job": "06_oil_S20_ltx_v5_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        190,
+        200
+      ]
+    },
+    {
+      "shot": "S21",
+      "frame": "source_frames/S21.png",
+      "frame_sha256": "5c742b27b798281dbdeb3476dc740d08f7ca7451293098d29f34ea9a2bd789f6",
+      "frame_job": "06_oil_S21_frame_v4_light",
+      "clip": "source_clips/S21.mp4",
+      "clip_sha256": "85d92099be03173d26469c9f487feb01c958e3da149313bd71aed2166ab77f61",
+      "clip_job": "06_oil_S21_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        200,
+        210
+      ]
+    },
+    {
+      "shot": "S22",
+      "frame": "source_frames/S22.png",
+      "frame_sha256": "eb156148dffe551db3ee3a503786e677fa22c034a71aad44910fcabc3698eda5",
+      "frame_job": "06_oil_S22_frame_v5",
+      "clip": "source_clips/S22.mp4",
+      "clip_sha256": "933bba9f5a4ace86f3ee46d581b6b490ddba6ba1379661bfdd8532fbdd783240",
+      "clip_job": "06_oil_S22_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        210,
+        220
+      ]
+    },
+    {
+      "shot": "S23",
+      "frame": "source_frames/S23.png",
+      "frame_sha256": "2d829401bb4c35739ac6000a2bd9ce9a37edad3576a05be18994c087098ac5d4",
+      "frame_job": "06_oil_S23_frame_v5",
+      "clip": "source_clips/S23.mp4",
+      "clip_sha256": "125808d4794f9872f6a1d0aa0bd7ef290f45f95ce2497512a2f35be6c853eb70",
+      "clip_job": "06_oil_S23_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        220,
+        230
+      ]
+    },
+    {
+      "shot": "S24",
+      "frame": "source_frames/S24.png",
+      "frame_sha256": "dc069874f9f39da70fc4ec171548ac86dd35f751a327388968352851ac904638",
+      "frame_job": "06_oil_S24_frame_v4_light",
+      "clip": "source_clips/S24.mp4",
+      "clip_sha256": "d531ac8c7b6d10c3685df143eee538aef2bb5f3ec457bc09f3f0250fdc9dd9b1",
+      "clip_job": "06_oil_S24_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        230,
+        240
+      ]
+    },
+    {
+      "shot": "S25",
+      "frame": "source_frames/S25.png",
+      "frame_sha256": "581a5467c0a274b0e7eaf61d2292f1a35edd946234196c3a7cc2c81cf98caed5",
+      "frame_job": "06_oil_S25_frame_v4_light",
+      "clip": "source_clips/S25.mp4",
+      "clip_sha256": "f7dae44d3ffb1e55c140f6ef6eeff111fa7e1d09126941523854adfa6c287562",
+      "clip_job": "06_oil_S25_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        240,
+        250
+      ]
+    },
+    {
+      "shot": "S26",
+      "frame": "source_frames/S26.png",
+      "frame_sha256": "cf6128002a08084805f0bcb0ebbcf7d4b2fcdc6b72c31ec31192979c97658254",
+      "frame_job": "06_oil_S26_frame_v4_light",
+      "clip": "source_clips/S26.mp4",
+      "clip_sha256": "f538c70e4b9e452673e298ea02c6902c7d8db3b71b01cf5c5277bb07ef3fdb5e",
+      "clip_job": "06_oil_S26_ltx_v4_safe",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        250,
+        260
+      ]
+    },
+    {
+      "shot": "S27",
+      "frame": "source_frames/S27.png",
+      "frame_sha256": "832ff8e46302c90e7445d0cd7f27b51d4e125859987c8332b7dffc01726c759e",
+      "frame_job": "06_oil_S27_frame_v4_light",
+      "clip": "source_clips/S27.mp4",
+      "clip_sha256": "a816574119016453570649af06edbe94420e15f77d731e776184f3ceb4de43ed",
+      "clip_job": "06_oil_S27_ltx_qc1",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        260,
+        270
+      ]
+    },
+    {
+      "shot": "S28",
+      "frame": "source_frames/S28.png",
+      "frame_sha256": "6d047e31456edd6ae27deaa3d0395c9de084bfb97fe12dbada0e5cd30ce08d52",
+      "frame_job": "06_oil_S28_frame_v4_light",
+      "clip": "source_clips/S28.mp4",
+      "clip_sha256": "8487a25afdf6548c704a2170e30991587a53a717bfc084b3f99b036f73ec61a8",
+      "clip_job": "06_oil_S28_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        270,
+        280
+      ]
+    },
+    {
+      "shot": "S29",
+      "frame": "source_frames/S29.png",
+      "frame_sha256": "8cc27c40b1663ffc1ca30840934eaf592e0b6b12a225936a0d9dbd3faa79ba75",
+      "frame_job": "06_oil_S29_frame_v4_light",
+      "clip": "source_clips/S29.mp4",
+      "clip_sha256": "af3e5276c9815988889a75dd61cc21ffa79ad437cd5a2bbb08fa20c8ba3eaf49",
+      "clip_job": "06_oil_S29_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        280,
+        290
+      ]
+    },
+    {
+      "shot": "S30",
+      "frame": "source_frames/S30.png",
+      "frame_sha256": "9a0dc5dde3b50d3f3fa736344290cabed2f8649a8429bb9eacba2f459b4010dd",
+      "frame_job": "06_oil_S30_frame_v4_light",
+      "clip": "source_clips/S30.mp4",
+      "clip_sha256": "ab5263d92d1ab9f25dbe655a0511954ad90250c45b654197941e83e67fe5f7dd",
+      "clip_job": "06_oil_S30_ltx_v2",
+      "decoded_source_frames": 241,
+      "used_frames": [
+        0,
+        239
+      ],
+      "timeline_seconds": [
+        290,
+        300
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "prompt": [
+    7,
+    "380c3d22-2db1-4037-a0e7-4d99cbd60a86",
+    {
+      "1": {
+        "class_type": "ImageOnlyCheckpointLoader",
+        "inputs": {
+          "ckpt_name": "hunyuan3d-dit-v2_fp16.safetensors"
+        }
+      },
+      "2": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "demo_robot.png"
+        }
+      },
+      "3": {
+        "class_type": "CLIPVisionEncode",
+        "inputs": {
+          "clip_vision": [
+            "1",
+            1
+          ],
+          "image": [
+            "2",
+            0
+          ],
+          "crop": "none"
+        }
+      },
+      "4": {
+        "class_type": "Hunyuan3Dv2Conditioning",
+        "inputs": {
+          "clip_vision_output": [
+            "3",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "ModelSamplingAuraFlow",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "shift": 1.0
+        }
+      },
+      "6": {
+        "class_type": "EmptyLatentHunyuan3Dv2",
+        "inputs": {
+          "resolution": 3072,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "5",
+            0
+          ],
+          "seed": 20261020,
+          "steps": 20,
+          "cfg": 5.0,
+          "sampler_name": "euler",
+          "scheduler": "normal",
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "4",
+            1
+          ],
+          "latent_image": [
+            "6",
+            0
+          ],
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecodeHunyuan3D",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "1",
+            2
+          ],
+          "num_chunks": 8000,
+          "octree_resolution": 128
+        }
+      },
+      "9": {
+        "class_type": "VoxelToMesh",
+        "inputs": {
+          "voxel": [
+            "8",
+            0
+          ],
+          "algorithm": "surface net",
+          "threshold": 0.6
+        }
+      },
+      "10": {
+        "class_type": "SaveGLB",
+        "inputs": {
+          "mesh": [
+            "9",
+            0
+          ],
+          "filename_prefix": "spark_demos/07_image_to_3d"
+        }
+      }
+    },
+    {
+      "create_time": 1792472392889
+    },
+    [
+      "10"
+    ]
+  ],
+  "outputs": {
+    "10": {
+      "3d": [
+        {
+          "filename": "07_image_to_3d_00001_.glb",
+          "subfolder": "spark_demos",
+          "type": "output",
+          "id": "cc6d846f-76c8-4166-a82e-fe5fb71fd064"
+        }
+      ],
+      "camera_info": [
+        null
+      ],
+      "model_3d_info": []
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "380c3d22-2db1-4037-a0e7-4d99cbd60a86",
+          "timestamp": 1792472392890
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "380c3d22-2db1-4037-a0e7-4d99cbd60a86",
+          "timestamp": 1792472392897
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "380c3d22-2db1-4037-a0e7-4d99cbd60a86",
+          "timestamp": 1792472411169
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "10": {
+      "node_id": "10",
+      "display_node": "10",
+      "parent_node": null,
+      "real_node_id": "10"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "14_veo_liveaction",
+  "label": "雨夜实录 · 真人实景童话",
+  "model_id": "veo3_1",
+  "prepared_at": "2026-10-25T02:45:41.617876-05:00",
+  "expected_seconds": 6.0,
+  "raw": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\raw.mp4",
+    "bytes": 20579579,
+    "sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7",
+    "video": {
+      "codec": "h264",
+      "width": 3840,
+      "height": 2160,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 144,
+      "duration_seconds": 6.0,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 5.958333333333333,
+      "time_base": "1/12288",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666696
+    },
+    "video_packets": {
+      "sha256": "0a782baab9ebcec270edab94c0e0a8fc4b6b11b3a2433ffa3eb5846ab3d2666f",
+      "packets": 144,
+      "bytes": 20371956
+    },
+    "preserved_in_place": true
+  },
+  "preview": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\preview.mp4",
+    "bytes": 20521981,
+    "sha256": "0b3bb37d31213a9ecb6416850fc8d81a9c580e4173869f5c5fddb4377a76c919",
+    "video": {
+      "codec": "h264",
+      "width": 3840,
+      "height": 2160,
+      "fps": 24.0,
+      "fps_fraction": "24/1",
+      "frame_count": 144,
+      "duration_seconds": 6.0,
+      "first_frame_seconds": 0.0,
+      "last_frame_seconds": 5.958333333333333,
+      "time_base": "1/12288",
+      "native_audio_streams": 1,
+      "frame_interval_min_seconds": 0.041666666666666075,
+      "frame_interval_max_seconds": 0.04166666666666696
+    },
+    "video_packets": {
+      "sha256": "0a782baab9ebcec270edab94c0e0a8fc4b6b11b3a2433ffa3eb5846ab3d2666f",
+      "packets": 144,
+      "bytes": 20371956
+    }
+  },
+  "audio": {
+    "source_start_seconds": 130.0,
+    "source_end_seconds": 136.0,
+    "speaker": "Serena",
+    "shot_id": "S14",
+    "text": "她可以先送灯。她却停下来，为圆点包好手臂。",
+    "speech_local_start_seconds": 1.0,
+    "speech_local_end_seconds": 5.800000000000011,
+    "tail_fade_seconds": 0.05,
+    "sample_rate": 48000,
+    "channels": 2,
+    "native_generated_audio_in_preview": false,
+    "master_path": "PROJECT_ROOT\\work\\rainlight_production\\audio\\master.wav",
+    "master_sha256": "05a32f39e1b079d81be2a0aaf2a19f7e0bf3ba1243c93efbdb2d4c49a1ef0a9a",
+    "cues_sha256": "b5ba831df8a3ab8014c414bccdfd360359f46bf601cf98666cbe120107da0750",
+    "verification": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 6.0,
+      "same_segment_correlation": 0.9998980477697432,
+      "coverage": 1.0,
+      "decoded_peak": 0.7963339686393738,
+      "passed": true
+    }
+  },
+  "contact": {
+    "path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\contact.jpg",
+    "sha256": "5d75f961c83cc1b67c6cf5eece04abfc9cb14068a0f9f0e0285226a25d13787c",
+    "frames": [
+      {
+        "position": 0,
+        "frame_index": 0,
+        "requested_seconds": 0.0,
+        "actual_seconds": 0.0
+      },
+      {
+        "position": 0.25,
+        "frame_index": 36,
+        "requested_seconds": 1.5,
+        "actual_seconds": 1.5
+      },
+      {
+        "position": 0.5,
+        "frame_index": 72,
+        "requested_seconds": 3.0,
+        "actual_seconds": 3.0
+      },
+      {
+        "position": 0.75,
+        "frame_index": 108,
+        "requested_seconds": 4.5,
+        "actual_seconds": 4.5
+      },
+      {
+        "position": 1,
+        "frame_index": 143,
+        "requested_seconds": 5.958333333333333,
+        "actual_seconds": 5.958333333333333
+      }
+    ]
+  },
+  "video_reencoded": false,
+  "video_speed_changed": false,
+  "frames_repeated_or_padded": false,
+  "subtitles_burned_in": false,
+  "technical_passed": true,
+  "human_visual_review": {
+    "id": "14_veo_liveaction",
+    "raw_sha256": "88d703aee33904b43d77dd2e0d8c2da3fe286f01c25f85fdff029a9c3bb246c7",
+    "raw_path": "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\raw.mp4",
+    "approved_for_pilot": true,
+    "approved_for_full_film": false,
+    "resolution": [
+      3840,
+      2160
+    ],
+    "fps": 24.0,
+    "container_duration_seconds": 6.016,
+    "reviewer": "storyboard",
+    "reviewed_at_utc": "2026-10-25T07:47:20.494097+00:00",
+    "method_zh": "亲看首帧、25%、50%、75%、末帧全景；补看头部f0/30/34/36/38/42/60/66/72/96/120/143和手部f0/12/24/36/48/60/72/84/96/108/120/143局部时序，重点核验眼灯、颈部和包扎关系。非逐帧无瑕疵保证。",
+    "evidence": [
+      "PROJECT_ROOT\\outputs\\rainlight_higgsfield\\pilot\\14_veo_liveaction\\contact.jpg",
+      "PROJECT_ROOT\\work\\higgsfield_five\\qa\\14_veo_liveaction_head.jpg",
+      "PROJECT_ROOT\\work\\higgsfield_five\\qa\\14_veo_liveaction_hands.jpg"
+    ],
+    "notes_zh": {
+      "样片结论": "通过展示样片验收：人物双手完成收紧布带并松手，机器人抬头回应，动作清楚；真实衣料、皮肤、雨景、铜灯与珐琅道具材质保持。",
+      "参考图原有偏差": "机器人起始图已为分离头身、机械手臂结构，非原剧情固定的一体球形；S14背景灯塔已亮。正式整片必须先统一造型和熄灯时间线。",
+      "眼部变化复核": "f34约1.417秒可见奶油色机械眼睑从上方盖下，f36约1.5秒接近闭合，f38约1.583秒闭合，f42约1.75秒重开，之后恢复完整青色圆眼。按完整时序更符合眨眼，不能仅由1.5秒抽帧判为眼灯异常消失。",
+      "颈部变化复核": "f66约2.75秒开始头部后仰露出黑色颈腔；f72约3秒至末帧可见颈腔内连接柱，头仍与身体相连，表面轮廓和材质保持。可解释为此参考道具的机械颈关节活动，未见明显脱头。间隙较大且是动态新增的结构暴露，与原一体球形设定仍不一致，整片设计需明确锁定。",
+      "动作新增偏差": "实际动作包含重新收紧结/布尾，末尾仍有布尾垂挂，没有完全照指令压平；但包扎的核心意义成立。手臂保持连接，未见明显多手、新人物、开胸或灯具漂浮。布带在机器人放下手臂后仍保留，未消失。",
+      "整片限制": "通过仅表示该6秒短样片可用于展示比较，不能视为已完成一条正式10秒剧情镜头或已验证300秒连续性。6秒主动作之外的4秒反应镜头尚未制作；需先纠正提前亮塔并统一机器人关节设计。"
+    },
+    "review_record": "video_visual_review_part3.json"
+  },
+  "scope": "Short S14 pilot only; no full film and no subjective visual approval implied.",
+  "packaging_wall_seconds": 12.659174700034782
+}
