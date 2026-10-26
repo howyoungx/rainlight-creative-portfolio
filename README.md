@@ -10,11 +10,11 @@
 - ComfyUI 功能演示：图生视频、文生视频、海报、草图转场景、换装、装修、贴纸、图片转 3D。
 - 声音试听：Piper、Serena、Vivian 三种声音的三句对照；正式影片使用本地 Qwen3-TTS Serena。
 
-视频上传至作者的 YouTube 频道 Haoyang，设为“凭链接观看”。本公开仓库中的观看链接可供持有链接的人访问。仓库及非视频下载包不包含 MP4；中间镜头与重复原始样片不作为独立作品上传。
+10 部完整影片上传至作者的 YouTube 频道 Haoyang，设为“凭链接观看”；剩余 5 支样片和 2 支演示短片存于 [Google Drive 文件夹](https://drive.google.com/drive/folders/1mGhgvOrTfS7RtHNMimdGWVtMCyZte1vC)，设置为持链接可查看、只读。本公开仓库中的观看链接可供持有链接的人访问。仓库及非视频下载包不包含 MP4；中间镜头与重复原始样片不作为独立作品上传。
 
 ## 视频作品
 
-当前 10 部完整影片已上传并逐项核对为凭链接观看；5 支样片与 2 支演示短片因 YouTube 当天上传额度用完而等待续传。
+当前 17 个视频作品均已上传。YouTube 当天额度不足后，依用户要求将余下 7 项改存 Google Drive，已完成交付。
 
 | 作品 | 观看入口 |
 |---|---|
@@ -28,13 +28,13 @@
 | 雨城最后一束光｜08 欧式清线漫画｜五分钟完整影片 | [观看](https://www.youtube.com/watch?v=W2r8u1fxCLA) |
 | 雨城最后一束光｜09 炭笔黑白电影｜五分钟完整影片 | [观看](https://www.youtube.com/watch?v=qFxZ3KB94Hg) |
 | 雨城最后一束光｜10 童话三维动画｜五分钟完整影片 | [观看](https://www.youtube.com/watch?v=TatCaTl1nCQ) |
-| 雨城最后一束光｜11 织光｜Seedance 2.5·丝线刺绣样片 | 待上传：当天上传额度已用完 |
-| 雨城最后一束光｜12 影中灯｜Kling 4.0·透光皮影样片 | 待上传：当天上传额度已用完 |
-| 雨城最后一束光｜13 普鲁士蓝的黎明｜FLUX 3 Video·蓝晒摄影样片 | 待上传：当天上传额度已用完 |
-| 雨城最后一束光｜14 雨夜实录｜Google Veo 3.1·真人实景童话样片 | 待上传：当天上传额度已用完 |
-| 雨城最后一束光｜15 木作微光｜Wan 3.0 Prime·木雕嵌木木偶样片 | 待上传：当天上传额度已用完 |
-| ComfyUI 实测｜16 照片动起来 | 待上传：当天上传额度已用完 |
-| ComfyUI 实测｜17 文字生成短片 | 待上传：当天上传额度已用完 |
+| 雨城最后一束光｜11 织光｜Seedance 2.5·丝线刺绣样片 | [观看](https://drive.google.com/file/d/1ZB6ETZfX_FTD5MwcqKtC_vdDy4HlK-Uz/view) |
+| 雨城最后一束光｜12 影中灯｜Kling 4.0·透光皮影样片 | [观看](https://drive.google.com/file/d/1Ba2BeDew8ee_iuyanI-n4vslV-inQl21/view) |
+| 雨城最后一束光｜13 普鲁士蓝的黎明｜FLUX 3 Video·蓝晒摄影样片 | [观看](https://drive.google.com/file/d/1u6wuPg50oHKetbOEs-a-pm3HNoHw3pPq/view) |
+| 雨城最后一束光｜14 雨夜实录｜Google Veo 3.1·真人实景童话样片 | [观看](https://drive.google.com/file/d/19hK6ek61D6tDz52Xhd0FoE46i-2wqbM1/view) |
+| 雨城最后一束光｜15 木作微光｜Wan 3.0 Prime·木雕嵌木木偶样片 | [观看](https://drive.google.com/file/d/17fwBGE7gcFHrBaORk4xNCzL56iNiM6Zj/view) |
+| ComfyUI 实测｜16 照片动起来 | [观看](https://drive.google.com/file/d/1Nd7j58n2PN99yXPCnF97fM_Od9fzhk_j/view) |
+| ComfyUI 实测｜17 文字生成短片 | [观看](https://drive.google.com/file/d/1tVL-twz0b311VaJe9tX6NeXL37u0q8Xh/view) |
 
 ## 说明与制作记录
 
@@ -47,4 +47,4 @@
 
 ## 离线浏览
 
-下载仓库后打开 `index.html`。图片、音频、剧本及计时记录可离线查看；YouTube 视频需要联网。
+下载仓库后打开 `index.html`。图片、音频、剧本及计时记录可离线查看；YouTube 和 Google Drive 视频需要联网。Drive 若仍显示转码处理，可从文件菜单下载原文件观看。
